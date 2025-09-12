@@ -25,7 +25,7 @@ Desarrollo de Aplicaciones Open Source<br>
  | Huang Liu Franco      | U201914541 |
  | La Madrid Lozano Ivan         | U202219657 |
  | Saravia Huaricancha Arturo     | U202313419 |
- | Cumba Rengifo Leonardo      | U20231D534 |
+ | Cumba Rengifo Leonardo      | U202311912 |
 
 
 </div>
