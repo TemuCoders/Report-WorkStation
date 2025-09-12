@@ -24,7 +24,7 @@ Desarrollo de Aplicaciones Open Source<br>
  | Quijada Magro Jeremy     | U202219657 |
  | Huang Liu Franco      | U201914541 |
  | La Madrid Lozano Ivan         | U202219657 |
- | Saravia Huaricancha Arturo     | U202313419 |
+ | Saravia Huaricancha Arturo     | u202312447 |
  | Cumba Rengifo Leonardo      | U202311912 |
 
 
