@@ -51,62 +51,66 @@ Desarrollo de Aplicaciones Open Source<br>
   - [Student Outcome](#student-outcome)
   - [Capítulo I: Introducción](#capítulo-i-introducción)
     - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [Descripción de la Problemática](#descripción-de-la-problemática)
+      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [Dominio del Problema](#dominio-del-problema)
-      - [Segmentos de Cliente](#segmentos-de-cliente)
-      - [Puntos de Dolor](#puntos-de-dolor)
-      - [Brecha Detectada](#brecha-detectada)
-      - [Visión y Estrategia](#visión-y-estrategia)
-      - [Segmento Inicial](#segmento-inicial)
       - [1.2.2.2. Lean UX Problem Assumptions](#1222-lean-ux-problem-assumptions)
       - [1.2.2.3. Lean UX Problem Hypothesis Statements](#1223-lean-ux-problem-hypothesis-statements)
       - [1.2.2.4. Lean UX Problem Canvas](#1224-lean-ux-problem-canvas)
-      - [1. Business Problem](#1-business-problem)
-      - [2. Business Outcomes](#2-business-outcomes)
-      - [3. Users](#3-users)
-      - [4. User Benefits](#4-user-benefits)
-      - [5. Solutions](#5-solutions)
-      - [6. Hypotheses](#6-hypotheses)
-      - [7. What’s the most important thing we need to learn first?](#7-whats-the-most-important-thing-we-need-to-learn-first)
-      - [8. What’s the least amount of work we need to do to learn the next most important thing?](#8-whats-the-least-amount-of-work-we-need-to-do-to-learn-the-next-most-important-thing)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-    - [Propietarios de Inmuebles (Coworkings)](#propietarios-de-inmuebles-coworkings)
-      - [Características Demográficas](#características-demográficas)
-      - [Datos Relevantes](#datos-relevantes)
-      - [Necesidades Clave](#necesidades-clave)
-    - [Freelancers y Startups](#freelancers-y-startups)
-      - [Características Demográficas](#características-demográficas-1)
-      - [Datos Relevantes](#datos-relevantes-1)
-      - [Necesidades Clave](#necesidades-clave-1)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
   - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+    - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
       - [Freelancers](#freelancers)
       - [Propietarios de inmuebles](#propietarios-de-inmuebles)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [Leyenda:](#leyenda)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
-    - [Epics](#epics)
-  - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product Backlog](#33-product-backlog)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+    - [3.1. User Stories](#31-user-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
+    - [3.3. Product Backlog](#33-product-backlog)
+  - [Capítulo IV: Product Design](#capítulo-iv-product-design)
+    - [4.1. Style Guidelines](#41-style-guidelines)
+      - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
+      - [4.1.2. Web Style Guidelines](#412-web-style-guidelines)
+    - [4.2. Information Architecture](#42-information-architecture)
+      - [4.2.1. Organization Systems](#421-organization-systems)
+      - [4.2.2. Labeling Systems](#422-labeling-systems)
+      - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
+      - [4.2.4. Searching Systems](#424-searching-systems)
+      - [4.2.5. Navigation Systems](#425-navigation-systems)
+    - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
+      - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
+      - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
+    - [4.4. Web Applications UX/UI Design](#44-web-applications-uxui-design)
+      - [4.4.1. Web Applications Wireframes](#441-web-applications-wireframes)
+      - [4.4.2. Web Applications Wireflow Diagrams](#442-web-applications-wireflow-diagrams)
+      - [4.4.2. Web Applications Mock-ups](#442-web-applications-mock-ups)
+      - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
+    - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
+    - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
+      - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
+      - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
+      - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+    - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
+      - [4.7.1. Class Diagrams](#471-class-diagrams)
+      - [4.7.2. Class Dictionary](#472-class-dictionary)
+    - [4.8. Database Design](#48-database-design)
+      - [4.8.1. Database Diagram](#481-database-diagram)
+  
 
 
 ## Student Outcome
@@ -234,23 +238,23 @@ Para validar la propuesta de valor de WorkStation, se priorizará un segmento es
 
 #### 1.2.2.2. Lean UX Problem Assumptions
 
-- **Asumimos que los usuarios requieren flexibilidad y comodidad en sus espacios de trabajo**
-- **Asumimos que los propietarios de espacios de coworking necesitan mayor visibilidad y eficiencia en la gestión de reservas**
-- **Asumimos que la búsqueda y reserva de espacios de coworking es un proceso fragmentado y poco confiable**
-- **Asumimos que los usuarios están dispuestos a pagar por una solución eficiente y confiable**
-- **Asumimos que la digitalización mejorará la eficiencia operativa de los espacios de coworking**
+- Asumimos que los usuarios requieren flexibilidad y comodidad en sus espacios de trabajo.
+- Asumimos que los propietarios de espacios de coworking necesitan mayor visibilidad y eficiencia en la gestión de reservas.
+- Asumimos que la búsqueda y reserva de espacios de coworking es un proceso fragmentado y poco confiable.
+- Asumimos que los usuarios están dispuestos a pagar por una solución eficiente y confiable.
+- Asumimos que la digitalización mejorará la eficiencia operativa de los espacios de coworking
 
 #### 1.2.2.3. Lean UX Problem Hypothesis Statements
 
-- **Hipótesis 1: Si ofrecemos una plataforma centralizada y fácil de usar para reservar espacios de coworking, entonces los freelancers y pequeñas empresas preferirán utilizarla debido a la flexibilidad y la facilidad de acceso a diferentes opciones de trabajo.**
+- **Hipótesis 1:** Si ofrecemos una plataforma centralizada y fácil de usar para reservar espacios de coworking, entonces los freelancers y pequeñas empresas preferirán utilizarla debido a la flexibilidad y la facilidad de acceso a diferentes opciones de trabajo.
 
-- **Hipótesis 2: Si los propietarios de espacios de coworking obtienen mayor visibilidad y una herramienta para gestionar eficientemente las reservas, entonces experimentarán un aumento en la ocupación de sus espacios y en la satisfacción de sus clientes.**
+- **Hipótesis 2:** Si los propietarios de espacios de coworking obtienen mayor visibilidad y una herramienta para gestionar eficientemente las reservas, entonces experimentarán un aumento en la ocupación de sus espacios y en la satisfacción de sus clientes.
 
-- **Hipótesis 3: Si los usuarios pueden comparar precios, ver disponibilidad en tiempo real y leer reseñas de otros usuarios, entonces tomarán decisiones de reserva con mayor rapidez y precisión, mejorando la experiencia del cliente.**
+- **Hipótesis 3:** Si los usuarios pueden comparar precios, ver disponibilidad en tiempo real y leer reseñas de otros usuarios, entonces tomarán decisiones de reserva con mayor rapidez y precisión, mejorando la experiencia del cliente.
 
-- **Hipótesis 4: Si la plataforma cobra una comisión por reserva o un modelo de membresía, entonces se generarán ingresos recurrentes tanto para los propietarios de los espacios como para la plataforma, incentivando la adopción de la herramienta.**
+- **Hipótesis 4:** Si la plataforma cobra una comisión por reserva o un modelo de membresía, entonces se generarán ingresos recurrentes tanto para los propietarios de los espacios como para la plataforma, incentivando la adopción de la herramienta.
 
-- **Hipótesis 5: Si se digitaliza el proceso de gestión de reservas, entonces los propietarios de espacios de coworking podrán reducir sus costos operativos y mejorar su rentabilidad a largo plazo.**
+- **Hipótesis 5:** Si se digitaliza el proceso de gestión de reservas, entonces los propietarios de espacios de coworking podrán reducir sus costos operativos y mejorar su rentabilidad a largo plazo.
 
 #### 1.2.2.4. Lean UX Problem Canvas
 
@@ -476,37 +480,8 @@ Enlace del video de la entrevista:
 🎬 **Inicio del video:** 0:04  
 ⏱️ **Duración:** 3 minutos y 42 segundos
 
-Enlace del video de la entrevista:
-
-[![Demo en YouTube](https://img.youtube.com/vi/hwdyWXskYcs/0.jpg)](https://www.youtube.com/watch?v=hwdyWXskYcs&ab_channel=NPCbas)
-
-**Entrevistada:** Arlene Gutarra Velapatiño  
-**Edad:** 22 años  
-**Ocupación:** Estudiante de la carrera de Danza  
-**Ubicación:** Lima – San Juan de Lurigancho  
-**Medio:** Zoom  
-**Entrevistador:** Sebastián Gutarra
-
-🎬 **Inicio del video:** 0:04  
-⏱️ **Duración:** 6 minutos y 23 segundos
-
-Enlace del video de la entrevista:
-[![Entrevista Danithza del Pino](Imagenes/Entrevista-Freelancer-1.png)](https://youtu.be/F3gz5at9sc4)
-**Entrevistada:** Danithza del Pino
-**Edad:** 28 años  
-**Ocupación:** Estudiante de la carrera de Danza  
-**Ubicación:** Lima – La Molina  
-**Medio:** Zoom  
-**Entrevistador:** Emilia Durán
 
 
-**Entrevistada:** Carlos Alfredo Juarez Adanaque  
-**Link de la entrevista:** [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/EdU9VOslalpKiKT-t0m66gMBmi1Xhl03H6JkroZCMl3Img?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JREsKE)
-
-![Img propietario2](Imagenes/Propietaria2.png)
-
-**Entrevistada:** Alejandra Izaguirre  
-**Link de la entrevista:** [Link](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202215623_upc_edu_pe/EZQz2DANI71MkOrpc1fJq3EBIRLd8PZ4sQAEEFybRm3YOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t6qB71)
 
 **Segmento 2**
 
@@ -766,3 +741,127 @@ Entre las tareas encontradas, la que ambos User Persona coinciden en que es impo
 | US-58 | Como usuario, quiero instalar la app como PWA y recibir notificaciones push para enterarme de cambios o mensajes. | Baja |
 | US-59 | Como usuario, quiero que la plataforma cumpla accesibilidad WCAG 2.1 AA para poder usarla con lector de pantalla y teclado. | Alta |
 | US-60 | Como usuario, quiero que la búsqueda cargue rápido aun con filtros para no perder tiempo. | Alta |
+
+
+## Capítulo IV: Product Design
+
+### 4.1. Style Guidelines
+
+En este capítulo se mostrará el desarrollo de las interfaces y procesos relacionados a la aplicación. Se tiene como objetivo ser llamativa y simple para el usuario. Para ello, se usaron colores atractivos, uso del espacio de manera dinámica independiente del dispositivo enfocado, uso de imágenes y texto que no sobrecarga de información al usuario y la separación de las herramientas según su grupo determinado.
+
+#### 4.1.1. General Style Guidelines
+
+##### Branding:
+El branding de WorkStation combina la confianza profesional de Booking.com con la calidez comunitaria de Airbnb. El logo es un ícono estilizado de un escritorio con líneas fluidas que evocan colaboración y flexibilidad, acompañado del nombre "WorkStation" en tipografía moderna.
+
+- **Logo Principal**: Texto + ícono para headers; ícono solo para apps y favicons.
+- **Uso**: Espacio libre de 16px alrededor; no alterar proporciones ni colores.
+
+| Elemento | Descripción | Dimensión Recomendada |
+|----------|-------------|-----------------------|
+| Logo Principal | WorkStation + Ícono | Ancho: 180px (escalable) |
+| Espacio de Respiración | Padding alrededor | 16px mínimo |
+
+##### Typography
+Adoptamos Circular Pro (al estilo de Airbnb) por su look moderno y amigable, con fallback a Roboto (Google Fonts) para accesibilidad web. Su versatilidad soporta múltiples idiomas, clave para el enfoque global de WorkStation. La jerarquía, inspirada en Booking.com, guía al usuario en búsquedas rápidas con tamaños escalables asegurando legibilidad en pantallas móviles y desktop.
+
+- **Headings (H1-H6)**: Circular Pro Bold, tamaños escalables (H1: 40px, H2: 28px, etc.).
+- **Body Text**: Circular Pro Regular, 16px base.
+- **Captions / Labels**: Circular Pro Medium, 14px.
+- **Line Height**: 1.6 para body; 1.3 para headings.
+- **Alineación**: Izquierda; centrada para CTAs destacados.
+
+| Tipo | Fuente | Peso | Tamaño | Uso Ejemplo |
+|------|--------|------|--------|-------------|
+| H1 | Circular Pro | Bold | 40px / 2.5rem | Títulos de landing |
+| Body | Circular Pro | Regular | 16px / 1rem | Descripciones de espacios |
+| Label | Circular Pro | Medium | 14px / 0.875rem | Filtros y etiquetas |
+
+##### Colors
+La paleta combina azules confiables (Booking.com) y tonos cálidos (Airbnb) en un esquema 60-30-10 para equilibrio visual. El azul refuerza fiabilidad en transacciones, mientras que el coral evoca comunidad, alineado con el espíritu de coworking. 
+
+- **Primario**: Azul Confiable (#003580) – CTAs, links.
+- **Secundario**: Coral Comunitario (#FF5733) – Disponibilidad, énfasis.
+- **Neutros**:
+  - Blanco (#FFFFFF) – Fondos.
+  - Gris Suave (#F7F7F7) – Fondos secundarios.
+  - Gris Oscuro (#4A4A4A) – Texto principal.
+- **Acentos**: Verde Éxito (#00A699) para confirmaciones; Rojo Alerta (#D0021B) para errores.
+- **Modo Oscuro**: Ajustes automáticos (Primario: #005B99).
+
+| Categoría | Color | Hex | Uso | Rol |
+|-----------|-------|-----|-----|-----|
+| Primario | Azul Confiable | #003580 | Botones reserva | Acción principal |
+| Secundario | Azul Comunitario | #070230ff | Indicadores | Énfasis/Disponibilidad |
+| Neutro | Negro | #000000ff | Texto principal | Legibilidad |
+
+##### Spacing
+Un grid de 8px, inspirado en Airbnb, crea un ritmo visual predecible con múltiplos (8px, 16px, 24px). Esto optimiza desarrollo (consistencia) y UX (evita clutter), con un 25% más de padding en móvil para toques precisos, siguiendo patrones táctiles de Booking.com. Las sombras suaves añaden profundidad sin sobrecargar.
+
+- **Padding/Margin Base**: 16px para contenedores.
+- **Espaciado entre Elementos**: 8px para íconos; 32px para secciones.
+- **Grid**: 12-columnas responsive (mobile: 4-col; desktop: 12-col).
+- **Sombras**: Suaves (0 2px 4px rgba(0,0,0,0.1)) para profundidad.
+
+| Escala | Valor (px) | Uso Ejemplo |
+|--------|------------|-------------|
+| XS | 4 | Bordes finos |
+| S | 8 | Espacio entre elementos pequeños |
+| M | 16 | Padding de cards |
+| L | 24 | Márgenes de secciones |
+| XL | 32 | Espaciado hero |
+
+##### Tone of Communication and Language
+El tono es entusiasta y acogedor, inspirado en la calidez de Airbnb y la claridad accionable de Booking.com. Diseñado para freelancers y startups, usa lenguaje inclusivo y motivador, con mensajes cortos  para claridad.
+
+- **Divertido/Serio**: Divertido en marketing (emojis sutiles), serio en reservas.
+- **Formal/Casual**: Casual (voz activa, contracciones), profesional en legal.
+- **Respetuoso/Irreverente**: Respetuoso (neutral de género), toque irreverente en campañas.
+- **Entusiasta/Sereno**: Entusiasta en CTAs; sereno en confirmaciones.
+
+###### Ejemplos
+- **CTA**: "¡Reserva tu espacio ideal en 2 clics! 🚀"
+- **Confirmación**: "Todo listo. Tu escritorio te espera. ¡A trabajar!"
+- **Marketing**: "Adiós distracciones, hola coworking vibes."
+
+#### 4.1.2. Web Style Guidelines. 
+
+### 4.2. Information Architecture
+
+#### 4.2.1. Organization Systems
+#### 4.2.2. Labeling Systems
+#### 4.2.3. SEO Tags and Meta Tags
+#### 4.2.4. Searching Systems
+#### 4.2.5. Navigation Systems  
+
+### 4.3. Landing Page UI Design
+
+#### 4.3.1. Landing Page Wireframe
+#### 4.3.2. Landing Page Mock-up
+
+### 4.4. Web Applications UX/UI Design
+
+#### 4.4.1. Web Applications Wireframes
+#### 4.4.2. Web Applications Wireflow Diagrams
+#### 4.4.2. Web Applications Mock-ups
+#### 4.4.3. Web Applications User Flow Diagrams
+
+### 4.5. Web Applications Prototyping
+
+### 4.6. Domain-Driven Software Architecture
+
+### 4.6.1. Design-Level Event Storming
+### 4.6.2. Software Architecture Context Diagram
+### 4.6.3. Software Architecture Container Diagrams
+### 4.6.4. Software Architecture Components Diagrams
+
+### 4.7. Software Object-Oriented Design
+
+### 4.7.1. Class Diagrams
+
+### 4.8. Database Design
+
+### 4.8.1. Database Diagrams
+
+
+
