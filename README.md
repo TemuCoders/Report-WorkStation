@@ -922,10 +922,53 @@ Los **SEO Tags** y **Meta Tags** optimizan la visibilidad de WorkStation en moto
 
 #### 4.2.4. Searching Systems
 
+El sistema de búsqueda de WorkStation está diseñado para evitar que los usuarios se sientan abrumados por el volumen de información, ofreciendo herramientas claras y filtros avanzados.
+
+##### Barra de Búsqueda Inteligente
+- **Ubicación**: Barra global en la parte superior para ciudades, barrios o direcciones. Placeholder: "Busca tu espacio ideal".
+- **Funcionalidad**: Debounce de 300ms para sugerencias en tiempo real, mostradas en un dropdown.
+
+##### Filtros Avanzados
+Los filtros permiten personalizar búsquedas según las necesidades de los freelancers, con un diseño claro y colapsable (modal en mobile).
+
+- **Precio**: Rango ajustable con slider (mínimo/máximo).
+- **Tipo de Espacio**: Coworking, oficinas privadas, salas de reuniones.
+- **Servicios**: Wi-Fi, café, impresoras, estacionamiento.
+- **Valoraciones**: Filtro por estrellas (4+), ordenado por relevancia.
 
 #### 4.2.5. Navigation Systems  
+Los sistemas de navegación guían a los usuarios a través del Landing Page y la Web Application, asegurando que cumplan sus objetivos (reservar espacios, gestionar locales) con mínimo esfuerzo. 
 
+### Landing Page Navigation
+El Landing Page usa un diseño limpio con un menú fijo superior.
 
+- **Menú Superior**: Incluye Alquila, Publica, Reseñas, Contacto. 
+- **Scroll Suave**: Transiciones  para conectar secciones, con anclas a Alquila, Publica, etc.
+- **Enlaces Internos**: Reseñas vinculan a testimonios específicos, Contacto a un formulario modal.
+
+**Flujo**:
+1. Usuarios llegan al Landing Page y exploran información general.
+2. Registro/Iniciar Sesión lleva a la Web Application.
+3. Reseñas y Contacto generan confianza y soporte.
+
+##### 4.2. Web Application Navigation
+La navegación se personaliza según el rol (**freelancers** o **propietarios**) tras el inicio de sesión, con un menú lateral dinámico y búsqueda global.
+
+- **Menú Lateral**: En desktop, visible con opciones específicas (e.g., "Explorar" para freelancers, "Publicar" para propietarios). En mobile, integrado al menú hamburguesa.
+- **Búsqueda Global**: Barra superior con ícono de lupa, accesible desde cualquier página.
+- **Atajos Contextuales**: Botones en cards (e.g., "Reservar") con feedback visual (ícono corazón en `#FF5733`).
+
+**Flujo para Freelancers**:
+1. **Inicio**: Dashboard con espacios recomendados.
+2. **Explorar**: Búsqueda con filtros (ubicación, precio).
+3. **Reservas**: Gestión de reservas activas/pasadas.
+5. **Perfil**: Configuración y pagos.
+
+**Flujo para Propietarios**:
+1. **Inicio**: Estadísticas de ocupación.
+2. **Publicar**: Registro de nuevos espacios.
+3. **Gestionar**: Administración de reservas y precios.
+5. **Perfil**: Datos de cuenta.
 
 ### 4.3. Landing Page UI Design
 
@@ -943,14 +986,14 @@ Los **SEO Tags** y **Meta Tags** optimizan la visibilidad de WorkStation en moto
 
 ### 4.6. Domain-Driven Software Architecture
 
-### 4.6.1. Design-Level Event Storming
-### 4.6.2. Software Architecture Context Diagram
-### 4.6.3. Software Architecture Container Diagrams
-### 4.6.4. Software Architecture Components Diagrams
+#### 4.6.1. Design-Level Event Storming
+#### 4.6.2. Software Architecture Context Diagram
+#### 4.6.3. Software Architecture Container Diagrams
+#### 4.6.4. Software Architecture Components Diagrams
 
 ### 4.7. Software Object-Oriented Design
 
-### 4.7.1. Class Diagrams
+#### 4.7.1. Class Diagrams
 
 ### 4.8. Database Design
 
