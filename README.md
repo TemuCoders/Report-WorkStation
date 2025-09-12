@@ -699,8 +699,8 @@ Entre las tareas encontradas, la que ambos User Persona coinciden en que es impo
 
 ## 3.2. Impact Mapping
 
-![ImpactMap](Imagenes/Impac1.png)
-![ImpactMap](Imagenes/Impac2.png)
+![ImpactMap](imgs/Impac1.png)
+![ImpactMap](imgs/Impac2.png)
 
 
 ## 3.3. Product Backlog
