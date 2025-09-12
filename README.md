@@ -702,12 +702,67 @@ Entre las tareas encontradas, la que ambos User Persona coinciden en que es impo
 ![ImpactMap](imgs/Impac1.png)
 ![ImpactMap](imgs/Impac2.png)
 
+## 3.3. Product Backlog.
 
-## 3.3. Product Backlog
-
-| ID  | Historia de Usuario                                                                                                                                | Prioridad |
-| --- | -------------------------------------------------------------------------------------------------------------------------------------------------- | --------- |
-| 1   | Como freelancer, quiero encontrar la ubicacion de los inmuebles por localizacion para encontrar los lugares mas cercanos o convenientes            | Alta      |
-| 2   | Como freelancer, quiero saber la disponibilidad actual del inmueble para hacer una eleccion correcta del tiempo que necesito el local              | Alta      |
-| 8   | Como freelancer, quiero tener la posibilidad de tener una devolucion de mi dinero si cancelo una reserva realizada antes del inicio de esta misma. | Media     |
-| 7   | Como freelancer quiero tener la certeza de que la aplicacion web tenga un sistema de pago seguro                                                   | Alta      |
+| ID | Historia de Usuario | Prioridad |
+| :---- | :---- | :---- |
+| US-01 | Como freelancer, quiero buscar espacios por ciudad, distrito o cercanía (geolocalización) para encontrar lugares cercanos o convenientes. | Alta |
+| US-02 | Como freelancer, quiero ver la disponibilidad por fecha y hora de cada espacio para elegir un horario que se ajuste a mi necesidad. | Alta |
+| US-03 | Como freelancer, quiero filtrar por capacidad, tipo de espacio y servicios para encontrar la mejor opción para mí o mi equipo. | Alta |
+| US-04 | Como freelancer, quiero ver las reseñas y calificaciones de otros usuarios para tomar una decisión informada. | Media |
+| US-05 | Como propietario, quiero recibir reseñas y poder responderlas para mejorar el espacio y la experiencia. | Baja |
+| US-06 | Como freelancer, quiero ver fotos, mapa, precios, horarios, amenities, reglas y política de cancelación para evaluar si el espacio cumple mis necesidades. | Alta |
+| US-07 | Como freelancer, quiero pagar con métodos seguros y recibir comprobante para tener confianza en la transacción. | Alta |
+| US-08 | Como freelancer, quiero obtener devolución si cancelo dentro de la política para reducir el riesgo de la reserva. | Media |
+| US-09 | Como propietario, quiero registrar un espacio con todos los datos requeridos para que los freelancers lo encuentren y reserven. | Alta |
+| US-10 | Como propietario, quiero actualizar información de mi publicación para mantener la información correcta. | Alta |
+| US-11 | Como freelancer, quiero filtrar por espacios silenciosos para maximizar mi concentración. | Baja |
+| US-12 | Como freelancer, quiero comparar precios por hora/día con cargos incluidos para evitar pagar de más. | Media |
+| US-13 | Como freelancer, quiero ver horas de alta demanda en el calendario para planificar mejor mi reserva. | Media |
+| US-14 | Como propietario, quiero definir si se permiten personas externas para cuidar el orden del local. | Baja |
+| US-15 | Como propietario, quiero asegurar pagos a tiempo para evitar impagos. | Baja |
+| US-16 | Como freelancer, quiero filtrar por calidad de iluminación para mejorar mi rendimiento. | Baja |
+| US-17 | Como freelancer, quiero ver velocidad/estabilidad de internet y filtrar por Mbps para evitar interrupciones. | Baja |
+| US-18 | Como freelancer, quiero aceptar normas de convivencia en espacios compartidos para garantizar respeto. | Baja |
+| US-19 | Como propietario, quiero que el usuario suba fotos al llegar y al salir para evitar malos entendidos por daños. | Could |
+| US-20 | Como freelancer, quiero explorar resultados en un mapa interactivo para ubicar mejor los espacios por zona. | Media |
+| US-21 | Como freelancer, quiero conocer m² y aforo del espacio y filtrarlos para ver si se ajusta a mis actividades. | Baja |
+| US-22 | Como freelancer, quiero ver imágenes reales y claras del espacio para saber si es de mi agrado. | Alta |
+| US-23 | Como freelancer, quiero saber qué servicios incluye el espacio y filtrarlos para decidir en base a mis necesidades. | Alta |
+| US-24 | Como propietario, quiero configurar tarifas por hora/día/mes y duración mínima para ofrecer opciones flexibles. | Alta |
+| US-25 | Como propietario, quiero un onboarding e interfaz intuitiva para publicar mi primer espacio con facilidad. | Baja |
+| US-26 | Como freelancer, quiero completar la reserva en pocos pasos para ahorrar tiempo. | Alta |
+| US-27 | Como propietario, quiero mensajería directa con el interesado para aclarar dudas y cerrar la reserva. | Media |
+| US-28 | Como freelancer, quiero ver un calendario navegable por días y horas para facilitar mi búsqueda. | Alta |
+| US-29 | Como propietario, quiero que ambas partes puedan dejar y ver reseñas para tomar mejores decisiones. | Media |
+| US-30 | Como propietario, quiero verificación de usuarios por DNI o LinkedIn para tener mayor seguridad. | Alta |
+| US-31 | Como usuario, quiero explorar fácilmente la landing page para acceder a información clave. | Media |
+| US-32 | Como usuario, quiero conocer misión, equipo y políticas del proyecto para tomar una decisión informada. | Media |
+| US-33 | Como usuario, quiero revisar los servicios ofrecidos en la landing para decidir cuáles se ajustan a mí. | Media |
+| US-34 | Como usuario, quiero contactar rápidamente al equipo de soporte para resolver dudas o problemas. | Media |
+| US-35 | Como usuario, quiero cambiar el idioma de la interfaz (ES/EN) para usar la plataforma en mi idioma. | Media |
+| US-36 | Como usuario, quiero ver testimonios y casos de éxito para ganar confianza. | Media |
+| US-37 | Como usuario, quiero descargar un folleto informativo en PDF para guardar detalles del proyecto o compartirlos. | Baja |
+| US-38 | Como propietario, quiero crear mi cuenta y registrar datos legales y de pago para publicar oficinas y administrarlas. | Alta |
+| US-39 | Como propietario, quiero publicar una oficina con un asistente paso a paso para acelerar la publicación y evitar errores. | Baja |
+| US-40 | Como usuario, quiero enviar y recibir mensajes con el propietario o freelancer para coordinar detalles de una oficina. | Media |
+| US-41 | Como freelancer, quiero una búsqueda avanzada por servicios, precio, capacidad y ubicación para encontrar la opción ideal. | Media |
+| US-42 | Como freelancer, quiero calificar la oficina y al propietario con un comentario para ayudar a otros a decidir mejor. | Media |
+| US-43 | Como freelancer, quiero guardar espacios en una lista de favoritos para revisarlos y reservar más tarde. | Baja |
+| US-44 | Como freelancer, quiero recibir alertas cuando haya nuevas opciones o bajadas de precio para no perder oportunidades. | Baja |
+| US-45 | Como usuario, quiero ver precios en mi moneda local con conversión automática para comprender el costo real. | Media |
+| US-46 | Como usuario, quiero que la plataforma esté localizada (idioma, fechas y formatos) para evitar confusiones. | Media |
+| US-47 | Como usuario, quiero aplicar cupones o créditos en el checkout para ahorrar en la reserva. | Baja |
+| US-48 | Como usuario, quiero un centro de ayuda con artículos y tickets para resolver problemas. | Media |
+| US-49 | Como freelancer, quiero agregar mi reserva a Google/Outlook (iCal) para organizar mi agenda. | Baja |
+| US-50 | Como empresa, quiero asignar saldo o asientos a empleados con políticas para controlar gasto y uso. | Baja |
+| US-51 | Como usuario, quiero facturación con RUC/razón social para cumplir obligaciones tributarias. | Alta |
+| US-52 | Como propietario, quiero configurar reglas específicas por tipo de sala para alinear expectativas. | Baja |
+| US-53 | Como propietario, quiero activar precios dinámicos según demanda para mejorar ocupación e ingresos. | Baja |
+| US-54 | Como operaciones, quiero moderar fotos y descripciones antes de publicar para evitar contenido inapropiado. | Baja |
+| US-55 | Como operaciones, quiero aprobar o pausar listados que no cumplan políticas para mantener la calidad del catálogo. | Baja |
+| US-56 | Como propietario, quiero ver analítica de ocupación, ingresos y reseñas para optimizar mi oferta. | Baja |
+| US-57 | Como propietario, quiero validar check‑in con QR y registrar no‑shows para aplicar políticas de cancelación. | Baja |
+| US-58 | Como usuario, quiero instalar la app como PWA y recibir notificaciones push para enterarme de cambios o mensajes. | Baja |
+| US-59 | Como usuario, quiero que la plataforma cumpla accesibilidad WCAG 2.1 AA para poder usarla con lector de pantalla y teclado. | Alta |
+| US-60 | Como usuario, quiero que la búsqueda cargue rápido aun con filtros para no perder tiempo. | Alta |
