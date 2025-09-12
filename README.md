@@ -825,14 +825,107 @@ El tono es entusiasta y acogedor, inspirado en la calidez de Airbnb y la clarida
 - **Marketing**: "Adiós distracciones, hola coworking vibes."
 
 #### 4.1.2. Web Style Guidelines. 
+##### Diseño Responsive
+El diseño responsive asegura que WorkStation sea visualmente atractivo, funcional y comprensible en todos los dispositivos, desde smartphones hasta pantallas grandes. Utilizamos **media queries** para adaptar el layout.
+
+##### Breakpoints
+El sistema de breakpoints está alineado con los estándares de la industria:
+
+| Dispositivo       | Ancho Mínimo | Ejemplo de Uso            |
+|-------------------|--------------|---------------------------|
+| Mobile            | ≥320px       | Smartphones (iPhone SE)   |
+| Tablet            | ≥768px       | iPad, tablets genéricas   |
+| Laptop            | ≥1024px      | Laptops, monitores pequeños|
+| Wide Screen       | ≥1440px      | Monitores 2K, TVs         |
 
 ### 4.2. Information Architecture
 
+La arquitectura de información de WorkStation organiza el contenido de la experiencia web y móvil para conectar freelancers, startups y propietarios con espacios de coworking de manera intuitiva
+
 #### 4.2.1. Organization Systems
+
+La organización del contenido en WorkStation utiliza una combinación de sistemas visuales y esquemas de categorización para garantizar claridad y accesibilidad en el Landing Page y la Web Application. Las decisiones reflejan las necesidades de dos audiencias principales: **freelancers** (que buscan espacios) y **propietarios** (que gestionan locales), optimizando la experiencia según sus objetivos.
+
+##### Sistemas Visuales
+- **Jerárquica (Visual Hierarchy)**: Utilizada en el Landing Page y las páginas principales de la aplicación para priorizar información clave. Por ejemplo, en el Landing Page, el CTA "Explorar Espacios" (en `#003580`) se destaca con un botón grande y tipografía Circular Pro Bold 20px, mientras que secciones como "Reseñas" o "Contacto" usan tipografía secundaria (14px). Esto guía al usuario hacia acciones primarias (reservar o publicar) antes que información secundaria, siguiendo patrones de Booking.com para alta conversión.
+- **Secuencial (Step-by-Step)**: Aplicada en flujos críticos como el registro, inicio de sesión, y proceso de reserva. Por ejemplo, el flujo de reserva para freelancers sigue pasos claros: 
+    - Buscar espacio, 
+    - Seleccionar fechas, 
+    - Reservar. 
+
+#####  Esquemas de Categorización
+- **Por Tópicos**: Usado en la Web para organizar contenido según funciones. Para freelancers: **Home**, **Explorar Espacios**, **Reservas**, **Perfil**. Para propietarios: **Home**, **Publicar Local**, **Gestión de Locales**, **Perfil**. Esto refleja las tareas clave de cada audiencia, facilitando el acceso a funcionalidades relevantes.
+- **Por Audiencia**: El contenido se divide explícitamente entre **freelancers** y **propietarios** tras el inicio de sesión, mostrando interfaces personalizadas. Por ejemplo, freelancers ven recomendaciones de espacios, mientras que propietarios ven estadísticas de ocupación, alineado con la personalización de Airbnb.
+- **Alfabético**: Usado en listas secundarias, como ciudades en la barra de búsqueda o servicios (Wi-Fi, café) en filtros, para facilitar la exploración rápida.
+
+Estas decisiones aseguran que el contenido esté organizado de forma lógica y predecible, reduciendo el tiempo de búsqueda y mejorando la experiencia del usuario.
+
 #### 4.2.2. Labeling Systems
+
+Los sistemas de etiquetado utilizan nombres cortos, claros y consistentes para representar conjuntos de información y sus asociaciones, evitando confusión. 
+
+##### Etiquetas del Landing Page
+| Sección            | Etiqueta        | Contenido                                                                 |
+|--------------------|-----------------|---------------------------------------------------------------------------|
+| Rent With Us       | Alquila         | Cómo freelancers encuentran y reservan espacios fácilmente.               |
+| Host With Us       | Publica         | Información para propietarios que desean listar sus locales.              |
+| Reviews            | Reseñas         | Opiniones y valoraciones de usuarios para generar confianza.              |
+| Contact Us         | Contacto        | Formulario, soporte y FAQs para asistencia directa.                       |
+
+##### Etiquetas de la Web Application (Freelancers)
+| Sección            | Etiqueta        | Contenido                                                                 |
+|--------------------|-----------------|---------------------------------------------------------------------------|
+| Home               | Inicio          | Recomendaciones y espacios destacados.                                    |
+| Explore Spaces     | Explorar        | Búsqueda de espacios con filtros (ubicación, precio, servicios).          |
+| My Bookings        | Reservas        | Historial y gestión de reservas activas/pasadas.                          |
+| Profile            | Perfil          | Configuración de cuenta, pagos y preferencias.                            |
+| Help & Support     | Ayuda           | Centro de asistencia, FAQs y soporte.                                     |
+
+##### Etiquetas de la Web Application (Propietarios)
+| Sección            | Etiqueta        | Contenido                                                                 |
+|--------------------|-----------------|---------------------------------------------------------------------------|
+| Home               | Inicio          | Estadísticas de ocupación e ingresos.                                     |
+| Publish a Space    | Publicar        | Registro de nuevos espacios con fotos y tarifas.                          |
+| Manage Spaces      | Gestionar       | Administración de anuncios, reservas y precios.                           |
+| Profile            | Perfil          | Información de cuenta y datos de pago.                                    |
+| Help & Support     | Ayuda           | Guías y recursos para gestionar espacios.                                 |
+
 #### 4.2.3. SEO Tags and Meta Tags
+
+Los **SEO Tags** y **Meta Tags** optimizan la visibilidad de WorkStation en motores de búsqueda, siguiendo las prácticas de Booking.com para mejorar rankings y clics.Se definen para el **Landing Page** (sitio estático) y la **Web Application**, con etiquetas claras y descriptivas.
+
+##### Landing Page
+```html
+<title>WorkStation | Espacios de coworking para freelancers</title>
+<meta name="description" content="Encuentra y reserva espacios de coworking, oficinas privadas y salas de reuniones con WorkStation, perfectos para freelancers y startups.">
+<meta name="keywords" content="coworking, freelancers, espacios de trabajo, reservas, oficinas, startups">
+<meta name="author" content="WorkStation Team">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="WorkStation | Espacios para trabajar">
+<meta property="og:description" content="Conecta con espacios de coworking ideales para freelancers y startups en todo el mundo.">
+<meta property="og:image" content="https://www.workstation.com/assets/og-image.jpg">
+<meta property="og:url" content="https://www.workstation.com">
+```
+
+##### Web Application
+```html
+<title>WorkStation | Gestiona tus reservas de coworking</title>
+<meta name="description" content="Administra reservas, explora espacios y conecta con propietarios en WorkStation, la plataforma para freelancers y dueños de espacios.">
+<meta name="keywords" content="coworking, reservas, freelancers, espacios de trabajo, gestión de locales">
+<meta name="author" content="WorkStation Team">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="WorkStation | Plataforma de coworking">
+<meta property="og:description" content="Optimiza tu experiencia de coworking con reservas fáciles y gestión eficiente.">
+<meta property="og:image" content="https://app.workstation.com/assets/app-og-image.jpg">
+<meta property="og:url" content="https://app.workstation.com">
+```
+
 #### 4.2.4. Searching Systems
+
+
 #### 4.2.5. Navigation Systems  
+
+
 
 ### 4.3. Landing Page UI Design
 
