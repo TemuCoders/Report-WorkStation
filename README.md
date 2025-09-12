@@ -1000,6 +1000,6 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 ### 4.8.1. Database Diagrams
 
 <p align="center">
-  <img src="./img/diagram.png" alt="DB_diagram""/>
+  <img src="./imgs/diagram.png" alt="DB_diagram""/>
 </p>
 
