@@ -989,7 +989,14 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 
 #### 4.6.1. Design-Level Event Storming
 
-![ImpactMap](imgs/Impac2.png)
+**Identity and Access Management:**
+![Identity and Access](imgs/Identity%20and%20Access%20Managment.jpg)
+
+**Profiles and Preferences Management:**
+![Profiles and Preferences](imgs/Profile%20and%20Preferences.jpg)
+
+**Space Design and Planning Management:**
+![Space Design and Planning](imgs/Space%20and%20Planing%20Managment.jpg)
 
 #### 4.6.2. Software Architecture Context Diagram
 
@@ -1017,7 +1024,9 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 
 ![Resource and Asset Management:](imgs/structurizr-101317-ResourceAndAssetManagementBC.png)
 
-![Identity and Access Management](imgs/structurizr-101317-IdentityAndAccessBC.png)
+**Booking Execution and Monitoring Management:**
+
+![Booking Execution and Monitoring Management](imgs/structurizr-101317-BookingExecutionAndMonitoringBC.png)
 
 **Payment Management:**
 
