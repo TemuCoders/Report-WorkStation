@@ -102,9 +102,10 @@ Desarrollo de Aplicaciones Open Source<br>
       - [4.4.3. Web Applications User Flow Diagrams](#443-web-applications-user-flow-diagrams)
     - [4.5. Web Applications Prototyping](#45-web-applications-prototyping)
     - [4.6. Domain-Driven Software Architecture](#46-domain-driven-software-architecture)
-      - [4.6.1. Software Architecture Context Diagram](#461-software-architecture-context-diagram)
-      - [4.6.2. Software Architecture Container Diagrams](#462-software-architecture-container-diagrams)
-      - [4.6.3. Software Architecture Components Diagrams](#463-software-architecture-components-diagrams)
+      - [4.6.1. Design-Level Event Storming](#461-design-level-event-storming)
+      - [4.6.2. Software Architecture Context Diagram](#462-software-architecture-context-diagram)
+      - [4.6.3. Software Architecture Container Diagrams](#463-software-architecture-container-diagrams)
+      - [4.6.4. Software Architecture Components Diagrams](#464-software-architecture-components-diagrams)
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
       - [4.7.1. Class Diagrams](#471-class-diagrams)
       - [4.7.2. Class Dictionary](#472-class-dictionary)
@@ -987,9 +988,41 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 ### 4.6. Domain-Driven Software Architecture
 
 #### 4.6.1. Design-Level Event Storming
+
+![ImpactMap](imgs/Impac2.png)
+
 #### 4.6.2. Software Architecture Context Diagram
+
+![Diagrama de contexto](imgs/structurizr-101317-WorkStationSystemContext.png)
+
 #### 4.6.3. Software Architecture Container Diagrams
+
+![Diagrama de contenedores](imgs/structurizr-101317-workStationContainer.png)
+
 #### 4.6.4. Software Architecture Components Diagrams
+
+**Identity and Access Management:**
+
+![Identity and Access Management](imgs/structurizr-101317-IdentityAndAccessBC.png)
+
+**Profiles and Preferences Management:**
+
+![Profiles and Preferences Management](imgs/structurizr-101317-ProfilesAndPreferencesBC.png)
+
+**Space Design and Planning Management:**
+
+![Space Design and Planning Management](imgs/structurizr-101317-SpaceDesignAndPlanningBC.png)
+
+**Resource and Asset Management:**
+
+![Resource and Asset Management:](imgs/structurizr-101317-ResourceAndAssetManagementBC.png)
+
+![Identity and Access Management](imgs/structurizr-101317-IdentityAndAccessBC.png)
+
+**Payment Management:**
+
+![Payment Management](imgs/structurizr-101317-PaymentManagementBC.png)
+
 
 ### 4.7. Software Object-Oriented Design
 
