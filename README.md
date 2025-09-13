@@ -146,7 +146,7 @@ Considerando la flexibildad y la adaptabilidad como puntos esenciales para el cr
 
 | Foto                                                                                   | Alumno                         | Descripción                                                                                                                                                                                                                                                                   |
 | -------------------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![Luis](Imagenes/perfil-integrante-jeremy.png)                                         | Quijada Magro Jeremy Alexander | Edatos.                                                                                                                         |
+| ![Jeremy](imgs/perfil-integrante-jeremy.png)                                         | Quijada Magro Jeremy Alexander | Estudiante de Ingeniería de Software que planea enfocarse en la gestión de proyectos. Con conocimientos básicos en programación web y bases de datos.                                                                                                                         |
 | ![Rodrigo](Imagenes/rodrigo.png)                                                       | Lib     | Estudl acia el cumplimiento de sus metas.                                                        |
 | ![Sebastian](Imagenes/sebastian.png)                                                   | S   | Estu SQ y lal.                   |
 | ![Luis](Imagenes/Luisfoto.png)                                                         | J        | Estudicrabase, MongoDB, . |
@@ -997,6 +997,8 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 
 **Space Design and Planning Management:**
 ![Space Design and Planning](imgs/Space%20and%20Planing%20Managment.jpg)
+
+https://miro.com/app/board/uXjVJI6oqFo=/?share_link_id=929784522141
 
 #### 4.6.2. Software Architecture Context Diagram
 
