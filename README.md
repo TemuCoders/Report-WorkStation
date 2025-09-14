@@ -974,6 +974,11 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 ### 4.3. Landing Page UI Design
 
 #### 4.3.1. Landing Page Wireframe
+
+<p align="center">
+  <img src="./imgs/Landing_wireframe.png" alt="landing_wireframes""/>
+</p>
+
 #### 4.3.2. Landing Page Mock-up
 
 ### 4.4. Web Applications UX/UI Design
