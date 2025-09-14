@@ -38,7 +38,7 @@ Desarrollo de Aplicaciones Open Source<br>
 | Versión | Fecha       | Autor | Descripción |
 |---------|-------------|-------|-------------|
 | TB1     | 08/09/2025  | Quijada Magro, Jeremy  | Desarrollé la carátula del repositorio. |
-| TB1     | 17  |  Guzavez   | w |
+| TB1     | 12/09/2025  | Huang Liu, Franco   | Desarrollo de la database diagram |
 
 ---
 
