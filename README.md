@@ -39,6 +39,7 @@ Desarrollo de Aplicaciones Open Source<br>
 |---------|-------------|-------|-------------|
 | TB1     | 08/09/2025  | Quijada Magro, Jeremy  | Desarrollé la carátula del repositorio. |
 | TB1     | 12/09/2025  | Huang Liu, Franco   | Desarrollo de la database diagram |
+| TB1     | 15/09/2025  | Huang Liu, Franco   | Desarrollo de web app wireframes |
 
 ---
 
@@ -147,7 +148,7 @@ Considerando la flexibildad y la adaptabilidad como puntos esenciales para el cr
 | Foto                                                                                   | Alumno                         | Descripción                                                                                                                                                                                                                                                                   |
 | -------------------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | ![Jeremy](imgs/perfil-integrante-jeremy.png)                                         | Quijada Magro Jeremy Alexander | Estudiante de Ingeniería de Software que planea enfocarse en la gestión de proyectos. Con conocimientos básicos en programación web y bases de datos.                                                                                                                         |
-| ![Rodrigo](Imagenes/rodrigo.png)                                                       | Lib     | Estudl acia el cumplimiento de sus metas.                                                        |
+| ![Franco](imgs/Franco.jpeg)                                                       | Huang Liu Franco Gabriel    | Estudiante de Ingeniería de Software que quiere enfocarse en full stack. Le gusta aprender  |
 | ![Sebastian](Imagenes/sebastian.png)                                                   | S   | Estu SQ y lal.                   |
 | ![Luis](Imagenes/Luisfoto.png)                                                         | J        | Estudicrabase, MongoDB, . |
 | ![Emilia](Imagenes/emilia.png)                                                         | Em         | Estudi                                                                                         |
@@ -984,6 +985,15 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
+
+<p align="center">
+  <img src="./imgs/App_wireframe_1.png" alt="app_wireframes_1""/>
+</p>
+
+<p align="center">
+  <img src="./imgs/App_wireframe_2.png" alt="app_wireframes_2""/>
+</p>
+
 #### 4.4.2. Web Applications Wireflow Diagrams
 #### 4.4.2. Web Applications Mock-ups
 #### 4.4.3. Web Applications User Flow Diagrams
