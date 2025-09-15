@@ -1000,6 +1000,15 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 **Space Design and Planning Management:**
 ![Space Design and Planning](imgs/Space%20and%20Planing%20Managment.jpg)
 
+**Resource and Asset Managementt:**
+![Resource and Asset Management:](imgs/Resource%20and%20Asset%20Managment%20-%20WorkStation.jpg)
+
+**Booking Execution and Monitoring Management:**
+![Booking Execution and Monitoring Management](imgs/Booking%20Execution%20and%20Monitoring%20-%20WorkStation.jpg)
+
+**Payment Management:**
+![Payment Management](imgs/Payment%20Managment-%20WorkStation.jpg)
+
 https://miro.com/app/board/uXjVJI6oqFo=/?share_link_id=929784522141
 
 #### 4.6.2. Software Architecture Context Diagram
