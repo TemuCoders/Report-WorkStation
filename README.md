@@ -467,7 +467,7 @@ Oficinas YA! es una plataforma líder en América Latina especializada en la�
 
 ### 2.2.2. Registro de entrevistas
 
-**Segmento 1**
+**Segmento 1 - Propietario de inmuebles**
 Enlace del video de la entrevista:
 
 [![Demo en YouTube](https://img.youtube.com/vi/1GPReTfneu4/0.jpg)](https://www.youtube.com/watch?v=1GPReTfneu4)
@@ -485,13 +485,13 @@ Enlace del video de la entrevista:
 
 
 
-**Segmento 2**
+**Segmento 2 - Freelancers**
 
-![Img propietario2](Imagenes/Entrevista-Miguel.png)
+![Img propietario2](imgs/Entrevista-Miguel.png)
 
 **Link de la entrevista:** [Link-Entrevista](https://youtu.be/SHj6_AyGAPc)
 **Entrevistado:** Miguel Quijada
-**Edad:** 43 años  
+**Edad:** 44 años  
 **Ocupación:** Ingeniero de Software
 **Ubicación:** Lima – Ate  
 **Medio:** Zoom  
@@ -536,48 +536,35 @@ Estamos considerando los segmentos objetivos "Propietario de Inmueble" y "Trabaj
 |                                                    | **Propietario de Inmueble** |              | **Trabajador independiente** |              |
 | -------------------------------------------------- | --------------------------- | ------------ | ---------------------------- | ------------ |
 | Tarea                                              | Importancia                 | Frecuencia   | Importancia                  | Frecuencia   |
-| Ofrecer su local                                   | 🔴 Alta                     | 🔴 Frecuente | ❌ N/A                       | ❌ N/A       |
-| Buscar espacios de trabajo                         | ❌ N/A                      | ❌ N/A       | 🔴 Alta                      | 🔴 Frecuente |
-| Comparar entre las opciones de espacios de trabajo | 🟡 Media                    | 🔵 Rara      | 🔴 Alta                      | 🔴 Frecuente |
-| Contactarse el trabajador con el propietario       | 🔴 Alta                     | 🟡 Ocasional | 🔴 Alta                      | 🟡 Ocasional |
-| Acordar precio y forma de pago                     | 🔴 Alta                     | 🟡 Ocasional | 🔴 Alta                      | 🟡 Ocasional |
-| Observar situación final del local                 | 🟡 Media                    | 🟡 Ocasional | 🟡 Media                     | 🟡 Ocasional |
-| Recomendar la experiencia                          | 🔵 Baja                     | 🔵 Rara      | 🟡 Media                     | 🟡 Ocasional |
+| Ofrecer su local                                   |  Alta                     |  Frecuente |  N/A                       |  N/A       |
+| Buscar espacios de trabajo                         |  N/A                      |  N/A       |  Alta                      |  Frecuente |
+| Comparar entre las opciones de espacios de trabajo |  Media                    |  Rara      |  Alta                      |  Frecuente |
+| Contactarse el trabajador con el propietario       |  Alta                     |  Ocasional |  Alta                      |  Ocasional |
+| Acordar precio y forma de pago                     |  Alta                     |  Ocasional |  Alta                      |  Ocasional |
+| Observar situación final del local                 |  Media                    |  Ocasional |  Media                     |  Ocasional |
+| Recomendar la experiencia                          |  Baja                     |  Rara      |  Media                     |  Ocasional |
 
-### Leyenda:
-
-Importancia
-🔴 Alta
-🟡 Media
-🔵 Baja
-
-Frecuencia
-🔴 Frecuente
-🟡 Ocasional
-🔵 Rara
-
-❌ N/A = No aplica para este usuario
 
 Entre las tareas encontradas, la que ambos User Persona coinciden en que es importante y frecuente son tanto el contactarse mutuamente como el acordar precio y forma de pago, se debe a que ambos buscan que el préstamo del servicio se concrete y bajo condiciones favorables para ambos. Además, cada User Persona tiene su tarea particular: para el propietario es importante ofrecer su local y para el freelancer es importante buscar espacios de trabajo. Por último tenemos un tarea particular frecuente para el freelancer la cual es comparar diferentes ofertas de espacios de trabajo para ver lo que más se ajuste a su presupuesto y cuente con las características necesarias. Mientras que para el propietario, esto lo hace rara vez cuando desee ver qué precios ponen sus competidores.
 
 ### 2.3.3. User Journey Mapping
 
 <p align="center">
-  <img src="Imagenes/Customer Journey Map Brainstorm.png" alt="Customer Journey Map Brainstorm.png" />
+  <img src="imgs/Customer Journey Map Brainstorm.png" alt="Customer Journey Map Brainstorm.png" />
 </p>
 
 ### 2.3.4. Empathy Mapping
 
 <p align="center">
-  <img src="Imagenes/Empathy Map Brainstorm.png" alt="Empathy Map Brainstorm.png" />
+  <img src="imgs/Empathy Map Brainstorm.png" alt="Empathy Map Brainstorm.png" />
 </p>
 
 ### 2.3.5. As-is Scenario Mapping
 **Freelancers**
-![As-Is Freelancer](Imagenes/as-is-freelancer.jpg)
+![As-Is Freelancer](imgs/as-is-freelancer.jpg)
 
 **Propietarios de Inmuebles**
-![As-Is-Propietario](Imagenes/as-is-propietario.jpg)
+![As-Is-Propietario](imgs/as-is-propietario.jpg)
 
 ## 2.4. Ubiquitous Language
 
