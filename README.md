@@ -699,71 +699,70 @@ Epicas
 ![ImpactMap](imgs/Impac1.png)
 ![ImpactMap](imgs/Impac2.png)
 
-## 3.3. Product Backlog.
+Product backlog
 
-| ID | Historia de Usuario | Prioridad |
-| :---- | :---- | :---- |
-| US-01 | Como freelancer, quiero buscar espacios por ciudad, distrito o cercanía (geolocalización) para encontrar lugares cercanos o convenientes. | Alta |
-| US-02 | Como freelancer, quiero ver la disponibilidad por fecha y hora de cada espacio para elegir un horario que se ajuste a mi necesidad. | Alta |
-| US-03 | Como freelancer, quiero filtrar por capacidad, tipo de espacio y servicios para encontrar la mejor opción para mí o mi equipo. | Alta |
-| US-04 | Como freelancer, quiero ver las reseñas y calificaciones de otros usuarios para tomar una decisión informada. | Media |
-| US-05 | Como propietario, quiero recibir reseñas y poder responderlas para mejorar el espacio y la experiencia. | Baja |
-| US-06 | Como freelancer, quiero ver fotos, mapa, precios, horarios, amenities, reglas y política de cancelación para evaluar si el espacio cumple mis necesidades. | Alta |
-| US-07 | Como freelancer, quiero pagar con métodos seguros y recibir comprobante para tener confianza en la transacción. | Alta |
-| US-08 | Como freelancer, quiero obtener devolución si cancelo dentro de la política para reducir el riesgo de la reserva. | Media |
-| US-09 | Como propietario, quiero registrar un espacio con todos los datos requeridos para que los freelancers lo encuentren y reserven. | Alta |
-| US-10 | Como propietario, quiero actualizar información de mi publicación para mantener la información correcta. | Alta |
-| US-11 | Como freelancer, quiero filtrar por espacios silenciosos para maximizar mi concentración. | Baja |
-| US-12 | Como freelancer, quiero comparar precios por hora/día con cargos incluidos para evitar pagar de más. | Media |
-| US-13 | Como freelancer, quiero ver horas de alta demanda en el calendario para planificar mejor mi reserva. | Media |
-| US-14 | Como propietario, quiero definir si se permiten personas externas para cuidar el orden del local. | Baja |
-| US-15 | Como propietario, quiero asegurar pagos a tiempo para evitar impagos. | Baja |
-| US-16 | Como freelancer, quiero filtrar por calidad de iluminación para mejorar mi rendimiento. | Baja |
-| US-17 | Como freelancer, quiero ver velocidad/estabilidad de internet y filtrar por Mbps para evitar interrupciones. | Baja |
-| US-18 | Como freelancer, quiero aceptar normas de convivencia en espacios compartidos para garantizar respeto. | Baja |
-| US-19 | Como propietario, quiero que el usuario suba fotos al llegar y al salir para evitar malos entendidos por daños. | Could |
-| US-20 | Como freelancer, quiero explorar resultados en un mapa interactivo para ubicar mejor los espacios por zona. | Media |
-| US-21 | Como freelancer, quiero conocer m² y aforo del espacio y filtrarlos para ver si se ajusta a mis actividades. | Baja |
-| US-22 | Como freelancer, quiero ver imágenes reales y claras del espacio para saber si es de mi agrado. | Alta |
-| US-23 | Como freelancer, quiero saber qué servicios incluye el espacio y filtrarlos para decidir en base a mis necesidades. | Alta |
-| US-24 | Como propietario, quiero configurar tarifas por hora/día/mes y duración mínima para ofrecer opciones flexibles. | Alta |
-| US-25 | Como propietario, quiero un onboarding e interfaz intuitiva para publicar mi primer espacio con facilidad. | Baja |
-| US-26 | Como freelancer, quiero completar la reserva en pocos pasos para ahorrar tiempo. | Alta |
-| US-27 | Como propietario, quiero mensajería directa con el interesado para aclarar dudas y cerrar la reserva. | Media |
-| US-28 | Como freelancer, quiero ver un calendario navegable por días y horas para facilitar mi búsqueda. | Alta |
-| US-29 | Como propietario, quiero que ambas partes puedan dejar y ver reseñas para tomar mejores decisiones. | Media |
-| US-30 | Como propietario, quiero verificación de usuarios por DNI o LinkedIn para tener mayor seguridad. | Alta |
-| US-31 | Como usuario, quiero explorar fácilmente la landing page para acceder a información clave. | Media |
-| US-32 | Como usuario, quiero conocer misión, equipo y políticas del proyecto para tomar una decisión informada. | Media |
-| US-33 | Como usuario, quiero revisar los servicios ofrecidos en la landing para decidir cuáles se ajustan a mí. | Media |
-| US-34 | Como usuario, quiero contactar rápidamente al equipo de soporte para resolver dudas o problemas. | Media |
-| US-35 | Como usuario, quiero cambiar el idioma de la interfaz (ES/EN) para usar la plataforma en mi idioma. | Media |
-| US-36 | Como usuario, quiero ver testimonios y casos de éxito para ganar confianza. | Media |
-| US-37 | Como usuario, quiero descargar un folleto informativo en PDF para guardar detalles del proyecto o compartirlos. | Baja |
-| US-38 | Como propietario, quiero crear mi cuenta y registrar datos legales y de pago para publicar oficinas y administrarlas. | Alta |
-| US-39 | Como propietario, quiero publicar una oficina con un asistente paso a paso para acelerar la publicación y evitar errores. | Baja |
-| US-40 | Como usuario, quiero enviar y recibir mensajes con el propietario o freelancer para coordinar detalles de una oficina. | Media |
-| US-41 | Como freelancer, quiero una búsqueda avanzada por servicios, precio, capacidad y ubicación para encontrar la opción ideal. | Media |
-| US-42 | Como freelancer, quiero calificar la oficina y al propietario con un comentario para ayudar a otros a decidir mejor. | Media |
-| US-43 | Como freelancer, quiero guardar espacios en una lista de favoritos para revisarlos y reservar más tarde. | Baja |
-| US-44 | Como freelancer, quiero recibir alertas cuando haya nuevas opciones o bajadas de precio para no perder oportunidades. | Baja |
-| US-45 | Como usuario, quiero ver precios en mi moneda local con conversión automática para comprender el costo real. | Media |
-| US-46 | Como usuario, quiero que la plataforma esté localizada (idioma, fechas y formatos) para evitar confusiones. | Media |
-| US-47 | Como usuario, quiero aplicar cupones o créditos en el checkout para ahorrar en la reserva. | Baja |
-| US-48 | Como usuario, quiero un centro de ayuda con artículos y tickets para resolver problemas. | Media |
-| US-49 | Como freelancer, quiero agregar mi reserva a Google/Outlook (iCal) para organizar mi agenda. | Baja |
-| US-50 | Como empresa, quiero asignar saldo o asientos a empleados con políticas para controlar gasto y uso. | Baja |
-| US-51 | Como usuario, quiero facturación con RUC/razón social para cumplir obligaciones tributarias. | Alta |
-| US-52 | Como propietario, quiero configurar reglas específicas por tipo de sala para alinear expectativas. | Baja |
-| US-53 | Como propietario, quiero activar precios dinámicos según demanda para mejorar ocupación e ingresos. | Baja |
-| US-54 | Como operaciones, quiero moderar fotos y descripciones antes de publicar para evitar contenido inapropiado. | Baja |
-| US-55 | Como operaciones, quiero aprobar o pausar listados que no cumplan políticas para mantener la calidad del catálogo. | Baja |
-| US-56 | Como propietario, quiero ver analítica de ocupación, ingresos y reseñas para optimizar mi oferta. | Baja |
-| US-57 | Como propietario, quiero validar check‑in con QR y registrar no‑shows para aplicar políticas de cancelación. | Baja |
-| US-58 | Como usuario, quiero instalar la app como PWA y recibir notificaciones push para enterarme de cambios o mensajes. | Baja |
-| US-59 | Como usuario, quiero que la plataforma cumpla accesibilidad WCAG 2.1 AA para poder usarla con lector de pantalla y teclado. | Alta |
-| US-60 | Como usuario, quiero que la búsqueda cargue rápido aun con filtros para no perder tiempo. | Alta |
-
+| \# Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
+| :---- | :---- | :---- | :---- | :---- |
+| 1 | US-01 | Búsqueda rápida en Hero | Como visitante, quiero buscar por ciudad o distrito desde el hero para ir directo a los resultados. | 3 |
+| 2 | US-02 | Navegación principal (header) | Como visitante, quiero un header con enlaces claros para orientarme fácilmente. | 3 |
+| 3 | US-03 | Sección espacios destacados | Como visitante, quiero ver tarjetas de espacios destacados con precio y CTA para explorar opciones. | 3 |
+| 4 | US-04 | Sección testimonios | Como visitante, quiero ver testimonios reales para ganar confianza antes de registrarme. | 2 |
+| 5 | US-05 | Sección FAQ (acordeón) | Como visitante, quiero un acordeón de preguntas frecuentes para resolver dudas comunes. | 2 |
+| 6 | US-06 | Footer con políticas y contacto | Como visitante, quiero acceder a términos, privacidad y contactos desde el pie de página. | 2 |
+| 7 | US-58 | Scroll a anclas en landing | Como visitante, quiero ir a secciones de la landing con scroll suave. | 1 |
+| 8 | US-07 | Descarga brochure PDF | Como visitante, quiero descargar un folleto PDF del proyecto para revisarlo offline o compartirlo. | 2 |
+| 9 | US-08 | Resultados: lista \+ mapa | Como usuario, quiero ver resultados en lista y en mapa sincronizados para explorar por zona. | 8 |
+| 10 | US-09 | Barra de búsqueda global | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | 5 |
+| 11 | US-10 | Filtros y ordenamiento | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ordenar para refinar opciones. | 5 |
+| 12 | US-11 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio y rating para comparar rápidamente. | 3 |
+| 13 | US-16 | Card: info mínima clara | Como usuario, quiero imagen, título, precio desde, rating y CTA en cada card. | 3 |
+| 14 | US-13 | Filtros con chips activos | Como usuario, quiero ver chips con los filtros aplicados para entender qué está activo. | 5 |
+| 15 | US-14 | Ordenamiento por precio/distancia/rating | Como usuario, quiero ordenar resultados para priorizar opciones. | 5 |
+| 16 | US-15 | Paginación mejorada | Como usuario, quiero un estado final de lista y scroll suave al cargar más. | 3 |
+| 17 | US-12 | Paginación / Infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página. | 3 |
+| 18 | US-18 | Compartir búsqueda por URL | Como usuario, quiero que los filtros se reflejen en la URL para compartir la búsqueda. | 3 |
+| 19 | US-19 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa cerca de mi ubicación para ver opciones cercanas. | 3 |
+| 20 | US-60 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión. | 2 |
+| 21 | US-54 | Guardar estado UI en URL | Como usuario, quiero que pestañas y página queden en la URL para volver al mismo punto. | 2 |
+| 22 | US-52 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha o búsqueda desde la UI. | 2 |
+| 23 | US-17 | Comparar espacios (UI) | Como usuario, quiero seleccionar hasta 3 espacios para compararlos lado a lado. | 5 |
+| 24 | US-21 | Ficha: galería y detalles | Como usuario, quiero una galería de fotos y descripción completa para evaluar el espacio. | 8 |
+| 25 | US-22 | Ficha: calendario de disponibilidad | Como usuario, quiero seleccionar fecha y horas disponibles antes de reservar. | 5 |
+| 26 | US-23 | Ficha: CTA reservar sticky | Como usuario, quiero tener siempre visible el botón 'Reservar' para continuar el flujo. | 3 |
+| 27 | US-24 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | 8 |
+| 28 | US-25 | Formulario de pago (SDK) | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | 5 |
+| 29 | US-26 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA. | 3 |
+| 30 | US-28 | Recibo/Comprobante imprimible | Como usuario, quiero ver mi comprobante en una vista imprimible y descargable. | 3 |
+| 31 | US-27 | Cancelar reserva (UI) | Como usuario, quiero una interfaz para cancelar mi reserva con motivo. | 3 |
+| 32 | US-29 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | 5 |
+| 33 | US-30 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | 3 |
+| 34 | US-31 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | 5 |
+| 35 | US-59 | Previsualización de avatar | Como usuario, quiero ver vista previa de la imagen antes de guardar mi foto. | 2 |
+| 36 | US-32 | Preferencias y notificaciones | Como usuario, quiero configurar idioma y notificaciones. | 5 |
+| 37 | US-38 | Selector de moneda | Como usuario, quiero elegir mi moneda para ver precios entendibles. | 3 |
+| 38 | US-33 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | 5 |
+| 39 | US-34 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | 3 |
+| 40 | US-36 | Reseñar un espacio (UI) | Como usuario, quiero calificar con estrellas y comentar mi experiencia. | 5 |
+| 41 | US-35 | Mensajería (UI) | Como usuario, quiero una interfaz de chat para comunicarme con el propietario. | 8 |
+| 42 | US-37 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket. | 3 |
+| 43 | US-40 | Breadcrumbs | Como usuario, quiero migas de pan para saber dónde estoy y volver fácilmente. | 2 |
+| 44 | US-39 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro para comodidad visual. | 3 |
+| 45 | US-46 | Responsive design | Como usuario móvil, quiero que todas las vistas sean usables en pantallas pequeñas. | 5 |
+| 46 | US-41 | Accesibilidad: teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | 3 |
+| 47 | US-42 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | 3 |
+| 48 | US-51 | Accesibilidad: contraste y escalado | Como usuario con baja visión, quiero buen contraste y soporte de zoom 200%. | 3 |
+| 49 | US-45 | Internacionalización (ES/EN) | Como usuario, quiero cambiar idioma sin recargar y ver formatos localizados. | 3 |
+| 50 | US-43 | Rendimiento: imágenes responsivas | Como usuario, quiero que las imágenes usen srcset y lazy‑loading para cargar más rápido. | 3 |
+| 51 | US-44 | Rendimiento: caching y skeletons | Como usuario, quiero ver skeletons y aprovechar cache para percibir rapidez. | 3 |
+| 52 | US-47 | Design System base | Como equipo, quiero un set de componentes reutilizables (botones, inputs, cards, modales). | 5 |
+| 53 | US-48 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes con opción de reintento. | 3 |
+| 54 | US-53 | Teclas rápidas en escritorio | Como usuario, quiero atajos de teclado para navegar más rápido. | 2 |
+| 55 | US-49 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | 5 |
+| 56 | US-55 | Carga offline básica (PWA) | Como usuario, quiero ver un fallback útil cuando estoy sin conexión. | 5 |
+| 57 | US-50 | Notificaciones push opt‑in | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | 5 |
+| 58 | US-56 | Impresión de comprobante legible | Como usuario, quiero que el comprobante tenga estilos de impresión legibles. | 2 |
+| 59 | US-57 | Loader global y toasts | Como usuario, quiero feedback inmediato (loader/toast) en acciones largas. | 2 |
+| 60 | US-20 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto de espacios con datos clave. | 2 |
 
 ## Capítulo IV: Product Design
 
