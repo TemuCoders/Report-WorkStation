@@ -151,7 +151,8 @@ Considerando la flexibildad y la adaptabilidad como puntos esenciales para el cr
 | ![Franco](imgs/Franco.jpeg)                                                       | Huang Liu Franco Gabriel    | Estudiante de Ingeniería de Software que quiere enfocarse en full stack. Le gusta aprender  |
 | ![Sebastian](Imagenes/sebastian.png)                                                   | S   | Estu SQ y lal.                   |
 | ![Luis](Imagenes/Luisfoto.png)                                                         | J        | Estudicrabase, MongoDB, . |
-| ![Emilia](Imagenes/emilia.png)                                                         | Em         | Estudi                                                                                         |
+| ![Leonardo](Imagenes/emilia.png)                                                         | Cumba Rengifo,Leonardo Raul     | Estudiante de Ingeniería de Software que quiere enfocarse en backend o en DBA. En la actualidad me gustaria especialiarse en DBA
+                                                                                      |
 | ![yo] | S    | Es                                                                                        |
 
 ## 1.2. Solution Profile
