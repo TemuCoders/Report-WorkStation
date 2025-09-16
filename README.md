@@ -580,10 +580,18 @@ Entre las tareas encontradas, la que ambos User Persona coinciden en que es impo
   <img src="imgs/Customer Journey Map Brainstorm.png" alt="Customer Journey Map Brainstorm.png" />
 </p>
 
+<p align="center">
+<img width="1179" height="1059" alt="image" src="https://github.com/user-attachments/assets/84e017e5-dbfd-4bdf-8d45-5cc4de7f5ff8" />
+</p>
+
 ### 2.3.4. Empathy Mapping
 
 <p align="center">
   <img src="imgs/Empathy Map Brainstorm.png" alt="Empathy Map Brainstorm.png" />
+</p>
+
+<p align="center">
+<img width="1398" height="904" alt="image" src="https://github.com/user-attachments/assets/d01adec2-5255-4a5b-9385-ff94ae1511b1" />
 </p>
 
 ### 2.3.5. As-is Scenario Mapping
