@@ -533,17 +533,44 @@ Para esta sección hemos tomado en cuenta dos User Persona que corresponden a lo
 
 Estamos considerando los segmentos objetivos "Propietario de Inmueble" y "Trabajador independiente" como fueron definidos anteriormente como User Persona
 
-|                                                    | **Propietario de Inmueble** |              | **Trabajador independiente** |              |
-| -------------------------------------------------- | --------------------------- | ------------ | ---------------------------- | ------------ |
-| Tarea                                              | Importancia                 | Frecuencia   | Importancia                  | Frecuencia   |
-| Ofrecer su local                                   |  Alta                     |  Frecuente |  N/A                       |  N/A       |
-| Buscar espacios de trabajo                         |  N/A                      |  N/A       |  Alta                      |  Frecuente |
-| Comparar entre las opciones de espacios de trabajo |  Media                    |  Rara      |  Alta                      |  Frecuente |
-| Contactarse el trabajador con el propietario       |  Alta                     |  Ocasional |  Alta                      |  Ocasional |
-| Acordar precio y forma de pago                     |  Alta                     |  Ocasional |  Alta                      |  Ocasional |
-| Observar situación final del local                 |  Media                    |  Ocasional |  Media                     |  Ocasional |
-| Recomendar la experiencia                          |  Baja                     |  Rara      |  Media                     |  Ocasional |
+#### **Leyenda — Escalas**
+- **Importancia:** 1 (Baja) · 2 (Moderada) · 3 (Importante) · 4 (Muy importante) · 5 (Crítica)  
+- **Frecuencia:** D (Diaria), S (Semanal), M (Mensual), O (Ocasional), R (Rara)  
+- **Cómo se calcula Prioridad:** combinación heurística de Importancia + Frecuencia → **Alta / Media / Baja**
 
+---
+
+#### a) Trabajador independiente / Freelancer
+| Tarea | Importancia (1–5) | Frecuencia | Prioridad | Punto de la app | KPI / Resultado esperado | Riesgo / Acción recomendada |
+|---|---:|:---:|:---:|---|---|---|
+| Buscar espacios por ubicación/fecha | 5 | D | Alta | Exploración (mapa + lista) | p95 búsqueda < 2s; ≥ 8 resultados relevantes | Optimizar índices / caching; tests de latencia |
+| Aplicar filtros (precio, amenities, ruido, Mbps) | 4 | D | Alta | Filtros avanzados | ≥ 60% sesiones usan ≥2 filtros | UX: filtros accesibles y preseteables |
+| Comparar 2–3 opciones (comparador) | 4 | S | Alta | Comparador / comparativa rápida | Comparaciones por sesión ≥ 1.5 | Añadir CTA “Comparar” y persistir selección |
+| Revisar ficha (fotos, reglas, política) | 5 | D | Alta | Ficha del espacio | Tasa de abandono de ficha < 20% | Garantizar fotos mínimas y copy claro |
+| Ver disponibilidad / calendario | 5 | D | Alta | Calendario interactivo | 0 doble-reserva; slots consistentes | Validación server-side; bloqueo optimista |
+| Iniciar reserva y pagar (checkout) | 5 | S | Alta | Checkout | Conversión checkout ≥ 45% | Simplificar pasos; varias pasarelas |
+| Mensajería con propietario | 3 | O | Media | Chat / mensajería | Tiempo 1ª respuesta < 10 min | Notificaciones push / plantillas |
+| Check-in / Check-out (con fotos) | 3 | O | Media | Mis reservas | % no-show < 3% | Implementar check-in QR; verificación fotos |
+| Valorar y comentar (reseñas) | 3 | O | Media | Reseñas | Tasa de reseñas ≥ 30% | Reminders post-reserva; incentivos leves |
+| Guardar favoritos / alertas (bajada de precio) | 2 | S | Baja | Favoritos / Alertas | Retención M+1 ≥ 35% | UX para gestión de alertas; emails opt-in |
+
+---
+
+#### b) Propietario de inmueble / Host
+| Tarea | Importancia (1–5) | Frecuencia | Prioridad | Punto de la app | KPI / Resultado esperado | Riesgo / Acción recomendada |
+|---|---:|:---:|:---:|---|---|---|
+| Crear cuenta y verificación (KYC/KYB) | 5 | O | Alta | Onboarding | % verificación exitosa ≥ 90% | Flujos fallback; ayuda humana si falla KYC |
+| Publicar espacio (datos, fotos, tarifas) | 5 | O | Alta | Wizard de publicación | Tiempo de alta ≤ 20 min; ≥ 5 fotos | Validaciones en cliente; checklist visual |
+| Definir disponibilidad (calendario) | 4 | S | Alta | Calendario de host | Ocupación objetivo ≥ 55% | Sincronizar iCal; manejo de zonas horarias |
+| Gestionar mensajes / solicitudes | 4 | D | Alta | Inbox / Chat | Tiempo respuesta < 10 min | Notificaciones y plantillas; SLA interno |
+| Confirmar / administrar reservas | 5 | D | Alta | Panel de reservas | Cancelaciones por error < 1% | Automatizar confirmaciones; logs de cambios |
+| Gestionar pagos y facturación | 5 | M | Alta | Pagos / Facturación | Rechazos de pago < 1% | Reintentos, conciliación y reportes |
+| Subir evidencia (check-in/out) | 3 | O | Media | Detalle de reserva | Disputas por daños < 2% | Estándar de fotos/time-stamp obligatorio |
+| Responder reseñas | 3 | M | Media | Reseñas | ≥ 50% de reseñas respondidas | Notificaciones para owner; plantillas |
+| Editar / pausar publicaciones | 3 | O | Media | Gestión de espacios | Tiempo de edición ≤ 5 min | UI rápida; historial de cambios |
+| Analítica (ocupación / ingresos) | 4 | M | Alta | Analytics / Dashboard | +5 p.p. ocupación / trimestre | Datos accionables y recomendaciones autom. |
+
+---
 
 Entre las tareas encontradas, la que ambos User Persona coinciden en que es importante y frecuente son tanto el contactarse mutuamente como el acordar precio y forma de pago, se debe a que ambos buscan que el préstamo del servicio se concrete y bajo condiciones favorables para ambos. Además, cada User Persona tiene su tarea particular: para el propietario es importante ofrecer su local y para el freelancer es importante buscar espacios de trabajo. Por último tenemos un tarea particular frecuente para el freelancer la cual es comparar diferentes ofertas de espacios de trabajo para ver lo que más se ajuste a su presupuesto y cuente con las características necesarias. Mientras que para el propietario, esto lo hace rara vez cuando desee ver qué precios ponen sus competidores.
 
