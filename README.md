@@ -41,6 +41,7 @@ Desarrollo de Aplicaciones Open Source<br>
 | TB1     | 12/09/2025  | Huang Liu, Franco   | Desarrollo de la database diagram |
 | TB1     | 15/09/2025  | Huang Liu, Franco   | Desarrollo de web app wireframes |
 | TB1     | 16/09/2025  | Cumba Rengifo,Leonardo Raul   | Desarrollo de las User Stories y Product backlog|
+| TB1     | 16/09/2025  | Saravia Huaricancha, Arturo  | Desarrollo de impact mapping y ayuda en el user stories |
 ---
 
 ## Contenido
@@ -108,9 +109,8 @@ Desarrollo de Aplicaciones Open Source<br>
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
-    - [Epics](#epics)
+  - [**3.1. User Stories**](#31-user-stories-1)
   - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product Backlog.](#33-product-backlog)
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
       - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
@@ -196,7 +196,7 @@ Considerando la flexibildad y la adaptabilidad como puntos esenciales para el cr
 | ![Jeremy](imgs/perfil-integrante-jeremy.png)                                         | Quijada Magro Jeremy Alexander | Estudiante de Ingeniería de Software que planea enfocarse en la gestión de proyectos. Con conocimientos básicos en programación web y bases de datos.                                                                                                                         |
 | ![Franco](imgs/Franco.jpeg)                                                       | Huang Liu Franco Gabriel    | Estudiante de Ingeniería de Software que quiere enfocarse en full stack. Le gusta aprender  |
 | ![Sebastian](Imagenes/arturo.png)                                                   | Saravia Huaricancha Arturo Axel  |   Estudiante de Ingeniería de Software centrado de desarrollo de apps y juegos idie. Interesado en desarrollo en fivem y apps web.                 |
-| ![Luis](Imagenes/leonardo.png)                                                         | Cumba Rengifo Leonardo Raul        | Estudicrabase, MongoDB, . |
+| ![Luis](Imagenes/leonardo.png)                                                         | Cumba Rengifo Leonardo Raul        | Estudiante de Ingeniería de Software que quiere enfocarse en backend o en DBA. En la actualidad me gustaria especialiarse en DBA |
 | ![Emilia](Imagenes/emilia.png)                                                         | Em         | Estudi                                                                                         |
 | ![yo] | S    | Es                                                                                        |
 
