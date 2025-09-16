@@ -24,7 +24,7 @@ Desarrollo de Aplicaciones Open Source<br>
  | Quijada Magro Jeremy     | U202219657 |
  | Huang Liu Franco      | U201914541 |
  | La Madrid Lozano Ivan         | U202219657 |
- | Saravia Huaricancha Arturo     | u202312447 |
+ | Saravia Huaricancha Arturo     | U202312447 |
  | Cumba Rengifo Leonardo      | U202311912 |
 
 
@@ -40,7 +40,7 @@ Desarrollo de Aplicaciones Open Source<br>
 | TB1     | 08/09/2025  | Quijada Magro, Jeremy  | Desarrollé la carátula del repositorio. |
 | TB1     | 12/09/2025  | Huang Liu, Franco   | Desarrollo de la database diagram |
 | TB1     | 15/09/2025  | Huang Liu, Franco   | Desarrollo de web app wireframes |
-
+| TB1     | 16/09/2025  | Cumba Rengifo,Leonardo Raul   | Desarrollo de las User Stories y Product backlog|
 ---
 
 ## Contenido
