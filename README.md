@@ -23,7 +23,7 @@ Desarrollo de Aplicaciones Open Source<br>
  | ---------------------------- | ---------- |
  | Quijada Magro Jeremy     | U202219657 |
  | Huang Liu Franco      | U201914541 |
- | La Madrid Lozano Ivan         | U202219657 |
+ | La Madrid Lozano Ivan         | U202113432 |
  | Saravia Huaricancha Arturo     | U202312447 |
  | Cumba Rengifo Leonardo      | U202311912 |
 
@@ -42,6 +42,7 @@ Desarrollo de Aplicaciones Open Source<br>
 | TB1     | 15/09/2025  | Huang Liu, Franco   | Desarrollo de web app wireframes |
 | TB1     | 16/09/2025  | Cumba Rengifo,Leonardo Raul   | Desarrollo de las User Stories y Product backlog|
 | TB1     | 16/09/2025  | Saravia Huaricancha, Arturo  | Desarrollo de impact mapping y ayuda en el user stories |
+| TB1     | 16/09/2025  | La Madrid Lozano, Ivan  | Mejora del User Task Matrix, desarrollo del Customer Journey Map y Empathy Map de hosts |
 ---
 
 ## Contenido
@@ -197,8 +198,7 @@ Considerando la flexibildad y la adaptabilidad como puntos esenciales para el cr
 | ![Franco](imgs/Franco.jpeg)                                                       | Huang Liu Franco Gabriel    | Estudiante de Ingeniería de Software que quiere enfocarse en full stack. Le gusta aprender  |
 | ![Arturo](imgs/arturo.jpg)                                                   | Saravia Huaricancha Arturo Axel  |   Estudiante de Ingeniería de Software centrado de desarrollo de apps y juegos idie. Interesado en desarrollo en fivem y apps web.                 |
 | ![Leonardo](imgs/leonardo.jpg)                                                         | Cumba Rengifo Leonardo Raul        | Estudiante de Ingeniería de Software que quiere enfocarse en backend o en DBA. En la actualidad me gustaria especialiarse en DBA |
-| ![Emilia](Imagenes/emilia.png)                                                         | Em         | Estudi                                                                                         |
-| ![yo] | S    | Es                                                                                        |
+| ![Ivan](imgs/ivan.jpg)                                                         | Ivan Jeanpierre La Madrid Lozano         | Estudiante de Ingeniería de Software con enfoque en la solucion de distintos problemas tecnológicos                                                                                         |
 
 ## 1.2. Solution Profile
 
