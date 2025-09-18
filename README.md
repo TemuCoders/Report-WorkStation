@@ -1212,6 +1212,21 @@ En este apartado se establecen los lineamientos y procedimientos adoptados duran
 En esta sección se registra el avance del producto y las acciones colaborativas realizadas por el equipo para el Sprint 1.
 
 ##### 5.2.1.1. Sprint Planning 1
+El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de un proyecto, donde el equipo define los objetivos y la estrategia para cumplirlos. En este caso, nuestro objetivo principal es implementar la landing page de la aplicación, asegurando una presentación efectiva del producto.
+
+| Sprint \# | Sprint 1 |
+| ----- | ----- |
+| Date | 2025-09-02 |
+| Time | 9:00 PM |
+| Location | Virtual \- Meet |
+| Prepared By | Jeremy Quijada |
+| Attendees (to planning meeting) | Jeremy Quijada, Franco Gabriel Huang Liu, Arturo Axel Saravia Huaricancha, Leonardo Raul Cumba Rengifo y Ivan Jeanpierre La Madrid Lozano |
+| Sprint n \- 1 Review Summary | Este es el primer Sprint, por lo que este campo no aplica. |
+| Sprint n \- 1 Retrospective Summary | Este es el primer Sprint, por lo que este campo no aplica. |
+| Sprint 1 Goal | Nuestra prioridad en este sprint es iniciar con la parte de front end iniciando con la  landing page de nuestra aplicación. Creemos que esto brindará una presentación satisfactoria de nuestro producto a los posibles usuarios. Esto se confirmará cuando las visitas a nuestra landing page superen un cierto índice. |
+| Sprint 1 Velocity | Nuestro equipo puede aceptar hasta 18 Story Points. |
+| Sum of Story Points | La suma de Story Points atendidos es de 15\. |
+
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators     
 
