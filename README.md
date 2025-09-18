@@ -1092,7 +1092,7 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 #### 4.4.2. Web Applications Wireflow Diagrams
 
 <p align="center">
-  <img src="./imgs/wireflow.png" alt="app_wireflow""/>
+  <img src="./imgs/wireflow.jpg" alt="app_wireflow""/>
 </p>
 
 #### 4.4.2. Web Applications Mock-ups
