@@ -1150,6 +1150,10 @@ https://miro.com/app/board/uXjVJI6oqFo=/?share_link_id=929784522141
 
 #### 4.7.1. Class Diagrams
 
+<p align="center">
+  <img src="./imgs/workstation_class.png" alt="class_diagram""/>
+</p>
+
 ### 4.8. Database Design
 
 ### 4.8.1. Database Diagrams
