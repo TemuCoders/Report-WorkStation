@@ -1249,3 +1249,28 @@ Se realizó el despliegue de la **landing page** del proyecto *AgeCare*, marcand
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Para este sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyó entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo por todo el equipo.
+
+### Conclusiones
+
+El proyecto de WorkStation surge debido a la necesidad que se está generando en el mercado laboral de hoy en día, que es la busqueda o la falta de espacios de trabajos flexible, accesibles y adaptables a las modalidades de trabajo tanto remoto como freelance. A partir del problema detectado, se encontró un desligamiento entre las ofertas de espacios de trabajo y la demanda de profesionales que requieren de un ambiente productivo a corto plazo. La solución que tenemos propuesta une varias soluciones en una sola plataforma con funcionalidades en tiempo real, optimizando la experiencia del usuario y del propietario.
+
+Esta propuesta no solo va orientada a la eficiencia operativa a travez de la digitalización de procesos, sino que también promociona la sostenibilidad en los espacios de trabajos. Viendolo de esta perspectiva, WorkStation no solo es un sistema de reservas, sino un herramienta que impulsa la poroductividad en los freelancers y startups, a la vez contribuye al crecimiento en el empredimiento en ciudades.
+
+Como idea final, WorkStation representa la iniciativa tecnológica con impacto social, económico y cultural, que alinea la flexibilidad del trabajo de hoy en día con la optimización digital. El desarrrollo se plantea como un aporte significativo a la transformación digital en el campo laboral, dandose como una solución innovadora y competitiva en el mercado de coworkings en el Perú.
+
+### Anexos
+
+Enlace del Landing Page:
+
+### Bibliografía
+
+Agena, J., Álvarez, L., Bonifaz, A., Briceño  J. (2017). *DESARROLLO DE UN PLAN DE NEGOCIO PARA UNCOWORKING EN LA CIUDAD DE LIMA*. Repositorio de la Universidad San Ignacio de Loyola. <https://repositorio.usil.edu.pe/server/api/core/bitstreams/46283d66-d85c-4e61-99ed-26b1d3f731c7/content>
+
+Aranda G. (2020, 16 de septiembre). *La influencia del Coworking en la Productividad de las empresas de publicidad en Lima Metropolitana, año 2019*. Repositorio Académico UPC. <https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/652964/Aranda_MG.pdf?sequence=3>
+
+Binswanger Perú (2018). Reporte inmoviliario, Coworking y centros de negocio. Binswanger Perú. <https://binswanger.com.pe/Storage/tbl_publicaciones/fld_1027_Archivo_file/699-z9Zm8Yg5Ko5Lg4L.pdf>
+
+Ikeda L. (2019, 25 de octubre). *Coworking y Maker Space en Lima Moderna: un estudio de factibilidad*. Repositorio Académico UPC. <https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/628237/IkedaT_Luc%C3%ADa.pdf?sequence=1>
+
+López, E., Pejerrey, A., Suca, M. (2020, diciembre). *Plan de marketing para el lanzamiento de oficinas coworking en el distrito de Los Olivos*. Repositorio Institucional de la Universidad del Pacífico. <https://repositorio.up.edu.pe/backend/api/core/bitstreams/3ef2451a-0908-4942-9efd-fa08dca41d98/content>
+
