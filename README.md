@@ -1351,7 +1351,6 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 | Huang Liu Franco Gabriel | St4rLght05 | C |
 | Saravia Huaricancha Arturo Axel |thunder053| C |
 | Cumba Rengifo Leonardo Raul | LeonardoC72 | C |
-| Jorge Luis Díaz Fiestas | LuisDiazpe | C |
 | La Madrid Lozano Ivan Jeanpierre | ivanlamadrid | C |
 
 ##### 5.2.1.3. Sprint Backlog 1
