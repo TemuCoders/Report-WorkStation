@@ -1069,6 +1069,14 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 
 #### 4.3.2. Landing Page Mock-up
 
+<p align="center">
+  <img src="./imgs/Workstation Landing Mockup.png" alt="landing_mockup_1""/>
+</p>
+
+<p align="center">
+  <img src="./imgs/Workstation Landing Mockup (1).png" alt="landing_mockup_2""/>
+</p>
+
 ### 4.4. Web Applications UX/UI Design
 
 #### 4.4.1. Web Applications Wireframes
@@ -1082,10 +1090,30 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 </p>
 
 #### 4.4.2. Web Applications Wireflow Diagrams
+
+<p align="center">
+  <img src="./imgs/wireflow.png" alt="app_wireflow""/>
+</p>
+
 #### 4.4.2. Web Applications Mock-ups
+
+<p align="center">
+  <img src="./imgs/wireflow.png" alt="app_wireflow""/>
+</p>
+
 #### 4.4.3. Web Applications User Flow Diagrams
 
+<p align="center">
+  <img src="./imgs/userflow.png" alt="app_userflow""/>
+</p>
+
 ### 4.5. Web Applications Prototyping
+
+<p align="center">
+  <img src="./imgs/prototype.png" alt="app_prototype""/>
+</p>
+
+https://www.figma.com/proto/8L021g8KuL6tNMxxyLNEa4/Workstation-Landing-Mockup?node-id=2009-319&p=f&t=zWtc5Zn6GgK9iT52-0&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2009%3A319
 
 ### 4.6. Domain-Driven Software Architecture
 
