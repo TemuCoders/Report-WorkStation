@@ -1345,7 +1345,17 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators     
 
+| Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 (L/C) |
+| ----- | ----- | ----- |
+| Quijada Magro Jeremy Alexander | jhonson2021 | L |
+| Huang Liu Franco Gabriel | St4rLght05 | C |
+| Saravia Huaricancha Arturo Axel |thunder053| C |
+| Cumba Rengifo Leonardo Raul | LeonardoC72 | C |
+| Jorge Luis Díaz Fiestas | LuisDiazpe | C |
+| La Madrid Lozano Ivan Jeanpierre | ivanlamadrid | C |
+
 ##### 5.2.1.3. Sprint Backlog 1
+Para el primer sprint, desarrollamos la estructura y las funcionalidades básicas de la landing page, así como el diseño visual y la barra de navegación.
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 
