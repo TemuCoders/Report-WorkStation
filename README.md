@@ -1070,12 +1070,9 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 #### 4.3.2. Landing Page Mock-up
 
 <p align="center">
-  <img src="./imgs/Workstation Landing Mockup.png" alt="landing_mockup_1""/>
+  <img src="./imgs/Workspace Landing Mockup.png" alt="landing_mockup""/>
 </p>
 
-<p align="center">
-  <img src="./imgs/Workstation Landing Mockup (1).png" alt="landing_mockup_2""/>
-</p>
 
 ### 4.4. Web Applications UX/UI Design
 
