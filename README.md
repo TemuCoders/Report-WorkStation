@@ -1236,11 +1236,12 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
-##### 5.2.1.6. Services Documentation Evidence for Sprint Review
+#### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
-Durante este Sprint, nos enfocamos exclusivamente en el desarrollo del frontend estático de la Landing Page del proyecto AgeCare. En consecuencia, no se implementaron endpoints ni funcionalidades relacionadas con servicios web o APIs RESTful.
+Durante este Sprint, nos enfocamos exclusivamente en el desarrollo del frontend estático de la Landing Page del proyecto WorkStation. En consecuencia, no se implementaron endpoints ni funcionalidades relacionadas con servicios web o APIs RESTful.
 
 La creación de la documentación de Web Services mediante OpenAPI/Swagger se programará para Sprints futuros, una vez que comience la implementación del backend del sistema.
+
 
 ##### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
