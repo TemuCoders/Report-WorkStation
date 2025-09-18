@@ -1098,7 +1098,7 @@ La navegación se personaliza según el rol (**freelancers** o **propietarios**)
 #### 4.4.2. Web Applications Mock-ups
 
 <p align="center">
-  <img src="./imgs/wireflow.png" alt="app_wireflow""/>
+  <img src="./imgs/Workstation App Mockup.png" alt="app_mockup""/>
 </p>
 
 #### 4.4.3. Web Applications User Flow Diagrams
