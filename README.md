@@ -1199,8 +1199,123 @@ En este apartado se establecen los lineamientos y procedimientos adoptados duran
 
 ### 5.1.1. Software Development Environment Configuration
 
+#### Project Management
+
+Para una gestión eficiente del proyecto, se hizo necesaria la implementación de un conjunto de herramientas destinadas a la asignación de tareas, la facilitación de reuniones y la colaboración entre los integrantes. Asimismo, se empleó un repositorio centralizado para consolidar los avances de manera coordinada. A continuación, se presentan las plataformas seleccionadas junto con su respectivo propósito dentro del marco del proyecto.
+- **Centro de organización de trabajo:** Github  
+- **Planificación de tareas:** Trello  
+- **Reuniones de equipo:** Google Meet  
+- **Coordinación grupal:** WhatsApp  
+
+#### Requirement Management
+
+Durante el desarrollo del proyecto se recurrió a diversas herramientas que facilitaron la definición, análisis y representación visual de los requerimientos técnicos y funcionales. Estas plataformas promovieron una planificación estructurada y una mayor claridad en el diseño conceptual del sistema:
+
+| Herramienta   | Descripción                                                                                                     | Enlace                                      |
+|---------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| **Trello**        | Herramienta de organización de proyectos basada en tableros y tarjetas, empleada para distribuir tareas entre los miembros del equipo y hacer seguimiento al progreso de cada fase del desarrollo. | [trello.com](https://trello.com/)           |
+| **Uxpressia**     | Aplicación digital utilizada para el diseño de mapas estratégicos, como *Impact Mapping*, lo cual permitió vincular los objetivos del negocio con las funcionalidades del producto de forma clara y visual. | [uxpressia.com](https://uxpressia.com/)     |
+| **Structurizr**   | Plataforma de modelado arquitectónico que facilita la construcción de diagramas C4, permitiendo representar la estructura lógica del sistema y su interacción entre componentes de manera estandarizada. | [structurizr.com](https://www.structurizr.com/) |
+| **Lucidchart**    | Entorno colaborativo de diagramación empleado para desarrollar modelos técnicos como diagramas de clases y estructuras de bases de datos, fundamentales en la definición de la arquitectura del sistema. | [lucidchart.com](https://www.lucidchart.com/) |
+
+---
+
+#### Product UX/UI Design
+
+El diseño de la experiencia de usuario y de la interfaz visual se abordó mediante herramientas especializadas que posibilitaron la creación de prototipos gráficos y esquemas de navegación. Esto permitió validar la estructura de la aplicación antes de su implementación:
+
+| Herramienta | Descripción                                                                                          | Enlace                              |
+|-------------|------------------------------------------------------------------------------------------------------|-------------------------------------|
+| **Figma**   | Plataforma de diseño colaborativo en línea que permitió a los miembros del equipo crear y editar en tiempo real wireframes y mockups, asegurando la coherencia visual y funcional de la landing page. | [figma.com](https://www.figma.com/) |
+
+---
+
+#### Software Development
+
+Para el desarrollo de la página web, se emplearon lenguajes de programación y etiquetado esenciales para crear la estructura, el diseño y las funcionalidades del sistema. A continuación, se describen las herramientas utilizadas:
+
+| Herramienta    | Descripción                                                                                              | Enlace                                                       |
+|----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **HTML**       | Lenguaje de marcado fundamental para estructurar el contenido y la disposición de los elementos en la web. | [HTML](https://www.w3schools.com/html/default.asp)           |
+| **CSS**        | Lenguaje de diseño que permite aplicar estilos visuales a los elementos estructurados en HTML, mejorando su presentación. | [CSS](https://www.w3schools.com/css/default.asp)             |
+| **JavaScript** | Lenguaje de programación orientado a objetos utilizado para agregar interactividad y funcionalidades dinámicas a la página web. | [JavaScript](https://www.w3schools.com/js/default.asp)       |
+
+---
+
+#### Software Documentation
+
+La gestión y documentación del proyecto se llevó a cabo utilizando herramientas que facilitaron la organización y el acceso a la información técnica, asegurando la transparencia y la trazabilidad del desarrollo:
+
+| Herramienta    | Descripción                                                                                              | Enlace                                                       |
+|----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **GitHub**     | Plataforma de desarrollo colaborativo que también se utilizó para gestionar y alojar la documentación del proyecto. | [GitHub](https://github.com/SmartFinance-OpenSource/Report)  |
+| **Markdown**   | Formato de texto ligero utilizado para escribir y estructurar la documentación técnica del proyecto de forma clara y legible. | [markdown.es](https://markdown.es/)                          |
+
+---
+
+#### Software Deployment
+
+Para el despliegue de la landing page, se optó por una plataforma de hosting que permite la publicación directa desde un repositorio de GitHub, garantizando una gestión eficiente del ciclo de vida de la aplicación:
+
+| Herramienta     | Descripción                                                                                              | Enlace                                                       |
+|-----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **GitHub Pages** | Servicio de GitHub que permite desplegar la aplicación directamente desde el repositorio, facilitando la visualización pública de la página. | [GitHub Pages](https://pages.github.com/)                   |
+
 
 ### 5.1.2. Source Code Management
+
+#### Producto y Repositorio
+
+| Producto             | Repositorio        | URL                                                       |
+|----------------------|--------------------|------------------------------------------------------------|
+| Landing Page         | WorkStation-Landing Page| [LandingPage](https://github.com/TemuCoders/Landing-Page)     |
+
+#### Estructura del Repositorio
+
+Hemos organizado el repositorio en ramas específicas para diferentes etapas del desarrollo, garantizando un flujo de trabajo ordenado y eficiente. La estructura de ramas es la siguiente:
+
+- **Main branch** (rama principal): Contiene la versión estable y lista para producción del software.
+- **Develop branch**: Contiene el código en desarrollo que se integrará en la rama principal después de ser probado y validado.
+
+Además, para el desarrollo de nuevas funcionalidades, creamos ramas específicas siguiendo las convenciones de nomenclatura:
+
+- **Feature branches**: Ramas dedicadas al desarrollo de nuevas características. La nomenclatura para estas ramas es `feature/nueva-funcionalidad`.
+
+Implementamos **GitFlow**, un modelo de ramificación diseñado por Vincent Driessen, que incluye las siguientes ramas:
+
+- **Main branch**: Rama principal que alberga el código estable y preparado para producción.
+- **Develop branch**: Rama de desarrollo donde se integran nuevas funcionalidades y correcciones antes de ser fusionadas a la rama principal.
+- **Feature branches**: Creadas a partir de `develop` para añadir nuevas características, siguiendo la nomenclatura `feature/nueva-funcionalidad`.
+- **Release branches**: Preparadas para la liberación de nuevas versiones, permitiendo pruebas finales y corrección de errores antes del despliegue a producción.
+- **Hotfix branches**: Utilizadas para corregir errores críticos en producción, siguiendo la nomenclatura `hotfix/correccion-critica`.
+
+
+#### Flujo de trabajo GitFlow
+
+- Una rama de **producción** (`main`).
+- Una rama de **pruebas** (`develop`).
+- Rama de **hotfix** para corrección de errores críticos (`hotfix/*`).
+- Rama de **release** para estabilización y pruebas previas al despliegue (`release/*`).
+- Ramas para **features** (`feature/*`).
+- Cada cambio en **producción** se considera una nueva versión.
+- Cambios en `main` y `develop` requieren aprobación.
+
+
+#### Mensajes de Commits
+
+Adoptamos el estándar **Conventional Commits** para los mensajes de nuestros commits, lo que facilita la comprensión del historial de cambios y la automatización de versiones. Ejemplos de mensajes son:
+
+- `feat`: Añadir nueva funcionalidad, por ejemplo, `feat: implementar sistema de notificaciones`.
+- `fix`: Corregir errores, por ejemplo, `fix: solucionar problema con la validación de datos`.
+- `docs`: Actualizar documentación, por ejemplo, `docs: actualizar guía de instalación`.
+- `style`: Aplicar formato, por ejemplo, `style: ajustar estilo de código según las pautas`.
+- `refactor`: Mejorar el código sin cambiar su funcionalidad, por ejemplo, `refactor: optimizar el rendimiento del módulo de usuario`.
+- `test`: Añadir o modificar pruebas, por ejemplo, `test: añadir pruebas para la funcionalidad de autenticación`.
+
+
+#### Documentación
+
+La documentación del proyecto se encuentra en el archivo `README.md` dentro del repositorio. Este archivo proporciona detalles sobre la configuración, el uso del software y las guías para contribuir al proyecto.
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
@@ -1236,6 +1351,8 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
 
+
+
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 Durante este Sprint, nos enfocamos exclusivamente en el desarrollo del frontend estático de la Landing Page del proyecto WorkStation. En consecuencia, no se implementaron endpoints ni funcionalidades relacionadas con servicios web o APIs RESTful.
@@ -1257,6 +1374,44 @@ Se realizó el despliegue de la **landing page** del proyecto *AgeCare*, marcand
 
 ##### Evidencias Visuales
 
+* Configuración del repositorio GitHub y estructura inicial de carpetas.
+
+  * Creamos un repositorio para la landing page dentro de la organizacion. La configuramos para que sea de tipo publico:
+
+    <p align="center">
+      <img src="./imgs/paso 1.png" alt="paso 1""/>
+    </p>
+
+  * Una vez dentro copiamos la direccion HTTPS del repositorio y la clonamos en nuestro entorno local con el comando git clone. Preparamos una estructura de carpetas similar a la siguiente en nuestra maquina:
+
+    <p align="center">
+      <img src="./imgs/carpetas.png" alt="carpetas""/>
+    </p>
+
+* Implementación de flujo de trabajo con Git Flow, manteniendo los cambios en la rama develop.
+
+  * Desde la consola, creamos un push inicial en la rama remota main usando el comando git push origin main con un mensaje commit descriptivo. initial-commit-landing
+
+  * El siguiente paso es crear la rama local develop usando el comando git checkout -b develop, la creamos de manera remota con git push origin develop. Las ramas feature/* se crearan de la misma forma, pero hay que tener en cuenta que siempre se deben crear a partir de la rama develop, por lo que un paso previo es asegurarnos que estamos en la rama correcta con git checkout develop.
+
+*  Realización de un merge desde develop hacia la rama main, de acuerdo a las convenciones definidas en la sección 5.1.2.
+
+  *  Activación de GitHub Pages como servicio de despliegue estático, apuntando al contenido de la rama main.
+
+  * Se realizaron pruebas manuales usando la extension Live Server para verificar la funcionalidad de la landing page antes de fusionar los cambios.
+
+* Activación de GitHub Pages como servicio de despliegue estático, apuntando al contenido de la rama main.
+
+  * En la configuración del repositorio, se seleccionó la rama main como fuente para GitHub Pages. Esto se realizó desde la pestaña "Settings" > "Pages" en GitHub.
+
+  * Se verificó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
+
+  <p align="center">
+      <img src="./imgs/pages.png" alt="pages""/>
+    </p>
+
+
+
 * Publicacion exitosa de la Landing Page
 
 
@@ -1265,6 +1420,17 @@ Se realizó el despliegue de la **landing page** del proyecto *AgeCare*, marcand
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Para este sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyó entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo por todo el equipo.
+
+<p align="center">
+  <img src="./imgs/insight - tb1.png" alt="insight""/>
+</p>
+
+<p align="center">
+  <img src="./imgs/commits -tb1.png" alt="commits""/>
+</p>
+
+
+
 
 ### Conclusiones
 
@@ -1276,7 +1442,7 @@ Como idea final, WorkStation representa la iniciativa tecnológica con impacto s
 
 ### Anexos
 
-Enlace del Landing Page:
+Enlace del Landing Page: https://temucoders.github.io/Landing-Page/
 
 ### Bibliografía
 
