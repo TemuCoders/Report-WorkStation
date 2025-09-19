@@ -792,66 +792,58 @@ Epicas
 
 | \# Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
 | :---- | :---- | :---- | :---- | :---- |
-| 1 | US-01 | Búsqueda rápida en Hero | Como visitante, quiero buscar por ciudad o distrito desde el hero para ir directo a los resultados. | 3 |
-| 2 | US-02 | Navegación principal (header) | Como visitante, quiero un header con enlaces claros para orientarme fácilmente. | 3 |
-| 3 | US-03 | Sección espacios destacados | Como visitante, quiero ver tarjetas de espacios destacados con precio y CTA para explorar opciones. | 3 |
+| 1 | US-01 | Búsqueda en Hero | Como visitante, quiero buscar por distrito/ciudad y fecha desde el hero para ir directo a los resultados. | 3 |
+| 2 | US-02 | Header claro | Como visitante, quiero un header con enlaces Explorar, Publica tu espacio e Ingresar para orientarme fácilmente. | 2 |
+| 3 | US-03 | Espacios destacados | Como visitante, quiero ver tarjetas de espacios destacados con imagen, precio desde y CTA. | 2 |
 | 4 | US-04 | Sección testimonios | Como visitante, quiero ver testimonios reales para ganar confianza antes de registrarme. | 2 |
-| 5 | US-05 | Sección FAQ (acordeón) | Como visitante, quiero un acordeón de preguntas frecuentes para resolver dudas comunes. | 2 |
-| 6 | US-06 | Footer con políticas y contacto | Como visitante, quiero acceder a términos, privacidad y contactos desde el pie de página. | 2 |
-| 7 | US-58 | Scroll a anclas en landing | Como visitante, quiero ir a secciones de la landing con scroll suave. | 1 |
-| 8 | US-07 | Descarga brochure PDF | Como visitante, quiero descargar un folleto PDF del proyecto para revisarlo offline o compartirlo. | 2 |
-| 9 | US-08 | Resultados: lista \+ mapa | Como usuario, quiero ver resultados en lista y en mapa sincronizados para explorar por zona. | 8 |
-| 10 | US-09 | Barra de búsqueda global | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | 5 |
-| 11 | US-10 | Filtros y ordenamiento | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ordenar para refinar opciones. | 5 |
-| 12 | US-11 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio y rating para comparar rápidamente. | 3 |
-| 13 | US-16 | Card: info mínima clara | Como usuario, quiero imagen, título, precio desde, rating y CTA en cada card. | 3 |
-| 14 | US-13 | Filtros con chips activos | Como usuario, quiero ver chips con los filtros aplicados para entender qué está activo. | 5 |
-| 15 | US-14 | Ordenamiento por precio/distancia/rating | Como usuario, quiero ordenar resultados para priorizar opciones. | 5 |
-| 16 | US-15 | Paginación mejorada | Como usuario, quiero un estado final de lista y scroll suave al cargar más. | 3 |
-| 17 | US-12 | Paginación / Infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página. | 3 |
-| 18 | US-18 | Compartir búsqueda por URL | Como usuario, quiero que los filtros se reflejen en la URL para compartir la búsqueda. | 3 |
-| 19 | US-19 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa cerca de mi ubicación para ver opciones cercanas. | 3 |
-| 20 | US-60 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión. | 2 |
-| 21 | US-54 | Guardar estado UI en URL | Como usuario, quiero que pestañas y página queden en la URL para volver al mismo punto. | 2 |
-| 22 | US-52 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha o búsqueda desde la UI. | 2 |
-| 23 | US-17 | Comparar espacios (UI) | Como usuario, quiero seleccionar hasta 3 espacios para compararlos lado a lado. | 5 |
-| 24 | US-21 | Ficha: galería y detalles | Como usuario, quiero una galería de fotos y descripción completa para evaluar el espacio. | 8 |
-| 25 | US-22 | Ficha: calendario de disponibilidad | Como usuario, quiero seleccionar fecha y horas disponibles antes de reservar. | 5 |
-| 26 | US-23 | Ficha: CTA reservar sticky | Como usuario, quiero tener siempre visible el botón 'Reservar' para continuar el flujo. | 3 |
-| 27 | US-24 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | 8 |
-| 28 | US-25 | Formulario de pago (SDK) | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | 5 |
-| 29 | US-26 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA. | 3 |
-| 30 | US-28 | Recibo/Comprobante imprimible | Como usuario, quiero ver mi comprobante en una vista imprimible y descargable. | 3 |
-| 31 | US-27 | Cancelar reserva (UI) | Como usuario, quiero una interfaz para cancelar mi reserva con motivo. | 3 |
-| 32 | US-29 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | 5 |
-| 33 | US-30 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | 3 |
-| 34 | US-31 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | 5 |
-| 35 | US-59 | Previsualización de avatar | Como usuario, quiero ver vista previa de la imagen antes de guardar mi foto. | 2 |
-| 36 | US-32 | Preferencias y notificaciones | Como usuario, quiero configurar idioma y notificaciones. | 5 |
-| 37 | US-38 | Selector de moneda | Como usuario, quiero elegir mi moneda para ver precios entendibles. | 3 |
-| 38 | US-33 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | 5 |
-| 39 | US-34 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | 3 |
-| 40 | US-36 | Reseñar un espacio (UI) | Como usuario, quiero calificar con estrellas y comentar mi experiencia. | 5 |
-| 41 | US-35 | Mensajería (UI) | Como usuario, quiero una interfaz de chat para comunicarme con el propietario. | 8 |
-| 42 | US-37 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket. | 3 |
-| 43 | US-40 | Breadcrumbs | Como usuario, quiero migas de pan para saber dónde estoy y volver fácilmente. | 2 |
-| 44 | US-39 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro para comodidad visual. | 3 |
-| 45 | US-46 | Responsive design | Como usuario móvil, quiero que todas las vistas sean usables en pantallas pequeñas. | 5 |
-| 46 | US-41 | Accesibilidad: teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | 3 |
-| 47 | US-42 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | 3 |
-| 48 | US-51 | Accesibilidad: contraste y escalado | Como usuario con baja visión, quiero buen contraste y soporte de zoom 200%. | 3 |
-| 49 | US-45 | Internacionalización (ES/EN) | Como usuario, quiero cambiar idioma sin recargar y ver formatos localizados. | 3 |
-| 50 | US-43 | Rendimiento: imágenes responsivas | Como usuario, quiero que las imágenes usen srcset y lazy‑loading para cargar más rápido. | 3 |
-| 51 | US-44 | Rendimiento: caching y skeletons | Como usuario, quiero ver skeletons y aprovechar cache para percibir rapidez. | 3 |
-| 52 | US-47 | Design System base | Como equipo, quiero un set de componentes reutilizables (botones, inputs, cards, modales). | 5 |
-| 53 | US-48 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes con opción de reintento. | 3 |
-| 54 | US-53 | Teclas rápidas en escritorio | Como usuario, quiero atajos de teclado para navegar más rápido. | 2 |
-| 55 | US-49 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | 5 |
-| 56 | US-55 | Carga offline básica (PWA) | Como usuario, quiero ver un fallback útil cuando estoy sin conexión. | 5 |
-| 57 | US-50 | Notificaciones push opt‑in | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | 5 |
-| 58 | US-56 | Impresión de comprobante legible | Como usuario, quiero que el comprobante tenga estilos de impresión legibles. | 2 |
-| 59 | US-57 | Loader global y toasts | Como usuario, quiero feedback inmediato (loader/toast) en acciones largas. | 2 |
-| 60 | US-20 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto de espacios con datos clave. | 2 |
+| 5 | US-05 | FAQ acordeón | Como visitante, quiero un acordeón de preguntas frecuentes para resolver dudas. | 2 |
+| 6 | US-06 | Footer con políticas y contacto | Como visitante, quiero acceder a términos, privacidad y contactos desde el pie de página. | 1 |
+| 7 | US-07 | SEO básico | Como visitante, quiero títulos, metadescripciones y etiquetas OG correctas para compartir bien. | 3 |
+| 8 | US-08 | Banner de cookies | Como visitante, quiero aceptar o rechazar cookies opcionales para controlar mi privacidad. | 2 |
+| 9 | US-09 | Animaciones sutiles | Como visitante, quiero microinteracciones en UI sin afectar el rendimiento. | 2 |
+| 10 | US-10 | Barra global de búsqueda | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | 5 |
+| 11 | US-11 | Lista \+ mapa sincronizados | Como usuario, quiero una lista de resultados y un mapa sincronizado para explorar por zona. | 5 |
+| 12 | US-12 | Filtros con chips | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ver chips activos. | 5 |
+| 13 | US-13 | Ordenamiento | Como usuario, quiero ordenar resultados por precio, distancia y rating. | 3 |
+| 14 | US-14 | Paginación / Infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página. | 3 |
+| 15 | US-15 | State in URL y compartir | Como usuario, quiero que filtros/orden/página se reflejen en la URL para compartir. | 3 |
+| 16 | US-16 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa en mi ubicación para ver opciones cercanas. | 3 |
+| 17 | US-17 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio desde y rating. | 2 |
+| 18 | US-18 | Comparar hasta 3 espacios | Como usuario, quiero seleccionar hasta 3 espacios para compararlos lado a lado. | 5 |
+| 19 | US-19 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto con datos clave. | 2 |
+| 20 | US-20 | Ficha: galería y detalles | Como usuario, quiero una galería de fotos y descripción completa del espacio. | 3 |
+| 21 | US-21 | Ficha: calendario de disponibilidad | Como usuario, quiero seleccionar fecha y horas disponibles antes de reservar. | 5 |
+| 22 | US-22 | Ficha: CTA reservar sticky | Como usuario, quiero tener siempre visible el botón 'Reservar'. | 2 |
+| 23 | US-23 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | 5 |
+| 24 | US-24 | Pago con SDK | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | 5 |
+| 25 | US-25 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA para mis reservas. | 2 |
+| 26 | US-26 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | 3 |
+| 27 | US-27 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | 2 |
+| 28 | US-28 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | 3 |
+| 29 | US-29 | Preferencias y notificaciones | Como usuario, quiero configurar idioma y notificaciones por email. | 2 |
+| 30 | US-30 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | 3 |
+| 31 | US-31 | Cancelar reserva (UI) | Como usuario, quiero cancelar mi reserva viendo política y cargo aplicable. | 3 |
+| 32 | US-32 | Recibos/Comprobante imprimible | Como usuario, quiero ver/descargar mi comprobante en PDF legible. | 3 |
+| 33 | US-33 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | 3 |
+| 34 | US-34 | Reseñar un espacio | Como usuario, quiero calificar con estrellas y comentar tras mi estancia. | 3 |
+| 35 | US-35 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket por canal definido. | 3 |
+| 36 | US-36 | Selector de moneda | Como usuario, quiero elegir mi moneda para ver precios entendibles. | 3 |
+| 37 | US-37 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro. | 2 |
+| 38 | US-38 | Breadcrumbs | Como usuario, quiero migas de pan para volver fácilmente. | 1 |
+| 39 | US-39 | Accesibilidad: navegación por teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | 3 |
+| 40 | US-40 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | 3 |
+| 41 | US-41 | Rendimiento: imágenes responsivas | Como usuario, quiero srcset/lazy-loading para cargar más rápido. | 3 |
+| 42 | US-42 | Rendimiento: caching y skeletons | Como usuario, quiero skeletons y cache para percibir rapidez. | 3 |
+| 43 | US-43 | Responsive design | Como usuario móvil, quiero vistas usables en pantallas pequeñas. | 3 |
+| 44 | US-44 | Design System base | Como equipo, quiero un set de componentes reutilizables. | 5 |
+| 45 | US-45 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes y opción de reintentar. | 3 |
+| 46 | US-46 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | 3 |
+| 47 | US-47 | Offline básico (fallback) | Como usuario, quiero un fallback útil cuando no hay conexión. | 3 |
+| 48 | US-48 | Notificaciones opt-in (reservas) | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | 3 |
+| 49 | US-49 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha/búsqueda desde la UI. | 2 |
+| 50 | US-50 | Scroll a anclas en landing | Como visitante, quiero navegar a secciones con scroll suave al hacer clic en el menú. | 1 |
+| 51 | US-51 | Previsualización de avatar | Como usuario, quiero ver una vista previa antes de guardar mi foto de perfil. | 2 |
+| 52 | US-52 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión actual. | 2 |
 
 ## Capítulo IV: Product Design
 
