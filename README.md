@@ -194,22 +194,6 @@ Desarrollo de Aplicaciones Open Source<br>
   
 ---
 
-## Project Report Collaboration Insights
-
-- **URL de la organización del proyecto:**  
-  [https://github.com/TemuCoders](https://github.com/TemuCoders)
-- **URL del repositorio del informe:**  
-    [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
-
-Todas las tareas correspondientes a la entrega de la TB1 han sido completadas y están documentadas en el repositorio de GitHub de la organización del equipo. Para la elaboración del informe, cada integrante del equipo se encargó de redactar y generar gráficos en formato Markdown, según los puntos que le fueron asignados, realizando commits para dejar constancia del progreso en el repositorio.
-
-Aquí se pueden visualizar todos los commits realizados para la TB1, lo cual evidencia el trabajo colaborativo del equipo.
-
-<p align="center">
-  <img src="/imgs/commits -tb1.png" alt="colab" />
-  
-Para facilitar el desarrollo del trabajo, optamos por seguir el flujo de trabajo Gitflow. En este esquema, cada subtítulo del informe fue tratado como una feature. Un miembro del equipo creaba una rama específica para ese subtítulo y trabajaba en ella, mientras que otros miembros podían colaborar directamente o supervisar su progreso. Una vez finalizada la feature, todo el equipo revisaba el contenido y, tras obtener el consenso, se realizaba el merge hacia la rama develop. Además, organizamos las tareas considerando su nivel de dificultad, asegurando así una distribución equitativa del trabajo entre todos los integrantes.
-
 ## Student Outcome
 
 **ABET – EAC - Student Outcome 3**  
@@ -219,8 +203,9 @@ En el siguiente cuadro se describen las acciones realizadas y conclusiones del e
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  | **TB1**: Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC. |
-| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  | **TB1:** Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC.  |
+| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1:**  | **TB1**:  |
+| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1:**  | **TB1:**  |
+
 
 
 ## Capítulo I: Introducción
@@ -573,7 +558,35 @@ Enlace del video de la entrevista:
 🎬 **Inicio del video:** 0:04  
 ⏱️ **Duración:** 3 minutos y 42 segundos
 
+Enlace del video de la entrevista:
 
+[![Demo en stream](imgs/en1.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EcZwK3uJNLBBu4dhWzNRIj4BEVNuC39nTnqBl2JJrdevFA?e=6FLXLY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Entrevistada:** Uziel procopio 
+**Edad:** 25 años  
+**Ocupación:** Desarrollador full stack y dueño de un arbnb  
+**Ubicación:** México – cancún  
+**Medio:** Discord  
+**Entrevistador:** Arturo Saravia
+
+🎬 **Inicio del video:** 0:04  
+⏱️ **Duración:** 10 minutos 
+
+Enlace del video de la entrevista:https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EcZwK3uJNLBBu4dhWzNRIj4BEVNuC39nTnqBl2JJrdevFA?e=6FLXLY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+[![Demo en stream](imgs/en2.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EeL9eXkRxqJCm57X7HqQ1doBe2BQ7qy3Bc249YAmjYvEMA?e=AChHuQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Entrevistada:** Ivan Antonio Almeida Aguilar 
+**Edad:** 20 años  
+**Ocupación:** Dueño de un arbnb  
+**Ubicación:** Lima - San Miguel 
+**Medio:** Discord  
+**Entrevistador:** Arturo Saravia
+
+🎬 **Inicio del video:** 0:04  
+⏱️ **Duración:** 10 minutos 
+
+Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EeL9eXkRxqJCm57X7HqQ1doBe2BQ7qy3Bc249YAmjYvEMA?e=AChHuQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 **Segmento 2 - Freelancers**
@@ -727,56 +740,56 @@ Entre las tareas encontradas, la que ambos User Persona coinciden en que es impo
 | US-08 | Banner de cookies/privacidad | Como visitante, quiero aceptar o rechazar cookies opcionales para controlar mi privacidad. | Escenario 1: Aceptar cookies Dado que aparece el banner, Cuando presiono 'Aceptar', Entonces se guarda el consentimiento y el banner desaparece. Escenario 2: Configurar cookies Dado que presiono 'Configurar', Cuando desactivo analíticas, Entonces la preferencia queda guardada. | EP-01 |
 | US-09 | SEO básico en landing | Como visitante, quiero títulos, metadescripciones y etiquetas OG correctas para que la página se vea bien al compartir. | Escenario 1: Metadatos presentes Dado que inspecciono la página, Cuando reviso el head, Entonces existen title, meta description y og:image válidos. Escenario 2: Preview social Dado que comparto la URL, Cuando un bot la lee, Entonces se muestra la vista previa con imagen y descripción. | EP-01 |
 | US-10 | Animaciones sutiles | Como visitante, quiero microinteracciones en botones/cards para percibir una UI moderna sin afectar el rendimiento. | Escenario 1: Hover en cards Dado que paso el mouse sobre una card, Cuando ocurre la interacción, Entonces se eleva con sombra suave. Escenario 2: Performance Dado que corro Lighthouse, Cuando reviso rendimiento, Entonces no se degrada el p95 por las animaciones. | EP-01 |
-| US-11 | Barra de búsqueda global | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | Escenario 1: Autocompletar Dado que escribo 'San', Cuando existen coincidencias, Entonces veo sugerencias y puedo elegir una. Escenario 2: Historial Dado que ya busqué antes, Cuando enfoco el campo, Entonces veo mis búsquedas recientes. | EP-02 |
-| US-12 | Lista \+ mapa sincronizados | Como usuario, quiero una lista de resultados y un mapa sincronizado para explorar por zona. | Escenario 1: Sincronía Dado que muevo el mapa, Cuando cambio el viewport, Entonces la lista se actualiza con los resultados visibles. Escenario 2: Popover del marcador Dado que hago clic en un marcador, Cuando se abre el popover, Entonces veo título, precio y enlace a la ficha. | EP-02 |
-| US-13 | Filtros y chips activos | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ver chips con lo aplicado. | Escenario 1: Aplicar filtro Dado que abro filtros, Cuando selecciono capacidad y Wi‑Fi, Entonces se actualizan resultados y aparecen chips. Escenario 2: Limpiar filtros Dado que hay filtros activos, Cuando presiono 'Limpiar todo', Entonces desaparecen los chips y vuelven resultados generales. | EP-02 |
-| US-14 | Ordenamiento | Como usuario, quiero ordenar resultados por precio, distancia y rating para priorizar opciones. | Escenario 1: Orden por precio Dado que elijo 'Precio ascendente', Cuando se actualiza la lista, Entonces las cards aparecen de menor a mayor precio. Escenario 2: Mantener filtros Dado que ya apliqué filtros, Cuando cambio el orden, Entonces los filtros se conservan. | EP-02 |
-| US-15 | Paginación/infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página para una navegación fluida. | Escenario 1: Auto‑carga Dado que llego al final de la lista, Cuando hago scroll, Entonces se cargan más resultados automáticamente. Escenario 2: Estado final Dado que no hay más elementos, Cuando llego al final, Entonces se muestra 'No hay más resultados'. | EP-02 |
-| US-16 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio desde y rating para comparar rápidamente. | Escenario 1: Esqueleto de carga Dado que los datos aún no llegan, Cuando se renderiza la página, Entonces veo skeletons en lugar de cards. Escenario 2: Navegación a ficha Dado que hago clic en una card, Cuando la selecciono, Entonces navego a la ficha del espacio. | EP-02 |
-| US-17 | Comparar espacios (UI) | Como usuario, quiero seleccionar hasta 3 espacios para compararlos en una vista lado a lado. | Escenario 1: Agregar a comparación Dado que estoy en resultados, Cuando marco dos espacios, Entonces aparece el botón 'Comparar (2)'. Escenario 2: Vista de comparación Dado que abro comparar, Cuando se muestra la tabla, Entonces veo columnas con precio, capacidad, amenities y rating. | EP-02 |
-| US-18 | Compartir resultados por URL | Como usuario, quiero que los filtros se reflejen en la URL para poder compartir la búsqueda. | Escenario 1: Parámetros en URL Dado que aplico filtros, Cuando copio la URL, Entonces incluye los parámetros activos. Escenario 2: Restaurar búsqueda Dado que abro la URL compartida, Cuando carga la página, Entonces los filtros vuelven a aplicarse. | EP-02 |
-| US-19 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa cerca de mi ubicación para ver opciones cercanas. | Escenario 1: Permiso concedido Dado que acepto compartir ubicación, Cuando presiono 'Cerca de mí', Entonces el mapa centra y filtra por radio cercano. Escenario 2: Permiso denegado Dado que rechazo permisos, Cuando presiono 'Cerca de mí', Entonces veo un mensaje con alternativa de ingresar distrito. | EP-02 |
-| US-20 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto de espacios con datos clave. | Escenario 1: Estilos de impresión Dado que abro 'Imprimir', Cuando se abre el diálogo, Entonces la página usa estilos printer‑friendly. Escenario 2: Selección limitada Dado que selecciono 1–5 items, Cuando imprimo, Entonces solo se incluyen los seleccionados. | EP-02 |
+| US-11 | Barra de búsqueda global | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | Escenario 1: Autocompletar Dado que escribo 'San', Cuando existen coincidencias, Entonces veo sugerencias y puedo elegir una. Escenario 2: Historial Dado que ya busqué antes, Cuando enfoco el campo, Entonces veo mis búsquedas recientes. | EP-03 |
+| US-12 | Lista \+ mapa sincronizados | Como usuario, quiero una lista de resultados y un mapa sincronizado para explorar por zona. | Escenario 1: Sincronía Dado que muevo el mapa, Cuando cambio el viewport, Entonces la lista se actualiza con los resultados visibles. Escenario 2: Popover del marcador Dado que hago clic en un marcador, Cuando se abre el popover, Entonces veo título, precio y enlace a la ficha. | EP-03 |
+| US-13 | Filtros y chips activos | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ver chips con lo aplicado. | Escenario 1: Aplicar filtro Dado que abro filtros, Cuando selecciono capacidad y Wi‑Fi, Entonces se actualizan resultados y aparecen chips. Escenario 2: Limpiar filtros Dado que hay filtros activos, Cuando presiono 'Limpiar todo', Entonces desaparecen los chips y vuelven resultados generales. | EP-03 |
+| US-14 | Ordenamiento | Como usuario, quiero ordenar resultados por precio, distancia y rating para priorizar opciones. | Escenario 1: Orden por precio Dado que elijo 'Precio ascendente', Cuando se actualiza la lista, Entonces las cards aparecen de menor a mayor precio. Escenario 2: Mantener filtros Dado que ya apliqué filtros, Cuando cambio el orden, Entonces los filtros se conservan. | EP-03 |
+| US-15 | Paginación/infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página para una navegación fluida. | Escenario 1: Auto‑carga Dado que llego al final de la lista, Cuando hago scroll, Entonces se cargan más resultados automáticamente. Escenario 2: Estado final Dado que no hay más elementos, Cuando llego al final, Entonces se muestra 'No hay más resultados'. | EP-03 |
+| US-16 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio desde y rating para comparar rápidamente. | Escenario 1: Esqueleto de carga Dado que los datos aún no llegan, Cuando se renderiza la página, Entonces veo skeletons en lugar de cards. Escenario 2: Navegación a ficha Dado que hago clic en una card, Cuando la selecciono, Entonces navego a la ficha del espacio. | EP-03 |
+| US-17 | Comparar espacios (UI) | Como usuario, quiero seleccionar hasta 3 espacios para compararlos en una vista lado a lado. | Escenario 1: Agregar a comparación Dado que estoy en resultados, Cuando marco dos espacios, Entonces aparece el botón 'Comparar (2)'. Escenario 2: Vista de comparación Dado que abro comparar, Cuando se muestra la tabla, Entonces veo columnas con precio, capacidad, amenities y rating. | EP-03 |
+| US-18 | Compartir resultados por URL | Como usuario, quiero que los filtros se reflejen en la URL para poder compartir la búsqueda. | Escenario 1: Parámetros en URL Dado que aplico filtros, Cuando copio la URL, Entonces incluye los parámetros activos. Escenario 2: Restaurar búsqueda Dado que abro la URL compartida, Cuando carga la página, Entonces los filtros vuelven a aplicarse. | EP-03 |
+| US-19 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa cerca de mi ubicación para ver opciones cercanas. | Escenario 1: Permiso concedido Dado que acepto compartir ubicación, Cuando presiono 'Cerca de mí', Entonces el mapa centra y filtra por radio cercano. Escenario 2: Permiso denegado Dado que rechazo permisos, Cuando presiono 'Cerca de mí', Entonces veo un mensaje con alternativa de ingresar distrito. | EP-03 |
+| US-20 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto de espacios con datos clave. | Escenario 1: Estilos de impresión Dado que abro 'Imprimir', Cuando se abre el diálogo, Entonces la página usa estilos printer‑friendly. Escenario 2: Selección limitada Dado que selecciono 1–5 items, Cuando imprimo, Entonces solo se incluyen los seleccionados. | EP-03 |
 | US-21 | Ficha: galería y detalles | Como usuario, quiero una galería de fotos y descripción completa para evaluar el espacio. | Escenario 1: Navegación de galería Dado que abro la ficha, Cuando uso teclado o swipe, Entonces puedo recorrer al menos 5 imágenes. Escenario 2: Información clave Dado que desplazo la página, Cuando llego a detalles, Entonces veo precio, ubicación, amenities y políticas. | EP-03 |
 | US-22 | Ficha: calendario de disponibilidad | Como usuario, quiero seleccionar fecha y horas disponibles antes de reservar. | Escenario 1: Selección válida Dado que hay disponibilidad, Cuando elijo fecha y rango de horas, Entonces el resumen de reserva se actualiza. Escenario 2: Slots ocupados Dado que existen bloqueos, Cuando veo el calendario, Entonces esos slots aparecen deshabilitados con tooltip. | EP-03 |
 | US-23 | Ficha: CTA reservar sticky | Como usuario, quiero tener siempre visible el botón 'Reservar' para continuar el flujo. | Escenario 1: Sticky CTA Dado que hago scroll, Cuando el CTA original sale de vista, Entonces aparece un CTA flotante. Escenario 2: Datos al checkout Dado que seleccioné fecha/hora, Cuando presiono Reservar, Entonces paso al checkout con datos precargados. | EP-03 |
 | US-24 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | Escenario 1: Progreso persistente Dado que completo un paso, Cuando regreso atrás, Entonces los datos permanecen. Escenario 2: Recalcular totales Dado que aplico un cupón o cambio horas, Cuando modifico datos, Entonces el total se actualiza al instante. | EP-03 |
 | US-25 | Formulario de pago (SDK) | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | Escenario 1: Validación del SDK Dado que escribo un número inválido, Cuando salgo del campo, Entonces veo un error específico. Escenario 2: Pago exitoso Dado que el token es válido, Cuando confirmo, Entonces avanzo a la confirmación. | EP-03 |
 | US-26 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA para ver mis reservas. | Escenario 1: Datos visibles Dado que finalizo el pago, Cuando llego a la confirmación, Entonces veo código, fecha/hora y monto. Escenario 2: Agregar a calendario Dado que presiono 'Agregar a calendario', Cuando elijo Google Calendar, Entonces se abre con los datos precargados. | EP-03 |
-| US-27 | Cancelar reserva (UI) | Como usuario, quiero una interfaz para cancelar mi reserva seleccionando el motivo. | Escenario 1: Motivos Dado que abro 'Cancelar', Cuando elijo un motivo, Entonces el botón de confirmar se habilita. Escenario 2: Estado actualizado Dado que confirmo cancelación, Cuando vuelvo a Mis reservas, Entonces el estado aparece como 'Cancelada'. | EP-05 |
-| US-28 | Recibos/Comprobante imprimible | Como usuario, quiero ver mi comprobante en una vista imprimible/descargable. | Escenario 1: Vista Dado que abro una reserva, Cuando presiono 'Ver comprobante', Entonces se abre un modal con versión para impresión. Escenario 2: Descarga Dado que presiono 'Descargar', Cuando se procesa, Entonces obtengo el PDF. | EP-05 |
-| US-29 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | Escenario 1: Validaciones Dado que ingreso datos inválidos, Cuando envío el formulario, Entonces veo mensajes debajo de cada campo. Escenario 2: Login exitoso Dado que mis credenciales son válidas, Cuando envío, Entonces accedo y retorno al flujo previo. | EP-04 |
-| US-30 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | Escenario 1: Solicitud enviada Dado que ingreso mi email, Cuando existe cuenta, Entonces recibo confirmación de envío. Escenario 2: Restablecimiento Dado que abro el enlace del correo, Cuando creo nueva contraseña, Entonces puedo iniciar sesión. | EP-04 |
-| US-31 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | Escenario 1: Editar perfil Dado que modifico el nombre, Cuando guardo, Entonces veo el cambio reflejado. Escenario 2: Subir avatar Dado que cargo una imagen, Cuando la previsualizo, Entonces puedo recortarla y guardar. | EP-04 |
-| US--32 | Preferencias y notificaciones | Como usuario, quiero configurar preferencias de idioma y notificaciones. | Escenario 1: Idioma Dado que selecciono EN, Cuando confirmo, Entonces toda la UI cambia a inglés. Escenario 2: Notificaciones Dado que activo 'Recordatorios', Cuando guardo, Entonces la preferencia queda aplicada. | EP-04 |
-| US-33 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | Escenario 1: Estados Dado que abro 'Mis reservas', Cuando hay registros, Entonces veo 'Confirmada', 'Pendiente' o 'Cancelada'. Escenario 2: Estado vacío Dado que no tengo reservas, Cuando abro la sección, Entonces veo un mensaje con CTA 'Buscar espacios'. | EP-05 |
-| US-34 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | Escenario 1: Guardar favorito Dado que estoy en una card, Cuando presiono el ícono de estrella, Entonces el espacio queda en Favoritos. Escenario 2: Ver/retirar Dado que tengo favoritos, Cuando abro la lista, Entonces puedo quitar elementos. | EP-06 |
-| US-35 | Mensajería (UI) | Como usuario, quiero una interfaz de chat para comunicarme con el propietario. | Escenario 1: Enviar mensaje Dado que escribo un texto, Cuando presiono enviar, Entonces aparece en el hilo con marca de tiempo. Escenario 2: Error offline Dado que pierdo conexión, Cuando envío, Entonces el mensaje queda en 'pendiente' con reintento. | EP-06 |
-| US-36 | Reseñar un espacio (UI) | Como usuario, quiero calificar con estrellas y escribir un comentario tras mi estancia. | Escenario 1: Calificación requerida Dado que intento enviar sin rating, Cuando presiono 'Publicar', Entonces aparece un error indicando completar la calificación. Escenario 2: Publicación exitosa Dado que completo rating y comentario, Cuando envío, Entonces veo la reseña creada. | EP-06 |
-| US-37 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket desde la interfaz. | Escenario 1: Buscar artículo Dado que escribo en el buscador, Cuando hay coincidencias, Entonces se listan artículos relevantes. Escenario 2: Crear ticket Dado que no resuelvo mi duda, Cuando presiono 'Contactar soporte', Entonces puedo enviar un ticket. | EP-06 |
-| US-38 | Selector de moneda (UI) | Como usuario, quiero elegir mi moneda para ver precios entendibles. | Escenario 1: Cambio de moneda Dado que elijo USD en el selector, Cuando se actualiza, Entonces los precios se muestran en USD. Escenario 2: Persistencia Dado que cierro sesión, Cuando vuelvo, Entonces la preferencia se recuerda en el cliente. | EP-07 |
-| US-39 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro para comodidad visual. | Escenario 1: Toggle Dado que presiono el switch de tema, Cuando cambio a oscuro, Entonces la UI aplica el nuevo tema. Escenario 2: Persistencia Dado que elijo oscuro, Cuando regreso a la app, Entonces se mantiene el modo. | EP-07 |
-| US-40 | Breadcrumbs | Como usuario, quiero migas de pan para saber dónde estoy y volver fácilmente. | Escenario 1: Rastro visible Dado que estoy en la ficha, Cuando miro el encabezado, Entonces veo Inicio \> Resultados \> Ficha. Escenario 2: Navegación Dado que hago clic en 'Resultados', Cuando navego, Entonces retorno a la lista con filtros preservados. | EP-07 |
-| US-41 | Accesibilidad: navegación por teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | Escenario 1: Orden lógico Dado que tabulo por la página, Cuando recorro controles, Entonces el foco sigue un orden lógico y visible. Escenario 2: Saltar al contenido Dado que uso teclado, Cuando presiono 'Skip to content', Entonces salto a la sección principal. | EP-08 |
-| US-42 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | Escenario 1: Roles correctos Dado que reviso componentes, Cuando uso lector, Entonces botones, links y formularios tienen roles/labels correctos. Escenario 2: Alertas en vivo Dado que ocurre un error de validación, Cuando aparece el mensaje, Entonces se anuncia por aria-live. | EP-08 |
-| US-43 | Rendimiento: imágenes responsivas | Como usuario, quiero que las imágenes usen srcset/lazy‑loading para cargar más rápido. | Escenario 1: Lazy load Dado que hago scroll, Cuando una imagen entra al viewport, Entonces se carga en ese momento. Escenario 2: Tamaño correcto Dado que abro en móvil, Cuando se descarga la imagen, Entonces usa una versión optimizada. | EP-08 |
-| US-44 | Rendimiento: caching y skeletons | Como usuario, quiero ver skeletons y aprovechar cache para percibir rapidez. | Escenario 1: Skeleton visible Dado que abro Resultados, Cuando aún no hay datos, Entonces veo skeletons por sección. Escenario 2: Cache Dado que regreso a una lista vista, Cuando vuelvo atrás, Entonces la UI muestra datos desde cache mientras revalida. | EP-08 |
-| US-45 | Internacionalización (ES/EN) | Como usuario, quiero cambiar idioma sin recargar y ver formatos localizados. | Escenario 1: Cambio en caliente Dado que selecciono EN, Cuando confirmo, Entonces la traducción cambia sin reload. Escenario 2: Formatos Dado que veo fechas y precios, Cuando cambio región, Entonces se formatean acorde. | EP-07 |
-| US-46 | Responsive design | Como usuario móvil, quiero que todas las vistas sean usables en pantallas pequeñas. | Escenario 1: Breakpoints Dado que uso un dispositivo \<640px, Cuando navego, Entonces la UI no desborda ni se corta. Escenario 2: Áreas táctiles Dado que estoy en móvil, Cuando interactúo con CTAs, Entonces tienen área táctil mínima recomendada. | EP-08 |
-| US-47 | Design System base | Como equipo, quiero un set de componentes reutilizables (botones, inputs, cards, modales). | Escenario 1: Documentación Dado que abro el catálogo, Cuando reviso un componente, Entonces veo ejemplos y props. Escenario 2: Consistencia Dado que uso el kit, Cuando renderizo pantallas, Entonces se mantiene tipografía, colores y espaciados. | EP-08 |
+| US-27 | Cancelar reserva (UI) | Como usuario, quiero una interfaz para cancelar mi reserva seleccionando el motivo. | Escenario 1: Motivos Dado que abro 'Cancelar', Cuando elijo un motivo, Entonces el botón de confirmar se habilita. Escenario 2: Estado actualizado Dado que confirmo cancelación, Cuando vuelvo a Mis reservas, Entonces el estado aparece como 'Cancelada'. | EP-03 |
+| US-28 | Recibos/Comprobante imprimible | Como usuario, quiero ver mi comprobante en una vista imprimible/descargable. | Escenario 1: Vista Dado que abro una reserva, Cuando presiono 'Ver comprobante', Entonces se abre un modal con versión para impresión. Escenario 2: Descarga Dado que presiono 'Descargar', Cuando se procesa, Entonces obtengo el PDF. | EP-03 |
+| US-29 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | Escenario 1: Validaciones Dado que ingreso datos inválidos, Cuando envío el formulario, Entonces veo mensajes debajo de cada campo. Escenario 2: Login exitoso Dado que mis credenciales son válidas, Cuando envío, Entonces accedo y retorno al flujo previo. | EP-03 |
+| US-30 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | Escenario 1: Solicitud enviada Dado que ingreso mi email, Cuando existe cuenta, Entonces recibo confirmación de envío. Escenario 2: Restablecimiento Dado que abro el enlace del correo, Cuando creo nueva contraseña, Entonces puedo iniciar sesión. | EP-03 |
+| US-31 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | Escenario 1: Editar perfil Dado que modifico el nombre, Cuando guardo, Entonces veo el cambio reflejado. Escenario 2: Subir avatar Dado que cargo una imagen, Cuando la previsualizo, Entonces puedo recortarla y guardar. | EP-03 |
+| US--32 | Preferencias y notificaciones | Como usuario, quiero configurar preferencias de idioma y notificaciones. | Escenario 1: Idioma Dado que selecciono EN, Cuando confirmo, Entonces toda la UI cambia a inglés. Escenario 2: Notificaciones Dado que activo 'Recordatorios', Cuando guardo, Entonces la preferencia queda aplicada. | EP-03 |
+| US-33 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | Escenario 1: Estados Dado que abro 'Mis reservas', Cuando hay registros, Entonces veo 'Confirmada', 'Pendiente' o 'Cancelada'. Escenario 2: Estado vacío Dado que no tengo reservas, Cuando abro la sección, Entonces veo un mensaje con CTA 'Buscar espacios'. | EP-03 |
+| US-34 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | Escenario 1: Guardar favorito Dado que estoy en una card, Cuando presiono el ícono de estrella, Entonces el espacio queda en Favoritos. Escenario 2: Ver/retirar Dado que tengo favoritos, Cuando abro la lista, Entonces puedo quitar elementos. | EP-03 |
+| US-35 | Mensajería (UI) | Como usuario, quiero una interfaz de chat para comunicarme con el propietario. | Escenario 1: Enviar mensaje Dado que escribo un texto, Cuando presiono enviar, Entonces aparece en el hilo con marca de tiempo. Escenario 2: Error offline Dado que pierdo conexión, Cuando envío, Entonces el mensaje queda en 'pendiente' con reintento. | EP-03 |
+| US-36 | Reseñar un espacio (UI) | Como usuario, quiero calificar con estrellas y escribir un comentario tras mi estancia. | Escenario 1: Calificación requerida Dado que intento enviar sin rating, Cuando presiono 'Publicar', Entonces aparece un error indicando completar la calificación. Escenario 2: Publicación exitosa Dado que completo rating y comentario, Cuando envío, Entonces veo la reseña creada. | EP-03 |
+| US-37 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket desde la interfaz. | Escenario 1: Buscar artículo Dado que escribo en el buscador, Cuando hay coincidencias, Entonces se listan artículos relevantes. Escenario 2: Crear ticket Dado que no resuelvo mi duda, Cuando presiono 'Contactar soporte', Entonces puedo enviar un ticket. | EP-03 |
+| US-38 | Selector de moneda (UI) | Como usuario, quiero elegir mi moneda para ver precios entendibles. | Escenario 1: Cambio de moneda Dado que elijo USD en el selector, Cuando se actualiza, Entonces los precios se muestran en USD. Escenario 2: Persistencia Dado que cierro sesión, Cuando vuelvo, Entonces la preferencia se recuerda en el cliente. | EP-03 |
+| US-39 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro para comodidad visual. | Escenario 1: Toggle Dado que presiono el switch de tema, Cuando cambio a oscuro, Entonces la UI aplica el nuevo tema. Escenario 2: Persistencia Dado que elijo oscuro, Cuando regreso a la app, Entonces se mantiene el modo. | EP-03 |
+| US-40 | Breadcrumbs | Como usuario, quiero migas de pan para saber dónde estoy y volver fácilmente. | Escenario 1: Rastro visible Dado que estoy en la ficha, Cuando miro el encabezado, Entonces veo Inicio \> Resultados \> Ficha. Escenario 2: Navegación Dado que hago clic en 'Resultados', Cuando navego, Entonces retorno a la lista con filtros preservados. | EP-03 |
+| US-41 | Accesibilidad: navegación por teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | Escenario 1: Orden lógico Dado que tabulo por la página, Cuando recorro controles, Entonces el foco sigue un orden lógico y visible. Escenario 2: Saltar al contenido Dado que uso teclado, Cuando presiono 'Skip to content', Entonces salto a la sección principal. | EP-04 |
+| US-42 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | Escenario 1: Roles correctos Dado que reviso componentes, Cuando uso lector, Entonces botones, links y formularios tienen roles/labels correctos. Escenario 2: Alertas en vivo Dado que ocurre un error de validación, Cuando aparece el mensaje, Entonces se anuncia por aria-live. | EP-04 |
+| US-43 | Rendimiento: imágenes responsivas | Como usuario, quiero que las imágenes usen srcset/lazy‑loading para cargar más rápido. | Escenario 1: Lazy load Dado que hago scroll, Cuando una imagen entra al viewport, Entonces se carga en ese momento. Escenario 2: Tamaño correcto Dado que abro en móvil, Cuando se descarga la imagen, Entonces usa una versión optimizada. | EP-04 |
+| US-44 | Rendimiento: caching y skeletons | Como usuario, quiero ver skeletons y aprovechar cache para percibir rapidez. | Escenario 1: Skeleton visible Dado que abro Resultados, Cuando aún no hay datos, Entonces veo skeletons por sección. Escenario 2: Cache Dado que regreso a una lista vista, Cuando vuelvo atrás, Entonces la UI muestra datos desde cache mientras revalida. | EP-04 |
+| US-45 | Internacionalización (ES/EN) | Como usuario, quiero cambiar idioma sin recargar y ver formatos localizados. | Escenario 1: Cambio en caliente Dado que selecciono EN, Cuando confirmo, Entonces la traducción cambia sin reload. Escenario 2: Formatos Dado que veo fechas y precios, Cuando cambio región, Entonces se formatean acorde. | EP-04 |
+| US-46 | Responsive design | Como usuario móvil, quiero que todas las vistas sean usables en pantallas pequeñas. | Escenario 1: Breakpoints Dado que uso un dispositivo \<640px, Cuando navego, Entonces la UI no desborda ni se corta. Escenario 2: Áreas táctiles Dado que estoy en móvil, Cuando interactúo con CTAs, Entonces tienen área táctil mínima recomendada. | EP-04 |
+| US-47 | Design System base | Como equipo, quiero un set de componentes reutilizables (botones, inputs, cards, modales). | Escenario 1: Documentación Dado que abro el catálogo, Cuando reviso un componente, Entonces veo ejemplos y props. Escenario 2: Consistencia Dado que uso el kit, Cuando renderizo pantallas, Entonces se mantiene tipografía, colores y espaciados. | EP-04 |
 | US-48 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes con opción de reintento. | Escenario 1: Error API Dado un 5xx, Cuando ocurre, Entonces veo un banner con 'Reintentar'. Escenario 2: Página 404/500 Dado que ingreso una ruta inválida, Cuando carga, Entonces veo una página de error con enlace a Inicio. | EP-04 |
-| US-49 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | Escenario 1: Instalación Dado que estoy en Chrome Android, Cuando presiono 'Agregar a inicio', Entonces la app se instala con ícono y splash. Escenario 2: Actualización SW Dado que hay una nueva versión, Cuando el SW la detecta, Entonces veo un aviso para actualizar. | EP-09 |
-| US-50 | Notificaciones push opt‑in | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | Escenario 1: Opt‑in Dado que acepto notificaciones, Cuando se registra el token, Entonces recibo un push de prueba. Escenario 2: Opt‑out Dado que desactivo notificaciones, Cuando guardo, Entonces dejo de recibir avisos. | EP-09 |
-| US-51 | Accesibilidad: contraste y escalado | Como usuario con baja visión, quiero buen contraste y soporte de zoom 200%. | Escenario 1: Contraste AA Dado que corro auditoría, Cuando verifico contrastes, Entonces todos cumplen AA. Escenario 2: Zoom 200% Dado que aumento zoom, Cuando navego, Entonces el contenido sigue legible y sin solaparse. | EP-08 |
+| US-49 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | Escenario 1: Instalación Dado que estoy en Chrome Android, Cuando presiono 'Agregar a inicio', Entonces la app se instala con ícono y splash. Escenario 2: Actualización SW Dado que hay una nueva versión, Cuando el SW la detecta, Entonces veo un aviso para actualizar. | EP-04 |
+| US-50 | Notificaciones push opt‑in | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | Escenario 1: Opt‑in Dado que acepto notificaciones, Cuando se registra el token, Entonces recibo un push de prueba. Escenario 2: Opt‑out Dado que desactivo notificaciones, Cuando guardo, Entonces dejo de recibir avisos. | EP-04 |
+| US-51 | Accesibilidad: contraste y escalado | Como usuario con baja visión, quiero buen contraste y soporte de zoom 200%. | Escenario 1: Contraste AA Dado que corro auditoría, Cuando verifico contrastes, Entonces todos cumplen AA. Escenario 2: Zoom 200% Dado que aumento zoom, Cuando navego, Entonces el contenido sigue legible y sin solaparse. | EP-04 |
 | US-52 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha o búsqueda desde la UI. | Escenario 1: Copiar enlace Dado que presiono 'Copiar', Cuando el navegador lo permite, Entonces el link queda en el portapapeles con toast de confirmación. Escenario 2: Compartir nativo Dado que estoy en móvil compatible, Cuando presiono 'Compartir', Entonces se abre el share sheet del sistema. | EP-04 |
-| US-53 | Teclas rápidas en escritorio | Como usuario, quiero atajos de teclado (por ejemplo, / para buscar) para navegar más rápido. | Escenario 1: Activar búsqueda Dado que presiono '/', Cuando estoy en la app, Entonces el foco va a la barra de búsqueda. Escenario 2: Ayuda de atajos Dado que presiono '?', Cuando se abre el modal, Entonces veo la lista de atajos disponibles. | EP-08 |
+| US-53 | Teclas rápidas en escritorio | Como usuario, quiero atajos de teclado (por ejemplo, / para buscar) para navegar más rápido. | Escenario 1: Activar búsqueda Dado que presiono '/', Cuando estoy en la app, Entonces el foco va a la barra de búsqueda. Escenario 2: Ayuda de atajos Dado que presiono '?', Cuando se abre el modal, Entonces veo la lista de atajos disponibles. | EP-04 |
 | US-54 | Guardar estado UI en URL | Como usuario, quiero que las vistas recuerden pestaña activa y página en la URL para volver al mismo punto. | Escenario 1: Pestaña activa Dado que cambio a 'Reseñas', Cuando copio la URL, Entonces incluye el hash/parámetro de la pestaña. Escenario 2: Volver al estado Dado que pego la URL compartida, Cuando cargo, Entonces la misma pestaña queda activa. | EP-04 |
-| US-55 | Carga offline básica (PWA) | Como usuario, quiero ver un fallback útil cuando estoy sin conexión. | Escenario 1: Vista offline Dado que pierdo conexión, Cuando navego a una ruta, Entonces aparece una página offline con opción 'Reintentar'. Escenario 2: Caché de shell Dado que abro la app sin red, Cuando el SW tiene el shell cacheado, Entonces la UI base carga y comunica estado offline. | EP-09 |
+| US-55 | Carga offline básica (PWA) | Como usuario, quiero ver un fallback útil cuando estoy sin conexión. | Escenario 1: Vista offline Dado que pierdo conexión, Cuando navego a una ruta, Entonces aparece una página offline con opción 'Reintentar'. Escenario 2: Caché de shell Dado que abro la app sin red, Cuando el SW tiene el shell cacheado, Entonces la UI base carga y comunica estado offline. | EP-04 |
 | US-56 | Impresión de comprobante legible | Como usuario, quiero que el comprobante tenga estilos de impresión legibles (sin fondos oscuros). | Escenario 1: Quitar fondos Dado que imprimo el comprobante, Cuando se abre el diálogo, Entonces la versión de impresión usa fondos claros. Escenario 2: Datos esenciales Dado que imprimo, Cuando sale la hoja, Entonces incluye código, fechas, monto y datos del espacio. | EP-04 |
-| US-57 | Loader global y toasts | Como usuario, quiero feedback inmediato (loader/toast) en acciones largas. | Escenario 1: Loader Dado que confirmo pago, Cuando se procesa, Entonces veo un loader de pantalla. Escenario 2: Toast éxito Dado que finaliza bien, Cuando recibo la respuesta, Entonces aparece un toast de confirmación. | EP-08 |
+| US-57 | Loader global y toasts | Como usuario, quiero feedback inmediato (loader/toast) en acciones largas. | Escenario 1: Loader Dado que confirmo pago, Cuando se procesa, Entonces veo un loader de pantalla. Escenario 2: Toast éxito Dado que finaliza bien, Cuando recibo la respuesta, Entonces aparece un toast de confirmación. | EP-04 |
 | US-58 | Scroll a anclas en landing | Como visitante, quiero ir a secciones de la landing con un scroll suave al hacer clic en el menú. | Escenario 1: Scroll suave Dado que hago clic en 'Servicios', Cuando la página tiene la sección, Entonces se hace scroll suave hasta ella. Escenario 2: Foco accesible Dado que se completa el scroll, Cuando llego a la sección, Entonces el foco se coloca en el encabezado para lectores. | EP-01 |
 | US-59 | Previsualización de imagen al subir avatar | Como usuario, quiero ver una vista previa de la imagen antes de guardar mi foto de perfil. | Escenario 1: Vista previa Dado que selecciono un archivo, Cuando es válido, Entonces se muestra la miniatura en el formulario. Escenario 2: Error de formato Dado que el archivo no es soportado, Cuando lo intento subir, Entonces veo un mensaje de formato inválido. | EP-03 |
-| US-60 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión actual. | Escenario 1: Volver a resultados Dado que navego a una ficha, Cuando vuelvo atrás, Entonces la lista mantiene los filtros aplicados. Escenario 2: Cerrar pestaña Dado que cierro el navegador, Cuando regreso en menos de 1h, Entonces la app restablece los filtros desde storage. | EP-02 |
+| US-60 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión actual. | Escenario 1: Volver a resultados Dado que navego a una ficha, Cuando vuelvo atrás, Entonces la lista mantiene los filtros aplicados. Escenario 2: Cerrar pestaña Dado que cierro el navegador, Cuando regreso en menos de 1h, Entonces la app restablece los filtros desde storage. | EP-03 |
 
 Epicas
 
@@ -1350,76 +1363,8 @@ La documentación del proyecto se encuentra en el archivo `README.md` dentro del
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
-El equipo adopta convenciones de estilo sencillas y consistentes para facilitar la lectura, el mantenimiento y la colaboración en la landing page. El idioma de los identificadores (nombres de archivos, variables, funciones y clases) es **inglés**, manteniendo coherencia con el código existente en `js/lang.js` y `js/java.js`.
-
-**Estructura del proyecto**
-
-```
-/ (repo root)
-├─ imgs/
-│  ├─ concepto-faq_23-2148162317.jpg
-│  ├─ contactanos.avif
-│  ├─ fondo-menu.jpg
-│  └─ logo.jpg
-├─ js/
-│  ├─ java.js        ← módulo principal (ES module)
-│  └─ lang.js        ← traducciones (export const traduccion)
-├─ index.html
-└─ style.css
-```
-
-**Convenciones y prácticas aplicadas**
-
-- **HTML**
-  - Uso de etiquetas semánticas: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` y `<footer>` para estructurar el documento.
-  - Identificadores (`id`) estables y descriptivos para i18n y manipulación DOM (por ejemplo `WorkStation-title`, `srv-booking`).
-  - Atributos `alt` descriptivos en todas las imágenes para accesibilidad.
-
-- **CSS**
-  - Clases en **kebab-case**: `.nav-links`, `.header-content`, `.menu-btn`.
-  - Organización por bloques (header, hero, services, faq, contact, footer) dentro de `style.css`.
-  - Preferencia por clases frente a selectores muy específicos; estructura de estilos pensada para facilitar la evolución a SCSS si fuera necesario.
-
-- **JavaScript**
-  - Módulos ES6 (`import` / `export`) tal como está implementado en `js/lang.js` y `js/java.js`.
-  - Nombres en **camelCase** para variables y funciones (`menuBtn`, `updateLanguage`).
-  - Separación clara entre la tabla de traducciones (`lang.js`) y la lógica de manipulación del DOM (`java.js`).
-
-- **Internacionalización (i18n)**
-  - Traducciones mantenidas en `lang.js` como `export const traduccion` con claves que coinciden con los `id` del HTML.
-  - Traducción dinámica que actualiza `innerText`, `placeholder` y `value` según el tipo de elemento.
-
-- **Accesibilidad (A11y)**
-  - Formularios con `label` o `aria-label` y controles navegables por teclado.
-  - Acordeón del FAQ con cambio visual claro; se recomienda mantener atributos ARIA (`aria-expanded`) al evolucionar la implementación.
-  - Contrastes y tamaños de texto orientados a cumplir al menos nivel AA.
-
-- **Control de calidad**
-  - Mensajes de commit siguiendo **Conventional Commits** (`feat:`, `fix:`, `docs:`).
-  - Flujo de ramas simple: `main` (producción), `develop` (integración) y `feature/*` para trabajo aislado.
-  - Recomendación de linters y formateadores (ESLint / Prettier) para mantener consistencia estilística.
 
 ### 5.1.4. Software Deployment Configuration
-
-La landing page es una aplicación estática que se publica habitualmente mediante GitHub Pages. La configuración actual del repositorio respalda un despliegue directo desde la rama que actúe como producción.
-
-**Consideraciones sobre el despliegue**
-
-- La página principal se sirve desde `index.html` situado en la raíz del repositorio y los recursos se referencian con rutas relativas (`./style.css`, `./js/java.js`, `./imgs/fondo-menu.jpg`), lo que facilita la publicación estática.
-- GitHub Pages resulta adecuado para este tipo de contenido: la URL pública asociada al repositorio permite verificar visualmente la landing (`https://temucoders.github.io/Landing-Page/`).
-- Si en etapas posteriores se incorpora un proceso de build (Vite, Webpack, etc.), el artefacto resultante (`dist/`) se convierte en la carpeta de publicación y el flujo de CI/CD (por ejemplo GitHub Actions) puede automatizar la construcción y el despliegue.
-
-**Buenas prácticas vinculadas al repositorio**
-
-- Mantener `index.html` en la raíz y las carpetas `js/`, `imgs/` y `style.css` con nombres y rutas consistentes.
-- Evitar la inclusión de credenciales en el repositorio; cualquier secreto necesario para workflows debe ubicarse en `GitHub Secrets`.
-- Documentar en `README.md` la URL pública, la estructura mínima del repo y los pasos esenciales para comprobar localmente la página (por ejemplo, abrir `index.html` con Live Server).
-
-**Verificación post-publicación**
-
-- Comprobación de que los recursos (imágenes, CSS, JS) retornan 200 y se cargan sin errores en consola.
-- Revisión rápida de funcionalidades críticas: cambio de idioma, acordeón FAQ y navegación principal.
-- Revisión de rendimiento/accesibilidad básica con herramientas como Lighthouse cuando sea pertinente.
 
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
@@ -1458,30 +1403,30 @@ Para el primer sprint, desarrollamos la estructura y las funcionalidades básica
 
 | User Story ID | Título | Work-Item ID | Título de la tarea | Descripción | Estimación (h) | Assigned to | Status |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| **US-01** | Búsqueda rápida en Hero | T01 | Diseñar sección Hero | Wireframe \+ copy (campo ciudad/fecha \+ CTA). | 4 | Quijada Magro Jeremy Alexander  | Done |
-|  |  | T02 | Input \+ autocomplete básico | Campo con sugerencias mock (≥3 chars). | 6 | Saravia Huaricancha Arturo Axel | Done |
-|  |  | T03 | Enrutamiento a /resultados | Pasar query params (ciudad, fecha). | 4 | Saravia Huaricancha Arturo Axel | Done |
-|  |  | T04 | A11y \+ teclado | Labels, role=search, foco y ARIA. | 3 | Saravia Huaricancha Arturo Axel | Done |
-|  |  | T05 | Pruebas UI | Casos “sin coincidencias” y enter key. | 3 | Saravia Huaricancha Arturo Axel | Done |
-| **US-02** | Navegación principal (header) | T06 | Header sticky | Componente fijo, sombra y contenedor. | 3 | Quijada Magro Jeremy Alexander  | Done |
+| **US-01** | Búsqueda rápida en Hero | T01 | Diseñar sección Hero | Wireframe \+ copy (campo ciudad/fecha \+ CTA). | 2 | Quijada Magro Jeremy Alexander  | Done |
+|  |  | T02 | Input \+ autocomplete básico | Campo con sugerencias mock (≥3 chars). | 4 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T03 | Enrutamiento a /resultados | Pasar query params (ciudad, fecha). | 2 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T04 | A11y \+ teclado | Labels, role=search, foco y ARIA. | 1.5 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T05 | Pruebas UI | Casos “sin coincidencias” y enter key. | 1.5 | Saravia Huaricancha Arturo Axel | Done |
+| **US-02** | Navegación principal (header) | T06 | Header sticky | Componente fijo, sombra y contenedor. | 1.5 | Quijada Magro Jeremy Alexander  | Done |
 |  |  | T07 | Menú móvil | Drawer/hamburguesa con focus visible. | 3 | Quijada Magro Jeremy Alexander  | Done |
-|  |  | T08 | Enlaces y estados | Hover/active, skip-to-content. | 3 | Saravia Huaricancha Arturo Axel | Done |
-| **US-03** | Espacios destacados | T09 | Cards de destacados | 3 cards con imagen, precio, CTA. | 3 | Huang Liu Franco Gabriel | Done |
-|  |  | T10 | CTA “Descubre más” | Link a /resultados con filtro tipo=desk. | 3 | Huang Liu Franco Gabriel | Done |
+|  |  | T08 | Enlaces y estados | Hover/active, skip-to-content. | 1.5 | Saravia Huaricancha Arturo Axel | Done |
+| **US-03** | Espacios destacados | T09 | Cards de destacados | 4 cards con imagen, precio, CTA. | 3 | Huang Liu Franco Gabriel | Done |
+|  |  | T10 | CTA “Descubre más” | Link a /resultados con filtro tipo=desk. | 1 | Huang Liu Franco Gabriel | Done |
 | **US-04** | Testimonios | T11 | Carrusel accesible | Carousel con botones prev/next y aria-live=off. | 3 | Huang Liu Franco Gabriel | Done |
-|  |  | T12 | Datos mock \+ layout | 3–5 testimonios (nombre, rating, texto). | 3 | Huang Liu Franco Gabriel | Done |
-| **US-05** | FAQ (acordeón) | T13 | Acordeón FAQ | Componente con apertura/cierre y focus. | 4 | Quijada Magro Jeremy Alexander  | Done |
-|  |  | T14 | Buscador en FAQ | Filtrado por texto en cliente. | 4 | Quijada Magro Jeremy Alexander  | Done |
-| **US-06** | Footer \+ contacto | T15 | Footer legal y links | Términos, privacidad, redes, contacto. | 4 | Cumba Rengifo Leonardo Raul | Done |
-|  |  | T16 | Formulario de contacto | Nombre, email, mensaje (mock submit). | 4 | Cumba Rengifo Leonardo Raul | Done |
-| **US-07** | Descargar brochure PDF | T17 | Archivo \+ descarga | Colocar brochure.pdf y manejo de error. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
+|  |  | T12 | Datos mock \+ layout | 3–5 testimonios (nombre, rating, texto). | 1 | Huang Liu Franco Gabriel | Done |
+| **US-05** | FAQ (acordeón) | T13 | Acordeón FAQ | Componente con apertura/cierre y focus. | 2.5 | Quijada Magro Jeremy Alexander  | Done |
+|  |  | T14 | Buscador en FAQ | Filtrado por texto en cliente. | 2 | Quijada Magro Jeremy Alexander  | Done |
+| **US-06** | Footer \+ contacto | T15 | Footer legal y links | Términos, privacidad, redes, contacto. | 2 | Cumba Rengifo Leonardo Raul | Done |
+|  |  | T16 | Formulario de contacto | Nombre, email, mensaje (mock submit). | 3 | Cumba Rengifo Leonardo Raul | Done |
+| **US-07** | Descargar brochure PDF | T17 | Archivo \+ descarga | Colocar brochure.pdf y manejo de error. | 1 | La Madrid Lozano Ivan Jeanpierre | Done |
 | **US-08** | Banner cookies/privacidad | T18 | Banner y preferencias | Aceptar/Rechazar/Configurar (+ localStorage). | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
-|  |  | T19 | Enlace a preferencias | Link persistente en footer. | 4 | Cumba Rengifo Leonardo Raul | Done |
-| **US-09** | SEO básico en landing | T20 | Metas y OG tags | title, meta-description, og:image/url. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
-|  |  | T21 | Favicon/robots/sitemap | Favicon set, robots.txt y sitemap básico. | 4 | Cumba Rengifo Leonardo Raul | Done |
-| **US-10** | Animaciones sutiles | T22 | Micro-interacciones | Hover en cards/CTAs y reveal suave. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
-|  |  | T23 | Auditoría performance | Verificar no degrada LCP/CLS (Lighthouse). | 4 | Saravia Huaricancha Arturo Axel | Done |
-| **US-58** | Scroll a anclas | T24 | Anclas y scroll suave | Menú a secciones (\#servicios, \#faq, \#contacto). | 4 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T19 | Enlace a preferencias | Link persistente en footer. | 1 | Cumba Rengifo Leonardo Raul | Done |
+| **US-09** | SEO básico en landing | T20 | Metas y OG tags | title, meta-description, og:image/url. | 1.5 | La Madrid Lozano Ivan Jeanpierre | Done |
+|  |  | T21 | Favicon/robots/sitemap | Favicon set, robots.txt y sitemap básico. | 1.5 | Cumba Rengifo Leonardo Raul | Done |
+| **US-10** | Animaciones sutiles | T22 | Micro-interacciones | Hover en cards/CTAs y reveal suave. | 2 | La Madrid Lozano Ivan Jeanpierre | Done |
+|  |  | T23 | Auditoría performance | Verificar no degrada LCP/CLS (Lighthouse). | 1.5 | Saravia Huaricancha Arturo Axel | Done |
+| **US-58** | Scroll a anclas | T24 | Anclas y scroll suave | Menú a secciones (\#servicios, \#faq, \#contacto). | 1.5 | Saravia Huaricancha Arturo Axel | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 En este punto evidenciamos el desarrollo y el apoyo por parte de los integrantes del equipo en la construcción del frontend estático de la Landing Page.
