@@ -49,7 +49,7 @@ Desarrollo de Aplicaciones Open Source<br>
 #### Tabla de contenidos
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [| TB1     | 16/09/2025  | Saravia Huaricancha, Arturo  | Desarrollo de impact mapping y ayuda en el user stories |](#-tb1------16092025---saravia-huaricancha-arturo---desarrollo-de-impact-mapping-y-ayuda-en-el-user-stories-)
+  - [| TB1     | 16/09/2025  | La Madrid Lozano, Ivan  | Mejora del User Task Matrix, desarrollo del Customer Journey Map y Empathy Map de hosts |](#-tb1------16092025---la-madrid-lozano-ivan---mejora-del-user-task-matrix-desarrollo-del-customer-journey-map-y-empathy-map-de-hosts-)
   - [Contenido](#contenido)
       - [Tabla de contenidos](#tabla-de-contenidos)
   - [Student Outcome](#student-outcome)
@@ -158,23 +158,39 @@ Desarrollo de Aplicaciones Open Source<br>
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
       - [4.7.1. Class Diagrams](#471-class-diagrams)
     - [4.8. Database Design](#48-database-design)
-      - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+  - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+    - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [Project Management](#project-management)
+      - [Requirement Management](#requirement-management)
+      - [Product UX/UI Design](#product-uxui-design)
+      - [Software Development](#software-development)
+      - [Software Documentation](#software-documentation)
+      - [Software Deployment](#software-deployment)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+      - [Producto y Repositorio](#producto-y-repositorio)
+      - [Estructura del Repositorio](#estructura-del-repositorio)
+      - [Flujo de trabajo GitFlow](#flujo-de-trabajo-gitflow)
+      - [Mensajes de Commits](#mensajes-de-commits)
+      - [Documentación](#documentación)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+      - [5.2.1. Sprint 1](#521-sprint-1)
+        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [**5.2.1.3. Sprint Backlog 1.**](#5213-sprint-backlog-1)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+        - [Actividades Realizadas](#actividades-realizadas)
+        - [Evidencias Visuales](#evidencias-visuales)
+        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [Conclusiones](#conclusiones)
+    - [Anexos](#anexos)
+    - [Bibliografía](#bibliografía)
   
 ---
 
@@ -1385,10 +1401,28 @@ Para el primer sprint, desarrollamos la estructura y las funcionalidades básica
 | **US-58** | Scroll a anclas | T24 | Anclas y scroll suave | Menú a secciones (\#servicios, \#faq, \#contacto). | 1.5 | Saravia Huaricancha Arturo Axel | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
+En este punto evidenciamos el desarrollo y el apoyo por parte de los integrantes del equipo en la construcción del frontend estático de la Landing Page.
+![Development-evidence](imgs/commits.png)
+
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
+| **Epic / Story ID** | **Título**                     | **Criterios de Aceptación**                                                                                                                        |
+| ------------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| US-02               | Navegación principal (header) | Dado que el usuario hace scroll en la página, cuando el header sale de la vista, entonces este permanece fijo en la parte superior. Además, los enlaces del menú permiten navegar suavemente hacia las secciones correspondientes. |
+| US-05              | FAQ (acordeón)    | Dado que el usuario abre la sección de preguntas frecuentes, cuando hace clic sobre una pregunta, entonces se despliega su respuesta, cerrando las demás preguntas activas.                               |
+| US-06                | Footer con políticas y contacto          | Dado que el usuario se desplaza hasta el final de la página, cuando hace clic en cualquiera de los enlaces del footer, entonces es redirigido a la sección o página correspondiente (términos, privacidad, contacto, redes sociales).                     |
+|US-10                | Animaciones sutiles | Dado que el usuario interactúa con botones o cards, cuando pasa el mouse sobre ellos, entonces se aplican microinteracciones (hover, elevación, sombra) sin afectar el rendimiento.                                           |
+|US-58                | Scroll a anclas en landing | Dado que el usuario selecciona un ítem del menú, cuando hace clic en él, entonces se ejecuta un scroll suave hacia la sección correspondiente (Servicios, FAQ, Contacto).                                           |
 
+En este sprint, la Landing Page logró cubrir de manera completa las funcionalidades básicas de navegación, búsqueda y presentación de información, cumpliendo con los criterios definidos en el backlog.
 
+Enlace de la Landing Page desplegada: https://temucoders.github.io/Landing-Page/
+
+![Landing-Page](imgs/l1.png)
+![Landing-Page](imgs/l2.png)
+![Landing-Page](imgs/l3.png)
+![Landing-Page](imgs/l4.png)
+![Landing-Page](imgs/l5.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
