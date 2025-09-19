@@ -569,11 +569,17 @@ Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2023
 
 
 **Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/Efz2Y4-1p-hLj_WNhkofgtMBCQkmof5CpqvoXhucUzjrCg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0r0VKH
+
 **Entrevistado:** Sonia Rengifo 
+
 **Edad:** 54 años  
+
 **Ocupación:** Ingeniero de Sistemas
+
 **Ubicación:** Lima – Pueblo libre  
+
 **Medio:** Zoom  
+
 **Entrevistador:** Leonardo Cumba
 
 
