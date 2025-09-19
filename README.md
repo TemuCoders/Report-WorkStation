@@ -1375,30 +1375,30 @@ Para el primer sprint, desarrollamos la estructura y las funcionalidades básica
 
 | User Story ID | Título | Work-Item ID | Título de la tarea | Descripción | Estimación (h) | Assigned to | Status |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
-| **US-01** | Búsqueda rápida en Hero | T01 | Diseñar sección Hero | Wireframe \+ copy (campo ciudad/fecha \+ CTA). | 2 | Quijada Magro Jeremy Alexander  | Done |
-|  |  | T02 | Input \+ autocomplete básico | Campo con sugerencias mock (≥3 chars). | 4 | Saravia Huaricancha Arturo Axel | Done |
-|  |  | T03 | Enrutamiento a /resultados | Pasar query params (ciudad, fecha). | 2 | Saravia Huaricancha Arturo Axel | Done |
-|  |  | T04 | A11y \+ teclado | Labels, role=search, foco y ARIA. | 1.5 | Saravia Huaricancha Arturo Axel | Done |
-|  |  | T05 | Pruebas UI | Casos “sin coincidencias” y enter key. | 1.5 | Saravia Huaricancha Arturo Axel | Done |
-| **US-02** | Navegación principal (header) | T06 | Header sticky | Componente fijo, sombra y contenedor. | 1.5 | Quijada Magro Jeremy Alexander  | Done |
+| **US-01** | Búsqueda rápida en Hero | T01 | Diseñar sección Hero | Wireframe \+ copy (campo ciudad/fecha \+ CTA). | 4 | Quijada Magro Jeremy Alexander  | Done |
+|  |  | T02 | Input \+ autocomplete básico | Campo con sugerencias mock (≥3 chars). | 6 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T03 | Enrutamiento a /resultados | Pasar query params (ciudad, fecha). | 4 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T04 | A11y \+ teclado | Labels, role=search, foco y ARIA. | 3 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T05 | Pruebas UI | Casos “sin coincidencias” y enter key. | 3 | Saravia Huaricancha Arturo Axel | Done |
+| **US-02** | Navegación principal (header) | T06 | Header sticky | Componente fijo, sombra y contenedor. | 3 | Quijada Magro Jeremy Alexander  | Done |
 |  |  | T07 | Menú móvil | Drawer/hamburguesa con focus visible. | 3 | Quijada Magro Jeremy Alexander  | Done |
-|  |  | T08 | Enlaces y estados | Hover/active, skip-to-content. | 1.5 | Saravia Huaricancha Arturo Axel | Done |
-| **US-03** | Espacios destacados | T09 | Cards de destacados | 4 cards con imagen, precio, CTA. | 3 | Huang Liu Franco Gabriel | Done |
-|  |  | T10 | CTA “Descubre más” | Link a /resultados con filtro tipo=desk. | 1 | Huang Liu Franco Gabriel | Done |
+|  |  | T08 | Enlaces y estados | Hover/active, skip-to-content. | 3 | Saravia Huaricancha Arturo Axel | Done |
+| **US-03** | Espacios destacados | T09 | Cards de destacados | 3 cards con imagen, precio, CTA. | 3 | Huang Liu Franco Gabriel | Done |
+|  |  | T10 | CTA “Descubre más” | Link a /resultados con filtro tipo=desk. | 3 | Huang Liu Franco Gabriel | Done |
 | **US-04** | Testimonios | T11 | Carrusel accesible | Carousel con botones prev/next y aria-live=off. | 3 | Huang Liu Franco Gabriel | Done |
-|  |  | T12 | Datos mock \+ layout | 3–5 testimonios (nombre, rating, texto). | 1 | Huang Liu Franco Gabriel | Done |
-| **US-05** | FAQ (acordeón) | T13 | Acordeón FAQ | Componente con apertura/cierre y focus. | 2.5 | Quijada Magro Jeremy Alexander  | Done |
-|  |  | T14 | Buscador en FAQ | Filtrado por texto en cliente. | 2 | Quijada Magro Jeremy Alexander  | Done |
-| **US-06** | Footer \+ contacto | T15 | Footer legal y links | Términos, privacidad, redes, contacto. | 2 | Cumba Rengifo Leonardo Raul | Done |
-|  |  | T16 | Formulario de contacto | Nombre, email, mensaje (mock submit). | 3 | Cumba Rengifo Leonardo Raul | Done |
-| **US-07** | Descargar brochure PDF | T17 | Archivo \+ descarga | Colocar brochure.pdf y manejo de error. | 1 | La Madrid Lozano Ivan Jeanpierre | Done |
+|  |  | T12 | Datos mock \+ layout | 3–5 testimonios (nombre, rating, texto). | 3 | Huang Liu Franco Gabriel | Done |
+| **US-05** | FAQ (acordeón) | T13 | Acordeón FAQ | Componente con apertura/cierre y focus. | 4 | Quijada Magro Jeremy Alexander  | Done |
+|  |  | T14 | Buscador en FAQ | Filtrado por texto en cliente. | 4 | Quijada Magro Jeremy Alexander  | Done |
+| **US-06** | Footer \+ contacto | T15 | Footer legal y links | Términos, privacidad, redes, contacto. | 4 | Cumba Rengifo Leonardo Raul | Done |
+|  |  | T16 | Formulario de contacto | Nombre, email, mensaje (mock submit). | 4 | Cumba Rengifo Leonardo Raul | Done |
+| **US-07** | Descargar brochure PDF | T17 | Archivo \+ descarga | Colocar brochure.pdf y manejo de error. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
 | **US-08** | Banner cookies/privacidad | T18 | Banner y preferencias | Aceptar/Rechazar/Configurar (+ localStorage). | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
-|  |  | T19 | Enlace a preferencias | Link persistente en footer. | 1 | Cumba Rengifo Leonardo Raul | Done |
-| **US-09** | SEO básico en landing | T20 | Metas y OG tags | title, meta-description, og:image/url. | 1.5 | La Madrid Lozano Ivan Jeanpierre | Done |
-|  |  | T21 | Favicon/robots/sitemap | Favicon set, robots.txt y sitemap básico. | 1.5 | Cumba Rengifo Leonardo Raul | Done |
-| **US-10** | Animaciones sutiles | T22 | Micro-interacciones | Hover en cards/CTAs y reveal suave. | 2 | La Madrid Lozano Ivan Jeanpierre | Done |
-|  |  | T23 | Auditoría performance | Verificar no degrada LCP/CLS (Lighthouse). | 1.5 | Saravia Huaricancha Arturo Axel | Done |
-| **US-58** | Scroll a anclas | T24 | Anclas y scroll suave | Menú a secciones (\#servicios, \#faq, \#contacto). | 1.5 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T19 | Enlace a preferencias | Link persistente en footer. | 4 | Cumba Rengifo Leonardo Raul | Done |
+| **US-09** | SEO básico en landing | T20 | Metas y OG tags | title, meta-description, og:image/url. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
+|  |  | T21 | Favicon/robots/sitemap | Favicon set, robots.txt y sitemap básico. | 4 | Cumba Rengifo Leonardo Raul | Done |
+| **US-10** | Animaciones sutiles | T22 | Micro-interacciones | Hover en cards/CTAs y reveal suave. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
+|  |  | T23 | Auditoría performance | Verificar no degrada LCP/CLS (Lighthouse). | 4 | Saravia Huaricancha Arturo Axel | Done |
+| **US-58** | Scroll a anclas | T24 | Anclas y scroll suave | Menú a secciones (\#servicios, \#faq, \#contacto). | 4 | Saravia Huaricancha Arturo Axel | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 En este punto evidenciamos el desarrollo y el apoyo por parte de los integrantes del equipo en la construcción del frontend estático de la Landing Page.
