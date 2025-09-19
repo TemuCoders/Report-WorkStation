@@ -49,7 +49,7 @@ Desarrollo de Aplicaciones Open Source<br>
 #### Tabla de contenidos
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [| TB1     | 16/09/2025  | Saravia Huaricancha, Arturo  | Desarrollo de impact mapping y ayuda en el user stories |](#-tb1------16092025---saravia-huaricancha-arturo---desarrollo-de-impact-mapping-y-ayuda-en-el-user-stories-)
+  - [| TB1     | 16/09/2025  | La Madrid Lozano, Ivan  | Mejora del User Task Matrix, desarrollo del Customer Journey Map y Empathy Map de hosts |](#-tb1------16092025---la-madrid-lozano-ivan---mejora-del-user-task-matrix-desarrollo-del-customer-journey-map-y-empathy-map-de-hosts-)
   - [Contenido](#contenido)
       - [Tabla de contenidos](#tabla-de-contenidos)
   - [Student Outcome](#student-outcome)
@@ -158,25 +158,57 @@ Desarrollo de Aplicaciones Open Source<br>
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
       - [4.7.1. Class Diagrams](#471-class-diagrams)
     - [4.8. Database Design](#48-database-design)
-      - [4.8.1. Database Diagrams](#481-database-diagrams)
-- [Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)
-  - [5.1. Software Configuration Management](#51-software-configuration-management)
+    - [4.8.1. Database Diagrams](#481-database-diagrams)
+  - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
+    - [5.1. Software Configuration Management](#51-software-configuration-management)
     - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [Project Management](#project-management)
+      - [Requirement Management](#requirement-management)
+      - [Product UX/UI Design](#product-uxui-design)
+      - [Software Development](#software-development)
+      - [Software Documentation](#software-documentation)
+      - [Software Deployment](#software-deployment)
     - [5.1.2. Source Code Management](#512-source-code-management)
-    - [5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide--conventions)
+      - [Producto y Repositorio](#producto-y-repositorio)
+      - [Estructura del Repositorio](#estructura-del-repositorio)
+      - [Flujo de trabajo GitFlow](#flujo-de-trabajo-gitflow)
+      - [Mensajes de Commits](#mensajes-de-commits)
+      - [Documentación](#documentación)
+    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
     - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
-  - [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)
-    - [5.2.1. Sprint 1](#521-sprint-1)
-      - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-      - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-      - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-      - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-      - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-      - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
+      - [5.2.1. Sprint 1](#521-sprint-1)
+        - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
+        - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
+      - [**5.2.1.3. Sprint Backlog 1.**](#5213-sprint-backlog-1)
+        - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
+        - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
+      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
+        - [Actividades Realizadas](#actividades-realizadas)
+        - [Evidencias Visuales](#evidencias-visuales)
+        - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+    - [Conclusiones](#conclusiones)
+    - [Anexos](#anexos)
+    - [Bibliografía](#bibliografía)
   
 ---
+
+## Project Report Collaboration Insights
+
+- **URL de la organización del proyecto:**  
+  [https://github.com/TemuCoders](https://github.com/TemuCoders)
+- **URL del repositorio del informe:**  
+    [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
+
+Todas las tareas correspondientes a la entrega de la TB1 han sido completadas y están documentadas en el repositorio de GitHub de la organización del equipo. Para la elaboración del informe, cada integrante del equipo se encargó de redactar y generar gráficos en formato Markdown, según los puntos que le fueron asignados, realizando commits para dejar constancia del progreso en el repositorio.
+
+Aquí se pueden visualizar todos los commits realizados para la TB1, lo cual evidencia el trabajo colaborativo del equipo.
+
+<p align="center">
+  <img src="/imgs/commits -tb1.png" alt="colab" />
+  
+Para facilitar el desarrollo del trabajo, optamos por seguir el flujo de trabajo Gitflow. En este esquema, cada subtítulo del informe fue tratado como una feature. Un miembro del equipo creaba una rama específica para ese subtítulo y trabajaba en ella, mientras que otros miembros podían colaborar directamente o supervisar su progreso. Una vez finalizada la feature, todo el equipo revisaba el contenido y, tras obtener el consenso, se realizaba el merge hacia la rama develop. Además, organizamos las tareas considerando su nivel de dificultad, asegurando así una distribución equitativa del trabajo entre todos los integrantes.
 
 ## Student Outcome
 
@@ -187,9 +219,8 @@ En el siguiente cuadro se describen las acciones realizadas y conclusiones del e
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1:**  | **TB1**:  |
-| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1:**  | **TB1:**  |
-
+| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  | **TB1**: Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC. |
+| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  | **TB1:** Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC.  |
 
 
 ## Capítulo I: Introducción
@@ -1199,13 +1230,194 @@ En este apartado se establecen los lineamientos y procedimientos adoptados duran
 
 ### 5.1.1. Software Development Environment Configuration
 
+#### Project Management
+
+Para una gestión eficiente del proyecto, se hizo necesaria la implementación de un conjunto de herramientas destinadas a la asignación de tareas, la facilitación de reuniones y la colaboración entre los integrantes. Asimismo, se empleó un repositorio centralizado para consolidar los avances de manera coordinada. A continuación, se presentan las plataformas seleccionadas junto con su respectivo propósito dentro del marco del proyecto.
+- **Centro de organización de trabajo:** Github  
+- **Planificación de tareas:** Trello  
+- **Reuniones de equipo:** Google Meet  
+- **Coordinación grupal:** WhatsApp  
+
+#### Requirement Management
+
+Durante el desarrollo del proyecto se recurrió a diversas herramientas que facilitaron la definición, análisis y representación visual de los requerimientos técnicos y funcionales. Estas plataformas promovieron una planificación estructurada y una mayor claridad en el diseño conceptual del sistema:
+
+| Herramienta   | Descripción                                                                                                     | Enlace                                      |
+|---------------|-----------------------------------------------------------------------------------------------------------------|---------------------------------------------|
+| **Trello**        | Herramienta de organización de proyectos basada en tableros y tarjetas, empleada para distribuir tareas entre los miembros del equipo y hacer seguimiento al progreso de cada fase del desarrollo. | [trello.com](https://trello.com/)           |
+| **Uxpressia**     | Aplicación digital utilizada para el diseño de mapas estratégicos, como *Impact Mapping*, lo cual permitió vincular los objetivos del negocio con las funcionalidades del producto de forma clara y visual. | [uxpressia.com](https://uxpressia.com/)     |
+| **Structurizr**   | Plataforma de modelado arquitectónico que facilita la construcción de diagramas C4, permitiendo representar la estructura lógica del sistema y su interacción entre componentes de manera estandarizada. | [structurizr.com](https://www.structurizr.com/) |
+| **Lucidchart**    | Entorno colaborativo de diagramación empleado para desarrollar modelos técnicos como diagramas de clases y estructuras de bases de datos, fundamentales en la definición de la arquitectura del sistema. | [lucidchart.com](https://www.lucidchart.com/) |
+
+---
+
+#### Product UX/UI Design
+
+El diseño de la experiencia de usuario y de la interfaz visual se abordó mediante herramientas especializadas que posibilitaron la creación de prototipos gráficos y esquemas de navegación. Esto permitió validar la estructura de la aplicación antes de su implementación:
+
+| Herramienta | Descripción                                                                                          | Enlace                              |
+|-------------|------------------------------------------------------------------------------------------------------|-------------------------------------|
+| **Figma**   | Plataforma de diseño colaborativo en línea que permitió a los miembros del equipo crear y editar en tiempo real wireframes y mockups, asegurando la coherencia visual y funcional de la landing page. | [figma.com](https://www.figma.com/) |
+
+---
+
+#### Software Development
+
+Para el desarrollo de la página web, se emplearon lenguajes de programación y etiquetado esenciales para crear la estructura, el diseño y las funcionalidades del sistema. A continuación, se describen las herramientas utilizadas:
+
+| Herramienta    | Descripción                                                                                              | Enlace                                                       |
+|----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **HTML**       | Lenguaje de marcado fundamental para estructurar el contenido y la disposición de los elementos en la web. | [HTML](https://www.w3schools.com/html/default.asp)           |
+| **CSS**        | Lenguaje de diseño que permite aplicar estilos visuales a los elementos estructurados en HTML, mejorando su presentación. | [CSS](https://www.w3schools.com/css/default.asp)             |
+| **JavaScript** | Lenguaje de programación orientado a objetos utilizado para agregar interactividad y funcionalidades dinámicas a la página web. | [JavaScript](https://www.w3schools.com/js/default.asp)       |
+
+---
+
+#### Software Documentation
+
+La gestión y documentación del proyecto se llevó a cabo utilizando herramientas que facilitaron la organización y el acceso a la información técnica, asegurando la transparencia y la trazabilidad del desarrollo:
+
+| Herramienta    | Descripción                                                                                              | Enlace                                                       |
+|----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **GitHub**     | Plataforma de desarrollo colaborativo que también se utilizó para gestionar y alojar la documentación del proyecto. | [GitHub](https://github.com/SmartFinance-OpenSource/Report)  |
+| **Markdown**   | Formato de texto ligero utilizado para escribir y estructurar la documentación técnica del proyecto de forma clara y legible. | [markdown.es](https://markdown.es/)                          |
+
+---
+
+#### Software Deployment
+
+Para el despliegue de la landing page, se optó por una plataforma de hosting que permite la publicación directa desde un repositorio de GitHub, garantizando una gestión eficiente del ciclo de vida de la aplicación:
+
+| Herramienta     | Descripción                                                                                              | Enlace                                                       |
+|-----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
+| **GitHub Pages** | Servicio de GitHub que permite desplegar la aplicación directamente desde el repositorio, facilitando la visualización pública de la página. | [GitHub Pages](https://pages.github.com/)                   |
+
 
 ### 5.1.2. Source Code Management
 
+#### Producto y Repositorio
+
+| Producto             | Repositorio        | URL                                                       |
+|----------------------|--------------------|------------------------------------------------------------|
+| Landing Page         | WorkStation-Landing Page| [LandingPage](https://github.com/TemuCoders/Landing-Page)     |
+
+#### Estructura del Repositorio
+
+Hemos organizado el repositorio en ramas específicas para diferentes etapas del desarrollo, garantizando un flujo de trabajo ordenado y eficiente. La estructura de ramas es la siguiente:
+
+- **Main branch** (rama principal): Contiene la versión estable y lista para producción del software.
+- **Develop branch**: Contiene el código en desarrollo que se integrará en la rama principal después de ser probado y validado.
+
+Además, para el desarrollo de nuevas funcionalidades, creamos ramas específicas siguiendo las convenciones de nomenclatura:
+
+- **Feature branches**: Ramas dedicadas al desarrollo de nuevas características. La nomenclatura para estas ramas es `feature/nueva-funcionalidad`.
+
+Implementamos **GitFlow**, un modelo de ramificación diseñado por Vincent Driessen, que incluye las siguientes ramas:
+
+- **Main branch**: Rama principal que alberga el código estable y preparado para producción.
+- **Develop branch**: Rama de desarrollo donde se integran nuevas funcionalidades y correcciones antes de ser fusionadas a la rama principal.
+- **Feature branches**: Creadas a partir de `develop` para añadir nuevas características, siguiendo la nomenclatura `feature/nueva-funcionalidad`.
+- **Release branches**: Preparadas para la liberación de nuevas versiones, permitiendo pruebas finales y corrección de errores antes del despliegue a producción.
+- **Hotfix branches**: Utilizadas para corregir errores críticos en producción, siguiendo la nomenclatura `hotfix/correccion-critica`.
+
+
+#### Flujo de trabajo GitFlow
+
+- Una rama de **producción** (`main`).
+- Una rama de **pruebas** (`develop`).
+- Rama de **hotfix** para corrección de errores críticos (`hotfix/*`).
+- Rama de **release** para estabilización y pruebas previas al despliegue (`release/*`).
+- Ramas para **features** (`feature/*`).
+- Cada cambio en **producción** se considera una nueva versión.
+- Cambios en `main` y `develop` requieren aprobación.
+
+
+#### Mensajes de Commits
+
+Adoptamos el estándar **Conventional Commits** para los mensajes de nuestros commits, lo que facilita la comprensión del historial de cambios y la automatización de versiones. Ejemplos de mensajes son:
+
+- `feat`: Añadir nueva funcionalidad, por ejemplo, `feat: implementar sistema de notificaciones`.
+- `fix`: Corregir errores, por ejemplo, `fix: solucionar problema con la validación de datos`.
+- `docs`: Actualizar documentación, por ejemplo, `docs: actualizar guía de instalación`.
+- `style`: Aplicar formato, por ejemplo, `style: ajustar estilo de código según las pautas`.
+- `refactor`: Mejorar el código sin cambiar su funcionalidad, por ejemplo, `refactor: optimizar el rendimiento del módulo de usuario`.
+- `test`: Añadir o modificar pruebas, por ejemplo, `test: añadir pruebas para la funcionalidad de autenticación`.
+
+
+#### Documentación
+
+La documentación del proyecto se encuentra en el archivo `README.md` dentro del repositorio. Este archivo proporciona detalles sobre la configuración, el uso del software y las guías para contribuir al proyecto.
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
+El equipo adopta convenciones de estilo sencillas y consistentes para facilitar la lectura, el mantenimiento y la colaboración en la landing page. El idioma de los identificadores (nombres de archivos, variables, funciones y clases) es **inglés**, manteniendo coherencia con el código existente en `js/lang.js` y `js/java.js`.
+
+**Estructura del proyecto**
+
+/ (repo root)
+├─ imgs/
+│ ├─ concepto-faq_23-2148162317.jpg
+│ ├─ contactanos.avif
+│ ├─ fondo-menu.jpg
+│ └─ logo.jpg
+├─ js/
+│ ├─ java.js ← módulo principal (ES module)
+│ └─ lang.js ← traducciones (export const traduccion)
+├─ index.html
+└─ style.css
+
+**Convenciones y prácticas aplicadas**
+
+- **HTML**
+  - Uso de etiquetas semánticas: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` y `<footer>` para estructurar el documento.
+  - Identificadores (`id`) estables y descriptivos para i18n y manipulación DOM (por ejemplo `WorkStation-title`, `srv-booking`).
+  - Atributos `alt` descriptivos en todas las imágenes para accesibilidad.
+
+- **CSS**
+  - Clases en **kebab-case**: `.nav-links`, `.header-content`, `.menu-btn`.
+  - Organización por bloques (header, hero, services, faq, contact, footer) dentro de `style.css`.
+  - Preferencia por clases frente a selectores muy específicos; estructura de estilos pensada para facilitar la evolución a SCSS si fuera necesario.
+
+- **JavaScript**
+  - Módulos ES6 (`import` / `export`) tal como está implementado en `js/lang.js` y `js/java.js`.
+  - Nombres en **camelCase** para variables y funciones (`menuBtn`, `updateLanguage`).
+  - Separación clara entre la tabla de traducciones (`lang.js`) y la lógica de manipulación del DOM (`java.js`).
+
+- **Internacionalización (i18n)**
+  - Traducciones mantenidas en `lang.js` como `export const traduccion` con claves que coinciden con los `id` del HTML.
+  - Traducción dinámica que actualiza `innerText`, `placeholder` y `value` según el tipo de elemento.
+
+- **Accesibilidad (A11y)**
+  - Formularios con `label` o `aria-label` y controles navegables por teclado.
+  - Acordeón del FAQ con cambio visual claro; se recomienda mantener atributos ARIA (`aria-expanded`) al evolucionar la implementación.
+  - Contrastes y tamaños de texto orientados a cumplir al menos nivel AA.
+
+- **Control de calidad**
+  - Mensajes de commit siguiendo **Conventional Commits** (`feat:`, `fix:`, `docs:`).
+  - Flujo de ramas simple: `main` (producción), `develop` (integración) y `feature/*` para trabajo aislado.
+  - Recomendación de linters y formateadores (ESLint / Prettier) para mantener consistencia estilística.
 
 ### 5.1.4. Software Deployment Configuration
+
+La landing page es una aplicación estática que se publica habitualmente mediante GitHub Pages. La configuración actual del repositorio respalda un despliegue directo desde la rama que actúe como producción.
+
+**Consideraciones sobre el despliegue**
+
+- La página principal se sirve desde `index.html` situado en la raíz del repositorio y los recursos se referencian con rutas relativas (`./style.css`, `./js/java.js`, `./imgs/fondo-menu.jpg`), lo que facilita la publicación estática.
+- GitHub Pages resulta adecuado para este tipo de contenido: la URL pública asociada al repositorio permite verificar visualmente la landing (`https://temucoders.github.io/Landing-Page/`).
+- Si en etapas posteriores se incorpora un proceso de build (Vite, Webpack, etc.), el artefacto resultante (`dist/`) se convierte en la carpeta de publicación y el flujo de CI/CD (por ejemplo GitHub Actions) puede automatizar la construcción y el despliegue.
+
+**Buenas prácticas vinculadas al repositorio**
+
+- Mantener `index.html` en la raíz y las carpetas `js/`, `imgs/` y `style.css` con nombres y rutas consistentes.
+- Evitar la inclusión de credenciales en el repositorio; cualquier secreto necesario para workflows debe ubicarse en `GitHub Secrets`.
+- Documentar en `README.md` la URL pública, la estructura mínima del repo y los pasos esenciales para comprobar localmente la página (por ejemplo, abrir `index.html` con Live Server).
+
+**Verificación post-publicación**
+
+- Comprobación de que los recursos (imágenes, CSS, JS) retornan 200 y se cargan sin errores en consola.
+- Revisión rápida de funcionalidades críticas: cambio de idioma, acordeón FAQ y navegación principal.
+- Revisión de rendimiento/accesibilidad básica con herramientas como Lighthouse cuando sea pertinente.
 
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
@@ -1230,11 +1442,68 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators     
 
-##### 5.2.1.3. Sprint Backlog 1
+| Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 (L/C) |
+| ----- | ----- | ----- |
+| Quijada Magro Jeremy Alexander | jhonson2021 | L |
+| Huang Liu Franco Gabriel | St4rLght05 | C |
+| Saravia Huaricancha Arturo Axel |thunder053| C |
+| Cumba Rengifo Leonardo Raul | LeonardoC72 | C |
+| La Madrid Lozano Ivan Jeanpierre | ivanlamadrid | C |
+
+#### **5.2.1.3. Sprint Backlog 1\.**
+
+Para el primer sprint, desarrollamos la estructura y las funcionalidades básicas de la landing page, así como el diseño visual y la barra de navegación.
+
+| User Story ID | Título | Work-Item ID | Título de la tarea | Descripción | Estimación (h) | Assigned to | Status |
+| ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
+| **US-01** | Búsqueda rápida en Hero | T01 | Diseñar sección Hero | Wireframe \+ copy (campo ciudad/fecha \+ CTA). | 4 | Quijada Magro Jeremy Alexander  | Done |
+|  |  | T02 | Input \+ autocomplete básico | Campo con sugerencias mock (≥3 chars). | 6 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T03 | Enrutamiento a /resultados | Pasar query params (ciudad, fecha). | 4 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T04 | A11y \+ teclado | Labels, role=search, foco y ARIA. | 3 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T05 | Pruebas UI | Casos “sin coincidencias” y enter key. | 3 | Saravia Huaricancha Arturo Axel | Done |
+| **US-02** | Navegación principal (header) | T06 | Header sticky | Componente fijo, sombra y contenedor. | 3 | Quijada Magro Jeremy Alexander  | Done |
+|  |  | T07 | Menú móvil | Drawer/hamburguesa con focus visible. | 3 | Quijada Magro Jeremy Alexander  | Done |
+|  |  | T08 | Enlaces y estados | Hover/active, skip-to-content. | 3 | Saravia Huaricancha Arturo Axel | Done |
+| **US-03** | Espacios destacados | T09 | Cards de destacados | 3 cards con imagen, precio, CTA. | 3 | Huang Liu Franco Gabriel | Done |
+|  |  | T10 | CTA “Descubre más” | Link a /resultados con filtro tipo=desk. | 3 | Huang Liu Franco Gabriel | Done |
+| **US-04** | Testimonios | T11 | Carrusel accesible | Carousel con botones prev/next y aria-live=off. | 3 | Huang Liu Franco Gabriel | Done |
+|  |  | T12 | Datos mock \+ layout | 3–5 testimonios (nombre, rating, texto). | 3 | Huang Liu Franco Gabriel | Done |
+| **US-05** | FAQ (acordeón) | T13 | Acordeón FAQ | Componente con apertura/cierre y focus. | 4 | Quijada Magro Jeremy Alexander  | Done |
+|  |  | T14 | Buscador en FAQ | Filtrado por texto en cliente. | 4 | Quijada Magro Jeremy Alexander  | Done |
+| **US-06** | Footer \+ contacto | T15 | Footer legal y links | Términos, privacidad, redes, contacto. | 4 | Cumba Rengifo Leonardo Raul | Done |
+|  |  | T16 | Formulario de contacto | Nombre, email, mensaje (mock submit). | 4 | Cumba Rengifo Leonardo Raul | Done |
+| **US-07** | Descargar brochure PDF | T17 | Archivo \+ descarga | Colocar brochure.pdf y manejo de error. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
+| **US-08** | Banner cookies/privacidad | T18 | Banner y preferencias | Aceptar/Rechazar/Configurar (+ localStorage). | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
+|  |  | T19 | Enlace a preferencias | Link persistente en footer. | 4 | Cumba Rengifo Leonardo Raul | Done |
+| **US-09** | SEO básico en landing | T20 | Metas y OG tags | title, meta-description, og:image/url. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
+|  |  | T21 | Favicon/robots/sitemap | Favicon set, robots.txt y sitemap básico. | 4 | Cumba Rengifo Leonardo Raul | Done |
+| **US-10** | Animaciones sutiles | T22 | Micro-interacciones | Hover en cards/CTAs y reveal suave. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
+|  |  | T23 | Auditoría performance | Verificar no degrada LCP/CLS (Lighthouse). | 4 | Saravia Huaricancha Arturo Axel | Done |
+| **US-58** | Scroll a anclas | T24 | Anclas y scroll suave | Menú a secciones (\#servicios, \#faq, \#contacto). | 4 | Saravia Huaricancha Arturo Axel | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
+En este punto evidenciamos el desarrollo y el apoyo por parte de los integrantes del equipo en la construcción del frontend estático de la Landing Page.
+![Development-evidence](imgs/commits.png)
+
 
 ##### 5.2.1.5. Execution Evidence for Sprint Review
+| **Epic / Story ID** | **Título**                     | **Criterios de Aceptación**                                                                                                                        |
+| ------------------- | ------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| US-02               | Navegación principal (header) | Dado que el usuario hace scroll en la página, cuando el header sale de la vista, entonces este permanece fijo en la parte superior. Además, los enlaces del menú permiten navegar suavemente hacia las secciones correspondientes. |
+| US-05              | FAQ (acordeón)    | Dado que el usuario abre la sección de preguntas frecuentes, cuando hace clic sobre una pregunta, entonces se despliega su respuesta, cerrando las demás preguntas activas.                               |
+| US-06                | Footer con políticas y contacto          | Dado que el usuario se desplaza hasta el final de la página, cuando hace clic en cualquiera de los enlaces del footer, entonces es redirigido a la sección o página correspondiente (términos, privacidad, contacto, redes sociales).                     |
+|US-10                | Animaciones sutiles | Dado que el usuario interactúa con botones o cards, cuando pasa el mouse sobre ellos, entonces se aplican microinteracciones (hover, elevación, sombra) sin afectar el rendimiento.                                           |
+|US-58                | Scroll a anclas en landing | Dado que el usuario selecciona un ítem del menú, cuando hace clic en él, entonces se ejecuta un scroll suave hacia la sección correspondiente (Servicios, FAQ, Contacto).                                           |
+
+En este sprint, la Landing Page logró cubrir de manera completa las funcionalidades básicas de navegación, búsqueda y presentación de información, cumpliendo con los criterios definidos en el backlog.
+
+Enlace de la Landing Page desplegada: https://temucoders.github.io/Landing-Page/
+
+![Landing-Page](imgs/l1.png)
+![Landing-Page](imgs/l2.png)
+![Landing-Page](imgs/l3.png)
+![Landing-Page](imgs/l4.png)
+![Landing-Page](imgs/l5.png)
 
 #### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
@@ -1257,6 +1526,44 @@ Se realizó el despliegue de la **landing page** del proyecto *AgeCare*, marcand
 
 ##### Evidencias Visuales
 
+* Configuración del repositorio GitHub y estructura inicial de carpetas.
+
+  * Creamos un repositorio para la landing page dentro de la organizacion. La configuramos para que sea de tipo publico:
+
+    <p align="center">
+      <img src="./imgs/paso 1.png" alt="paso 1""/>
+    </p>
+
+  * Una vez dentro copiamos la direccion HTTPS del repositorio y la clonamos en nuestro entorno local con el comando git clone. Preparamos una estructura de carpetas similar a la siguiente en nuestra maquina:
+
+    <p align="center">
+      <img src="./imgs/carpetas.png" alt="carpetas""/>
+    </p>
+
+* Implementación de flujo de trabajo con Git Flow, manteniendo los cambios en la rama develop.
+
+  * Desde la consola, creamos un push inicial en la rama remota main usando el comando git push origin main con un mensaje commit descriptivo. initial-commit-landing
+
+  * El siguiente paso es crear la rama local develop usando el comando git checkout -b develop, la creamos de manera remota con git push origin develop. Las ramas feature/* se crearan de la misma forma, pero hay que tener en cuenta que siempre se deben crear a partir de la rama develop, por lo que un paso previo es asegurarnos que estamos en la rama correcta con git checkout develop.
+
+*  Realización de un merge desde develop hacia la rama main, de acuerdo a las convenciones definidas en la sección 5.1.2.
+
+  *  Activación de GitHub Pages como servicio de despliegue estático, apuntando al contenido de la rama main.
+
+  * Se realizaron pruebas manuales usando la extension Live Server para verificar la funcionalidad de la landing page antes de fusionar los cambios.
+
+* Activación de GitHub Pages como servicio de despliegue estático, apuntando al contenido de la rama main.
+
+  * En la configuración del repositorio, se seleccionó la rama main como fuente para GitHub Pages. Esto se realizó desde la pestaña "Settings" > "Pages" en GitHub.
+
+  * Se verificó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
+
+  <p align="center">
+      <img src="./imgs/pages.png" alt="pages""/>
+    </p>
+
+
+
 * Publicacion exitosa de la Landing Page
 
 
@@ -1265,6 +1572,17 @@ Se realizó el despliegue de la **landing page** del proyecto *AgeCare*, marcand
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
 Para este sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyó entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo por todo el equipo.
+
+<p align="center">
+  <img src="./imgs/insight - tb1.png" alt="insight""/>
+</p>
+
+<p align="center">
+  <img src="./imgs/commits -tb1.png" alt="commits""/>
+</p>
+
+
+
 
 ### Conclusiones
 
@@ -1276,7 +1594,7 @@ Como idea final, WorkStation representa la iniciativa tecnológica con impacto s
 
 ### Anexos
 
-Enlace del Landing Page:
+Enlace del Landing Page: https://temucoders.github.io/Landing-Page/
 
 ### Bibliografía
 
