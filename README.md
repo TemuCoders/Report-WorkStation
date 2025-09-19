@@ -1354,17 +1354,19 @@ El equipo adopta convenciones de estilo sencillas y consistentes para facilitar 
 
 **Estructura del proyecto**
 
+```
 / (repo root)
 ├─ imgs/
-│ ├─ concepto-faq_23-2148162317.jpg
-│ ├─ contactanos.avif
-│ ├─ fondo-menu.jpg
-│ └─ logo.jpg
+│  ├─ concepto-faq_23-2148162317.jpg
+│  ├─ contactanos.avif
+│  ├─ fondo-menu.jpg
+│  └─ logo.jpg
 ├─ js/
-│ ├─ java.js ← módulo principal (ES module)
-│ └─ lang.js ← traducciones (export const traduccion)
+│  ├─ java.js        ← módulo principal (ES module)
+│  └─ lang.js        ← traducciones (export const traduccion)
 ├─ index.html
 └─ style.css
+```
 
 **Convenciones y prácticas aplicadas**
 
