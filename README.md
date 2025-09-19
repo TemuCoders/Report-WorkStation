@@ -194,6 +194,22 @@ Desarrollo de Aplicaciones Open Source<br>
   
 ---
 
+## Project Report Collaboration Insights
+
+- **URL de la organización del proyecto:**  
+  [https://github.com/TemuCoders](https://github.com/TemuCoders)
+- **URL del repositorio del informe:**  
+    [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
+
+Todas las tareas correspondientes a la entrega de la TB1 han sido completadas y están documentadas en el repositorio de GitHub de la organización del equipo. Para la elaboración del informe, cada integrante del equipo se encargó de redactar y generar gráficos en formato Markdown, según los puntos que le fueron asignados, realizando commits para dejar constancia del progreso en el repositorio.
+
+Aquí se pueden visualizar todos los commits realizados para la TB1, lo cual evidencia el trabajo colaborativo del equipo.
+
+<p align="center">
+  <img src="/imgs/commits -tb1.png" alt="colab" />
+  
+Para facilitar el desarrollo del trabajo, optamos por seguir el flujo de trabajo Gitflow. En este esquema, cada subtítulo del informe fue tratado como una feature. Un miembro del equipo creaba una rama específica para ese subtítulo y trabajaba en ella, mientras que otros miembros podían colaborar directamente o supervisar su progreso. Una vez finalizada la feature, todo el equipo revisaba el contenido y, tras obtener el consenso, se realizaba el merge hacia la rama develop. Además, organizamos las tareas considerando su nivel de dificultad, asegurando así una distribución equitativa del trabajo entre todos los integrantes.
+
 ## Student Outcome
 
 **ABET – EAC - Student Outcome 3**  
