@@ -59,35 +59,12 @@ Desarrollo de Aplicaciones Open Source<br>
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [Descripción de la Problemática](#descripción-de-la-problemática)
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [Dominio del Problema](#dominio-del-problema)
-      - [Segmentos de Cliente](#segmentos-de-cliente)
-      - [Puntos de Dolor](#puntos-de-dolor)
-      - [Brecha Detectada](#brecha-detectada)
-      - [Visión y Estrategia](#visión-y-estrategia)
-      - [Segmento Inicial](#segmento-inicial)
       - [1.2.2.2. Lean UX Problem Assumptions](#1222-lean-ux-problem-assumptions)
       - [1.2.2.3. Lean UX Problem Hypothesis Statements](#1223-lean-ux-problem-hypothesis-statements)
       - [1.2.2.4. Lean UX Problem Canvas](#1224-lean-ux-problem-canvas)
-      - [1. Business Problem](#1-business-problem)
-      - [2. Business Outcomes](#2-business-outcomes)
-      - [3. Users](#3-users)
-      - [4. User Benefits](#4-user-benefits)
-      - [5. Solutions](#5-solutions)
-      - [6. Hypotheses](#6-hypotheses)
-      - [7. What’s the most important thing we need to learn first?](#7-whats-the-most-important-thing-we-need-to-learn-first)
-      - [8. What’s the least amount of work we need to do to learn the next most important thing?](#8-whats-the-least-amount-of-work-we-need-to-do-to-learn-the-next-most-important-thing)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-    - [Propietarios de Inmuebles (Coworkings)](#propietarios-de-inmuebles-coworkings)
-      - [Características Demográficas](#características-demográficas)
-      - [Datos Relevantes](#datos-relevantes)
-      - [Necesidades Clave](#necesidades-clave)
-    - [Freelancers y Startups](#freelancers-y-startups)
-      - [Características Demográficas](#características-demográficas-1)
-      - [Datos Relevantes](#datos-relevantes-1)
-      - [Necesidades Clave](#necesidades-clave-1)
   - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -101,29 +78,17 @@ Desarrollo de Aplicaciones Open Source<br>
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
-      - [**Leyenda — Escalas**](#leyenda--escalas)
-      - [a) Trabajador independiente / Freelancer](#a-trabajador-independiente--freelancer)
-      - [b) Propietario de inmueble / Host](#b-propietario-de-inmueble--host)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
-  - [**3.1. User Stories**](#31-user-stories-1)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
       - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [Branding:](#branding)
-        - [Typography](#typography)
-        - [Colors](#colors)
-        - [Spacing](#spacing)
-        - [Tone of Communication and Language](#tone-of-communication-and-language)
-          - [Ejemplos](#ejemplos)
       - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-        - [Diseño Responsive](#diseño-responsive)
-        - [Breakpoints](#breakpoints)
     - [4.2. Information Architecture](#42-information-architecture)
       - [4.2.1. Organization Systems](#421-organization-systems)
         - [Sistemas Visuales](#sistemas-visuales)
@@ -231,32 +196,26 @@ Considerando la flexibildad y la adaptabilidad como puntos esenciales para el cr
 | ![Ivan](imgs/ivan.jpg)                                                         | Ivan Jeanpierre La Madrid Lozano         | Estudiante de Ingeniería de Software con enfoque en la solucion de distintos problemas tecnológicos                                                                                         |
 
 ## 1.2. Solution Profile
-
 ### 1.2.1 Antecedentes y problemática
 
 - **Who (¿Quiénes son los involucrados?)**  
-  Los principales usuarios son freelancers, trabajadores remotos, pequeñas empresas, startups y nómadas digitales que requieren espacios de trabajo profesionales, cómodos y flexibles sin necesidad de alquilar una oficina a largo plazo.  
-  Además, los propietarios y administradores de espacios de coworking forman parte clave, ya que buscan visibilidad, gestión eficiente de sus reservas y captación de nuevos clientes.
+  Los principales afectados son freelancers, trabajadores remotos, pequeñas empresas, startups y nómadas digitales que buscan espacios de trabajo profesionales y flexibles sin compromisos a largo plazo. Asimismo, los propietarios y administradores de espacios de coworking enfrentan dificultades para gestionar reservas y atraer clientes de manera eficiente.
 
 - **What (¿Qué se necesita?)**  
-  Se necesita una plataforma centralizada e intuitiva que permita a los usuarios buscar, comparar, reservar y pagar por espacios de coworking en diferentes ubicaciones, con información clara y disponibilidad en tiempo real.  
-  Actualmente, el proceso de reserva suele ser manual, lento y disperso en múltiples canales no estandarizados (webs propias, redes sociales, WhatsApp, etc.).
+  Existe una necesidad de un sistema que facilite la búsqueda y acceso a espacios de coworking con información clara y disponibilidad actualizada, debido a la falta de un proceso estandarizado y eficiente para reservas.
 
 - **Where (¿Dónde ocurre el problema?)**  
-  En ciudades con alta actividad profesional y creciente demanda por espacios flexibles, como Lima, Arequipa, Medellín, Bogotá o CDMX. La necesidad puede extenderse a nivel nacional e internacional a medida que el trabajo remoto se consolida.
+  El problema se presenta en ciudades con alta demanda de espacios flexibles, como Lima, Arequipa, Medellín, Bogotá y Ciudad de México, con potencial de expansión a otras regiones donde el trabajo remoto está creciendo.
 
 - **When (¿Cuándo surge esta necesidad?)**  
-  La necesidad es continua y puede surgir en cualquier momento. Muchos usuarios requieren espacios por horas, días o semanas. Además, algunos necesitan soluciones de último minuto para reuniones o trabajo inmediato.
+  La necesidad surge de manera continua, especialmente en momentos de alta demanda laboral o cuando los usuarios requieren espacios de manera inmediata, por horas, días o semanas, sin opciones ágiles disponibles.
 
 - **Why (¿Por qué existe esta necesidad?)**  
-  El mundo laboral ha cambiado. La pandemia aceleró el trabajo remoto y la cultura freelance. Las personas necesitan trabajar en ambientes productivos y profesionales, pero sin compromisos de largo plazo. Sin embargo, no existe una solución eficiente y masiva que integre toda la oferta disponible y facilite el proceso de reserva.
+  El cambio en el mundo laboral, impulsado por la pandemia, ha incrementado el trabajo remoto y la cultura freelance. Esto ha generado una mayor demanda de espacios productivos, pero la ausencia de un sistema unificado y eficiente para reservas crea frustración y pérdida de oportunidades para usuarios y propietarios.
 
-- **How (¿Cómo se puede solucionar?)**  
-  Mediante el desarrollo de una aplicación web llamada WorkStation, que permita a los usuarios explorar una variedad de espacios de coworking, visualizar disponibilidad, leer reseñas, aplicar filtros, hacer reservas en tiempo real y pagar desde una sola interfaz.
-
-- **How Much (¿Cuánto costaría y cómo se monetiza?)**  
-  Los precios varían según ciudad, tipo de espacio, servicios y duración. La plataforma podrá mostrar precios claros y actualizados. El modelo de negocio se sustentará en comisiones por reserva, planes de suscripción para coworking o membresías premium para usuarios frecuentes.
-
+- **How (¿Cómo se manifiesta el problema?)**  
+  El proceso de reserva actual es manual, lento y fragmentado, dependiendo de canales no estandarizados como sitios web propios, redes sociales o WhatsApp, lo que genera ineficiencias, errores y una experiencia poco confiable para los involucrados.
+  
 ### Descripción de la Problemática
 
 En los últimos años, el trabajo remoto y el modelo freelance han experimentado un crecimiento significativo en Perú y América Latina. Según Statista (2023), más del 20% de los trabajadores peruanos realiza actividades de forma independiente o remota, y esta tendencia continúa en aumento. Sin embargo, este cambio en la modalidad laboral no ha sido acompañado por soluciones tecnológicas que respondan de manera efectiva a las necesidades de espacio físico flexible, accesible y bien ubicado.
