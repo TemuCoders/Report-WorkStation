@@ -617,9 +617,9 @@ Para esta sección hemos tomado en cuenta dos User Persona que corresponden a lo
 
 ![User Persona 2](./imgs//Trabajador%20independiente%20_%20freelancer.png)
 
-### 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix (AS-IS)
 
-Estamos considerando los segmentos objetivos "Propietario de Inmueble" y "Trabajador independiente" como fueron definidos anteriormente como User Persona
+Estamos considerando los segmentos objetivos **"Propietario de Inmueble"** y **"Trabajador independiente / Freelancer"** como fueron definidos anteriormente en los User Personas.
 
 #### **Leyenda — Escalas**
 - **Importancia:** 1 (Baja) · 2 (Moderada) · 3 (Importante) · 4 (Muy importante) · 5 (Crítica)  
@@ -628,39 +628,40 @@ Estamos considerando los segmentos objetivos "Propietario de Inmueble" y "Trabaj
 
 ---
 
-#### a) Trabajador independiente / Freelancer
-| Tarea | Importancia (1–5) | Frecuencia | Prioridad | Punto de la app | KPI / Resultado esperado | Riesgo / Acción recomendada |
+#### a) Trabajador independiente / Freelancer (AS-IS)
+| Tarea (hoy) | Importancia (1–5) | Frecuencia | Prioridad | Canal actual | Dolor / Riesgo | Acción recomendada (AS-IS) |
 |---|---:|:---:|:---:|---|---|---|
-| Buscar espacios por ubicación/fecha | 5 | D | Alta | Exploración (mapa + lista) | p95 búsqueda < 2s; ≥ 8 resultados relevantes | Optimizar índices / caching; tests de latencia |
-| Aplicar filtros (precio, amenities, ruido, Mbps) | 4 | D | Alta | Filtros avanzados | ≥ 60% sesiones usan ≥2 filtros | UX: filtros accesibles y preseteables |
-| Comparar 2–3 opciones (comparador) | 4 | S | Alta | Comparador / comparativa rápida | Comparaciones por sesión ≥ 1.5 | Añadir CTA “Comparar” y persistir selección |
-| Revisar ficha (fotos, reglas, política) | 5 | D | Alta | Ficha del espacio | Tasa de abandono de ficha < 20% | Garantizar fotos mínimas y copy claro |
-| Ver disponibilidad / calendario | 5 | D | Alta | Calendario interactivo | 0 doble-reserva; slots consistentes | Validación server-side; bloqueo optimista |
-| Iniciar reserva y pagar (checkout) | 5 | S | Alta | Checkout | Conversión checkout ≥ 45% | Simplificar pasos; varias pasarelas |
-| Mensajería con propietario | 3 | O | Media | Chat / mensajería | Tiempo 1ª respuesta < 10 min | Notificaciones push / plantillas |
-| Check-in / Check-out (con fotos) | 3 | O | Media | Mis reservas | % no-show < 3% | Implementar check-in QR; verificación fotos |
-| Valorar y comentar (reseñas) | 3 | O | Media | Reseñas | Tasa de reseñas ≥ 30% | Reminders post-reserva; incentivos leves |
-| Guardar favoritos / alertas (bajada de precio) | 2 | S | Baja | Favoritos / Alertas | Retención M+1 ≥ 35% | UX para gestión de alertas; emails opt-in |
+| Buscar espacios en Google / Maps | 5 | D | Alta | Buscador / Maps | Información dispersa, resultados irrelevantes | Documentar fuentes frecuentes; usar búsquedas guiadas |
+| Pedir recomendaciones a colegas / grupos | 4 | S | Alta | Grupos FB / WhatsApp / LinkedIn | Respuestas sesgadas o tardías | Mantener lista de contactos confiables; validar referencias |
+| Revisar fotos, precios y descripciones en webs/IG | 4 | O | Media | Webs/Instagram / Facebook | Fotos malas o info incompleta | Solicitar más fotos; preguntar por detalles antes de reservar |
+| Contactar al local para confirmar disponibilidad | 5 | O | Alta | WhatsApp / llamada / formulario | Respuestas lentas, errores en horarios | Confirmar horario y guardar captura de la conversación |
+| Negociar precio y condiciones | 4 | O | Media | Chat / llamada | Malentendidos; políticas poco claras | Acordar condiciones por escrito (mensaje/email) |
+| Pagar (transferencia/e-wallet) y recibir comprobante | 5 | O | Alta | Transferencia banc., Yape, efectivo | Comprobantes perdidos; conciliación manual | Guardar comprobante; solicitar confirmación escrita |
+| Llegar y hacer check-in (revisión del espacio) | 3 | O | Media | Presencial / recepción | Reglas no claras, conflictos por uso | Tomar fotos al ingreso; revisar reglas por escrito |
+| Reportar incidencias (wifi, ruido, limpieza) | 4 | O | Media | WhatsApp / teléfono | Tiempos de respuesta largos | Documentar incidencias; escalar si no hay respuesta |
+| Dejar reseña o feedback (si procede) | 2 | R | Baja | Google / redes sociales | Baja tasa de reseñas → menos confianza colectiva | Incentivar feedback (recordatorio tras uso) |
+| Guardar favoritos / hacer seguimiento de una opción | 2 | S | Baja | Marcadores del navegador / notas | Difícil seguir cambios de disponibilidad | Mantener registro propio con URLs y capturas |
 
 ---
 
-#### b) Propietario de inmueble / Host
-| Tarea | Importancia (1–5) | Frecuencia | Prioridad | Punto de la app | KPI / Resultado esperado | Riesgo / Acción recomendada |
+#### b) Propietario de inmueble / Host (AS-IS)
+| Tarea (hoy) | Importancia (1–5) | Frecuencia | Prioridad | Canal actual | Dolor / Riesgo | Acción recomendada (AS-IS) |
 |---|---:|:---:|:---:|---|---|---|
-| Crear cuenta y verificación (KYC/KYB) | 5 | O | Alta | Onboarding | % verificación exitosa ≥ 90% | Flujos fallback; ayuda humana si falla KYC |
-| Publicar espacio (datos, fotos, tarifas) | 5 | O | Alta | Wizard de publicación | Tiempo de alta ≤ 20 min; ≥ 5 fotos | Validaciones en cliente; checklist visual |
-| Definir disponibilidad (calendario) | 4 | S | Alta | Calendario de host | Ocupación objetivo ≥ 55% | Sincronizar iCal; manejo de zonas horarias |
-| Gestionar mensajes / solicitudes | 4 | D | Alta | Inbox / Chat | Tiempo respuesta < 10 min | Notificaciones y plantillas; SLA interno |
-| Confirmar / administrar reservas | 5 | D | Alta | Panel de reservas | Cancelaciones por error < 1% | Automatizar confirmaciones; logs de cambios |
-| Gestionar pagos y facturación | 5 | M | Alta | Pagos / Facturación | Rechazos de pago < 1% | Reintentos, conciliación y reportes |
-| Subir evidencia (check-in/out) | 3 | O | Media | Detalle de reserva | Disputas por daños < 2% | Estándar de fotos/time-stamp obligatorio |
-| Responder reseñas | 3 | M | Media | Reseñas | ≥ 50% de reseñas respondidas | Notificaciones para owner; plantillas |
-| Editar / pausar publicaciones | 3 | O | Media | Gestión de espacios | Tiempo de edición ≤ 5 min | UI rápida; historial de cambios |
-| Analítica (ocupación / ingresos) | 4 | M | Alta | Analytics / Dashboard | +5 p.p. ocupación / trimestre | Datos accionables y recomendaciones autom. |
+| Preparar fotos y descripción del espacio | 5 | O | Alta | Cámara / Canva / Word | Fotos de baja calidad que reducen interés | Crear checklist mínimo de fotos y descripción |
+| Publicar anuncio (FB, Marketplace, OLX, IG) | 5 | S | Alta | FB Marketplace / Grupos / OLX / IG | Moderaciones, baja visibilidad, esfuerzo manual | Registrar plantillas de publicación para reutilizar |
+| Responder consultas de potenciales inquilinos | 5 | D | Alta | WhatsApp / llamadas / mensajes privados | Respuestas tardías → pérdida de leads | Establecer horario de respuesta y mensajes plantilla |
+| Llevar disponibilidad en agenda o Excel | 4 | S | Alta | Excel / Google Calendar / Agenda física | Doble reserva, errores humanos | Sincronizar calendarios; rutinas de control diario |
+| Confirmar y gestionar reservas (manual) | 5 | D | Alta | WhatsApp / llamada / transferencia | Cancelaciones, no-shows, falta de trazabilidad | Solicitar depósito/anticipo; registrar comprobantes |
+| Cobrar y conciliar pagos | 5 | M | Alta | Transferencia / Yape / Efectivo | Impagos o dificultad para conciliar | Mantener registro de pagos; comprobantes digitales |
+| Verificar perfil del inquilino (informal) | 4 | O | Media | Solicitar DNI / referencias | Riesgo de fraude o daño al inmueble | Solicitar referencias y/o depósito de seguridad |
+| Entregar llaves / acceso y check-in | 4 | O | Media | Presencial / portería / encargo | No-show o retrasos que afectan al siguiente cliente | Confirmar horario de llegada y plan alterno |
+| Atender incidencias y mantenimiento | 4 | O | Media | WhatsApp / proveedor de servicios | Costos operativos y tiempos de respuesta | Tener lista de proveedores y SLA informal |
+| Revisar y responder reseñas | 3 | M | Media | Google / Facebook / IG | Baja interacción → percepción pobre del servicio | Responder reseñas clave; solicitar feedback activo |
 
 ---
 
-Entre las tareas encontradas, la que ambos User Persona coinciden en que es importante y frecuente son tanto el contactarse mutuamente como el acordar precio y forma de pago, se debe a que ambos buscan que el préstamo del servicio se concrete y bajo condiciones favorables para ambos. Además, cada User Persona tiene su tarea particular: para el propietario es importante ofrecer su local y para el freelancer es importante buscar espacios de trabajo. Por último tenemos un tarea particular frecuente para el freelancer la cual es comparar diferentes ofertas de espacios de trabajo para ver lo que más se ajuste a su presupuesto y cuente con las características necesarias. Mientras que para el propietario, esto lo hace rara vez cuando desee ver qué precios ponen sus competidores.
+**Conclusión (AS-IS):**  
+La mayoría de las tareas actuales de freelancers y propietarios se realizan de forma **manual y distribuida en múltiples canales** (WhatsApp, Google, redes, Excel). Esto provoca fricción: demora en confirmaciones, riesgo de doble reserva, mala calidad de información y dificultad para conciliar pagos. Las acciones recomendadas en esta matriz son medidas *prácticas y aplicables hoy* para mitigar riesgos sin depender de una solución técnica inmediata (ej. plantillas, checklist, captura de comprobantes, sincronización de calendarios).
 
 ### 2.3.3. User Journey Mapping
 
