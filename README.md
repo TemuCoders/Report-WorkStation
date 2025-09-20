@@ -674,9 +674,12 @@ Entre las tareas encontradas, la que ambos User Persona coinciden en que es impo
 
 ### 2.3.4. Empathy Mapping
 
+**Freelancers**
 <p align="center">
-  <img src="imgs/Empathy Map Brainstorm.png" alt="Empathy Map Brainstorm.png" />
+  <img width="1163" height="753" alt="image" src="https://github.com/user-attachments/assets/6906309f-f5bd-40aa-a00d-64409077ca94" />
 </p>
+
+**Propietarios de Inmuebles**
 
 <p align="center">
 <img width="1398" height="904" alt="image" src="https://github.com/user-attachments/assets/d01adec2-5255-4a5b-9385-ff94ae1511b1" />
