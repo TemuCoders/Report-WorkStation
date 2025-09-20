@@ -59,35 +59,12 @@ Desarrollo de Aplicaciones Open Source<br>
     - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
   - [1.2. Solution Profile](#12-solution-profile)
     - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [Descripción de la Problemática](#descripción-de-la-problemática)
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [Dominio del Problema](#dominio-del-problema)
-      - [Segmentos de Cliente](#segmentos-de-cliente)
-      - [Puntos de Dolor](#puntos-de-dolor)
-      - [Brecha Detectada](#brecha-detectada)
-      - [Visión y Estrategia](#visión-y-estrategia)
-      - [Segmento Inicial](#segmento-inicial)
       - [1.2.2.2. Lean UX Problem Assumptions](#1222-lean-ux-problem-assumptions)
       - [1.2.2.3. Lean UX Problem Hypothesis Statements](#1223-lean-ux-problem-hypothesis-statements)
       - [1.2.2.4. Lean UX Problem Canvas](#1224-lean-ux-problem-canvas)
-      - [1. Business Problem](#1-business-problem)
-      - [2. Business Outcomes](#2-business-outcomes)
-      - [3. Users](#3-users)
-      - [4. User Benefits](#4-user-benefits)
-      - [5. Solutions](#5-solutions)
-      - [6. Hypotheses](#6-hypotheses)
-      - [7. What’s the most important thing we need to learn first?](#7-whats-the-most-important-thing-we-need-to-learn-first)
-      - [8. What’s the least amount of work we need to do to learn the next most important thing?](#8-whats-the-least-amount-of-work-we-need-to-do-to-learn-the-next-most-important-thing)
   - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-    - [Propietarios de Inmuebles (Coworkings)](#propietarios-de-inmuebles-coworkings)
-      - [Características Demográficas](#características-demográficas)
-      - [Datos Relevantes](#datos-relevantes)
-      - [Necesidades Clave](#necesidades-clave)
-    - [Freelancers y Startups](#freelancers-y-startups)
-      - [Características Demográficas](#características-demográficas-1)
-      - [Datos Relevantes](#datos-relevantes-1)
-      - [Necesidades Clave](#necesidades-clave-1)
   - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
   - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
@@ -101,29 +78,17 @@ Desarrollo de Aplicaciones Open Source<br>
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix](#232-user-task-matrix)
-      - [**Leyenda — Escalas**](#leyenda--escalas)
-      - [a) Trabajador independiente / Freelancer](#a-trabajador-independiente--freelancer)
-      - [b) Propietario de inmueble / Host](#b-propietario-de-inmueble--host)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
     - [2.3.4. Empathy Mapping](#234-empathy-mapping)
     - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
   - [2.4. Ubiquitous Language](#24-ubiquitous-language)
 - [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
   - [3.1. User Stories](#31-user-stories)
-  - [**3.1. User Stories**](#31-user-stories-1)
   - [3.2. Impact Mapping](#32-impact-mapping)
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
       - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [Branding:](#branding)
-        - [Typography](#typography)
-        - [Colors](#colors)
-        - [Spacing](#spacing)
-        - [Tone of Communication and Language](#tone-of-communication-and-language)
-          - [Ejemplos](#ejemplos)
       - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-        - [Diseño Responsive](#diseño-responsive)
-        - [Breakpoints](#breakpoints)
     - [4.2. Information Architecture](#42-information-architecture)
       - [4.2.1. Organization Systems](#421-organization-systems)
         - [Sistemas Visuales](#sistemas-visuales)
@@ -194,22 +159,6 @@ Desarrollo de Aplicaciones Open Source<br>
   
 ---
 
-## Project Report Collaboration Insights
-
-- **URL de la organización del proyecto:**  
-  [https://github.com/TemuCoders](https://github.com/TemuCoders)
-- **URL del repositorio del informe:**  
-    [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
-
-Todas las tareas correspondientes a la entrega de la TB1 han sido completadas y están documentadas en el repositorio de GitHub de la organización del equipo. Para la elaboración del informe, cada integrante del equipo se encargó de redactar y generar gráficos en formato Markdown, según los puntos que le fueron asignados, realizando commits para dejar constancia del progreso en el repositorio.
-
-Aquí se pueden visualizar todos los commits realizados para la TB1, lo cual evidencia el trabajo colaborativo del equipo.
-
-<p align="center">
-  <img src="/imgs/commits -tb1.png" alt="colab" />
-  
-Para facilitar el desarrollo del trabajo, optamos por seguir el flujo de trabajo Gitflow. En este esquema, cada subtítulo del informe fue tratado como una feature. Un miembro del equipo creaba una rama específica para ese subtítulo y trabajaba en ella, mientras que otros miembros podían colaborar directamente o supervisar su progreso. Una vez finalizada la feature, todo el equipo revisaba el contenido y, tras obtener el consenso, se realizaba el merge hacia la rama develop. Además, organizamos las tareas considerando su nivel de dificultad, asegurando así una distribución equitativa del trabajo entre todos los integrantes.
-
 ## Student Outcome
 
 **ABET – EAC - Student Outcome 3**  
@@ -219,8 +168,9 @@ En el siguiente cuadro se describen las acciones realizadas y conclusiones del e
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  | **TB1**: Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC. |
-| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  | **TB1:** Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC.  |
+| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1:**  | **TB1**:  |
+| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1:**  | **TB1:**  |
+
 
 
 ## Capítulo I: Introducción
@@ -246,32 +196,26 @@ Considerando la flexibildad y la adaptabilidad como puntos esenciales para el cr
 | ![Ivan](imgs/ivan.jpg)                                                         | Ivan Jeanpierre La Madrid Lozano         | Estudiante de Ingeniería de Software con enfoque en la solucion de distintos problemas tecnológicos                                                                                         |
 
 ## 1.2. Solution Profile
-
 ### 1.2.1 Antecedentes y problemática
 
 - **Who (¿Quiénes son los involucrados?)**  
-  Los principales usuarios son freelancers, trabajadores remotos, pequeñas empresas, startups y nómadas digitales que requieren espacios de trabajo profesionales, cómodos y flexibles sin necesidad de alquilar una oficina a largo plazo.  
-  Además, los propietarios y administradores de espacios de coworking forman parte clave, ya que buscan visibilidad, gestión eficiente de sus reservas y captación de nuevos clientes.
+  Los principales afectados son freelancers, trabajadores remotos, pequeñas empresas, startups y nómadas digitales que buscan espacios de trabajo profesionales y flexibles sin compromisos a largo plazo. Asimismo, los propietarios y administradores de espacios de coworking enfrentan dificultades para gestionar reservas y atraer clientes de manera eficiente.
 
 - **What (¿Qué se necesita?)**  
-  Se necesita una plataforma centralizada e intuitiva que permita a los usuarios buscar, comparar, reservar y pagar por espacios de coworking en diferentes ubicaciones, con información clara y disponibilidad en tiempo real.  
-  Actualmente, el proceso de reserva suele ser manual, lento y disperso en múltiples canales no estandarizados (webs propias, redes sociales, WhatsApp, etc.).
+  Existe una necesidad de un sistema que facilite la búsqueda y acceso a espacios de coworking con información clara y disponibilidad actualizada, debido a la falta de un proceso estandarizado y eficiente para reservas.
 
 - **Where (¿Dónde ocurre el problema?)**  
-  En ciudades con alta actividad profesional y creciente demanda por espacios flexibles, como Lima, Arequipa, Medellín, Bogotá o CDMX. La necesidad puede extenderse a nivel nacional e internacional a medida que el trabajo remoto se consolida.
+  El problema se presenta en ciudades con alta demanda de espacios flexibles, como Lima, Arequipa, Medellín, Bogotá y Ciudad de México, con potencial de expansión a otras regiones donde el trabajo remoto está creciendo.
 
 - **When (¿Cuándo surge esta necesidad?)**  
-  La necesidad es continua y puede surgir en cualquier momento. Muchos usuarios requieren espacios por horas, días o semanas. Además, algunos necesitan soluciones de último minuto para reuniones o trabajo inmediato.
+  La necesidad surge de manera continua, especialmente en momentos de alta demanda laboral o cuando los usuarios requieren espacios de manera inmediata, por horas, días o semanas, sin opciones ágiles disponibles.
 
 - **Why (¿Por qué existe esta necesidad?)**  
-  El mundo laboral ha cambiado. La pandemia aceleró el trabajo remoto y la cultura freelance. Las personas necesitan trabajar en ambientes productivos y profesionales, pero sin compromisos de largo plazo. Sin embargo, no existe una solución eficiente y masiva que integre toda la oferta disponible y facilite el proceso de reserva.
+  El cambio en el mundo laboral, impulsado por la pandemia, ha incrementado el trabajo remoto y la cultura freelance. Esto ha generado una mayor demanda de espacios productivos, pero la ausencia de un sistema unificado y eficiente para reservas crea frustración y pérdida de oportunidades para usuarios y propietarios.
 
-- **How (¿Cómo se puede solucionar?)**  
-  Mediante el desarrollo de una aplicación web llamada WorkStation, que permita a los usuarios explorar una variedad de espacios de coworking, visualizar disponibilidad, leer reseñas, aplicar filtros, hacer reservas en tiempo real y pagar desde una sola interfaz.
-
-- **How Much (¿Cuánto costaría y cómo se monetiza?)**  
-  Los precios varían según ciudad, tipo de espacio, servicios y duración. La plataforma podrá mostrar precios claros y actualizados. El modelo de negocio se sustentará en comisiones por reserva, planes de suscripción para coworking o membresías premium para usuarios frecuentes.
-
+- **How (¿Cómo se manifiesta el problema?)**  
+  El proceso de reserva actual es manual, lento y fragmentado, dependiendo de canales no estandarizados como sitios web propios, redes sociales o WhatsApp, lo que genera ineficiencias, errores y una experiencia poco confiable para los involucrados.
+  
 ### Descripción de la Problemática
 
 En los últimos años, el trabajo remoto y el modelo freelance han experimentado un crecimiento significativo en Perú y América Latina. Según Statista (2023), más del 20% de los trabajadores peruanos realiza actividades de forma independiente o remota, y esta tendencia continúa en aumento. Sin embargo, este cambio en la modalidad laboral no ha sido acompañado por soluciones tecnológicas que respondan de manera efectiva a las necesidades de espacio físico flexible, accesible y bien ubicado.
@@ -573,7 +517,35 @@ Enlace del video de la entrevista:
 🎬 **Inicio del video:** 0:04  
 ⏱️ **Duración:** 3 minutos y 42 segundos
 
+Enlace del video de la entrevista:
 
+[![Demo en stream](imgs/en1.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EcZwK3uJNLBBu4dhWzNRIj4BEVNuC39nTnqBl2JJrdevFA?e=6FLXLY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Entrevistada:** Uziel procopio 
+**Edad:** 25 años  
+**Ocupación:** Desarrollador full stack y dueño de un arbnb  
+**Ubicación:** México – cancún  
+**Medio:** Discord  
+**Entrevistador:** Arturo Saravia
+
+🎬 **Inicio del video:** 0:04  
+⏱️ **Duración:** 10 minutos 
+
+Enlace del video de la entrevista:https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EcZwK3uJNLBBu4dhWzNRIj4BEVNuC39nTnqBl2JJrdevFA?e=6FLXLY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+[![Demo en stream](imgs/en2.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EeL9eXkRxqJCm57X7HqQ1doBe2BQ7qy3Bc249YAmjYvEMA?e=AChHuQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+**Entrevistada:** Ivan Antonio Almeida Aguilar 
+**Edad:** 20 años  
+**Ocupación:** Dueño de un arbnb  
+**Ubicación:** Lima - San Miguel 
+**Medio:** Discord  
+**Entrevistador:** Arturo Saravia
+
+🎬 **Inicio del video:** 0:04  
+⏱️ **Duración:** 10 minutos 
+
+Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EeL9eXkRxqJCm57X7HqQ1doBe2BQ7qy3Bc249YAmjYvEMA?e=AChHuQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 **Segmento 2 - Freelancers**
@@ -587,6 +559,31 @@ Enlace del video de la entrevista:
 **Ubicación:** Lima – Ate  
 **Medio:** Zoom  
 **Entrevistador:** Jeremy Quijada
+
+
+
+
+
+
+![Img frelancer](imgs/ImagenEntrevistaSonia.png)
+
+
+**Link de la entrevista:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202311912_upc_edu_pe/Efz2Y4-1p-hLj_WNhkofgtMBCQkmof5CpqvoXhucUzjrCg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=0r0VKH
+
+**Entrevistado:** Sonia Rengifo 
+
+**Edad:** 54 años  
+
+**Ocupación:** Ingeniero de Sistemas
+
+**Ubicación:** Lima – Pueblo libre  
+
+**Medio:** Zoom  
+
+**Entrevistador:** Leonardo Cumba
+
+
+
 
 ### 2.2.3. Análisis de entrevistas
 
@@ -620,9 +617,9 @@ Para esta sección hemos tomado en cuenta dos User Persona que corresponden a lo
 
 ![User Persona 2](./imgs//Trabajador%20independiente%20_%20freelancer.png)
 
-### 2.3.2. User Task Matrix
+### 2.3.2. User Task Matrix (AS-IS)
 
-Estamos considerando los segmentos objetivos "Propietario de Inmueble" y "Trabajador independiente" como fueron definidos anteriormente como User Persona
+Estamos considerando los segmentos objetivos **"Propietario de Inmueble"** y **"Trabajador independiente / Freelancer"** como fueron definidos anteriormente en los User Personas.
 
 #### **Leyenda — Escalas**
 - **Importancia:** 1 (Baja) · 2 (Moderada) · 3 (Importante) · 4 (Muy importante) · 5 (Crítica)  
@@ -631,39 +628,40 @@ Estamos considerando los segmentos objetivos "Propietario de Inmueble" y "Trabaj
 
 ---
 
-#### a) Trabajador independiente / Freelancer
-| Tarea | Importancia (1–5) | Frecuencia | Prioridad | Punto de la app | KPI / Resultado esperado | Riesgo / Acción recomendada |
+#### a) Trabajador independiente / Freelancer (AS-IS)
+| Tarea (hoy) | Importancia (1–5) | Frecuencia | Prioridad | Canal actual | Dolor / Riesgo | Acción recomendada (AS-IS) |
 |---|---:|:---:|:---:|---|---|---|
-| Buscar espacios por ubicación/fecha | 5 | D | Alta | Exploración (mapa + lista) | p95 búsqueda < 2s; ≥ 8 resultados relevantes | Optimizar índices / caching; tests de latencia |
-| Aplicar filtros (precio, amenities, ruido, Mbps) | 4 | D | Alta | Filtros avanzados | ≥ 60% sesiones usan ≥2 filtros | UX: filtros accesibles y preseteables |
-| Comparar 2–3 opciones (comparador) | 4 | S | Alta | Comparador / comparativa rápida | Comparaciones por sesión ≥ 1.5 | Añadir CTA “Comparar” y persistir selección |
-| Revisar ficha (fotos, reglas, política) | 5 | D | Alta | Ficha del espacio | Tasa de abandono de ficha < 20% | Garantizar fotos mínimas y copy claro |
-| Ver disponibilidad / calendario | 5 | D | Alta | Calendario interactivo | 0 doble-reserva; slots consistentes | Validación server-side; bloqueo optimista |
-| Iniciar reserva y pagar (checkout) | 5 | S | Alta | Checkout | Conversión checkout ≥ 45% | Simplificar pasos; varias pasarelas |
-| Mensajería con propietario | 3 | O | Media | Chat / mensajería | Tiempo 1ª respuesta < 10 min | Notificaciones push / plantillas |
-| Check-in / Check-out (con fotos) | 3 | O | Media | Mis reservas | % no-show < 3% | Implementar check-in QR; verificación fotos |
-| Valorar y comentar (reseñas) | 3 | O | Media | Reseñas | Tasa de reseñas ≥ 30% | Reminders post-reserva; incentivos leves |
-| Guardar favoritos / alertas (bajada de precio) | 2 | S | Baja | Favoritos / Alertas | Retención M+1 ≥ 35% | UX para gestión de alertas; emails opt-in |
+| Buscar espacios en Google / Maps | 5 | D | Alta | Buscador / Maps | Información dispersa, resultados irrelevantes | Documentar fuentes frecuentes; usar búsquedas guiadas |
+| Pedir recomendaciones a colegas / grupos | 4 | S | Alta | Grupos FB / WhatsApp / LinkedIn | Respuestas sesgadas o tardías | Mantener lista de contactos confiables; validar referencias |
+| Revisar fotos, precios y descripciones en webs/IG | 4 | O | Media | Webs/Instagram / Facebook | Fotos malas o info incompleta | Solicitar más fotos; preguntar por detalles antes de reservar |
+| Contactar al local para confirmar disponibilidad | 5 | O | Alta | WhatsApp / llamada / formulario | Respuestas lentas, errores en horarios | Confirmar horario y guardar captura de la conversación |
+| Negociar precio y condiciones | 4 | O | Media | Chat / llamada | Malentendidos; políticas poco claras | Acordar condiciones por escrito (mensaje/email) |
+| Pagar (transferencia/e-wallet) y recibir comprobante | 5 | O | Alta | Transferencia banc., Yape, efectivo | Comprobantes perdidos; conciliación manual | Guardar comprobante; solicitar confirmación escrita |
+| Llegar y hacer check-in (revisión del espacio) | 3 | O | Media | Presencial / recepción | Reglas no claras, conflictos por uso | Tomar fotos al ingreso; revisar reglas por escrito |
+| Reportar incidencias (wifi, ruido, limpieza) | 4 | O | Media | WhatsApp / teléfono | Tiempos de respuesta largos | Documentar incidencias; escalar si no hay respuesta |
+| Dejar reseña o feedback (si procede) | 2 | R | Baja | Google / redes sociales | Baja tasa de reseñas → menos confianza colectiva | Incentivar feedback (recordatorio tras uso) |
+| Guardar favoritos / hacer seguimiento de una opción | 2 | S | Baja | Marcadores del navegador / notas | Difícil seguir cambios de disponibilidad | Mantener registro propio con URLs y capturas |
 
 ---
 
-#### b) Propietario de inmueble / Host
-| Tarea | Importancia (1–5) | Frecuencia | Prioridad | Punto de la app | KPI / Resultado esperado | Riesgo / Acción recomendada |
+#### b) Propietario de inmueble / Host (AS-IS)
+| Tarea (hoy) | Importancia (1–5) | Frecuencia | Prioridad | Canal actual | Dolor / Riesgo | Acción recomendada (AS-IS) |
 |---|---:|:---:|:---:|---|---|---|
-| Crear cuenta y verificación (KYC/KYB) | 5 | O | Alta | Onboarding | % verificación exitosa ≥ 90% | Flujos fallback; ayuda humana si falla KYC |
-| Publicar espacio (datos, fotos, tarifas) | 5 | O | Alta | Wizard de publicación | Tiempo de alta ≤ 20 min; ≥ 5 fotos | Validaciones en cliente; checklist visual |
-| Definir disponibilidad (calendario) | 4 | S | Alta | Calendario de host | Ocupación objetivo ≥ 55% | Sincronizar iCal; manejo de zonas horarias |
-| Gestionar mensajes / solicitudes | 4 | D | Alta | Inbox / Chat | Tiempo respuesta < 10 min | Notificaciones y plantillas; SLA interno |
-| Confirmar / administrar reservas | 5 | D | Alta | Panel de reservas | Cancelaciones por error < 1% | Automatizar confirmaciones; logs de cambios |
-| Gestionar pagos y facturación | 5 | M | Alta | Pagos / Facturación | Rechazos de pago < 1% | Reintentos, conciliación y reportes |
-| Subir evidencia (check-in/out) | 3 | O | Media | Detalle de reserva | Disputas por daños < 2% | Estándar de fotos/time-stamp obligatorio |
-| Responder reseñas | 3 | M | Media | Reseñas | ≥ 50% de reseñas respondidas | Notificaciones para owner; plantillas |
-| Editar / pausar publicaciones | 3 | O | Media | Gestión de espacios | Tiempo de edición ≤ 5 min | UI rápida; historial de cambios |
-| Analítica (ocupación / ingresos) | 4 | M | Alta | Analytics / Dashboard | +5 p.p. ocupación / trimestre | Datos accionables y recomendaciones autom. |
+| Preparar fotos y descripción del espacio | 5 | O | Alta | Cámara / Canva / Word | Fotos de baja calidad que reducen interés | Crear checklist mínimo de fotos y descripción |
+| Publicar anuncio (FB, Marketplace, OLX, IG) | 5 | S | Alta | FB Marketplace / Grupos / OLX / IG | Moderaciones, baja visibilidad, esfuerzo manual | Registrar plantillas de publicación para reutilizar |
+| Responder consultas de potenciales inquilinos | 5 | D | Alta | WhatsApp / llamadas / mensajes privados | Respuestas tardías → pérdida de leads | Establecer horario de respuesta y mensajes plantilla |
+| Llevar disponibilidad en agenda o Excel | 4 | S | Alta | Excel / Google Calendar / Agenda física | Doble reserva, errores humanos | Sincronizar calendarios; rutinas de control diario |
+| Confirmar y gestionar reservas (manual) | 5 | D | Alta | WhatsApp / llamada / transferencia | Cancelaciones, no-shows, falta de trazabilidad | Solicitar depósito/anticipo; registrar comprobantes |
+| Cobrar y conciliar pagos | 5 | M | Alta | Transferencia / Yape / Efectivo | Impagos o dificultad para conciliar | Mantener registro de pagos; comprobantes digitales |
+| Verificar perfil del inquilino (informal) | 4 | O | Media | Solicitar DNI / referencias | Riesgo de fraude o daño al inmueble | Solicitar referencias y/o depósito de seguridad |
+| Entregar llaves / acceso y check-in | 4 | O | Media | Presencial / portería / encargo | No-show o retrasos que afectan al siguiente cliente | Confirmar horario de llegada y plan alterno |
+| Atender incidencias y mantenimiento | 4 | O | Media | WhatsApp / proveedor de servicios | Costos operativos y tiempos de respuesta | Tener lista de proveedores y SLA informal |
+| Revisar y responder reseñas | 3 | M | Media | Google / Facebook / IG | Baja interacción → percepción pobre del servicio | Responder reseñas clave; solicitar feedback activo |
 
 ---
 
-Entre las tareas encontradas, la que ambos User Persona coinciden en que es importante y frecuente son tanto el contactarse mutuamente como el acordar precio y forma de pago, se debe a que ambos buscan que el préstamo del servicio se concrete y bajo condiciones favorables para ambos. Además, cada User Persona tiene su tarea particular: para el propietario es importante ofrecer su local y para el freelancer es importante buscar espacios de trabajo. Por último tenemos un tarea particular frecuente para el freelancer la cual es comparar diferentes ofertas de espacios de trabajo para ver lo que más se ajuste a su presupuesto y cuente con las características necesarias. Mientras que para el propietario, esto lo hace rara vez cuando desee ver qué precios ponen sus competidores.
+**Conclusión (AS-IS):**  
+La mayoría de las tareas actuales de freelancers y propietarios se realizan de forma **manual y distribuida en múltiples canales** (WhatsApp, Google, redes, Excel). Esto provoca fricción: demora en confirmaciones, riesgo de doble reserva, mala calidad de información y dificultad para conciliar pagos. Las acciones recomendadas en esta matriz son medidas *prácticas y aplicables hoy* para mitigar riesgos sin depender de una solución técnica inmediata (ej. plantillas, checklist, captura de comprobantes, sincronización de calendarios).
 
 ### 2.3.3. User Journey Mapping
 
@@ -677,9 +675,12 @@ Entre las tareas encontradas, la que ambos User Persona coinciden en que es impo
 
 ### 2.3.4. Empathy Mapping
 
+**Freelancers**
 <p align="center">
-  <img src="imgs/Empathy Map Brainstorm.png" alt="Empathy Map Brainstorm.png" />
+  <img width="1163" height="753" alt="image" src="https://github.com/user-attachments/assets/6906309f-f5bd-40aa-a00d-64409077ca94" />
 </p>
+
+**Propietarios de Inmuebles**
 
 <p align="center">
 <img width="1398" height="904" alt="image" src="https://github.com/user-attachments/assets/d01adec2-5255-4a5b-9385-ff94ae1511b1" />
@@ -713,73 +714,66 @@ Entre las tareas encontradas, la que ambos User Persona coinciden en que es impo
 # Capitulo III: Requirements Specification
 
 ## 3.1. User Stories
-## **3.1. User Stories**
+
 
 | User Story ID | Título | Descripción | Criterios de Aceptación | Epic ID |
 | :---- | :---- | :---- | :---- | :---- |
-| US-01 | Búsqueda rápida en Hero | Como visitante, quiero buscar por ciudad o distrito desde el hero para ir directo a los resultados relevantes. | Escenario 1: Búsqueda desde Hero Dado que estoy en la landing, Cuando escribo 'Miraflores' y presiono Buscar, Entonces soy redirigido a Resultados con el filtro aplicado. Escenario 2: Sugerencias Dado que tipear 3+ caracteres, Cuando existen coincidencias, Entonces veo sugerencias de ubicaciones y puedo seleccionarlas. | EP-01 |
-| US-02 | Navegación principal (header) | Como visitante, quiero un header con enlaces claros (Explorar, Publica tu espacio, Ingresar) para orientarme fácilmente. | Escenario 1: Header sticky Dado que hago scroll, Cuando la página se desplaza, Entonces el header permanece visible. Escenario 2: Accesibilidad Dado que navego con teclado, Cuando tabulo por el header, Entonces puedo acceder a todos los enlaces con foco visible. | EP-01 |
-| US-03 | Sección espacios destacados | Como visitante, quiero ver tarjetas de espacios destacados con imagen, precio y CTA para explorar opciones desde la landing. | Escenario 1: Cards visibles Dado que cargo la landing, Cuando hay datos de destacados, Entonces veo al menos 4 tarjetas con imagen, título, precio y botón. Escenario 2: Ver más Dado que presiono 'Descubre más', Cuando hago clic, Entonces navego a Resultados con el filtro correspondiente. | EP-01 |
-| US-04 | Sección testimonios | Como visitante, quiero ver testimonios reales para ganar confianza antes de registrarse. | Escenario 1: Carrusel accesible Dado que estoy en la sección, Cuando uso teclas de flecha, Entonces el carrusel avanza sin necesidad del mouse. Escenario 2: Datos visibles Dado que hay testimonios, Cuando se renderizan, Entonces cada slide muestra nombre, foto y calificación. | EP-01 |
-| US-05 | Sección FAQ (acordeón) | Como visitante, quiero un acordeón de preguntas frecuentes para resolver dudas comunes. | Escenario 1: Expandir/cerrar Dado que estoy en FAQ, Cuando hago clic en una pregunta, Entonces se expande su respuesta y se cierran otras abiertas. Escenario 2: Búsqueda en FAQ Dado que escribo en el filtro de preguntas, Cuando hay coincidencias, Entonces solo se muestran las preguntas que coinciden. | EP-01 |
-| US-06 | Footer con políticas y contacto | Como visitante, quiero acceder a términos, privacidad y contactos desde el pie de página. | Escenario 1: Enlaces correctos Dado que presiono un enlace del footer, Cuando navego, Entonces llego a la página de la política seleccionada. Escenario 2: Redes sociales Dado que selecciono un ícono de red, Cuando se abre una nueva pestaña, Entonces me dirige al perfil oficial. | EP-01 |
-| US-07 | Descarga brochure PDF | Como visitante, quiero descargar un folleto PDF del proyecto para revisarlo offline o compartirlo. | Escenario 1: Descarga exitosa Dado que estoy en la landing, Cuando presiono 'Descargar folleto', Entonces se descarga el archivo PDF. Escenario 2: Error de descarga Dado un fallo de red, Cuando intento descargar, Entonces veo un mensaje para reintentar. | EP-01 |
-| US-08 | Banner de cookies/privacidad | Como visitante, quiero aceptar o rechazar cookies opcionales para controlar mi privacidad. | Escenario 1: Aceptar cookies Dado que aparece el banner, Cuando presiono 'Aceptar', Entonces se guarda el consentimiento y el banner desaparece. Escenario 2: Configurar cookies Dado que presiono 'Configurar', Cuando desactivo analíticas, Entonces la preferencia queda guardada. | EP-01 |
-| US-09 | SEO básico en landing | Como visitante, quiero títulos, metadescripciones y etiquetas OG correctas para que la página se vea bien al compartir. | Escenario 1: Metadatos presentes Dado que inspecciono la página, Cuando reviso el head, Entonces existen title, meta description y og:image válidos. Escenario 2: Preview social Dado que comparto la URL, Cuando un bot la lee, Entonces se muestra la vista previa con imagen y descripción. | EP-01 |
-| US-10 | Animaciones sutiles | Como visitante, quiero microinteracciones en botones/cards para percibir una UI moderna sin afectar el rendimiento. | Escenario 1: Hover en cards Dado que paso el mouse sobre una card, Cuando ocurre la interacción, Entonces se eleva con sombra suave. Escenario 2: Performance Dado que corro Lighthouse, Cuando reviso rendimiento, Entonces no se degrada el p95 por las animaciones. | EP-01 |
-| US-11 | Barra de búsqueda global | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | Escenario 1: Autocompletar Dado que escribo 'San', Cuando existen coincidencias, Entonces veo sugerencias y puedo elegir una. Escenario 2: Historial Dado que ya busqué antes, Cuando enfoco el campo, Entonces veo mis búsquedas recientes. | EP-03 |
-| US-12 | Lista \+ mapa sincronizados | Como usuario, quiero una lista de resultados y un mapa sincronizado para explorar por zona. | Escenario 1: Sincronía Dado que muevo el mapa, Cuando cambio el viewport, Entonces la lista se actualiza con los resultados visibles. Escenario 2: Popover del marcador Dado que hago clic en un marcador, Cuando se abre el popover, Entonces veo título, precio y enlace a la ficha. | EP-03 |
-| US-13 | Filtros y chips activos | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ver chips con lo aplicado. | Escenario 1: Aplicar filtro Dado que abro filtros, Cuando selecciono capacidad y Wi‑Fi, Entonces se actualizan resultados y aparecen chips. Escenario 2: Limpiar filtros Dado que hay filtros activos, Cuando presiono 'Limpiar todo', Entonces desaparecen los chips y vuelven resultados generales. | EP-03 |
-| US-14 | Ordenamiento | Como usuario, quiero ordenar resultados por precio, distancia y rating para priorizar opciones. | Escenario 1: Orden por precio Dado que elijo 'Precio ascendente', Cuando se actualiza la lista, Entonces las cards aparecen de menor a mayor precio. Escenario 2: Mantener filtros Dado que ya apliqué filtros, Cuando cambio el orden, Entonces los filtros se conservan. | EP-03 |
-| US-15 | Paginación/infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página para una navegación fluida. | Escenario 1: Auto‑carga Dado que llego al final de la lista, Cuando hago scroll, Entonces se cargan más resultados automáticamente. Escenario 2: Estado final Dado que no hay más elementos, Cuando llego al final, Entonces se muestra 'No hay más resultados'. | EP-03 |
-| US-16 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio desde y rating para comparar rápidamente. | Escenario 1: Esqueleto de carga Dado que los datos aún no llegan, Cuando se renderiza la página, Entonces veo skeletons en lugar de cards. Escenario 2: Navegación a ficha Dado que hago clic en una card, Cuando la selecciono, Entonces navego a la ficha del espacio. | EP-03 |
-| US-17 | Comparar espacios (UI) | Como usuario, quiero seleccionar hasta 3 espacios para compararlos en una vista lado a lado. | Escenario 1: Agregar a comparación Dado que estoy en resultados, Cuando marco dos espacios, Entonces aparece el botón 'Comparar (2)'. Escenario 2: Vista de comparación Dado que abro comparar, Cuando se muestra la tabla, Entonces veo columnas con precio, capacidad, amenities y rating. | EP-03 |
-| US-18 | Compartir resultados por URL | Como usuario, quiero que los filtros se reflejen en la URL para poder compartir la búsqueda. | Escenario 1: Parámetros en URL Dado que aplico filtros, Cuando copio la URL, Entonces incluye los parámetros activos. Escenario 2: Restaurar búsqueda Dado que abro la URL compartida, Cuando carga la página, Entonces los filtros vuelven a aplicarse. | EP-03 |
-| US-19 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa cerca de mi ubicación para ver opciones cercanas. | Escenario 1: Permiso concedido Dado que acepto compartir ubicación, Cuando presiono 'Cerca de mí', Entonces el mapa centra y filtra por radio cercano. Escenario 2: Permiso denegado Dado que rechazo permisos, Cuando presiono 'Cerca de mí', Entonces veo un mensaje con alternativa de ingresar distrito. | EP-03 |
-| US-20 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto de espacios con datos clave. | Escenario 1: Estilos de impresión Dado que abro 'Imprimir', Cuando se abre el diálogo, Entonces la página usa estilos printer‑friendly. Escenario 2: Selección limitada Dado que selecciono 1–5 items, Cuando imprimo, Entonces solo se incluyen los seleccionados. | EP-03 |
-| US-21 | Ficha: galería y detalles | Como usuario, quiero una galería de fotos y descripción completa para evaluar el espacio. | Escenario 1: Navegación de galería Dado que abro la ficha, Cuando uso teclado o swipe, Entonces puedo recorrer al menos 5 imágenes. Escenario 2: Información clave Dado que desplazo la página, Cuando llego a detalles, Entonces veo precio, ubicación, amenities y políticas. | EP-03 |
-| US-22 | Ficha: calendario de disponibilidad | Como usuario, quiero seleccionar fecha y horas disponibles antes de reservar. | Escenario 1: Selección válida Dado que hay disponibilidad, Cuando elijo fecha y rango de horas, Entonces el resumen de reserva se actualiza. Escenario 2: Slots ocupados Dado que existen bloqueos, Cuando veo el calendario, Entonces esos slots aparecen deshabilitados con tooltip. | EP-03 |
-| US-23 | Ficha: CTA reservar sticky | Como usuario, quiero tener siempre visible el botón 'Reservar' para continuar el flujo. | Escenario 1: Sticky CTA Dado que hago scroll, Cuando el CTA original sale de vista, Entonces aparece un CTA flotante. Escenario 2: Datos al checkout Dado que seleccioné fecha/hora, Cuando presiono Reservar, Entonces paso al checkout con datos precargados. | EP-03 |
-| US-24 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | Escenario 1: Progreso persistente Dado que completo un paso, Cuando regreso atrás, Entonces los datos permanecen. Escenario 2: Recalcular totales Dado que aplico un cupón o cambio horas, Cuando modifico datos, Entonces el total se actualiza al instante. | EP-03 |
-| US-25 | Formulario de pago (SDK) | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | Escenario 1: Validación del SDK Dado que escribo un número inválido, Cuando salgo del campo, Entonces veo un error específico. Escenario 2: Pago exitoso Dado que el token es válido, Cuando confirmo, Entonces avanzo a la confirmación. | EP-03 |
-| US-26 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA para ver mis reservas. | Escenario 1: Datos visibles Dado que finalizo el pago, Cuando llego a la confirmación, Entonces veo código, fecha/hora y monto. Escenario 2: Agregar a calendario Dado que presiono 'Agregar a calendario', Cuando elijo Google Calendar, Entonces se abre con los datos precargados. | EP-03 |
-| US-27 | Cancelar reserva (UI) | Como usuario, quiero una interfaz para cancelar mi reserva seleccionando el motivo. | Escenario 1: Motivos Dado que abro 'Cancelar', Cuando elijo un motivo, Entonces el botón de confirmar se habilita. Escenario 2: Estado actualizado Dado que confirmo cancelación, Cuando vuelvo a Mis reservas, Entonces el estado aparece como 'Cancelada'. | EP-03 |
-| US-28 | Recibos/Comprobante imprimible | Como usuario, quiero ver mi comprobante en una vista imprimible/descargable. | Escenario 1: Vista Dado que abro una reserva, Cuando presiono 'Ver comprobante', Entonces se abre un modal con versión para impresión. Escenario 2: Descarga Dado que presiono 'Descargar', Cuando se procesa, Entonces obtengo el PDF. | EP-03 |
-| US-29 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | Escenario 1: Validaciones Dado que ingreso datos inválidos, Cuando envío el formulario, Entonces veo mensajes debajo de cada campo. Escenario 2: Login exitoso Dado que mis credenciales son válidas, Cuando envío, Entonces accedo y retorno al flujo previo. | EP-03 |
-| US-30 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | Escenario 1: Solicitud enviada Dado que ingreso mi email, Cuando existe cuenta, Entonces recibo confirmación de envío. Escenario 2: Restablecimiento Dado que abro el enlace del correo, Cuando creo nueva contraseña, Entonces puedo iniciar sesión. | EP-03 |
-| US-31 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | Escenario 1: Editar perfil Dado que modifico el nombre, Cuando guardo, Entonces veo el cambio reflejado. Escenario 2: Subir avatar Dado que cargo una imagen, Cuando la previsualizo, Entonces puedo recortarla y guardar. | EP-03 |
-| US--32 | Preferencias y notificaciones | Como usuario, quiero configurar preferencias de idioma y notificaciones. | Escenario 1: Idioma Dado que selecciono EN, Cuando confirmo, Entonces toda la UI cambia a inglés. Escenario 2: Notificaciones Dado que activo 'Recordatorios', Cuando guardo, Entonces la preferencia queda aplicada. | EP-03 |
-| US-33 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | Escenario 1: Estados Dado que abro 'Mis reservas', Cuando hay registros, Entonces veo 'Confirmada', 'Pendiente' o 'Cancelada'. Escenario 2: Estado vacío Dado que no tengo reservas, Cuando abro la sección, Entonces veo un mensaje con CTA 'Buscar espacios'. | EP-03 |
-| US-34 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | Escenario 1: Guardar favorito Dado que estoy en una card, Cuando presiono el ícono de estrella, Entonces el espacio queda en Favoritos. Escenario 2: Ver/retirar Dado que tengo favoritos, Cuando abro la lista, Entonces puedo quitar elementos. | EP-03 |
-| US-35 | Mensajería (UI) | Como usuario, quiero una interfaz de chat para comunicarme con el propietario. | Escenario 1: Enviar mensaje Dado que escribo un texto, Cuando presiono enviar, Entonces aparece en el hilo con marca de tiempo. Escenario 2: Error offline Dado que pierdo conexión, Cuando envío, Entonces el mensaje queda en 'pendiente' con reintento. | EP-03 |
-| US-36 | Reseñar un espacio (UI) | Como usuario, quiero calificar con estrellas y escribir un comentario tras mi estancia. | Escenario 1: Calificación requerida Dado que intento enviar sin rating, Cuando presiono 'Publicar', Entonces aparece un error indicando completar la calificación. Escenario 2: Publicación exitosa Dado que completo rating y comentario, Cuando envío, Entonces veo la reseña creada. | EP-03 |
-| US-37 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket desde la interfaz. | Escenario 1: Buscar artículo Dado que escribo en el buscador, Cuando hay coincidencias, Entonces se listan artículos relevantes. Escenario 2: Crear ticket Dado que no resuelvo mi duda, Cuando presiono 'Contactar soporte', Entonces puedo enviar un ticket. | EP-03 |
-| US-38 | Selector de moneda (UI) | Como usuario, quiero elegir mi moneda para ver precios entendibles. | Escenario 1: Cambio de moneda Dado que elijo USD en el selector, Cuando se actualiza, Entonces los precios se muestran en USD. Escenario 2: Persistencia Dado que cierro sesión, Cuando vuelvo, Entonces la preferencia se recuerda en el cliente. | EP-03 |
-| US-39 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro para comodidad visual. | Escenario 1: Toggle Dado que presiono el switch de tema, Cuando cambio a oscuro, Entonces la UI aplica el nuevo tema. Escenario 2: Persistencia Dado que elijo oscuro, Cuando regreso a la app, Entonces se mantiene el modo. | EP-03 |
-| US-40 | Breadcrumbs | Como usuario, quiero migas de pan para saber dónde estoy y volver fácilmente. | Escenario 1: Rastro visible Dado que estoy en la ficha, Cuando miro el encabezado, Entonces veo Inicio \> Resultados \> Ficha. Escenario 2: Navegación Dado que hago clic en 'Resultados', Cuando navego, Entonces retorno a la lista con filtros preservados. | EP-03 |
-| US-41 | Accesibilidad: navegación por teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | Escenario 1: Orden lógico Dado que tabulo por la página, Cuando recorro controles, Entonces el foco sigue un orden lógico y visible. Escenario 2: Saltar al contenido Dado que uso teclado, Cuando presiono 'Skip to content', Entonces salto a la sección principal. | EP-04 |
-| US-42 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | Escenario 1: Roles correctos Dado que reviso componentes, Cuando uso lector, Entonces botones, links y formularios tienen roles/labels correctos. Escenario 2: Alertas en vivo Dado que ocurre un error de validación, Cuando aparece el mensaje, Entonces se anuncia por aria-live. | EP-04 |
-| US-43 | Rendimiento: imágenes responsivas | Como usuario, quiero que las imágenes usen srcset/lazy‑loading para cargar más rápido. | Escenario 1: Lazy load Dado que hago scroll, Cuando una imagen entra al viewport, Entonces se carga en ese momento. Escenario 2: Tamaño correcto Dado que abro en móvil, Cuando se descarga la imagen, Entonces usa una versión optimizada. | EP-04 |
-| US-44 | Rendimiento: caching y skeletons | Como usuario, quiero ver skeletons y aprovechar cache para percibir rapidez. | Escenario 1: Skeleton visible Dado que abro Resultados, Cuando aún no hay datos, Entonces veo skeletons por sección. Escenario 2: Cache Dado que regreso a una lista vista, Cuando vuelvo atrás, Entonces la UI muestra datos desde cache mientras revalida. | EP-04 |
-| US-45 | Internacionalización (ES/EN) | Como usuario, quiero cambiar idioma sin recargar y ver formatos localizados. | Escenario 1: Cambio en caliente Dado que selecciono EN, Cuando confirmo, Entonces la traducción cambia sin reload. Escenario 2: Formatos Dado que veo fechas y precios, Cuando cambio región, Entonces se formatean acorde. | EP-04 |
-| US-46 | Responsive design | Como usuario móvil, quiero que todas las vistas sean usables en pantallas pequeñas. | Escenario 1: Breakpoints Dado que uso un dispositivo \<640px, Cuando navego, Entonces la UI no desborda ni se corta. Escenario 2: Áreas táctiles Dado que estoy en móvil, Cuando interactúo con CTAs, Entonces tienen área táctil mínima recomendada. | EP-04 |
-| US-47 | Design System base | Como equipo, quiero un set de componentes reutilizables (botones, inputs, cards, modales). | Escenario 1: Documentación Dado que abro el catálogo, Cuando reviso un componente, Entonces veo ejemplos y props. Escenario 2: Consistencia Dado que uso el kit, Cuando renderizo pantallas, Entonces se mantiene tipografía, colores y espaciados. | EP-04 |
-| US-48 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes con opción de reintento. | Escenario 1: Error API Dado un 5xx, Cuando ocurre, Entonces veo un banner con 'Reintentar'. Escenario 2: Página 404/500 Dado que ingreso una ruta inválida, Cuando carga, Entonces veo una página de error con enlace a Inicio. | EP-04 |
-| US-49 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | Escenario 1: Instalación Dado que estoy en Chrome Android, Cuando presiono 'Agregar a inicio', Entonces la app se instala con ícono y splash. Escenario 2: Actualización SW Dado que hay una nueva versión, Cuando el SW la detecta, Entonces veo un aviso para actualizar. | EP-04 |
-| US-50 | Notificaciones push opt‑in | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | Escenario 1: Opt‑in Dado que acepto notificaciones, Cuando se registra el token, Entonces recibo un push de prueba. Escenario 2: Opt‑out Dado que desactivo notificaciones, Cuando guardo, Entonces dejo de recibir avisos. | EP-04 |
-| US-51 | Accesibilidad: contraste y escalado | Como usuario con baja visión, quiero buen contraste y soporte de zoom 200%. | Escenario 1: Contraste AA Dado que corro auditoría, Cuando verifico contrastes, Entonces todos cumplen AA. Escenario 2: Zoom 200% Dado que aumento zoom, Cuando navego, Entonces el contenido sigue legible y sin solaparse. | EP-04 |
-| US-52 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha o búsqueda desde la UI. | Escenario 1: Copiar enlace Dado que presiono 'Copiar', Cuando el navegador lo permite, Entonces el link queda en el portapapeles con toast de confirmación. Escenario 2: Compartir nativo Dado que estoy en móvil compatible, Cuando presiono 'Compartir', Entonces se abre el share sheet del sistema. | EP-04 |
-| US-53 | Teclas rápidas en escritorio | Como usuario, quiero atajos de teclado (por ejemplo, / para buscar) para navegar más rápido. | Escenario 1: Activar búsqueda Dado que presiono '/', Cuando estoy en la app, Entonces el foco va a la barra de búsqueda. Escenario 2: Ayuda de atajos Dado que presiono '?', Cuando se abre el modal, Entonces veo la lista de atajos disponibles. | EP-04 |
-| US-54 | Guardar estado UI en URL | Como usuario, quiero que las vistas recuerden pestaña activa y página en la URL para volver al mismo punto. | Escenario 1: Pestaña activa Dado que cambio a 'Reseñas', Cuando copio la URL, Entonces incluye el hash/parámetro de la pestaña. Escenario 2: Volver al estado Dado que pego la URL compartida, Cuando cargo, Entonces la misma pestaña queda activa. | EP-04 |
-| US-55 | Carga offline básica (PWA) | Como usuario, quiero ver un fallback útil cuando estoy sin conexión. | Escenario 1: Vista offline Dado que pierdo conexión, Cuando navego a una ruta, Entonces aparece una página offline con opción 'Reintentar'. Escenario 2: Caché de shell Dado que abro la app sin red, Cuando el SW tiene el shell cacheado, Entonces la UI base carga y comunica estado offline. | EP-04 |
-| US-56 | Impresión de comprobante legible | Como usuario, quiero que el comprobante tenga estilos de impresión legibles (sin fondos oscuros). | Escenario 1: Quitar fondos Dado que imprimo el comprobante, Cuando se abre el diálogo, Entonces la versión de impresión usa fondos claros. Escenario 2: Datos esenciales Dado que imprimo, Cuando sale la hoja, Entonces incluye código, fechas, monto y datos del espacio. | EP-04 |
-| US-57 | Loader global y toasts | Como usuario, quiero feedback inmediato (loader/toast) en acciones largas. | Escenario 1: Loader Dado que confirmo pago, Cuando se procesa, Entonces veo un loader de pantalla. Escenario 2: Toast éxito Dado que finaliza bien, Cuando recibo la respuesta, Entonces aparece un toast de confirmación. | EP-04 |
-| US-58 | Scroll a anclas en landing | Como visitante, quiero ir a secciones de la landing con un scroll suave al hacer clic en el menú. | Escenario 1: Scroll suave Dado que hago clic en 'Servicios', Cuando la página tiene la sección, Entonces se hace scroll suave hasta ella. Escenario 2: Foco accesible Dado que se completa el scroll, Cuando llego a la sección, Entonces el foco se coloca en el encabezado para lectores. | EP-01 |
-| US-59 | Previsualización de imagen al subir avatar | Como usuario, quiero ver una vista previa de la imagen antes de guardar mi foto de perfil. | Escenario 1: Vista previa Dado que selecciono un archivo, Cuando es válido, Entonces se muestra la miniatura en el formulario. Escenario 2: Error de formato Dado que el archivo no es soportado, Cuando lo intento subir, Entonces veo un mensaje de formato inválido. | EP-03 |
-| US-60 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión actual. | Escenario 1: Volver a resultados Dado que navego a una ficha, Cuando vuelvo atrás, Entonces la lista mantiene los filtros aplicados. Escenario 2: Cerrar pestaña Dado que cierro el navegador, Cuando regreso en menos de 1h, Entonces la app restablece los filtros desde storage. | EP-03 |
+| US-01 | Búsqueda en Hero | Como visitante, quiero buscar por distrito/ciudad y fecha desde el hero para ver espacios disponibles. | Escenario 1: Búsqueda desde Hero. Como usuario, Dado que estoy en la landing, Cuando escribo 'Miraflores' y fecha/hora y presiono Buscar, Entonces soy redirigido a Resultados con filtros aplicados. Escenario 2: Sugerencias de ubicación. Como usuario, Dado que tipeo 3+ caracteres, Cuando existen coincidencias, Entonces veo sugerencias y puedo seleccionarlas. | EP-01 |
+| US-02 | Header claro | Como visitante, quiero un header con enlaces Explorar, Publica tu espacio e Ingresar para orientarme fácilmente. | Escenario 1: Header sticky. Como usuario, Dado que hago scroll, Cuando la página se desplaza, Entonces el header permanece visible. Escenario 2: Accesibilidad. Como usuario, Dado que navego con teclado, Cuando tabulo por el header, Entonces puedo acceder a todos los enlaces con foco visible. | EP-01 |
+| US-03 | Espacios destacados | Como visitante, quiero ver tarjetas de espacios destacados con imagen, precio desde y CTA. | Escenario 1: Cards visibles. Como usuario, Dado que cargo la landing, Cuando hay destacados, Entonces veo al menos 4 cards con imagen, título, precio y botón. Escenario 2: Navegar a resultados. Como usuario, Dado que presiono 'Descubre más', Cuando hago clic, Entonces navego a Resultados con el filtro correspondiente. | EP-01 |
+| US-04 | Sección testimonios | Como visitante, quiero ver testimonios reales para ganar confianza antes de registrarme. | Escenario 1: Carrusel accesible. Como usuario, Dado que estoy en la sección, Cuando uso teclas de flecha o swipe, Entonces el carrusel avanza. Escenario 2: Datos visibles. Como usuario, Dado que hay testimonios, Cuando se renderizan, Entonces cada slide muestra nombre, foto y calificación. | EP-01 |
+| US-05 | FAQ acordeón | Como visitante, quiero un acordeón de preguntas frecuentes para resolver dudas. | Escenario 1: Expandir/cerrar. Como usuario, Dado que estoy en FAQ, Cuando hago clic o presiono Enter en una pregunta, Entonces se expande y cierra otras abiertas. Escenario 2: Filtro de preguntas. Como usuario, Dado que escribo en el buscador, Cuando hay coincidencias, Entonces solo se muestran las preguntas que coinciden. | EP-01 |
+| US-06 | Footer con políticas y contacto | Como visitante, quiero acceder a términos, privacidad y contactos desde el pie de página. | Escenario 1: Enlaces correctos. Como usuario, Dado que presiono un enlace del footer, Cuando navego, Entonces llego a la página de política seleccionada. Escenario 2: Redes sociales. Como usuario, Dado que selecciono un ícono de red, Cuando se abre, Entonces se abre en nueva pestaña el perfil oficial. | EP-01 |
+| US-07 | SEO básico | Como visitante, quiero títulos, metadescripciones y etiquetas OG correctas para que la página se comparta bien. | Escenario 1: Metadatos presentes. Como usuario, Dado que inspecciono la landing, Cuando reviso el head, Entonces existen title, description e imagen OG válidos. Escenario 2: Vista previa social. Como usuario, Dado que comparto la URL, Cuando un bot lee, Entonces se muestra la vista previa con imagen y texto. | EP-01 |
+| US-08 | Banner de cookies | Como visitante, quiero aceptar o rechazar cookies opcionales para controlar mi privacidad. | Escenario 1: Aceptar cookies. Como usuario, Dado que aparece el banner, Cuando presiono 'Aceptar', Entonces se guarda el consentimiento y desaparece. Escenario 2: Configurar cookies. Como usuario, Dado que presiono 'Configurar', Cuando desactivo analíticas, Entonces la preferencia queda guardada. | EP-01 |
+| US-09 | Animaciones sutiles | Como visitante, quiero microinteracciones en UI sin afectar el rendimiento. | Escenario 1: Hover en cards. Como usuario, Dado que paso el mouse sobre una card, Cuando ocurre la interacción, Entonces se eleva con sombra suave. Escenario 2: Performance. Como usuario, Dado que corro una auditoría, Cuando reviso p95, Entonces no se degrada por las animaciones. | EP-01 |
+| US-10 | Barra global de búsqueda | Como usuario, quiero autocompletado de ciudades, distritos y espacios para acelerar la búsqueda. | Escenario 1: Autocompletar. Como usuario, Dado que escribo, Cuando existen coincidencias, Entonces veo sugerencias y puedo elegir una. Escenario 2: Historial reciente. Como usuario, Dado que ya busqué antes, Cuando enfoco el campo, Entonces veo mis búsquedas recientes. | EP-02 |
+| US-11 | Lista \+ mapa sincronizados | Como usuario, quiero una lista de resultados y un mapa sincronizado para explorar por zona. | Escenario 1: Sincronía. Como usuario, Dado que muevo el mapa, Cuando cambia el viewport, Entonces la lista se actualiza con los espacios visibles. Escenario 2: Popover de marcador. Como usuario, Dado que hago clic en un marcador, Cuando se abre el popover, Entonces veo precio, capacidad y enlace a la ficha. | EP-02 |
+| US-12 | Filtros con chips | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ver chips activos. | Escenario 1: Aplicar filtro. Como usuario, Dado que abro filtros, Cuando selecciono capacidad y Wi‑Fi, Entonces se actualizan resultados y aparecen chips. Escenario 2: Limpiar filtros. Como usuario, Dado que hay filtros activos, Cuando presiono 'Limpiar todo', Entonces desaparecen los chips y vuelven resultados generales. | EP-02 |
+| US-13 | Ordenamiento | Como usuario, quiero ordenar resultados por precio, distancia y rating para priorizar opciones. | Escenario 1: Precio ascendente. Como usuario, Dado que elijo 'Precio ascendente', Cuando se actualiza la lista, Entonces las cards aparecen de menor a mayor precio. Escenario 2: Mantener filtros. Como usuario, Dado que ya apliqué filtros, Cuando cambio el orden, Entonces los filtros se conservan. | EP-02 |
+| US-14 | Paginación / Infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página para una navegación fluida. | Escenario 1: Auto-carga. Como usuario, Dado que llego al final de la lista, Cuando hago scroll, Entonces se cargan más resultados automáticamente. Escenario 2: Estado final. Como usuario, Dado que no hay más elementos, Cuando llego al final, Entonces se muestra 'No hay más resultados'. | EP-02 |
+| US-15 | State in URL y compartir | Como usuario, quiero que filtros, orden y página se reflejen en la URL para compartir la búsqueda. | Escenario 1: Parámetros en URL. Como usuario, Dado que aplico filtros, Cuando copio la URL, Entonces incluye los parámetros activos. Escenario 2: Restaurar búsqueda. Como usuario, Dado que abro la URL compartida, Cuando cargo la página, Entonces los filtros vuelven a aplicarse. | EP-02 |
+| US-16 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa cerca de mi ubicación para ver opciones cercanas. | Escenario 1: Permiso concedido. Como usuario, Dado que acepto compartir ubicación, Cuando presiono 'Cerca de mí', Entonces el mapa centra y filtra por radio cercano. Escenario 2: Permiso denegado. Como usuario, Dado que rechazo permisos, Cuando presiono 'Cerca de mí', Entonces veo un mensaje con alternativa de ingresar distrito. | EP-02 |
+| US-17 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio desde y rating para comparar rápidamente. | Escenario 1: Skeletons. Como usuario, Dado que los datos aún no llegan, Cuando se renderiza la página, Entonces veo skeletons en lugar de cards. Escenario 2: Navegación a ficha. Como usuario, Dado que hago clic en una card, Cuando la selecciono, Entonces navego a la ficha del espacio. | EP-02 |
+| US-18 | Comparar hasta 3 espacios | Como usuario, quiero seleccionar hasta 3 espacios para compararlos en una vista lado a lado. | Escenario 1: Agregar a comparación. Como usuario, Dado que estoy en resultados, Cuando marco dos o más espacios, Entonces aparece el botón 'Comparar'. Escenario 2: Vista de comparación. Como usuario, Dado que abro comparar, Cuando se muestra la tabla, Entonces veo columnas con precio, capacidad, amenities y rating. | EP-02 |
+| US-19 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto de espacios con datos clave. | Escenario 1: Estilos de impresión. Como usuario, Dado que abro 'Imprimir', Cuando se abre el diálogo, Entonces la página usa estilos printer‑friendly. Escenario 2: Selección limitada. Como usuario, Dado que selecciono 1–5 ítems, Cuando imprimo, Entonces solo se incluyen los seleccionados. | EP-02 |
+| US-20 | Ficha: galería y detalles | Como usuario, quiero una galería de fotos y descripción completa para evaluar el espacio. | Escenario 1: Navegación de galería. Como usuario, Dado que abro la ficha, Cuando uso teclado o swipe, Entonces puedo recorrer al menos 5 imágenes. Escenario 2: Información clave. Como usuario, Dado que desplazo la página, Cuando llego a detalles, Entonces veo precio, ubicación, amenities y políticas. | EP-03 |
+| US-21 | Ficha: calendario de disponibilidad | Como usuario, quiero seleccionar fecha y horas disponibles antes de reservar. | Escenario 1: Selección válida. Como usuario, Dado que hay disponibilidad, Cuando elijo fecha y rango, Entonces el resumen de reserva se actualiza. Escenario 2: Slots ocupados. Como usuario, Dado que existen bloqueos, Cuando veo el calendario, Entonces esos slots aparecen deshabilitados con tooltip y se respetan zonas horarias. | EP-03 |
+| US-22 | Ficha: CTA reservar sticky | Como usuario, quiero tener siempre visible el botón 'Reservar' para continuar el flujo. | Escenario 1: Sticky CTA. Como usuario, Dado que hago scroll, Cuando el CTA original sale de vista, Entonces aparece un CTA flotante. Escenario 2: Datos al checkout. Como usuario, Dado que seleccioné fecha/horas, Cuando presiono Reservar, Entonces paso al checkout con datos precargados. | EP-03 |
+| US-23 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | Escenario 1: Progreso persistente. Como usuario, Dado que completo un paso, Cuando regreso atrás o refresco, Entonces los datos permanecen. Escenario 2: Recalcular total. Como usuario, Dado que aplico un cupón o cambio horas, Cuando modifico datos, Entonces el total se actualiza al instante. | EP-03 |
+| US-24 | Pago con SDK | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | Escenario 1: Validación y 3DS. Como usuario, Dado que escribo mi tarjeta, Cuando el SDK valida y requiere 3‑DS, Entonces completo la autenticación y vuelvo al flujo. Escenario 2: Idempotencia. Como usuario, Dado que refresco en pago, Cuando reintento con el mismo checkoutId, Entonces no se duplica el cobro. | EP-03 |
+| US-25 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA para ver mis reservas. | Escenario 1: Datos visibles. Como usuario, Dado que finalizo el pago, Cuando llego a la confirmación, Entonces veo código, fecha/hora y monto. Escenario 2: Agregar a calendario. Como usuario, Dado que presiono 'Agregar a calendario', Cuando elijo proveedor, Entonces se abre con los datos precargados. | EP-03 |
+| US-26 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | Escenario 1: Validaciones. Como usuario, Dado que ingreso datos inválidos, Cuando envío el formulario, Entonces veo mensajes debajo de cada campo. Escenario 2: Login exitoso. Como usuario, Dado que mis credenciales son válidas, Cuando envío, Entonces accedo y retorno al flujo previo. | EP-04 |
+| US-27 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | Escenario 1: Solicitud enviada. Como usuario, Dado que ingreso mi email, Cuando envío, Entonces recibo confirmación. Escenario 2: Restablecimiento. Como usuario, Dado que abro el enlace del correo, Cuando creo nueva contraseña, Entonces puedo iniciar sesión. | EP-04 |
+| US-28 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | Escenario 1: Editar perfil. Como usuario, Dado que modifico el nombre o teléfono, Cuando guardo, Entonces veo el cambio reflejado. Escenario 2: Subir avatar. Como usuario, Dado que cargo una imagen, Cuando la previsualizo, Entonces puedo recortarla y guardar. | EP-04 |
+| US-29 | Preferencias y notificaciones | Como usuario, quiero configurar idioma y notificaciones por email. | Escenario 1: Idioma. Como usuario, Dado que selecciono EN o ES, Cuando confirmo, Entonces toda la UI cambia sin recargar. Escenario 2: Notificaciones. Como usuario, Dado que activo 'Recordatorios', Cuando guardo, Entonces la preferencia queda aplicada. | EP-04 |
+| US-30 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | Escenario 1: Estados. Como usuario, Dado que abro 'Mis reservas', Cuando hay registros, Entonces veo 'Confirmada', 'Pendiente' o 'Cancelada'. Escenario 2: Estado vacío. Como usuario, Dado que no tengo reservas, Cuando abro la sección, Entonces veo un mensaje con CTA 'Buscar espacios'. | EP-05 |
+| US-31 | Cancelar reserva (UI) | Como usuario, quiero cancelar mi reserva seleccionando el motivo y viendo la política aplicable. | Escenario 1: Motivo y política. Como usuario, Dado que abro 'Cancelar', Cuando elijo un motivo, Entonces se muestra la ventana gratuita o cargo aplicable antes de confirmar. Escenario 2: Estado actualizado. Como usuario, Dado que confirmo cancelación, Cuando vuelvo a Mis reservas, Entonces el estado aparece como 'Cancelada'. | EP-05 |
+| US-32 | Recibos/Comprobante imprimible | Como usuario, quiero ver mi comprobante en una vista imprimible/descargable (PDF). | Escenario 1: Vista y estilos. Como usuario, Dado que abro una reserva, Cuando presiono 'Ver comprobante', Entonces se abre un modal/URL con versión de impresión legible. Escenario 2: PDF descargable. Como usuario, Dado que presiono 'Descargar', Cuando se procesa, Entonces obtengo el PDF con logo, RUC, moneda e impuestos. | EP-05 |
+| US-33 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | Escenario 1: Guardar favorito. Como usuario, Dado que estoy en una card, Cuando presiono el icono de estrella, Entonces el espacio queda en Favoritos. Escenario 2: Quitar favorito. Como usuario, Dado que tengo favoritos, Cuando abro la lista, Entonces puedo quitar elementos. | EP-06 |
+| US-34 | Reseñar un espacio | Como usuario, quiero calificar con estrellas y escribir un comentario tras mi estancia. | Escenario 1: Calificación requerida. Como usuario, Dado que intento enviar sin rating, Cuando presiono 'Publicar', Entonces aparece un error indicando completar la calificación. Escenario 2: Publicación exitosa. Como usuario, Dado que completo rating y comentario, Cuando envío, Entonces veo la reseña creada y el promedio se actualiza. | EP-06 |
+| US-35 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket por canal definido. | Escenario 1: Buscar artículo. Como usuario, Dado que escribo en el buscador, Cuando hay coincidencias, Entonces se listan artículos relevantes. Escenario 2: Contactar soporte. Como usuario, Dado que no resuelvo mi duda, Cuando presiono 'Contactar soporte', Entonces puedo abrir un ticket o email. | EP-06 |
+| US-36 | Selector de moneda | Como usuario, quiero elegir mi moneda para ver precios entendibles. | Escenario 1: Cambio de moneda. Como usuario, Dado que elijo USD en el selector, Cuando se actualiza, Entonces los precios se muestran en USD con redondeo visible. Escenario 2: Persistencia. Como usuario, Dado que cierro sesión, Cuando vuelvo, Entonces la preferencia de moneda se recuerda. | EP-07 |
+| US-37 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro para comodidad visual. | Escenario 1: Toggle. Como usuario, Dado que presiono el switch de tema, Cuando cambio a oscuro, Entonces la UI aplica el nuevo tema. Escenario 2: Persistencia. Como usuario, Dado que elijo oscuro, Cuando regreso a la app, Entonces se mantiene el modo. | EP-07 |
+| US-38 | Breadcrumbs | Como usuario, quiero migas de pan para saber dónde estoy y volver fácilmente. | Escenario 1: Rastro visible. Como usuario, Dado que estoy en la ficha, Cuando miro el encabezado, Entonces veo Inicio \> Resultados \> Ficha. Escenario 2: Retorno a resultados. Como usuario, Dado que hago clic en 'Resultados', Cuando navego, Entonces retorno a la lista con filtros preservados. | EP-07 |
+| US-39 | Accesibilidad: navegación por teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | Escenario 1: Orden lógico. Como usuario, Dado que tabulo por la página, Cuando avanzo, Entonces el foco sigue un orden lógico y visible. Escenario 2: Saltar al contenido. Como usuario, Dado que uso teclado, Cuando presiono 'Skip to content', Entonces salto a la sección principal. | EP-08 |
+| US-40 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | Escenario 1: Roles correctos. Como usuario, Dado que reviso componentes, Cuando uso lector, Entonces los roles/labels están correctos. Escenario 2: Alertas en vivo. Como usuario, Dado que ocurre un error de validación, Cuando aparece el mensaje, Entonces se anuncia por aria-live. | EP-08 |
+| US-41 | Rendimiento: imágenes responsivas | Como usuario, quiero que las imágenes usen srcset/lazy-loading para cargar más rápido. | Escenario 1: Lazy load. Como usuario, Dado que hago scroll, Cuando una imagen entra al viewport, Entonces se carga en ese momento. Escenario 2: LCP móvil. Como usuario, Dado que entro a Resultados o Ficha, Cuando se mide rendimiento, Entonces LCP ≤ 2.5s en móvil típico. | EP-08 |
+| US-42 | Rendimiento: caching y skeletons | Como usuario, quiero ver skeletons y aprovechar cache para percibir rapidez. | Escenario 1: Skeleton visible. Como usuario, Dado que abro Resultados, Cuando aún no hay datos, Entonces veo skeletons. Escenario 2: Cache al volver. Como usuario, Dado que regreso a una lista vista, Cuando vuelvo atrás, Entonces la UI muestra datos desde cache mientras revalida. | EP-08 |
+| US-43 | Responsive design | Como usuario móvil, quiero que todas las vistas sean usables en pantallas pequeñas. | Escenario 1: Breakpoints. Como usuario, Dado que uso un dispositivo \<640px, Cuando navego, Entonces la UI no desborda ni se corta. Escenario 2: Áreas táctiles. Como usuario, Dado que estoy en móvil, Cuando interactúo con CTAs, Entonces tienen área táctil mínima recomendada. | EP-08 |
+| US-44 | Design System base | Como equipo, quiero un set de componentes reutilizables (botones, inputs, cards, modales). | Escenario 1: Catálogo. Como usuario, Dado que abro el catálogo, Cuando reviso un componente, Entonces veo ejemplos y props. Escenario 2: Consistencia. Como usuario, Dado que renderizo pantallas, Cuando las comparo, Entonces se mantiene tipografía, colores y espaciados. | EP-08 |
+| US-45 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes con opción de reintento. | Escenario 1: Error API. Como usuario, Dado que ocurre 5xx, Cuando ocurre, Entonces veo banner con 'Reintentar'. Escenario 2: Páginas 404/500. Como usuario, Dado que ingreso ruta inválida, Cuando carga, Entonces veo página de error con enlace a Inicio. | EP-08 |
+| US-46 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | Escenario 1: Instalación. Como usuario, Dado que estoy en Chrome Android, Cuando presiono 'Agregar a inicio', Entonces la app se instala con icono y splash. Escenario 2: Actualización SW. Como usuario, Dado que hay nueva versión, Cuando el SW la detecta, Entonces veo aviso para actualizar. | EP-09 |
+| US-47 | Offline básico (fallback) | Como usuario, quiero ver un fallback útil cuando estoy sin conexión. | Escenario 1: Vista offline. Como usuario, Dado que pierdo conexión, Cuando navego a una ruta, Entonces aparece una página offline con opción 'Reintentar'. Escenario 2: Caché de shell. Como usuario, Dado que abro la app sin red, Cuando el SW tiene shell cacheado, Entonces la UI base carga y comunica estado offline. | EP-09 |
+| US-48 | Notificaciones opt‑in (reservas) | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | Escenario 1: Opt‑in. Como usuario, Dado que acepto notificaciones, Cuando se registra el token, Entonces recibo un aviso de prueba. Escenario 2: Opt‑out. Como usuario, Dado que desactivo notificaciones, Cuando guardo, Entonces dejo de recibir avisos. | EP-09 |
+| US-49 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha o búsqueda desde la UI. | Escenario 1: Copiar enlace. Como usuario, Dado que presiono 'Copiar', Cuando el navegador lo permite, Entonces el enlace queda en el portapapeles con toast. Escenario 2: Compartir nativo. Como usuario, Dado que estoy en móvil compatible, Cuando presiono 'Compartir', Entonces se abre el sheet del sistema. | EP-06 |
+| US-50 | Scroll a anclas en landing | Como visitante, quiero ir a secciones de la landing con un scroll suave al hacer clic en el menú. | Escenario 1: Scroll suave. Como usuario, Dado que hago clic en 'Servicios', Cuando cargue la sección, Entonces se hace scroll suave hasta ella. Escenario 2: Foco accesible. Como usuario, Dado que se completa el scroll, Cuando llego a la sección, Entonces el foco se coloca en el encabezado. | EP-01 |
+| US-51 | Previsualización de avatar | Como usuario, quiero ver una vista previa antes de guardar mi foto de perfil. | Escenario 1: Vista previa. Como usuario, Dado que selecciono un archivo, Cuando es válido, Entonces se muestra la miniatura en el formulario. Escenario 2: Error de formato. Como usuario, Dado que el archivo no es soportado, Cuando intento subir, Entonces veo un mensaje de formato inválido. | EP-04 |
+| US-52 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión actual. | Escenario 1: Volver a resultados. Como usuario, Dado que navego a una ficha, Cuando vuelvo atrás, Entonces la lista mantiene filtros aplicados. Escenario 2: Cerrar pestaña. Como usuario, Dado que cierro el navegador, Cuando regreso en la misma sesión, Entonces se restablecen los filtros desde storage. | EP-02 |
+
+
 
 Epicas
-
 | Epic ID | Título | Descripción |
 | :---- | :---- | :---- |
 | EP-01 | Landing Page & Marketing | Todo lo necesario para atraer y orientar al visitante: héroe de búsqueda, destacados, testimonios, FAQ, footer, privacidad/SEO y navegación entre secciones. |
@@ -798,70 +792,62 @@ Epicas
 ![ImpactMap](imgs/Impac1.png)
 ![ImpactMap](imgs/Impac2.png)
 
-Product backlog
+## 3.3. Product backlog
 
 | \# Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
 | :---- | :---- | :---- | :---- | :---- |
-| 1 | US-01 | Búsqueda rápida en Hero | Como visitante, quiero buscar por ciudad o distrito desde el hero para ir directo a los resultados. | 3 |
-| 2 | US-02 | Navegación principal (header) | Como visitante, quiero un header con enlaces claros para orientarme fácilmente. | 3 |
-| 3 | US-03 | Sección espacios destacados | Como visitante, quiero ver tarjetas de espacios destacados con precio y CTA para explorar opciones. | 3 |
+| 1 | US-01 | Búsqueda en Hero | Como visitante, quiero buscar por distrito/ciudad y fecha desde el hero para ir directo a los resultados. | 3 |
+| 2 | US-02 | Header claro | Como visitante, quiero un header con enlaces Explorar, Publica tu espacio e Ingresar para orientarme fácilmente. | 2 |
+| 3 | US-03 | Espacios destacados | Como visitante, quiero ver tarjetas de espacios destacados con imagen, precio desde y CTA. | 2 |
 | 4 | US-04 | Sección testimonios | Como visitante, quiero ver testimonios reales para ganar confianza antes de registrarme. | 2 |
-| 5 | US-05 | Sección FAQ (acordeón) | Como visitante, quiero un acordeón de preguntas frecuentes para resolver dudas comunes. | 2 |
-| 6 | US-06 | Footer con políticas y contacto | Como visitante, quiero acceder a términos, privacidad y contactos desde el pie de página. | 2 |
-| 7 | US-58 | Scroll a anclas en landing | Como visitante, quiero ir a secciones de la landing con scroll suave. | 1 |
-| 8 | US-07 | Descarga brochure PDF | Como visitante, quiero descargar un folleto PDF del proyecto para revisarlo offline o compartirlo. | 2 |
-| 9 | US-08 | Resultados: lista \+ mapa | Como usuario, quiero ver resultados en lista y en mapa sincronizados para explorar por zona. | 8 |
-| 10 | US-09 | Barra de búsqueda global | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | 5 |
-| 11 | US-10 | Filtros y ordenamiento | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ordenar para refinar opciones. | 5 |
-| 12 | US-11 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio y rating para comparar rápidamente. | 3 |
-| 13 | US-16 | Card: info mínima clara | Como usuario, quiero imagen, título, precio desde, rating y CTA en cada card. | 3 |
-| 14 | US-13 | Filtros con chips activos | Como usuario, quiero ver chips con los filtros aplicados para entender qué está activo. | 5 |
-| 15 | US-14 | Ordenamiento por precio/distancia/rating | Como usuario, quiero ordenar resultados para priorizar opciones. | 5 |
-| 16 | US-15 | Paginación mejorada | Como usuario, quiero un estado final de lista y scroll suave al cargar más. | 3 |
-| 17 | US-12 | Paginación / Infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página. | 3 |
-| 18 | US-18 | Compartir búsqueda por URL | Como usuario, quiero que los filtros se reflejen en la URL para compartir la búsqueda. | 3 |
-| 19 | US-19 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa cerca de mi ubicación para ver opciones cercanas. | 3 |
-| 20 | US-60 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión. | 2 |
-| 21 | US-54 | Guardar estado UI en URL | Como usuario, quiero que pestañas y página queden en la URL para volver al mismo punto. | 2 |
-| 22 | US-52 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha o búsqueda desde la UI. | 2 |
-| 23 | US-17 | Comparar espacios (UI) | Como usuario, quiero seleccionar hasta 3 espacios para compararlos lado a lado. | 5 |
-| 24 | US-21 | Ficha: galería y detalles | Como usuario, quiero una galería de fotos y descripción completa para evaluar el espacio. | 8 |
-| 25 | US-22 | Ficha: calendario de disponibilidad | Como usuario, quiero seleccionar fecha y horas disponibles antes de reservar. | 5 |
-| 26 | US-23 | Ficha: CTA reservar sticky | Como usuario, quiero tener siempre visible el botón 'Reservar' para continuar el flujo. | 3 |
-| 27 | US-24 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | 8 |
-| 28 | US-25 | Formulario de pago (SDK) | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | 5 |
-| 29 | US-26 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA. | 3 |
-| 30 | US-28 | Recibo/Comprobante imprimible | Como usuario, quiero ver mi comprobante en una vista imprimible y descargable. | 3 |
-| 31 | US-27 | Cancelar reserva (UI) | Como usuario, quiero una interfaz para cancelar mi reserva con motivo. | 3 |
-| 32 | US-29 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | 5 |
-| 33 | US-30 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | 3 |
-| 34 | US-31 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | 5 |
-| 35 | US-59 | Previsualización de avatar | Como usuario, quiero ver vista previa de la imagen antes de guardar mi foto. | 2 |
-| 36 | US-32 | Preferencias y notificaciones | Como usuario, quiero configurar idioma y notificaciones. | 5 |
-| 37 | US-38 | Selector de moneda | Como usuario, quiero elegir mi moneda para ver precios entendibles. | 3 |
-| 38 | US-33 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | 5 |
-| 39 | US-34 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | 3 |
-| 40 | US-36 | Reseñar un espacio (UI) | Como usuario, quiero calificar con estrellas y comentar mi experiencia. | 5 |
-| 41 | US-35 | Mensajería (UI) | Como usuario, quiero una interfaz de chat para comunicarme con el propietario. | 8 |
-| 42 | US-37 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket. | 3 |
-| 43 | US-40 | Breadcrumbs | Como usuario, quiero migas de pan para saber dónde estoy y volver fácilmente. | 2 |
-| 44 | US-39 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro para comodidad visual. | 3 |
-| 45 | US-46 | Responsive design | Como usuario móvil, quiero que todas las vistas sean usables en pantallas pequeñas. | 5 |
-| 46 | US-41 | Accesibilidad: teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | 3 |
-| 47 | US-42 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | 3 |
-| 48 | US-51 | Accesibilidad: contraste y escalado | Como usuario con baja visión, quiero buen contraste y soporte de zoom 200%. | 3 |
-| 49 | US-45 | Internacionalización (ES/EN) | Como usuario, quiero cambiar idioma sin recargar y ver formatos localizados. | 3 |
-| 50 | US-43 | Rendimiento: imágenes responsivas | Como usuario, quiero que las imágenes usen srcset y lazy‑loading para cargar más rápido. | 3 |
-| 51 | US-44 | Rendimiento: caching y skeletons | Como usuario, quiero ver skeletons y aprovechar cache para percibir rapidez. | 3 |
-| 52 | US-47 | Design System base | Como equipo, quiero un set de componentes reutilizables (botones, inputs, cards, modales). | 5 |
-| 53 | US-48 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes con opción de reintento. | 3 |
-| 54 | US-53 | Teclas rápidas en escritorio | Como usuario, quiero atajos de teclado para navegar más rápido. | 2 |
-| 55 | US-49 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | 5 |
-| 56 | US-55 | Carga offline básica (PWA) | Como usuario, quiero ver un fallback útil cuando estoy sin conexión. | 5 |
-| 57 | US-50 | Notificaciones push opt‑in | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | 5 |
-| 58 | US-56 | Impresión de comprobante legible | Como usuario, quiero que el comprobante tenga estilos de impresión legibles. | 2 |
-| 59 | US-57 | Loader global y toasts | Como usuario, quiero feedback inmediato (loader/toast) en acciones largas. | 2 |
-| 60 | US-20 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto de espacios con datos clave. | 2 |
+| 5 | US-05 | FAQ acordeón | Como visitante, quiero un acordeón de preguntas frecuentes para resolver dudas. | 2 |
+| 6 | US-06 | Footer con políticas y contacto | Como visitante, quiero acceder a términos, privacidad y contactos desde el pie de página. | 1 |
+| 7 | US-07 | SEO básico | Como visitante, quiero títulos, metadescripciones y etiquetas OG correctas para compartir bien. | 3 |
+| 8 | US-08 | Banner de cookies | Como visitante, quiero aceptar o rechazar cookies opcionales para controlar mi privacidad. | 2 |
+| 9 | US-09 | Animaciones sutiles | Como visitante, quiero microinteracciones en UI sin afectar el rendimiento. | 2 |
+| 10 | US-10 | Barra global de búsqueda | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | 5 |
+| 11 | US-11 | Lista \+ mapa sincronizados | Como usuario, quiero una lista de resultados y un mapa sincronizado para explorar por zona. | 5 |
+| 12 | US-12 | Filtros con chips | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ver chips activos. | 5 |
+| 13 | US-13 | Ordenamiento | Como usuario, quiero ordenar resultados por precio, distancia y rating. | 3 |
+| 14 | US-14 | Paginación / Infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página. | 3 |
+| 15 | US-15 | State in URL y compartir | Como usuario, quiero que filtros/orden/página se reflejen en la URL para compartir. | 3 |
+| 16 | US-16 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa en mi ubicación para ver opciones cercanas. | 3 |
+| 17 | US-17 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio desde y rating. | 2 |
+| 18 | US-18 | Comparar hasta 3 espacios | Como usuario, quiero seleccionar hasta 3 espacios para compararlos lado a lado. | 5 |
+| 19 | US-19 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto con datos clave. | 2 |
+| 20 | US-20 | Ficha: galería y detalles | Como usuario, quiero una galería de fotos y descripción completa del espacio. | 3 |
+| 21 | US-21 | Ficha: calendario de disponibilidad | Como usuario, quiero seleccionar fecha y horas disponibles antes de reservar. | 5 |
+| 22 | US-22 | Ficha: CTA reservar sticky | Como usuario, quiero tener siempre visible el botón 'Reservar'. | 2 |
+| 23 | US-23 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | 5 |
+| 24 | US-24 | Pago con SDK | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | 5 |
+| 25 | US-25 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA para mis reservas. | 2 |
+| 26 | US-26 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | 3 |
+| 27 | US-27 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | 2 |
+| 28 | US-28 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | 3 |
+| 29 | US-29 | Preferencias y notificaciones | Como usuario, quiero configurar idioma y notificaciones por email. | 2 |
+| 30 | US-30 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | 3 |
+| 31 | US-31 | Cancelar reserva (UI) | Como usuario, quiero cancelar mi reserva viendo política y cargo aplicable. | 3 |
+| 32 | US-32 | Recibos/Comprobante imprimible | Como usuario, quiero ver/descargar mi comprobante en PDF legible. | 3 |
+| 33 | US-33 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | 3 |
+| 34 | US-34 | Reseñar un espacio | Como usuario, quiero calificar con estrellas y comentar tras mi estancia. | 3 |
+| 35 | US-35 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket por canal definido. | 3 |
+| 36 | US-36 | Selector de moneda | Como usuario, quiero elegir mi moneda para ver precios entendibles. | 3 |
+| 37 | US-37 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro. | 2 |
+| 38 | US-38 | Breadcrumbs | Como usuario, quiero migas de pan para volver fácilmente. | 1 |
+| 39 | US-39 | Accesibilidad: navegación por teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | 3 |
+| 40 | US-40 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | 3 |
+| 41 | US-41 | Rendimiento: imágenes responsivas | Como usuario, quiero srcset/lazy-loading para cargar más rápido. | 3 |
+| 42 | US-42 | Rendimiento: caching y skeletons | Como usuario, quiero skeletons y cache para percibir rapidez. | 3 |
+| 43 | US-43 | Responsive design | Como usuario móvil, quiero vistas usables en pantallas pequeñas. | 3 |
+| 44 | US-44 | Design System base | Como equipo, quiero un set de componentes reutilizables. | 5 |
+| 45 | US-45 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes y opción de reintentar. | 3 |
+| 46 | US-46 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | 3 |
+| 47 | US-47 | Offline básico (fallback) | Como usuario, quiero un fallback útil cuando no hay conexión. | 3 |
+| 48 | US-48 | Notificaciones opt-in (reservas) | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | 3 |
+| 49 | US-49 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha/búsqueda desde la UI. | 2 |
+| 50 | US-50 | Scroll a anclas en landing | Como visitante, quiero navegar a secciones con scroll suave al hacer clic en el menú. | 1 |
+| 51 | US-51 | Previsualización de avatar | Como usuario, quiero ver una vista previa antes de guardar mi foto de perfil. | 2 |
+| 52 | US-52 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión actual. | 2 |
 
 ## Capítulo IV: Product Design
 
@@ -1210,7 +1196,7 @@ https://miro.com/app/board/uXjVJI6oqFo=/?share_link_id=929784522141
 #### 4.7.1. Class Diagrams
 
 <p align="center">
-  <img src="./imgs/workstation_class.png" alt="class_diagram""/>
+  <img src="./imgs/Base dedatos.jpg" alt="class_diagram""/>
 </p>
 
 ### 4.8. Database Design
@@ -1354,6 +1340,7 @@ El equipo adopta convenciones de estilo sencillas y consistentes para facilitar 
 
 **Estructura del proyecto**
 
+``
 / (repo root)
 ├─ imgs/
 │ ├─ concepto-faq_23-2148162317.jpg
@@ -1365,6 +1352,7 @@ El equipo adopta convenciones de estilo sencillas y consistentes para facilitar 
 │ └─ lang.js ← traducciones (export const traduccion)
 ├─ index.html
 └─ style.css
+``
 
 **Convenciones y prácticas aplicadas**
 
@@ -1457,29 +1445,29 @@ Para el primer sprint, desarrollamos la estructura y las funcionalidades básica
 | User Story ID | Título | Work-Item ID | Título de la tarea | Descripción | Estimación (h) | Assigned to | Status |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **US-01** | Búsqueda rápida en Hero | T01 | Diseñar sección Hero | Wireframe \+ copy (campo ciudad/fecha \+ CTA). | 4 | Quijada Magro Jeremy Alexander  | Done |
-|  |  | T02 | Input \+ autocomplete básico | Campo con sugerencias mock (≥3 chars). | 6 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T02 | Input \+ autocomplete básico | Campo con sugerencias mock (≥3 chars). | 4 | Saravia Huaricancha Arturo Axel | Done |
 |  |  | T03 | Enrutamiento a /resultados | Pasar query params (ciudad, fecha). | 4 | Saravia Huaricancha Arturo Axel | Done |
-|  |  | T04 | A11y \+ teclado | Labels, role=search, foco y ARIA. | 3 | Saravia Huaricancha Arturo Axel | Done |
-|  |  | T05 | Pruebas UI | Casos “sin coincidencias” y enter key. | 3 | Saravia Huaricancha Arturo Axel | Done |
-| **US-02** | Navegación principal (header) | T06 | Header sticky | Componente fijo, sombra y contenedor. | 3 | Quijada Magro Jeremy Alexander  | Done |
+|  |  | T04 | A11y \+ teclado | Labels, role=search, foco y ARIA. | 4 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T05 | Pruebas UI | Casos “sin coincidencias” y enter key. | 4| Saravia Huaricancha Arturo Axel | Done |
+| **US-02** | Navegación principal (header) | T06 | Header sticky | Componente fijo, sombra y contenedor. | 4 | Quijada Magro Jeremy Alexander  | Done |
 |  |  | T07 | Menú móvil | Drawer/hamburguesa con focus visible. | 3 | Quijada Magro Jeremy Alexander  | Done |
 |  |  | T08 | Enlaces y estados | Hover/active, skip-to-content. | 3 | Saravia Huaricancha Arturo Axel | Done |
-| **US-03** | Espacios destacados | T09 | Cards de destacados | 3 cards con imagen, precio, CTA. | 3 | Huang Liu Franco Gabriel | Done |
+| **US-03** | Espacios destacados | T09 | Cards de destacados | 4 cards con imagen, precio, CTA. | 3 | Huang Liu Franco Gabriel | Done |
 |  |  | T10 | CTA “Descubre más” | Link a /resultados con filtro tipo=desk. | 3 | Huang Liu Franco Gabriel | Done |
 | **US-04** | Testimonios | T11 | Carrusel accesible | Carousel con botones prev/next y aria-live=off. | 3 | Huang Liu Franco Gabriel | Done |
 |  |  | T12 | Datos mock \+ layout | 3–5 testimonios (nombre, rating, texto). | 3 | Huang Liu Franco Gabriel | Done |
-| **US-05** | FAQ (acordeón) | T13 | Acordeón FAQ | Componente con apertura/cierre y focus. | 4 | Quijada Magro Jeremy Alexander  | Done |
+| **US-05** | FAQ (acordeón) | T13 | Acordeón FAQ | Componente con apertura/cierre y focus. | 5 | Quijada Magro Jeremy Alexander  | Done |
 |  |  | T14 | Buscador en FAQ | Filtrado por texto en cliente. | 4 | Quijada Magro Jeremy Alexander  | Done |
 | **US-06** | Footer \+ contacto | T15 | Footer legal y links | Términos, privacidad, redes, contacto. | 4 | Cumba Rengifo Leonardo Raul | Done |
-|  |  | T16 | Formulario de contacto | Nombre, email, mensaje (mock submit). | 4 | Cumba Rengifo Leonardo Raul | Done |
+|  |  | T16 | Formulario de contacto | Nombre, email, mensaje (mock submit). | 3 | Cumba Rengifo Leonardo Raul | Done |
 | **US-07** | Descargar brochure PDF | T17 | Archivo \+ descarga | Colocar brochure.pdf y manejo de error. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
-| **US-08** | Banner cookies/privacidad | T18 | Banner y preferencias | Aceptar/Rechazar/Configurar (+ localStorage). | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
+| **US-08** | Banner cookies/privacidad | T18 | Banner y preferencias | Aceptar/Rechazar/Configurar (+ localStorage). | 4 | La Madrid Lozano Ivan Jeanpierre | Done |
 |  |  | T19 | Enlace a preferencias | Link persistente en footer. | 4 | Cumba Rengifo Leonardo Raul | Done |
 | **US-09** | SEO básico en landing | T20 | Metas y OG tags | title, meta-description, og:image/url. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
-|  |  | T21 | Favicon/robots/sitemap | Favicon set, robots.txt y sitemap básico. | 4 | Cumba Rengifo Leonardo Raul | Done |
-| **US-10** | Animaciones sutiles | T22 | Micro-interacciones | Hover en cards/CTAs y reveal suave. | 3 | La Madrid Lozano Ivan Jeanpierre | Done |
-|  |  | T23 | Auditoría performance | Verificar no degrada LCP/CLS (Lighthouse). | 4 | Saravia Huaricancha Arturo Axel | Done |
-| **US-58** | Scroll a anclas | T24 | Anclas y scroll suave | Menú a secciones (\#servicios, \#faq, \#contacto). | 4 | Saravia Huaricancha Arturo Axel | Done |
+|  |  | T21 | Favicon/robots/sitemap | Favicon set, robots.txt y sitemap básico. | 3 | Cumba Rengifo Leonardo Raul | Done |
+| **US-10** | Animaciones sutiles | T22 | Micro-interacciones | Hover en cards/CTAs y reveal suave. | 2 | La Madrid Lozano Ivan Jeanpierre | Done |
+|  |  | T23 | Auditoría performance | Verificar no degrada LCP/CLS (Lighthouse). | 3 | Saravia Huaricancha Arturo Axel | Done |
+| **US-14** | Scroll a anclas | T24 | Anclas y scroll suave | Menú a secciones (\#servicios, \#faq, \#contacto). | 3 | Saravia Huaricancha Arturo Axel | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
 En este punto evidenciamos el desarrollo y el apoyo por parte de los integrantes del equipo en la construcción del frontend estático de la Landing Page.
@@ -1493,7 +1481,7 @@ En este punto evidenciamos el desarrollo y el apoyo por parte de los integrantes
 | US-05              | FAQ (acordeón)    | Dado que el usuario abre la sección de preguntas frecuentes, cuando hace clic sobre una pregunta, entonces se despliega su respuesta, cerrando las demás preguntas activas.                               |
 | US-06                | Footer con políticas y contacto          | Dado que el usuario se desplaza hasta el final de la página, cuando hace clic en cualquiera de los enlaces del footer, entonces es redirigido a la sección o página correspondiente (términos, privacidad, contacto, redes sociales).                     |
 |US-10                | Animaciones sutiles | Dado que el usuario interactúa con botones o cards, cuando pasa el mouse sobre ellos, entonces se aplican microinteracciones (hover, elevación, sombra) sin afectar el rendimiento.                                           |
-|US-58                | Scroll a anclas en landing | Dado que el usuario selecciona un ítem del menú, cuando hace clic en él, entonces se ejecuta un scroll suave hacia la sección correspondiente (Servicios, FAQ, Contacto).                                           |
+|US-14                | Scroll a anclas en landing | Dado que el usuario selecciona un ítem del menú, cuando hace clic en él, entonces se ejecuta un scroll suave hacia la sección correspondiente (Servicios, FAQ, Contacto).                                           |
 
 En este sprint, la Landing Page logró cubrir de manera completa las funcionalidades básicas de navegación, búsqueda y presentación de información, cumpliendo con los criterios definidos en el backlog.
 
