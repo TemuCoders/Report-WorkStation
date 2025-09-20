@@ -48,64 +48,50 @@ Desarrollo de Aplicaciones Open Source<br>
 ## Contenido
 #### Tabla de contenidos
 
-- [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
-  - [| TB1     | 16/09/2025  | La Madrid Lozano, Ivan  | Mejora del User Task Matrix, desarrollo del Customer Journey Map y Empathy Map de hosts |](#-tb1------16092025---la-madrid-lozano-ivan---mejora-del-user-task-matrix-desarrollo-del-customer-journey-map-y-empathy-map-de-hosts-)
-  - [Contenido](#contenido)
-      - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Student Outcome](#student-outcome)
   - [Capítulo I: Introducción](#capítulo-i-introducción)
     - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
       - [1.2.2.2. Lean UX Problem Assumptions](#1222-lean-ux-problem-assumptions)
       - [1.2.2.3. Lean UX Problem Hypothesis Statements](#1223-lean-ux-problem-hypothesis-statements)
       - [1.2.2.4. Lean UX Problem Canvas](#1224-lean-ux-problem-canvas)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
   - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-      - [Freelancers](#freelancers)
-      - [Propietarios de inmuebles](#propietarios-de-inmuebles)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix](#232-user-task-matrix)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Ubiquitous Language](#24-ubiquitous-language)
-- [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
-  - [3.2. Impact Mapping](#32-impact-mapping)
+    - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+        - [Freelancers](#freelancers)
+        - [Propietarios de inmuebles](#propietarios-de-inmuebles)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix](#232-user-task-matrix)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+  - [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+    - [3.1. User Stories](#31-user-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
       - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
       - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
     - [4.2. Information Architecture](#42-information-architecture)
       - [4.2.1. Organization Systems](#421-organization-systems)
-        - [Sistemas Visuales](#sistemas-visuales)
-        - [Esquemas de Categorización](#esquemas-de-categorización)
       - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [Etiquetas del Landing Page](#etiquetas-del-landing-page)
-        - [Etiquetas de la Web Application (Freelancers)](#etiquetas-de-la-web-application-freelancers)
-        - [Etiquetas de la Web Application (Propietarios)](#etiquetas-de-la-web-application-propietarios)
       - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [Landing Page](#landing-page)
-        - [Web Application](#web-application)
       - [4.2.4. Searching Systems](#424-searching-systems)
-        - [Barra de Búsqueda Inteligente](#barra-de-búsqueda-inteligente)
-        - [Filtros Avanzados](#filtros-avanzados)
       - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [Landing Page Navigation](#landing-page-navigation)
-        - [4.2. Web Application Navigation](#42-web-application-navigation)
     - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
       - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
       - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
@@ -123,41 +109,45 @@ Desarrollo de Aplicaciones Open Source<br>
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
       - [4.7.1. Class Diagrams](#471-class-diagrams)
     - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
+      - [4.8.1. Database Diagrams](#481-database-diagrams)
   - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-      - [Project Management](#project-management)
-      - [Requirement Management](#requirement-management)
-      - [Product UX/UI Design](#product-uxui-design)
-      - [Software Development](#software-development)
-      - [Software Documentation](#software-documentation)
-      - [Software Deployment](#software-deployment)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-      - [Producto y Repositorio](#producto-y-repositorio)
-      - [Estructura del Repositorio](#estructura-del-repositorio)
-      - [Flujo de trabajo GitFlow](#flujo-de-trabajo-gitflow)
-      - [Mensajes de Commits](#mensajes-de-commits)
-      - [Documentación](#documentación)
-    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+      - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [5.1.2. Source Code Management](#512-source-code-management)
+      - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
     - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
       - [5.2.1. Sprint 1](#521-sprint-1)
         - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
         - [5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-      - [**5.2.1.3. Sprint Backlog 1.**](#5213-sprint-backlog-1)
+        - [5.2.1.3. Sprint Backlog 1.](#5213-sprint-backlog-1)
         - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
         - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-        - [Actividades Realizadas](#actividades-realizadas)
-        - [Evidencias Visuales](#evidencias-visuales)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
     - [Conclusiones](#conclusiones)
     - [Anexos](#anexos)
     - [Bibliografía](#bibliografía)
   
 ---
+
+## Project Report Collaboration Insights
+
+- **URL de la organización del proyecto:**  
+  [https://github.com/TemuCoders](https://github.com/TemuCoders)
+- **URL del repositorio del informe:**  
+    [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
+
+Todas las tareas correspondientes a la entrega de la TB1 han sido completadas y están documentadas en el repositorio de GitHub de la organización del equipo. Para la elaboración del informe, cada integrante del equipo se encargó de redactar y generar gráficos en formato Markdown, según los puntos que le fueron asignados, realizando commits para dejar constancia del progreso en el repositorio.
+
+Aquí se pueden visualizar todos los commits realizados para la TB1, lo cual evidencia el trabajo colaborativo del equipo.
+
+<p align="center">
+  <img src="/imgs/commits -tb1.png" alt="colab" />
+  
+Para facilitar el desarrollo del trabajo, optamos por seguir el flujo de trabajo Gitflow. En este esquema, cada subtítulo del informe fue tratado como una feature. Un miembro del equipo creaba una rama específica para ese subtítulo y trabajaba en ella, mientras que otros miembros podían colaborar directamente o supervisar su progreso. Una vez finalizada la feature, todo el equipo revisaba el contenido y, tras obtener el consenso, se realizaba el merge hacia la rama develop. Además, organizamos las tareas considerando su nivel de dificultad, asegurando así una distribución equitativa del trabajo entre todos los integrantes.
+
 
 ## Student Outcome
 
@@ -168,9 +158,8 @@ En el siguiente cuadro se describen las acciones realizadas y conclusiones del e
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1:**  | **TB1**:  |
-| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1:**  | **TB1:**  |
-
+| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.   | **TB1**: Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC.  |
+| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.   | **TB1:** Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC. |
 
 
 ## Capítulo I: Introducción
@@ -215,6 +204,9 @@ Considerando la flexibildad y la adaptabilidad como puntos esenciales para el cr
 
 - **How (¿Cómo se manifiesta el problema?)**  
   El proceso de reserva actual es manual, lento y fragmentado, dependiendo de canales no estandarizados como sitios web propios, redes sociales o WhatsApp, lo que genera ineficiencias, errores y una experiencia poco confiable para los involucrados.
+
+- **How Much (¿Cuánto cuesta o qué magnitud tiene el problema?)**
+  El problema tiene un impacto significativo, con costos asociados a la pérdida de tiempo y oportunidades para freelancers y empresas que no encuentran espacios rápidamente, así como ingresos perdidos para propietarios de coworking debido a reservas ineficientes. La falta de estandarización genera una magnitud variable según la ciudad, pero se estima que afecta a miles de usuarios y espacios en mercados clave como Lima, Bogotá y CDMX, donde la demanda crece sin una solución coordinada.
   
 ### Descripción de la Problemática
 
@@ -429,9 +421,9 @@ Spaces fue fundada en 2008 en Ámsterdam (Países Bajos) como una marca de es
 
 **CoWorker:**
 
-Coworker.com es una plataforma global de búsqueda y comparación de espacios de coworking, fundada en 2015 por Leanne Beesley y Sam Marks . A diferencia de WeWork o Spaces, Coworker no opera sus propios espacios, sino que funciona como un marketplace que conecta a usuarios con miles de espacios de coworking en todo el mundo.
+Coworker es una plataforma global de búsqueda y comparación de espacios de coworking, fundada en 2015 por Leanne Beesley y Sam Marks . A diferencia de WeWork o Spaces, Coworker no opera sus propios espacios, sino que funciona como un marketplace que conecta a usuarios con miles de espacios de coworking en todo el mundo.
 
-La plataforma surgió para resolver un problema clave: la falta de transparencia y acceso a información sobre espacios de trabajo flexibles. Hoy, Coworker.com lista más de 20,000 espacios en 170+ países, ofreciendo reseñas, precios y disponibilidad en tiempo real.
+La plataforma surgió para resolver un problema clave: la falta de transparencia y acceso a información sobre espacios de trabajo flexibles. Hoy, Coworker lista más de 20,000 espacios en 170+ países, ofreciendo reseñas, precios y disponibilidad en tiempo real.
 
 **Oficinas YA!**
 
@@ -503,21 +495,6 @@ Oficinas YA! es una plataforma líder en América Latina especializada en la�
 ### 2.2.2. Registro de entrevistas
 
 **Segmento 1 - Propietario de inmuebles**
-Enlace del video de la entrevista:
-
-[![Demo en YouTube](https://img.youtube.com/vi/1GPReTfneu4/0.jpg)](https://www.youtube.com/watch?v=1GPReTfneu4)
-
-**Entrevistada:** Marjorie Luna Victoria  
-**Edad:** 22 años  
-**Ocupación:** Diseñadora gráfica  
-**Ubicación:** Lima – Miraflores  
-**Medio:** Meet  
-**Entrevistador:** Jorge Díaz
-
-🎬 **Inicio del video:** 0:04  
-⏱️ **Duración:** 3 minutos y 42 segundos
-
-Enlace del video de la entrevista:
 
 [![Demo en stream](imgs/en1.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EcZwK3uJNLBBu4dhWzNRIj4BEVNuC39nTnqBl2JJrdevFA?e=6FLXLY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
@@ -583,8 +560,6 @@ Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2023
 **Entrevistador:** Leonardo Cumba
 
 
-
-
 ### 2.2.3. Análisis de entrevistas
 
 #### Freelancers
@@ -626,7 +601,6 @@ Estamos considerando los segmentos objetivos **"Propietario de Inmueble"** y **"
 - **Frecuencia:** D (Diaria), S (Semanal), M (Mensual), O (Ocasional), R (Rara)  
 - **Cómo se calcula Prioridad:** combinación heurística de Importancia + Frecuencia → **Alta / Media / Baja**
 
----
 
 #### a) Trabajador independiente / Freelancer (AS-IS)
 | Tarea (hoy) | Importancia (1–5) | Frecuencia | Prioridad | Canal actual | Dolor / Riesgo | Acción recomendada (AS-IS) |
@@ -661,7 +635,7 @@ Estamos considerando los segmentos objetivos **"Propietario de Inmueble"** y **"
 ---
 
 **Conclusión (AS-IS):**  
-La mayoría de las tareas actuales de freelancers y propietarios se realizan de forma **manual y distribuida en múltiples canales** (WhatsApp, Google, redes, Excel). Esto provoca fricción: demora en confirmaciones, riesgo de doble reserva, mala calidad de información y dificultad para conciliar pagos. Las acciones recomendadas en esta matriz son medidas *prácticas y aplicables hoy* para mitigar riesgos sin depender de una solución técnica inmediata (ej. plantillas, checklist, captura de comprobantes, sincronización de calendarios).
+La mayoría de las tareas actuales de freelancers y propietarios se realizan de forma **manual y distribuida en múltiples canales** (WhatsApp, Google, redes, Excel). Esto provoca fricción: demora en confirmaciones, riesgo de doble reserva, mala calidad de información y dificultad para conciliar pagos. Las acciones recomendadas en esta matriz son medidas prácticas y aplicables hoy para mitigar riesgos sin depender de una solución técnica inmediata (ej. plantillas, checklist, captura de comprobantes, sincronización de calendarios).
 
 ### 2.3.3. User Journey Mapping
 
@@ -858,7 +832,7 @@ En este capítulo se mostrará el desarrollo de las interfaces y procesos relaci
 #### 4.1.1. General Style Guidelines
 
 ##### Branding:
-El branding de WorkStation combina la confianza profesional de Booking.com con la calidez comunitaria de Airbnb. El logo es un ícono estilizado de un escritorio con líneas fluidas que evocan colaboración y flexibilidad, acompañado del nombre "WorkStation" en tipografía moderna.
+El branding de WorkStation combina la confianza profesional de Booking con la calidez comunitaria de Airbnb. El logo es un ícono estilizado de un escritorio con líneas fluidas que evocan colaboración y flexibilidad, acompañado del nombre "WorkStation" en tipografía moderna.
 
 - **Logo Principal**: Texto + ícono para headers; ícono solo para apps y favicons.
 - **Uso**: Espacio libre de 16px alrededor; no alterar proporciones ni colores.
@@ -869,7 +843,7 @@ El branding de WorkStation combina la confianza profesional de Booking.com con l
 | Espacio de Respiración | Padding alrededor | 16px mínimo |
 
 ##### Typography
-Adoptamos Circular Pro (al estilo de Airbnb) por su look moderno y amigable, con fallback a Roboto (Google Fonts) para accesibilidad web. Su versatilidad soporta múltiples idiomas, clave para el enfoque global de WorkStation. La jerarquía, inspirada en Booking.com, guía al usuario en búsquedas rápidas con tamaños escalables asegurando legibilidad en pantallas móviles y desktop.
+Adoptamos Circular Pro (al estilo de Airbnb) por su look moderno y amigable, con fallback a Roboto (Google Fonts) para accesibilidad web. Su versatilidad soporta múltiples idiomas, clave para el enfoque global de WorkStation. La jerarquía, inspirada en Booking, guía al usuario en búsquedas rápidas con tamaños escalables asegurando legibilidad en pantallas móviles y desktop.
 
 - **Headings (H1-H6)**: Circular Pro Bold, tamaños escalables (H1: 40px, H2: 28px, etc.).
 - **Body Text**: Circular Pro Regular, 16px base.
@@ -884,7 +858,7 @@ Adoptamos Circular Pro (al estilo de Airbnb) por su look moderno y amigable, con
 | Label | Circular Pro | Medium | 14px / 0.875rem | Filtros y etiquetas |
 
 ##### Colors
-La paleta combina azules confiables (Booking.com) y tonos cálidos (Airbnb) en un esquema 60-30-10 para equilibrio visual. El azul refuerza fiabilidad en transacciones, mientras que el coral evoca comunidad, alineado con el espíritu de coworking. 
+La paleta combina azules confiables (Booking) y tonos cálidos (Airbnb) en un esquema 60-30-10 para equilibrio visual. El azul refuerza fiabilidad en transacciones, mientras que el coral evoca comunidad, alineado con el espíritu de coworking. 
 
 - **Primario**: Azul Confiable (#003580) – CTAs, links.
 - **Secundario**: Coral Comunitario (#FF5733) – Disponibilidad, énfasis.
@@ -902,7 +876,7 @@ La paleta combina azules confiables (Booking.com) y tonos cálidos (Airbnb) en u
 | Neutro | Negro | #000000ff | Texto principal | Legibilidad |
 
 ##### Spacing
-Un grid de 8px, inspirado en Airbnb, crea un ritmo visual predecible con múltiplos (8px, 16px, 24px). Esto optimiza desarrollo (consistencia) y UX (evita clutter), con un 25% más de padding en móvil para toques precisos, siguiendo patrones táctiles de Booking.com. Las sombras suaves añaden profundidad sin sobrecargar.
+Un grid de 8px, inspirado en Airbnb, crea un ritmo visual predecible con múltiplos (8px, 16px, 24px). Esto optimiza desarrollo (consistencia) y UX (evita clutter), con un 25% más de padding en móvil para toques precisos, siguiendo patrones táctiles de Booking. Las sombras suaves añaden profundidad sin sobrecargar.
 
 - **Padding/Margin Base**: 16px para contenedores.
 - **Espaciado entre Elementos**: 8px para íconos; 32px para secciones.
@@ -918,7 +892,7 @@ Un grid de 8px, inspirado en Airbnb, crea un ritmo visual predecible con múltip
 | XL | 32 | Espaciado hero |
 
 ##### Tone of Communication and Language
-El tono es entusiasta y acogedor, inspirado en la calidez de Airbnb y la claridad accionable de Booking.com. Diseñado para freelancers y startups, usa lenguaje inclusivo y motivador, con mensajes cortos  para claridad.
+El tono es entusiasta y acogedor, inspirado en la calidez de Airbnb y la claridad accionable de Booking. Diseñado para freelancers y startups, usa lenguaje inclusivo y motivador, con mensajes cortos  para claridad.
 
 - **Divertido/Serio**: Divertido en marketing (emojis sutiles), serio en reservas.
 - **Formal/Casual**: Casual (voz activa, contracciones), profesional en legal.
@@ -953,7 +927,7 @@ La arquitectura de información de WorkStation organiza el contenido de la exper
 La organización del contenido en WorkStation utiliza una combinación de sistemas visuales y esquemas de categorización para garantizar claridad y accesibilidad en el Landing Page y la Web Application. Las decisiones reflejan las necesidades de dos audiencias principales: **freelancers** (que buscan espacios) y **propietarios** (que gestionan locales), optimizando la experiencia según sus objetivos.
 
 ##### Sistemas Visuales
-- **Jerárquica (Visual Hierarchy)**: Utilizada en el Landing Page y las páginas principales de la aplicación para priorizar información clave. Por ejemplo, en el Landing Page, el CTA "Explorar Espacios" (en `#003580`) se destaca con un botón grande y tipografía Circular Pro Bold 20px, mientras que secciones como "Reseñas" o "Contacto" usan tipografía secundaria (14px). Esto guía al usuario hacia acciones primarias (reservar o publicar) antes que información secundaria, siguiendo patrones de Booking.com para alta conversión.
+- **Jerárquica (Visual Hierarchy)**: Utilizada en el Landing Page y las páginas principales de la aplicación para priorizar información clave. Por ejemplo, en el Landing Page, el CTA "Explorar Espacios" (en `#003580`) se destaca con un botón grande y tipografía Circular Pro Bold 20px, mientras que secciones como "Reseñas" o "Contacto" usan tipografía secundaria (14px). Esto guía al usuario hacia acciones primarias (reservar o publicar) antes que información secundaria, siguiendo patrones de Booking para alta conversión.
 - **Secuencial (Step-by-Step)**: Aplicada en flujos críticos como el registro, inicio de sesión, y proceso de reserva. Por ejemplo, el flujo de reserva para freelancers sigue pasos claros: 
     - Buscar espacio, 
     - Seleccionar fechas, 
@@ -998,7 +972,7 @@ Los sistemas de etiquetado utilizan nombres cortos, claros y consistentes para r
 
 #### 4.2.3. SEO Tags and Meta Tags
 
-Los **SEO Tags** y **Meta Tags** optimizan la visibilidad de WorkStation en motores de búsqueda, siguiendo las prácticas de Booking.com para mejorar rankings y clics.Se definen para el **Landing Page** (sitio estático) y la **Web Application**, con etiquetas claras y descriptivas.
+Los **SEO Tags** y **Meta Tags** optimizan la visibilidad de WorkStation en motores de búsqueda. Se definen para el **Landing Page** (sitio estático) y la **Web Application**, con etiquetas claras y descriptivas.
 
 ##### Landing Page
 ```html
@@ -1253,9 +1227,9 @@ Para el desarrollo de la página web, se emplearon lenguajes de programación y 
 
 | Herramienta    | Descripción                                                                                              | Enlace                                                       |
 |----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| **HTML**       | Lenguaje de marcado fundamental para estructurar el contenido y la disposición de los elementos en la web. | [HTML](https://www.w3schools.com/html/default.asp)           |
-| **CSS**        | Lenguaje de diseño que permite aplicar estilos visuales a los elementos estructurados en HTML, mejorando su presentación. | [CSS](https://www.w3schools.com/css/default.asp)             |
-| **JavaScript** | Lenguaje de programación orientado a objetos utilizado para agregar interactividad y funcionalidades dinámicas a la página web. | [JavaScript](https://www.w3schools.com/js/default.asp)       |
+| **HTML**       | Lenguaje de marcado fundamental para estructurar el contenido y la disposición de los elementos en la web. | [https://www.w3schools.com/html/default.asp](https://www.w3schools.com/html/default.asp)           |
+| **CSS**        | Lenguaje de diseño que permite aplicar estilos visuales a los elementos estructurados en HTML, mejorando su presentación. | [https://www.w3schools.com/css/default.asp](https://www.w3schools.com/css/default.asp)             |
+| **JavaScript** | Lenguaje de programación orientado a objetos utilizado para agregar interactividad y funcionalidades dinámicas a la página web. | [https://www.w3schools.com/js/default.asp](https://www.w3schools.com/js/default.asp)       |
 
 ---
 
@@ -1265,8 +1239,8 @@ La gestión y documentación del proyecto se llevó a cabo utilizando herramient
 
 | Herramienta    | Descripción                                                                                              | Enlace                                                       |
 |----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| **GitHub**     | Plataforma de desarrollo colaborativo que también se utilizó para gestionar y alojar la documentación del proyecto. | [GitHub](https://github.com/SmartFinance-OpenSource/Report)  |
-| **Markdown**   | Formato de texto ligero utilizado para escribir y estructurar la documentación técnica del proyecto de forma clara y legible. | [markdown.es](https://markdown.es/)                          |
+| **GitHub**     | Plataforma de desarrollo colaborativo que también se utilizó para gestionar y alojar la documentación del proyecto. | [https://github.com/SmartFinance-OpenSource/Report](https://github.com/SmartFinance-OpenSource/Report)  |
+| **Markdown**   | Formato de texto ligero utilizado para escribir y estructurar la documentación técnica del proyecto de forma clara y legible. | [https://markdown.es/](https://markdown.es/)                          |
 
 ---
 
@@ -1276,7 +1250,7 @@ Para el despliegue de la landing page, se optó por una plataforma de hosting qu
 
 | Herramienta     | Descripción                                                                                              | Enlace                                                       |
 |-----------------|----------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|
-| **GitHub Pages** | Servicio de GitHub que permite desplegar la aplicación directamente desde el repositorio, facilitando la visualización pública de la página. | [GitHub Pages](https://pages.github.com/)                   |
+| **GitHub Pages** | Servicio de GitHub que permite desplegar la aplicación directamente desde el repositorio, facilitando la visualización pública de la página. | [https://pages.github.com/](https://pages.github.com/)                   |
 
 
 ### 5.1.2. Source Code Management
@@ -1285,7 +1259,7 @@ Para el despliegue de la landing page, se optó por una plataforma de hosting qu
 
 | Producto             | Repositorio        | URL                                                       |
 |----------------------|--------------------|------------------------------------------------------------|
-| Landing Page         | WorkStation-Landing Page| [LandingPage](https://github.com/TemuCoders/Landing-Page)     |
+| Landing Page         | WorkStation-Landing Page| [https://github.com/TemuCoders/Landing-Page](https://github.com/TemuCoders/Landing-Page)     |
 
 #### Estructura del Repositorio
 
