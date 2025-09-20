@@ -1332,8 +1332,74 @@ La documentación del proyecto se encuentra en el archivo `README.md` dentro del
 
 ### 5.1.3. Source Code Style Guide & Conventions
 
+El equipo adopta convenciones de estilo sencillas y consistentes para facilitar la lectura, el mantenimiento y la colaboración en la landing page. El idioma de los identificadores (nombres de archivos, variables, funciones y clases) es **inglés**, manteniendo coherencia con el código existente en `js/lang.js` y `js/java.js`.
+
+**Estructura del proyecto**
+
+/ (repo root)
+├─ imgs/
+│ ├─ concepto-faq_23-2148162317.jpg
+│ ├─ contactanos.avif
+│ ├─ fondo-menu.jpg
+│ └─ logo.jpg
+├─ js/
+│ ├─ java.js ← módulo principal (ES module)
+│ └─ lang.js ← traducciones (export const traduccion)
+├─ index.html
+└─ style.css
+
+**Convenciones y prácticas aplicadas**
+
+- **HTML**
+  - Uso de etiquetas semánticas: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` y `<footer>` para estructurar el documento.
+  - Identificadores (`id`) estables y descriptivos para i18n y manipulación DOM (por ejemplo `WorkStation-title`, `srv-booking`).
+  - Atributos `alt` descriptivos en todas las imágenes para accesibilidad.
+
+- **CSS**
+  - Clases en **kebab-case**: `.nav-links`, `.header-content`, `.menu-btn`.
+  - Organización por bloques (header, hero, services, faq, contact, footer) dentro de `style.css`.
+  - Preferencia por clases frente a selectores muy específicos; estructura de estilos pensada para facilitar la evolución a SCSS si fuera necesario.
+
+- **JavaScript**
+  - Módulos ES6 (`import` / `export`) tal como está implementado en `js/lang.js` y `js/java.js`.
+  - Nombres en **camelCase** para variables y funciones (`menuBtn`, `updateLanguage`).
+  - Separación clara entre la tabla de traducciones (`lang.js`) y la lógica de manipulación del DOM (`java.js`).
+
+- **Internacionalización (i18n)**
+  - Traducciones mantenidas en `lang.js` como `export const traduccion` con claves que coinciden con los `id` del HTML.
+  - Traducción dinámica que actualiza `innerText`, `placeholder` y `value` según el tipo de elemento.
+
+- **Accesibilidad (A11y)**
+  - Formularios con `label` o `aria-label` y controles navegables por teclado.
+  - Acordeón del FAQ con cambio visual claro; se recomienda mantener atributos ARIA (`aria-expanded`) al evolucionar la implementación.
+  - Contrastes y tamaños de texto orientados a cumplir al menos nivel AA.
+
+- **Control de calidad**
+  - Mensajes de commit siguiendo **Conventional Commits** (`feat:`, `fix:`, `docs:`).
+  - Flujo de ramas simple: `main` (producción), `develop` (integración) y `feature/*` para trabajo aislado.
+  - Recomendación de linters y formateadores (ESLint / Prettier) para mantener consistencia estilística.
 
 ### 5.1.4. Software Deployment Configuration
+
+La landing page es una aplicación estática que se publica habitualmente mediante GitHub Pages. La configuración actual del repositorio respalda un despliegue directo desde la rama que actúe como producción.
+
+**Consideraciones sobre el despliegue**
+
+- La página principal se sirve desde `index.html` situado en la raíz del repositorio y los recursos se referencian con rutas relativas (`./style.css`, `./js/java.js`, `./imgs/fondo-menu.jpg`), lo que facilita la publicación estática.
+- GitHub Pages resulta adecuado para este tipo de contenido: la URL pública asociada al repositorio permite verificar visualmente la landing (`https://temucoders.github.io/Landing-Page/`).
+- Si en etapas posteriores se incorpora un proceso de build (Vite, Webpack, etc.), el artefacto resultante (`dist/`) se convierte en la carpeta de publicación y el flujo de CI/CD (por ejemplo GitHub Actions) puede automatizar la construcción y el despliegue.
+
+**Buenas prácticas vinculadas al repositorio**
+
+- Mantener `index.html` en la raíz y las carpetas `js/`, `imgs/` y `style.css` con nombres y rutas consistentes.
+- Evitar la inclusión de credenciales en el repositorio; cualquier secreto necesario para workflows debe ubicarse en `GitHub Secrets`.
+- Documentar en `README.md` la URL pública, la estructura mínima del repo y los pasos esenciales para comprobar localmente la página (por ejemplo, abrir `index.html` con Live Server).
+
+**Verificación post-publicación**
+
+- Comprobación de que los recursos (imágenes, CSS, JS) retornan 200 y se cargan sin errores en consola.
+- Revisión rápida de funcionalidades críticas: cambio de idioma, acordeón FAQ y navegación principal.
+- Revisión de rendimiento/accesibilidad básica con herramientas como Lighthouse cuando sea pertinente.
 
 ### 5.2. Landing Page, Services & Applications Implementation
 #### 5.2.1. Sprint 1
