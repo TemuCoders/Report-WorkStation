@@ -1336,6 +1336,7 @@ El equipo adopta convenciones de estilo sencillas y consistentes para facilitar 
 
 **Estructura del proyecto**
 
+``
 / (repo root)
 ├─ imgs/
 │ ├─ concepto-faq_23-2148162317.jpg
@@ -1347,6 +1348,7 @@ El equipo adopta convenciones de estilo sencillas y consistentes para facilitar 
 │ └─ lang.js ← traducciones (export const traduccion)
 ├─ index.html
 └─ style.css
+``
 
 **Convenciones y prácticas aplicadas**
 
