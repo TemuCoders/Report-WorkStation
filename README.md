@@ -684,6 +684,7 @@ Este conjunto de Customer Journey Maps presenta de forma conjunta el recorrido e
 <p align="center">
   <img src="imgs/Customer Journey Map Brainstorm.png" alt="Customer Journey Map Brainstorm.png" />
 </p>
+
 #### Customer Journey Map — Propietarios / Hosts
 <p align="center">
 <img width="1179" height="1059" alt="image" src="https://github.com/user-attachments/assets/84e017e5-dbfd-4bdf-8d45-5cc4de7f5ff8" />
