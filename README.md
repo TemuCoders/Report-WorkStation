@@ -272,8 +272,6 @@ En el contexto local no existe un mecanismo digital consolidado que conecte, en 
 
 #### 1.2.2.2. Lean UX Assumptions
 
-A continuación se listan supuestos explícitos sobre **usuarios**, **oferta**, **mercado/proceso actual**, **riesgos de comportamiento** y **tecnología/datos**. Estos supuestos orientan la investigación y medición; no describen una solución.
-
 **Sobre usuarios (freelancers, startups, profesionales remotos)**
 - Asumimos que **priorizan ubicación, precio y servicios clave** (Wi-Fi estable, salas, silencio) al decidir.
 - Asumimos que **la disponibilidad horaria** (por horas/días) es crítica y debe ser **predecible**.
