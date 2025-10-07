@@ -216,8 +216,6 @@ Por otro lado, el mercado de espacios coworking también ha crecido rápidamente
 
 Esta desconexión entre la **alta demanda de espacios temporales de trabajo** y la **oferta disponible sin digitalización adecuada** genera ineficiencias notorias: usuarios que no encuentran espacios adecuados en tiempo real, y propietarios que pierden ingresos por no contar con una plataforma de reservas automatizada. Además, la falta de sistemas de gestión y comparación centralizada crea una experiencia fragmentada, poco confiable y lenta para ambas partes.
 
-En este contexto, **WorkStation** surge como una solución tecnológica que busca cerrar esta brecha, permitiendo a freelancers, startups y profesionales acceder fácilmente a espacios de trabajo mediante una plataforma web intuitiva, al mismo tiempo que otorga a los propietarios herramientas de visibilidad, control de disponibilidad y generación de ingresos más eficientes.
-
 ### 1.2.2 Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
@@ -1302,7 +1300,10 @@ Para el despliegue de la landing page, se optó por una plataforma de hosting qu
 
 | Producto             | Repositorio        | URL                                                       |
 |----------------------|--------------------|------------------------------------------------------------|
-| Landing Page         | WorkStation-Landing Page| [https://github.com/TemuCoders/Landing-Page](https://github.com/TemuCoders/Landing-Page)     |
+| WorkStation-Landing Page         | WorkStation-Landing Page| [https://github.com/TemuCoders/Landing-Page](https://github.com/TemuCoders/Landing-Page)     |
+| WorkStation-Report        | Report| [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)     |
+| WorkStation-BackEnd         | BackEnd| [https://github.com/TemuCoders/BackEnd](https://github.com/TemuCoders/BackEnd)     |
+| WorkStation-FrontEnd         | FrontEnd| [https://github.com/TemuCoders/FrontEnd](https://github.com/TemuCoders/FrontEnd)     |
 
 #### Estructura del Repositorio
 
@@ -1351,13 +1352,26 @@ Adoptamos el estándar **Conventional Commits** para los mensajes de nuestros co
 
 La documentación del proyecto se encuentra en el archivo `README.md` dentro del repositorio. Este archivo proporciona detalles sobre la configuración, el uso del software y las guías para contribuir al proyecto.
 
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
-El equipo adopta convenciones de estilo sencillas y consistentes para facilitar la lectura, el mantenimiento y la colaboración en la landing page. El idioma de los identificadores (nombres de archivos, variables, funciones y clases) es **inglés**, manteniendo coherencia con el código existente en `js/lang.js` y `js/java.js`.
+El equipo adopta convenciones de estilo consistentes y basadas en estándares reconocidos para facilitar la lectura, el mantenimiento y la colaboración en la landing page. El idioma de los identificadores (nombres de archivos, variables, funciones y clases) es **inglés**, manteniendo coherencia con el código existente en `js/lang.js` y `js/java.js`. A continuación, se detallan las referencias y convenciones aplicadas para cada lenguaje utilizado (HTML, CSS, JavaScript, TypeScript, Java).
 
-**Estructura del proyecto**
+#### Referencias Adoptadas
+- **HTML**: Especificación HTML5 del W3C [https://html.spec.whatwg.org/](https://html.spec.whatwg.org/). Se elige esta referencia porque proporciona la norma oficial para la estructura y semántica del HTML5, asegurando compatibilidad con navegadores modernos y cumplimiento de estándares web actuales.
+- **HTML**: Guía de Accesibilidad de la WAI-ARIA [https://www.w3.org/WAI/ARIA/](https://www.w3.org/WAI/ARIA/). Esta guía se adopta para garantizar que la landing page sea accesible para usuarios con discapacidades, alineándose con las mejores prácticas de inclusión y normativas como WCAG.
+- **CSS**: CSS Specification del W3C [https://www.w3.org/Style/CSS/](https://www.w3.org/Style/CSS/). Se selecciona por ser la fuente autoritativa de las especificaciones CSS, permitiendo un desarrollo robusto y compatible con diversas plataformas.
+- **CSS**: MDN Web Docs [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). Se utiliza por su documentación detallada y ejemplos prácticos que facilitan la implementación de estilos responsivos y modernos.
+- **JavaScript**: Guías de Estilo de JavaScript de Airbnb [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript). Esta guía se adopta por sus convenciones ampliamente aceptadas en la industria, promoviendo código limpio y mantenible.
+- **JavaScript**: Especificaciones de ECMAScript [https://www.ecma-international.org/publications-and-standards/standards/ecma-262/](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/). Se elige como base técnica para garantizar que el código JavaScript cumpla con los estándares más recientes.
+- **TypeScript**: Guía de Estilo de TypeScript de Google [https://google.github.io/styleguide/tsguide.html](https://google.github.io/styleguide/tsguide.html). Se selecciona por sus directrices claras para tipado y estructura, ideales para proyectos escalables.
+- **TypeScript**: Recomendaciones Oficiales de TypeScript [https://www.typescriptlang.org/docs/handbook/style-guide.html](https://www.typescriptlang.org/docs/handbook/style-guide.html). Se adopta para complementar con las mejores prácticas oficiales del lenguaje.
+- **Java**: Guía de Estilo de Código de Google para Java [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html). Se elige por su enfoque en consistencia y legibilidad en proyectos grandes.
+- **Java**: Convenciones de Codificación de Java de Oracle [https://www.oracle.com/java/technologies/javase/codeconventions.html](https://www.oracle.com/java/technologies/javase/codeconventions.html). Se utiliza como estándar histórico y ampliamente aceptado en el ecosistema Java.
 
-``
+#### Estructura del proyecto
+
+```
 / (repo root)
 ├─ imgs/
 │ ├─ concepto-faq_23-2148162317.jpg
@@ -1369,38 +1383,48 @@ El equipo adopta convenciones de estilo sencillas y consistentes para facilitar 
 │ └─ lang.js ← traducciones (export const traduccion)
 ├─ index.html
 └─ style.css
-``
+```
 
-**Convenciones y prácticas aplicadas**
+
+#### Convenciones y prácticas aplicadas
 
 - **HTML**
-  - Uso de etiquetas semánticas: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` y `<footer>` para estructurar el documento.
-  - Identificadores (`id`) estables y descriptivos para i18n y manipulación DOM (por ejemplo `WorkStation-title`, `srv-booking`).
-  - Atributos `alt` descriptivos en todas las imágenes para accesibilidad.
+  - Uso de etiquetas semánticas (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`) conforme a la **Especificación HTML5 del W3C**.
+  - Identificadores (`id`) estables y descriptivos (e.g., `WorkStation-title`, `srv-booking`) siguiendo la convención de nombres claros y específicos para i18n y manipulación DOM.
+  - Atributos `alt` descriptivos en todas las imágenes para cumplir con los estándares de accesibilidad **WCAG 2.1**.
 
 - **CSS**
-  - Clases en **kebab-case**: `.nav-links`, `.header-content`, `.menu-btn`.
-  - Organización por bloques (header, hero, services, faq, contact, footer) dentro de `style.css`.
-  - Preferencia por clases frente a selectores muy específicos; estructura de estilos pensada para facilitar la evolución a SCSS si fuera necesario.
+  - Clases en **kebab-case** (e.g., `.nav-links`, `.header-content`, `.menu-btn`) según las **Recomendaciones de MDN**.
+  - Organización por bloques (header, hero, services, faq, contact, footer) en `style.css`, alineada con las prácticas de **BEM (Block Element Modifier)**.
+  - Preferencia por clases sobre selectores complejos, con preparación para evolución a SCSS si fuera necesario, siguiendo las **Guías de CSS de Airbnb**.
 
 - **JavaScript**
-  - Módulos ES6 (`import` / `export`) tal como está implementado en `js/lang.js` y `js/java.js`.
-  - Nombres en **camelCase** para variables y funciones (`menuBtn`, `updateLanguage`).
-  - Separación clara entre la tabla de traducciones (`lang.js`) y la lógica de manipulación del DOM (`java.js`).
+  - Uso de módulos ES6 (`import` / `export`) conforme a las **Especificaciones de ECMAScript**.
+  - Nombres en **camelCase** para variables y funciones (e.g., `menuBtn`, `updateLanguage`) según la **Guía de JavaScript de Airbnb**.
+  - Separación clara entre la tabla de traducciones (`lang.js`) y la lógica de manipulación del DOM (`java.js`), siguiendo el principio de responsabilidad única.
+
+- **TypeScript**
+  - Nombres de interfaces y tipos en **PascalCase** (e.g., `UserProfile`, `BookingData`) y variables en **camelCase**, según la **Guía de Estilo de TypeScript de Google**.
+  - Uso de tipos explícitos y anotaciones para mejorar la mantenibilidad, alineado con las **Recomendaciones Oficiales de TypeScript**.
+
+- **Java**
+  - Clases y interfaces en **UpperCamelCase** (e.g., `UserService`, `BookingManager`), variables y métodos en **lowerCamelCase**, según la **Guía de Estilo de Código de Google para Java**.
+  - Uso de bloques de código indentados con 2 espacios y manejo de excepciones explícito, siguiendo las **Convenciones de Codificación de Java de Oracle**.
 
 - **Internacionalización (i18n)**
   - Traducciones mantenidas en `lang.js` como `export const traduccion` con claves que coinciden con los `id` del HTML.
   - Traducción dinámica que actualiza `innerText`, `placeholder` y `value` según el tipo de elemento.
 
 - **Accesibilidad (A11y)**
-  - Formularios con `label` o `aria-label` y controles navegables por teclado.
+  - Formularios con `label` o `aria-label` y controles navegables por teclado, conforme a **WCAG 2.1**.
   - Acordeón del FAQ con cambio visual claro; se recomienda mantener atributos ARIA (`aria-expanded`) al evolucionar la implementación.
-  - Contrastes y tamaños de texto orientados a cumplir al menos nivel AA.
+  - Contrastes y tamaños de texto orientados a cumplir al menos nivel AA de accesibilidad.
 
 - **Control de calidad**
-  - Mensajes de commit siguiendo **Conventional Commits** (`feat:`, `fix:`, `docs:`).
+  - Mensajes de commit siguiendo **Conventional Commits** (`feat:`, `fix:`, `docs:`) según conventionalcommits.org.
   - Flujo de ramas simple: `main` (producción), `develop` (integración) y `feature/*` para trabajo aislado.
-  - Recomendación de linters y formateadores (ESLint / Prettier) para mantener consistencia estilística.
+  - Uso de linters (ESLint) y formateadores (Prettier) configurados según las **Guías de Airbnb** y **Prettier**.
+
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -1447,6 +1471,8 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators     
 
+Este Sprint se centró exclusivamente en el desarrollo y optimización de la landing page WorkStation, abordando aspectos clave como el diseño y estructura para garantizar una interfaz intuitiva y responsiva mediante HTML semántico y CSS bien organizado, la funcionalidad y dinamismo con JavaScript, la accesibilidad y usabilidad cumpliendo estándares WCAG 2.1, la colaboración y control de calidad mediante un flujo de ramas claro. Todos trabajados en colaboración entre el líder y los colaboradores para alinear las tareas con los objetivos del Sprint.
+
 | Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 (L/C) |
 | ----- | ----- | ----- |
 | Quijada Magro Jeremy Alexander | jhonson2021 | L |
@@ -1455,7 +1481,7 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 | Cumba Rengifo Leonardo Raul | LeonardoC72 | C |
 | La Madrid Lozano Ivan Jeanpierre | ivanlamadrid | C |
 
-#### **5.2.1.3. Sprint Backlog 1\.**
+##### 5.2.1.3. Sprint Backlog 1
 
 Para el primer sprint, desarrollamos la estructura y las funcionalidades básicas de la landing page, así como el diseño visual y la barra de navegación.
 
@@ -1487,7 +1513,92 @@ Para el primer sprint, desarrollamos la estructura y las funcionalidades básica
 | **US-14** | Scroll a anclas | T24 | Anclas y scroll suave | Menú a secciones (\#servicios, \#faq, \#contacto). | 3 | Saravia Huaricancha Arturo Axel | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
-En este punto evidenciamos el desarrollo y el apoyo por parte de los integrantes del equipo en la construcción del frontend estático de la Landing Page.
+
+Durante este Sprint, se lograron avances significativos en la implementación de la landing page WorkStation, destacando la creación del frontend estático con una estructura semántica sólida usando HTML, un diseño responsivo y estilizado con CSS, y la incorporación de funcionalidades dinámicas como la traducción internacional y el acordeón de FAQ mediante JavaScript. Los esfuerzos se concentraron en los periodos del 7 al 14 de septiembre de 2025, donde se registraron 22 commits, y del 14 al 21 de septiembre de 2025, con 56 commits, reflejando una intensa actividad de desarrollo y colaboración para completar la base del proyecto.
+
+**Commits del Reporte:**
+
+| Repository | DateTime       | Commit Hash     | Author          | Commit Message                          |
+|------------|----------------|-----------------|-----------------|-----------------------------------------|
+| WorkStation | 2025-10-07     | 3034fff         | Ivan La Madrid  | feat: Add customer journey map for propietarios/hosts |
+| WorkStation | 2025-10-07     | 398362b         | Ivan La Madrid  | feat: Enhance User Journey Mapping section |
+| WorkStation | 2025-10-07     | 4a2a514         | Ivan La Madrid  | feat: Clarify Lean UX assumptions section |
+| WorkStation | 2025-10-07     | 44b12b3         | Ivan La Madrid  | fix: lean ux problem statements y assumptions |
+| WorkStation | 2025-09-19     | 336079c         | jhonson2021     | feat: Merge pull request #8 from TemuCoders/TB1 |
+| WorkStation | 2025-09-19     | 05ca32a         | jhonson2021     | fix: inshigth and links                 |
+| WorkStation | 2025-09-19     | f74d9f1         | jhonson2021     | feat: Merge pull request #6 from TemuCoders/TB1 |
+| WorkStation | 2025-09-19     | 1510737         | Ivan La Madrid  | fix: Revise User Task Matrix and clarify user personas |
+| WorkStation | 2025-09-19     | f3df1c2         | Ivan La Madrid  | fix: Update images in Empathy Mapping section |
+| WorkStation | 2025-09-19     | 82c0544         | Ivan La Madrid  | fix: Update with project structure details |
+| WorkStation | 2025-09-19     | fd55a31         | Ivan La Madrid  | doc: Document project style guide and deployment practices |
+| WorkStation | 2025-09-19     | 275d9ba         | LeonardoC72     | feat: Correccion del sprint 1           |
+| WorkStation | 2025-09-19     | e4f9858         | LeonardoC72     | feat: Product backlog Correcciones      |
+| WorkStation | 2025-09-19     | 9d08022         | LeonardoC72     | feat: userstories correccion            |
+| WorkStation | 2025-09-19     | 255aa2a         | LeonardoC72     | feat: Entrevista correccion             |
+| WorkStation | 2025-09-19     | d02380f         | LeonardoC72     | feat: Entrevista frelancer              |
+| WorkStation | 2025-09-19     | 908187e         | LeonardoC72     | feat: ImagenEntrevista                  |
+| WorkStation | 2025-09-19     | 4834314         | jhonson2021     | fix: diagrama de clases                 |
+| WorkStation | 2025-09-19     | b160721         | jhonson2021     | fix: Antecedentes y problematica        |
+| WorkStation | 2025-09-18     | 062a780         | Thunder         | feat(7377): Añadido dos entrevistas al segmento 1 |
+| WorkStation | 2025-09-18     | 472f12e         | LeonardoC72     | feat: userstories epcis                 |
+| WorkStation | 2025-09-18     | ea0c8b3         | Ivan La Madrid  | fix: Formateo de estructura de proyecto landing |
+| WorkStation | 2025-09-18     | e422b21         | jhonson2021     | feat: Merge pull request #5 from TemuCoders/TB1 |
+| WorkStation | 2025-09-18     | 545c5c5         | Ivan La Madrid  | doc: 5.1.3 y 5.1.4 agregados            |
+| WorkStation | 2025-09-18     | 09e4e66         | jhonson2021     | feat: Project Report Collaboration Insights |
+| WorkStation | 2025-09-18     | 444ffa4         | jhonson2021     | feat: Student Outcome                   |
+| WorkStation | 2025-09-18     | b5785ce         | LeonardoC72     | feat: Sprint Backlog horas              |
+| WorkStation | 2025-09-18     | 940a15b         | Thunder         | feat(7377): añadido el punto 5.2.1.4 y 5.2.1.5 |
+| WorkStation | 2025-09-18     | cf235dc         | Thunder         | feat(7377): añadido el punto 5.2.1.4 y 5.2.1.5 |
+| WorkStation | 2025-09-18     | 8d7dc22         | St4rLght05      | fix(chapter4): Landing page wrong image |
+| WorkStation | 2025-09-18     | b9c74ca         | LeonardoC72     | feat: Sprint Backlog 1                  |
+| WorkStation | 2025-09-18     | 603201a         | LeonardoC72     | feat: Correccion                        |
+| WorkStation | 2025-09-18     | a66d08c         | LeonardoC72     | feat: Descripcion de sprint             |
+| WorkStation | 2025-09-18     | f6e4665         | jhonson2021     | feat: Insights during Sprint            |
+| WorkStation | 2025-09-17     | f8cc5c1         | St4rLght05      | feat: added prototype and userflow      |
+| WorkStation | 2025-09-17     | 17d200e         | St4rLght05      | feat: added imgs                        |
+| WorkStation | 2025-09-17     | e1a94dc         | St4rLght05      | feat: added class diagram               |
+| WorkStation | 2025-09-17     | b3136b4         | St4rLght05      | feat: Add files via upload              |
+| WorkStation | 2025-09-17     | 940a362         | jhonson2021     | feat: division del capitulo 5           |
+| WorkStation | 2025-09-16     | 7dcb6e4         | Ivan La Madrid  | feat: add foto de perfil de integrante  |
+| WorkStation | 2025-09-16     | 8f4f9b4         | Ivan La Madrid  | docs: Agregado de estudiante            |
+| WorkStation | 2025-09-16     | 0962cd0         | Thunder         | feat: new img, registro de versiones, perfil de integrante |
+| WorkStation | 2025-09-16     | 6c53971         | Thunder         | feat: new img, registro de versiones, perfil de integrante |
+| WorkStation | 2025-09-16     | e557d66         | Thunder         | fix: imgs                               |
+| WorkStation | 2025-09-16     | 1c72be1         | Ivan La Madrid  | docs: actualizar Customer Journey y Empathy Map |
+| WorkStation | 2025-09-15     | c2de007         | Ivan La Madrid  | docs(user-tasks): mejorar User Task Matrix con prioridades, KPIs y riesgos |
+| WorkStation | 2025-09-15     | 51cc492         | jhonson2021     | fix: Readme                             |
+| WorkStation | 2025-09-15     | a7b8a80         | jhonson2021     | feat: Level Stoarming                   |
+| WorkStation | 2025-09-15     | 0d04602         | jhonson2021     | fix: Cap II                             |
+| WorkStation | 2025-09-15     | becbb93         | St4rLght05      | feat: Add files via upload              |
+| WorkStation | 2025-09-13     | 68859f7         | St4rLght05      | feat: Add files via upload              |
+| WorkStation | 2025-09-13     | c775f47         | jhonson2021     | fix: imgs                               |
+| WorkStation | 2025-09-13     | 6308850         | jhonson2021     | fix: perfil de integrantes              |
+| WorkStation | 2025-09-13     | 8903be5         | jhonson2021     | feat: desing-level event storming       |
+| WorkStation | 2025-09-13     | bdec415         | jhonson2021     | feat: Domain-Driven Software Architecture |
+| WorkStation | 2025-09-12     | f108574         | St4rLght05      | feat: Add files via upload              |
+| WorkStation | 2025-09-12     | d6deaba         | jhonson2021     | fix: content                            |
+| WorkStation | 2025-09-12     | 71fac1f         | jhonson2021     | feat: Information Architecture          |
+| WorkStation | 2025-09-12     | ffb40ad         | jhonson2021     | feat: style guidelines                  |
+| WorkStation | 2025-09-12     | f89ca23         | Thunder         | feat: user Hisoties, Impact Maping      |
+| WorkStation | 2025-09-12     | 3404aef         | Thunder         | fix: imgs                               |
+| WorkStation | 2025-09-12     | 5ad3a2f         | Thunder         | fix: imgs                               |
+| WorkStation | 2025-09-08     | a8837b1         | jhonson2021     | feat: presentation and content          |
+| WorkStation | 2025-09-08     | b80ad6e         | jhonson2021     | fix: Cap I, II II                       |
+| WorkStation | 2025-09-08     | f4931e4         | jhonson2021     | feat: Initial commit                    |
+
+**Commits de la Landing Page:**
+| Repository | DateTime       | Commit Hash     | Author          | Commit Message                          |
+|------------|----------------|-----------------|-----------------|-----------------------------------------|
+| LandingPage | 2025-09-19     | d9c8c9d         | jhonson2021     | feat: Merge pull request #7 from TemuCoders/TB1 |
+| LandingPage | 2025-09-18     | e33caaa         | Thunder         | feat(7377): optimización del html y js del proyecto |
+| LandingPage | 2025-09-17     | 8c12f06         | Thunder         | feat(7377): recontruscción del sistema de traducción e implementación del logo de la imagen |
+| LandingPage | 2025-09-17     | b3980c8         | jhonson2021     | fix: v1                                 |
+| LandingPage | 2025-09-15     | 50347d9         | jhonson2021     | feat: java and css                      |
+| LandingPage | 2025-09-15     | 447b6a9         | jhonson2021     | feat: creating html and css             |
+| LandingPage | 2025-09-15     | d03b1b5         | jhonson2021     | feat: Initial commit                    |
+
+**Evidencias visuales:**
+En este punto evidenciamos el desarrollo y el apoyo por parte de los integrantes del equipo en la construcción del frontend estático de la Landing Page y el reporte teniendo en cuenta el avance en el desarrollo visto en los commits presentados.
 ![Development-evidence](imgs/commits.png)
 
 
@@ -1572,21 +1683,24 @@ Se realizó el despliegue de la **landing page** del proyecto *AgeCare*, marcand
 * Publicacion exitosa de la Landing Page
 
 
-
-
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Para este sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyó entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo por todo el equipo.
+Para este Sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyeron entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo por todo el equipo, siguiendo un enfoque colaborativo que involucró diversas etapas bien definidas.
+
+Las actividades de implementación se desarrollaron mediante un flujo de trabajo ágil. El proceso comenzó con la planificación inicial, donde se asignaron roles específicos para cada fase. Esto incluyó el diseño de la estructura HTML y los estilos CSS, que se iniciaron con commits iniciales para establecer la base del proyecto.
 
 <p align="center">
   <img src="./imgs/insight - tb1.png" alt="insight""/>
 </p>
 
+
+Posteriormente, se integraron funcionalidades dinámicas con JavaScript, junto con la optimización del código y los ajustes necesarios para la traducción internacional. Las tareas se coordinaron a través de reuniones diarias, permitiendo priorizar actividades, resolver bloqueos y garantizar la calidad del código mediante revisiones de pares.
+
+Finalmente, los avances se registraron en el repositorio con commits regulares, facilitando un seguimiento claro del progreso. Se utilizaron herramientas como ESLint y Prettier para mantener la consistencia y calidad del código, fortaleciendo la colaboración entre los miembros del equipo. 
+
 <p align="center">
   <img src="./imgs/commits -tb1.png" alt="commits""/>
 </p>
-
-
 
 
 ### Conclusiones
