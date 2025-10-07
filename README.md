@@ -223,55 +223,97 @@ En este contexto, **WorkStation** surge como una solución tecnológica que busc
 #### 1.2.2.1. Lean UX Problem Statements
 
 ##### Dominio del Problema
+El proyecto se enmarca en la industria de espacios de trabajo compartidos (coworking), la cual ha crecido impulsada por el trabajo remoto y el autoempleo. A pesar de ese crecimiento, la interacción entre oferta (espacios disponibles) y demanda (profesionales y equipos pequeños) está fragmentada y desorganizada: la información está dispersa, la confirmación de disponibilidad no es inmediata y gran parte de la gestión ocurre por canales informales (redes sociales, mensajería, formularios sueltos).
 
-El proyecto WorkStation se desarrolla en el dominio de los espacios de trabajo compartidos (coworking), una industria en expansión que responde a la evolución del trabajo remoto, el crecimiento del autoempleo y la economía de los servicios digitales. A pesar de esta expansión, la interacción entre la oferta (espacios disponibles) y la demanda (profesionales independientes o empresas en crecimiento) aún se encuentra fragmentada y desorganizada, especialmente en el mercado peruano, donde no existen plataformas digitales de gran alcance que faciliten esta conexión de manera eficiente.
+##### Alcance del problema
+El problema se observa con especial énfasis en Perú (Lima Metropolitana y principales ciudades) y otras urbes de LATAM donde el trabajo remoto ha aumentado, pero no existe un mecanismo consolidado que garantice visibilidad, trazabilidad y confiabilidad en el proceso de búsqueda y reserva de espacios.
 
-#### Segmentos de Cliente
+##### Segmentos de cliente (actores involucrados)
+1. **Freelancers, startups y profesionales remotos (22–40 años):** usuarios que requieren espacios temporales y bien ubicados, con condiciones claras de precio, horarios y servicios (Wi-Fi, salas, etc.).
+2. **Propietarios o administradores de espacios de coworking:** organizaciones o personas que necesitan mantener ocupación, gestionar disponibilidad y validar a los arrendatarios con menor esfuerzo operativo.
 
-1. **Freelancers, startups y profesionales remotos**: Personas entre 22 y 40 años que requieren espacios de trabajo flexibles, temporales y bien ubicados. Este segmento prioriza la autonomía, la conectividad y la comodidad, y espera poder gestionar sus reservas de manera rápida y sencilla desde una plataforma digital.
-2. **Propietarios o administradores de espacios coworking**: Emprendedores o pequeñas empresas que buscan visibilidad, gestión automatizada de reservas y canales efectivos para ocupar sus instalaciones durante todo el día. Muchos de estos propietarios no cuentan con sistemas digitales propios y dependen de medios manuales o redes sociales para captar usuarios.
+##### Puntos de dolor
 
-#### Puntos de Dolor
+- **Freelancers / Startups**
+  - Falta de un **catálogo centralizado y confiable** de espacios disponibles.
+  - **Dificultad para comparar** por ubicación, precio, capacidad y amenities.
+  - **Procesos de coordinación lentos** (idas y vueltas para confirmar horarios).
+  - **Baja transparencia** en políticas, reglas y reseñas; riesgo de malas experiencias.
+  - **Incidencias** (ruido, Wi-Fi, limpieza) sin un canal formal de registro y seguimiento.
 
-- **Freelancers y startups**:
+- **Propietarios / Administradores**
+  - **Dependencia de canales informales** para captar clientes y gestionar reservas.
+  - **Ausencia de disponibilidad en tiempo real**; riesgo de **doble reserva**.
+  - **Conciliación de pagos manual** y trazabilidad limitada.
+  - **Verificación de arrendatarios** débil; exposición a **no-show** y daños.
+  - **Baja visibilidad** del espacio y dificultad para medir ocupación/ingresos.
 
-  - No encuentran una oferta centralizada y confiable de espacios disponibles.
-  - Carecen de filtros que les permitan comparar opciones según ubicación, precio o servicios.
-  - El proceso de reserva suele ser informal, poco transparente y lento.
+##### Causas raíz (hipótesis del problema)
+- **Descentralización de la información**: cada espacio publica por su cuenta con formatos y contenidos dispares.
+- **Falta de estandarización** en políticas de uso, cancelaciones y comprobantes.
+- **Gestión operativa manual** (agendas, hojas de cálculo, mensajes), susceptible a errores.
+- **Escasa cultura de datos** en la oferta: poca medición de ocupación, demanda y calidad de servicio.
+- **Asimetría de información** para la demanda: fotos desactualizadas, precios poco claros, reseñas dispersas.
 
-- **Propietarios de coworkings**:
-  - Alta dependencia de canales informales para captar clientes (WhatsApp, redes sociales).
-  - Ausencia de herramientas para gestionar disponibilidad en tiempo real.
-  - Pérdida de ingresos por falta de reservas constantes y baja visibilidad.
+##### Brecha detectada
+En el contexto local no existe un mecanismo digital consolidado que conecte, en tiempo cercano al real, a personas/equipos que buscan espacios con los administradores que los ofrecen, con reglas y datos homogéneos (precios, servicios, políticas, disponibilidad). Esta brecha deriva en fricción, incertidumbre y pérdida de oportunidades para ambos lados.
 
-#### Brecha Detectada
+##### Impactos y riesgos del problema
+- **Para la demanda:** más tiempo para encontrar un lugar apto, menor productividad, riesgo de mala experiencia.
+- **Para la oferta:** menor ocupación, ingresos inciertos, sobrecarga operativa y reputación difusa.
+- **Para el mercado:** **ineficiencias sistémicas** que limitan el crecimiento de la categoría en LATAM.
 
-En Perú, no existe actualmente una plataforma digital consolidada que conecte, en tiempo real, a freelancers y startups con espacios coworking disponibles. Esta brecha genera una experiencia ineficiente tanto para quienes buscan un lugar para trabajar como para quienes lo ofrecen. A diferencia de mercados como Estados Unidos o Europa —donde plataformas como LiquidSpace o Deskpass dominan el rubro, el ecosistema local aún carece de soluciones tecnológicas adaptadas al comportamiento y necesidades del mercado peruano.
+##### Indicadores (baseline a observar)
+- Tiempo promedio **búsqueda→confirmación**.
+- % de **doble reserva** / **no-show** reportado.
+- **Tasa de ocupación** por franja horaria.
+- % de publicaciones con **información incompleta** (precio, amenities, políticas).
+- **Satisfacción** de usuarios y administradores respecto al proceso actual.
 
-#### Visión y Estrategia
+#### 1.2.2.2. Lean UX Assumptions
 
-**Visión**: Crear una plataforma web que actúe como un marketplace digital para espacios de coworking, brindando a los usuarios una experiencia de reserva ágil, confiable y personalizada, y a los propietarios una solución de gestión eficiente que maximice el uso de sus instalaciones.
-**Estrategia**:
+A continuación se listan supuestos explícitos sobre **usuarios**, **oferta**, **mercado/proceso actual**, **riesgos de comportamiento** y **tecnología/datos**. Estos supuestos orientan la investigación y medición; no describen una solución.
 
-- Desarrollar un producto mínimo viable (MVP) que permita validar tempranamente la propuesta de valor.
-- Enfocarse en la usabilidad, accesibilidad y confiabilidad de la plataforma.
-- Establecer alianzas estratégicas con coworkings emergentes de Lima.
-- Implementar un modelo de monetización basado en comisión por reserva, con herramientas analíticas para los propietarios.
+**Sobre usuarios (freelancers, startups, profesionales remotos)**
+- Asumimos que **priorizan ubicación, precio y servicios clave** (Wi-Fi estable, salas, silencio) al decidir.
+- Asumimos que **la disponibilidad horaria** (por horas/días) es crítica y debe ser **predecible**.
+- Asumimos que **las reseñas y calificaciones** influyen significativamente en la decisión final.
+- Asumimos que **toleran poca fricción** en el proceso: múltiples mensajes y demoras desincentivan la reserva.
+- Asumimos que **valoran claridad** en **políticas** (cancelación, reembolsos, reglas de uso).
+- Asumimos que una parte de usuarios **prefiere pagar por uso** (pay-as-you-go) en lugar de contratos largos.
+- Asumimos que **disponen de medios de pago digitales** frecuentes en Perú/LATAM.
+- Asumimos que existe una proporción de usuarios **sensibles a la seguridad** (verificación básica del lugar).
 
-#### Segmento Inicial
+**Sobre oferta (propietarios/administradores)**
+- Asumimos que muchos administradores **gestionan disponibilidad con herramientas manuales** (calendarios/Excel).
+- Asumimos que **carecen de métricas consistentes** de ocupación e ingresos por franja horaria.
+- Asumimos que **sufren no-shows** y necesitan mecanismos previos de **confirmación**.
+- Asumimos que desean **visibilidad incremental** hacia públicos específicos (freelancers, equipos pequeños).
+- Asumimos que **necesitan trazabilidad** de reservas y **conciliación simple** de pagos.
+- Asumimos que **la verificación mínima** del arrendatario reduce su percepción de riesgo.
+- Asumimos que **documentar políticas** (uso, limpieza, ruido) **reduce conflictos** posteriores.
 
-Para validar la propuesta de valor de WorkStation, se priorizará un segmento específico en la etapa inicial del proyecto:
+**Sobre el proceso actual y el mercado**
+- Asumimos que hoy la **información está dispersa** en múltiples canales y formatos.
+- Asumimos que **no hay estandarización** en cómo se presentan **precios, amenities y reglas**.
+- Asumimos que **confirmar disponibilidad** requiere **interacciones sincrónicas** (mensajes/llamadas).
+- Asumimos que la **demanda está creciendo** en zonas urbanas con alta conectividad.
+- Asumimos que existe **estacionalidad** y **picos horarios** que agravan la falta de disponibilidad confiable.
+- Asumimos que **la asimetría de información** genera **desconfianza** y reduce conversiones.
 
-- **Usuarios meta**: Freelancers y profesionales digitales entre 22 y 35 años, ubicados en Lima Metropolitana, que trabajan de forma remota o de manera independiente.
-- **Aliados estratégicos**: Coworkings de tamaño pequeño a mediano, ubicados en distritos céntricos como Miraflores, Barranco y San Isidro, que no cuentan con plataformas propias de gestión o marketing digital.
+**Sobre comportamiento y riesgos**
+- Asumimos que algunos usuarios **cancelan a último minuto** si el proceso es lento o poco claro.
+- Asumimos que **fotos y descripciones desactualizadas** elevan la tasa de reclamos.
+- Asumimos que **políticas ambiguas** elevan el conflicto (ruidos, aforo, limpieza).
+- Asumimos que **tiempos de respuesta altos** disminuyen la probabilidad de concretar la reserva.
+- Asumimos que **la ausencia de registro de incidencias** impide mejorar la calidad del servicio.
 
-#### 1.2.2.2. Lean UX Problem Assumptions
-
-- Asumimos que los usuarios requieren flexibilidad y comodidad en sus espacios de trabajo.
-- Asumimos que los propietarios de espacios de coworking necesitan mayor visibilidad y eficiencia en la gestión de reservas.
-- Asumimos que la búsqueda y reserva de espacios de coworking es un proceso fragmentado y poco confiable.
-- Asumimos que los usuarios están dispuestos a pagar por una solución eficiente y confiable.
-- Asumimos que la digitalización mejorará la eficiencia operativa de los espacios de coworking
+**Sobre tecnología y datos**
+- Asumimos que los actores están **dispuestos a compartir datos básicos** (horarios, capacidad, tarifas) si mejora su operación.
+- Asumimos que existe **heterogeneidad** en formatos de calendario y control de disponibilidad.
+- Asumimos que se requiere **gestión de zonas horarias** y precisión de **rango horario** (no solo por día).
+- Asumimos que **validaciones de identidad/contacto** básicas aumentan la confianza entre partes.
+- Asumimos que la **observabilidad del proceso** (eventos, logs de interacción) es necesaria para diagnosticar fricción.
 
 #### 1.2.2.3. Lean UX Problem Hypothesis Statements
 
