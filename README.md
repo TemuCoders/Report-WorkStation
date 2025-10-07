@@ -78,7 +78,8 @@ Desarrollo de Aplicaciones Open Source<br>
       - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
       - [2.3.4. Empathy Mapping](#234-empathy-mapping)
       - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+    - [2.4. Big Picture Event Storming. ](#24-ubiquitous-language)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
   - [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
     - [3.1. User Stories](#31-user-stories)
     - [3.2. Impact Mapping](#32-impact-mapping)
@@ -708,7 +709,14 @@ Este conjunto de Customer Journey Maps presenta de forma conjunta el recorrido e
 **Propietarios de Inmuebles**
 ![As-Is-Propietario](imgs/as-is-propietario.jpg)
 
-## 2.4. Ubiquitous Language
+## 2.4. Big Picture Event Storming. 
+El Big Event Storybranding es una metodología estratégica que permite construir marcas sólidas y memorables a través de una narrativa coherente y emocionalmente conectada con el público. Este enfoque integra análisis de mercado, definición de identidad, y planificación de comunicación para transformar cada interacción con la marca en una experiencia significativa. A través de este logramos realizar lo siguiente:
+
+![Event Stoarming](imgs/Big%20Level%20Stoarming%20-%20WorkStation.jpg)
+
+La imagen muestra el proceso de Storybranding dividido por colores y etapas. Los colores representan los diferentes niveles de detalle y la narrativa se divide en etapas para crear una experiencia emocionalmente conectada con el público.
+
+## 2.5. Ubiquitous Language
 
 | Término      | Definición                                                                                                  |
 | ------------ | ----------------------------------------------------------------------------------------------------------- |
