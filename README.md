@@ -678,11 +678,13 @@ Estamos considerando los segmentos objetivos **"Propietario de Inmueble"** y **"
 La mayoría de las tareas actuales de freelancers y propietarios se realizan de forma **manual y distribuida en múltiples canales** (WhatsApp, Google, redes, Excel). Esto provoca fricción: demora en confirmaciones, riesgo de doble reserva, mala calidad de información y dificultad para conciliar pagos. Las acciones recomendadas en esta matriz son medidas prácticas y aplicables hoy para mitigar riesgos sin depender de una solución técnica inmediata (ej. plantillas, checklist, captura de comprobantes, sincronización de calendarios).
 
 ### 2.3.3. User Journey Mapping
+Este conjunto de Customer Journey Maps presenta de forma conjunta el recorrido end-to-end de los dos segmentos clave: usuarios buscadores de espacios (freelancers y startups) y propietarios/hosts. El mapa cubre las etapas principales del ciclo de valor y articula, para cada etapa, acciones, pensamientos, emociones, puntos de contacto y problemas. Su objetivo es revelar los momentos donde la fricción impacta conversión, ocupación y satisfacción, y a su vez identificar oportunidades concretas. Use este mapa para derivar user stories, priorizar intervenciones por impacto y definir los KPIs iniciales a medir.
 
+#### Customer Journey Map — Freelancers / Startups
 <p align="center">
   <img src="imgs/Customer Journey Map Brainstorm.png" alt="Customer Journey Map Brainstorm.png" />
 </p>
-
+#### Customer Journey Map — Propietarios / Hosts
 <p align="center">
 <img width="1179" height="1059" alt="image" src="https://github.com/user-attachments/assets/84e017e5-dbfd-4bdf-8d45-5cc4de7f5ff8" />
 </p>
