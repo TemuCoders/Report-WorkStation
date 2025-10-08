@@ -832,8 +832,8 @@ Epicas
 
 ## 3.2. Impact Mapping
 
-![ImpactMap](imgs/Impac1.png)
-![ImpactMap](imgs/Impac2.png)
+![ImpactMap](imgs/BG 1.png)
+![ImpactMap](imgs/BG2.png)
 
 ## 3.3. Product backlog
 
