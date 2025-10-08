@@ -1216,6 +1216,18 @@ https://miro.com/app/board/uXjVJI6oqFo=/?share_link_id=929784522141
 
 ### 4.7. Software Object-Oriented Design
 
+Este Diagrama de Clases UML establece el modelo de datos estático para una plataforma de gestión de espacios de trabajo compartido (coworking).
+
+El sistema se estructura en torno a las siguientes funcionalidades clave:
+
+| Dominio            | Clases Principales        | Relaciones Clave                                                |
+|--------------------|-----------------|---------------------------------------------------------------------------|
+| Actores       | User, Owner, Freelancer        | Herencia (EXTENDS) para roles especializados.                   |
+| Infraestructura       | Space, Workstation, Location        | Asociación para definir dónde y qué se reserva.                   |
+| Transacciones       | Booking, Payment, Invoice        | Composición para gestionar el flujo de reserva y pago.                  |
+| Servicios       | Service, Availability, Review        | Asociación para describir, calendarizar y evaluar los espacios.                  |
+
+
 #### 4.7.1. Class Diagrams
 
 <p align="center">
@@ -1223,6 +1235,18 @@ https://miro.com/app/board/uXjVJI6oqFo=/?share_link_id=929784522141
 </p>
 
 ### 4.8. Database Design
+
+Este Diagrama Entidad-Relación (ERD) define la estructura de la base de datos para una plataforma de coworking (gestión de espacios de trabajo).
+
+El modelo se organiza en estas áreas clave:
+
+| Dominio            | Tablas Principales        | Propósito                                                |
+|--------------------|-----------------|---------------------------------------------------------------------------|
+| Actores       | 	user, memberships, notifications        | Gestión de cuentas, roles y comunicaciones.                   |
+| Inventario       | coworking, spaces, services        | Definición de centros, características y disponibilidad de los espacios.                  |
+| Transacciones       | booking, payments, booking_history        | Registro y seguimiento del ciclo completo de reservas, pagos y su historial de estados.                  |
+
+La estructura utiliza Claves Primarias (PK) y Claves Foráneas (FK) para asegurar la integridad referencial y la coherencia de los datos en todas las operaciones del sistema.
 
 ### 4.8.1. Database Diagrams
 
