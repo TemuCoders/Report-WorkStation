@@ -127,6 +127,15 @@ Desarrollo de Aplicaciones Open Source<br>
         - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+      - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 1.](#5223-sprint-backlog-1)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [Conclusiones](#conclusiones)
     - [Anexos](#anexos)
     - [Bibliografía](#bibliografía)
@@ -1778,6 +1787,41 @@ El proyecto de WorkStation surge debido a la necesidad que se está generando en
 Esta propuesta no solo va orientada a la eficiencia operativa a travez de la digitalización de procesos, sino que también promociona la sostenibilidad en los espacios de trabajos. Viendolo de esta perspectiva, WorkStation no solo es un sistema de reservas, sino un herramienta que impulsa la poroductividad en los freelancers y startups, a la vez contribuye al crecimiento en el empredimiento en ciudades.
 
 Como idea final, WorkStation representa la iniciativa tecnológica con impacto social, económico y cultural, que alinea la flexibilidad del trabajo de hoy en día con la optimización digital. El desarrrollo se plantea como un aporte significativo a la transformación digital en el campo laboral, dandose como una solución innovadora y competitiva en el mercado de coworkings en el Perú.
+
+### 5.2.2. Sprint 2
+
+Durante este sprint, se realizó el desarrollo de la funcionalidad de búsqueda y filtrado de espacios, así como la implementación de la funcionalidad de comparación de precios y capacidades.
+
+#### 5.2.2.1. Sprint Planning 2
+
+Durante el sprint planning, se identificó que el objetivo principal de este sprint era la implementación de la funcionalidad de búsqueda y filtrado de espacios, así como la implementación de la funcionalidad de comparación de precios y capacidades. Además, se planteó la implementación de la funcionalidad de búsqueda avanzada, que permitiría a los usuarios buscar espacios de manera más precisa y personalizada.
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 (L/C) |
+| ----- | ----- | ----- |
+| Quijada Magro Jeremy Alexander | jhonson2021 | L |
+| Ivan La Madrid Lozano | IvanLaMadrid | C |
+| Arturo Saravia Huaricancha | thunder053 | C |
+| Luis Alberto Cumba Rengifo | LeonardoC72 | C |
+| Arturo Saravia Huaricancha | thunder053 | C |
+| Luis Alberto Cumba Rengifo | LeonardoC72 | C |
+
+
+#### 5.2.2.3. Sprint Backlog 2
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+
+
+---
 
 ### Anexos
 
