@@ -1912,7 +1912,7 @@ Durante este sprint, logramos desplegar una aplicación web funcional que consum
 Además de capturas que muestran el contenido de db.json ya desplegado en typicode:
 
 <p align="center">
-  <img src="assets/servicesEVIDENCE.png" alt="servicesEVIDENCE"/>
+  <img src="imgs/servicesEVIDENCE.png" alt="servicesEVIDENCE"/>
 </p>
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
