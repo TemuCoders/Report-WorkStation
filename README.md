@@ -27,7 +27,6 @@ Desarrollo de Aplicaciones Open Source<br>
  | Saravia Huaricancha Arturo     | U202312447 |
  | Cumba Rengifo Leonardo      | U202311912 |
 
-
 </div>
 
 <p align="center"><strong>Diciembre 2025</strong></p>
@@ -1971,7 +1970,15 @@ Al acceder al link, podemos ver la página correctamente desplegada.
 </p>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
+A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
 
+<p align="center">
+  <img src="imgs/Pulse-TP1.png" alt="deploy6"/>
+</p>
+
+<p align="center">
+  <img src="imgs/Network - TP1.png" alt="deploy6"/>
+</p>
 
 ---
 ### Conclusiones
