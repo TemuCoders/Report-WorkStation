@@ -1975,6 +1975,8 @@ Enlace de la Landing Page desplegada: https://temucoders.github.io/Landing-Page/
 **CRUDS:**
 
  - **Crud de usuarios:** 
+  ![Crud de Perfil](imgs/Perfil.png)
+ Link: https://workstation-usuarios.web.app/
 
  - **Crud de espacios de trabajo:** 
   ![Crud de espacios de trabajo](imgs/CRUD%20-%20workspaces.png)
@@ -1986,6 +1988,7 @@ Enlace de la Landing Page desplegada: https://temucoders.github.io/Landing-Page/
  - **Crud de reseñas:** 
 
  - **Crud de servicios:** 
+![Crud de Servicios](imgs/Servicios.png)
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 Durante este sprint, logramos desplegar una aplicación web funcional que consume datos desde un servidor JSON previamente configurado y desplegado. Este servidor, implementado mediante Typicode, simula la base de datos del proyecto y proporciona la información principal visualizada en la interfaz.
