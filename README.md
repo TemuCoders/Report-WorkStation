@@ -1854,7 +1854,8 @@ Durante este sprint, logramos desplegar una aplicación web funcional que consum
 |---------------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------|
 | `base.service.ts`   | `GET`, `POST`, `PUT`, `DELETE` | ```export const environment = {production: true,platformProviderApiBaseUrl: 'https://my-json-server.typicode.com/jhonson2021/db-server',platformProviderWorkspacesEndpointPath: '/workspaces'};``` | No requiere parámetros         | `https://ca3ae4ce59df808f6d28.free.beeceptor.com/api/v1/doctors/`           | Muestra la información de la base de datos en formato JSON.     |
 
-Además de capturas que muestran el contenido de db.json ya desplegado en Beeceptor
+Además de capturas que muestran el contenido de db.json ya desplegado en typicode:
+
 <p align="center">
   <img src="assets/servicesEVIDENCE.png" alt="servicesEVIDENCE"/>
 </p>
