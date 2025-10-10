@@ -1584,7 +1584,9 @@ Para el primer sprint, desarrollamos la estructura y las funcionalidades básica
 
 ![Sprint Backlog](imgs/SprintBacklog.png)
 
-link:https://trello.com/invite/b/68e843cd9788f0fca4edea0b/ATTId5605175984866352bf64ed5b6587a7419E26545/workstate
+
+Este es nuestro link de invitación a nuestro Trello:
+https://trello.com/invite/b/68e843cd9788f0fca4edea0b/ATTId5605175984866352bf64ed5b6587a7419E26545/workstate
 
 
 | User Story ID | Título | Work-Item ID | Título de la tarea | Descripción | Estimación (h) | Assigned to | Status |
@@ -1845,9 +1847,91 @@ Durante este sprint, nuestro objetivo fue definir nuestros puntos base para real
 
 Esta sección ofrece un resumen del objetivo central del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. Seguidamente, se incluye una captura del tablero del sprint en la herramienta de gestión elegida, Trello, junto con su enlace público. También se presenta una tabla con las User Stories asignadas al sprint, los Work-items o tareas derivadas, y otras actividades adicionales requeridas para alcanzar los objetivos generales del sprint.
 
-Este es nuestro link de invitación a nuestro Trello:
 
-Colocar los User Stories ---
+![Sprint Backlog](imgs/SprintBacklog.png)
+
+Este es nuestro link de invitación a nuestro Trello:
+https://trello.com/invite/b/68e843cd9788f0fca4edea0b/ATTId5605175984866352bf64ed5b6587a7419E26545/workstate
+
+
+
+
+
+| User Story ID | Título | Work-Item ID | Título de la tarea | Descripción | Estimación (h) |
+| :---- | :---- | :---- | :---- | :---- | :---- |
+| US-26 | Registro e inicio de sesión | T01 | Diseñar formularios (login/registro) | Wireframes y componentes base con estados. | 4 |
+| US-26 |  | T02 | Validaciones y feedback | Reglas de campos, mensajes por campo y accesibilidad. | 4 |
+| US-26 |  | T03 | Integración API /auth/register | POST registro \+ manejo de errores problem+json. | 4 |
+| US-26 |  | T04 | Integración API /auth/login | POST login \+ almacenamiento seguro de JWT. | 4 |
+| US-26 |  | T05 | Interceptors/guardas de sesión | Incluir token en requests y proteger rutas. | 4 |
+| US-26 |  | T06 | Pruebas UI \+ smoke | Casos felices/errores, enter key, loading. | 4 |
+| US-27 | Recuperar contraseña | T07 | Formulario solicitar reset | Input email \+ feedback. | 3 |
+| US-27 |  | T08 | Integración /auth/request-reset | POST \+ manejo de 202 y errores. | 3 |
+| US-27 |  | T09 | Formulario nueva contraseña | Inputs con confirmación y reglas. | 4 |
+| US-27 |  | T10 | Integración /auth/reset | POST con token, estados y mensajes. | 4 |
+| US-27 |  | T11 | Pruebas UI | Flujos éxito/expirado. | 2 |
+| US-28 | Perfil del usuario (ver/editar) | T12 | Vista Perfil | Mostrar datos básicos de /me. | 3 |
+| US-28 |  | T13 | Editar Perfil | Formulario y PUT /me. | 4 |
+| US-28 |  | T14 | Estados/Errores | Loading, guardado, fallos de red. | 3 |
+| US-28 |  | T15 | Pruebas UI | Casos éxito/validación. | 2 |
+| US-29 | Preferencias y notificaciones | T16 | Vista Preferencias | Idioma/moneda/notificaciones. | 3 |
+| US-29 |  | T17 | Integración /preferences (GET/PUT) | Persistir cambios y mensajes. | 4 |
+| US-29 |  | T18 | Wiring i18n/moneda | Aplicar preferencia al cliente. | 3 |
+| US-29 |  | T19 | Pruebas UI | Cambios persisten tras reload. | 2 |
+| US-51 | Previsualización de avatar | T20 | Selector de imagen \+ preview | Cargar y previsualizar; validación de formato/tamaño. | 3 |
+| US-51 |  | T21 | Subida/signed URL | Subir imagen y guardar URL en perfil. | 4 |
+| US-51 |  | T22 | Pruebas UI | Formatos inválidos, cancelación. | 3 |
+| US-53 | API Auth: registro & login | T23 | Modelo usuario \+ hashing | Esquema/ORM y hashing seguro. | 4 |
+| US-53 |  | T24 | Endpoint /auth/register | Validaciones y creación de usuario. | 4 |
+| US-53 |  | T25 | Endpoint /auth/login | Verificación credenciales y emisión JWT. | 4 |
+| US-53 |  | T26 | Tests unitarios/integración | Casos éxito/error y rate limit básico. | 4 |
+| US-53 |  | T27 | Documentación OpenAPI | Esquemas y ejemplos. | 4 |
+| US-53 |  | T28 | Hardening básico | Rate limit y logs. | 4 |
+| US-54 | API Auth: refresh token | T29 | Esquema refresh/rotación | Almacenamiento seguro (lista blanca/negra). | 3 |
+| US-54 |  | T30 | Endpoint /auth/refresh | Emisión de nuevo access token. | 4 |
+| US-54 |  | T31 | Middleware expiración | Chequeo en rutas protegidas. | 3 |
+| US-54 |  | T32 | Tests \+ doc OpenAPI | Casos expirado/inválido. | 4 |
+| US-55 | API Password reset | T33 | Endpoint /auth/request-reset | Generar token y enviar correo. | 4 |
+| US-55 |  | T34 | Endpoint /auth/reset | Validar token y actualizar password. | 4 |
+| US-55 |  | T35 | Plantilla de correo | HTML accesible \+ variables. | 4 |
+| US-55 |  | T36 | Tests \+ doc | Expirado, inválido, éxito. | 6 |
+| US-65 | API Perfil y preferencias | T37 | Endpoints /me (GET/PUT) | Lectura y actualización de perfil. | 4 |
+| US-65 |  | T38 | Endpoints /preferences (GET/PUT) | Idioma/moneda/notificaciones. | 4 |
+| US-65 |  | T39 | Validaciones/seguridad | Scopes y ownership. | 3 |
+| US-65 |  | T40 | Tests \+ doc | Contratos y ejemplos. | 3 |
+| US-57 | API Búsqueda de espacios | T41 | Modelo Space \+ filtros | Campos y query builder. | 5 |
+| US-57 |  | T42 | GET /spaces (paginado) | Respuesta {items,page,total}. | 5 |
+| US-57 |  | T43 | Índices/optimización | Campos indexados para búsqueda. | 4 |
+| US-57 |  | T44 | Tests \+ OpenAPI | Casos filtros/errores. | 4 |
+| US-58 | API Mapa por bounding box | T45 | Parámetro bbox y validación | Parseo a coordenadas. | 3 |
+| US-58 |  | T46 | GET /spaces/map | GeoJSON FeatureCollection. | 5 |
+| US-58 |  | T47 | Tests \+ doc | Bbox faltante y casos límite. | 3 |
+| US-59 | API Disponibilidad de espacio | T48 | Modelo availability/locks | Slots y reglas de solape. | 5 |
+| US-59 |  | T49 | GET /spaces/{id}/availability | Normalizar a TZ del espacio. | 5 |
+| US-59 |  | T50 | Tests \+ doc | Bloqueos y rangos inválidos. | 4 |
+| US-68 | API Fotos del espacio | T51 | Almacenamiento \+ variantes | Thumb/medium/large con URLs firmadas. | 4 |
+| US-68 |  | T52 | GET /spaces/{id}/photos | Listado con srcset. | 4 |
+| US-68 |  | T53 | Tests \+ doc | Sin fotos / permisos. | 3 |
+| US-60 | API Crear reserva (transaccional) | T54 | Modelo Booking \+ estados | PENDING\_PAYMENT/CONFIRMED/CANCELLED. | 5 |
+| US-60 |  | T55 | Reglas de disponibilidad | Chequeo/lock transaccional. | 5 |
+| US-60 |  | T56 | POST /bookings | Creación atómica. | 5 |
+| US-60 |  | T57 | Tests \+ doc | Conflictos 409 y validaciones. | 5 |
+| US-61 | API Intent de pago e idempotencia | T58 | Integración PSP (SDK/server) | Stripe/MercadoPago, claves y entorno. | 5 |
+| US-61 |  | T59 | Idempotency-Key | Manejo de reintentos. | 4 |
+| US-61 |  | T60 | Tests \+ doc | Intent creado y repetido. | 4 |
+| US-62 | Webhook de pagos (PSP) | T61 | Verificación de firma | Seguridad y tolerancia a reintentos. | 5 |
+| US-62 |  | T62 | Update booking-\>CONFIRMED | Transición segura \+ logs. | 4 |
+| US-62 |  | T63 | Tests \+ doc | Firmas inválidas/eventos duplicados. | 4 |
+| US-63 | API Confirmación y comprobante | T64 | GET /bookings/{id} | Detalle para pantalla de éxito. | 4 |
+| US-63 |  | T65 | Generación de PDF | Plantilla legible sin fondos oscuros. | 6 |
+| US-63 |  | T66 | Tests \+ doc | Reserva inexistente/estado inválido. | 4 |
+| US-64 | API Cancelación con política | T67 | Políticas y cálculo de fee/refund | Ventanas y condiciones. | 5 |
+| US-64 |  | T68 | POST /bookings/{id}/cancel | Transición \+ registro de motivo. | 5 |
+| US-64 |  | T69 | Tests \+ doc | Gratuita/tardía. | 4 |
+
+
+
+
 
 #### 5.2.2.4. Development Evidence for Sprint Review
 
