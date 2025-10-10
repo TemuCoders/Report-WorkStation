@@ -1897,7 +1897,7 @@ Enlace de la Landing Page desplegada: https://temucoders.github.io/Landing-Page/
  - **Crud de reseñas:** 
 <img width="1903" height="523" alt="image" src="https://github.com/user-attachments/assets/a9cc1941-a032-4264-bbce-4a6b25b42683" />
 
-Link: https://workstation-temucoders.web.app/
+Link: https://workstation-temucoders.web.app/reviews
  - **Crud de servicios:** 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
