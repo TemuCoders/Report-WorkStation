@@ -1780,23 +1780,31 @@ Finalmente, los avances se registraron en el repositorio con commits regulares, 
 </p>
 
 
-### Conclusiones
 
-El proyecto de WorkStation surge debido a la necesidad que se está generando en el mercado laboral de hoy en día, que es la busqueda o la falta de espacios de trabajos flexible, accesibles y adaptables a las modalidades de trabajo tanto remoto como freelance. A partir del problema detectado, se encontró un desligamiento entre las ofertas de espacios de trabajo y la demanda de profesionales que requieren de un ambiente productivo a corto plazo. La solución que tenemos propuesta une varias soluciones en una sola plataforma con funcionalidades en tiempo real, optimizando la experiencia del usuario y del propietario.
-
-Esta propuesta no solo va orientada a la eficiencia operativa a travez de la digitalización de procesos, sino que también promociona la sostenibilidad en los espacios de trabajos. Viendolo de esta perspectiva, WorkStation no solo es un sistema de reservas, sino un herramienta que impulsa la poroductividad en los freelancers y startups, a la vez contribuye al crecimiento en el empredimiento en ciudades.
-
-Como idea final, WorkStation representa la iniciativa tecnológica con impacto social, económico y cultural, que alinea la flexibilidad del trabajo de hoy en día con la optimización digital. El desarrrollo se plantea como un aporte significativo a la transformación digital en el campo laboral, dandose como una solución innovadora y competitiva en el mercado de coworkings en el Perú.
 
 ### 5.2.2. Sprint 2
 
-Durante este sprint, se realizó el desarrollo de la funcionalidad de búsqueda y filtrado de espacios, así como la implementación de la funcionalidad de comparación de precios y capacidades.
+En esta sección se registra el avance del producto y las acciones colaborativas realizadas por el equipo para el Sprint 2.
 
 #### 5.2.2.1. Sprint Planning 2
 
-Durante el sprint planning, se identificó que el objetivo principal de este sprint era la implementación de la funcionalidad de búsqueda y filtrado de espacios, así como la implementación de la funcionalidad de comparación de precios y capacidades. Además, se planteó la implementación de la funcionalidad de búsqueda avanzada, que permitiría a los usuarios buscar espacios de manera más precisa y personalizada.
+El Sprint Planning 2 es una reunión esencial para iniciar el segundo sprint de un proyecto, donde el equipo define los objetivos y entregables y tareas asignadas para el sprint. A continuación, se presenta un cuadro con los detalles acordados.
+
+| Sprint \# | Sprint 2 |
+| ----- | ----- |
+| Date | 2025-09-01 |
+| Time | 9:00 PM |
+| Location | Virtual \- Meet |
+| Prepared By | Jeremy Quijada |
+| Attendees (to planning meeting) | Jeremy Quijada, Franco Gabriel Huang Liu, Arturo Axel Saravia Huaricancha, Leonardo Raul Cumba Rengifo y Ivan Jeanpierre La Madrid Lozano |
+| Sprint 2 \- 1 Review Summary |Se han realizado mejoras en varios aspectos del informe según las sugerencias del profesor, además de haber desarrollado una primera versión de nuestra aplicación Front End, la cual continuará evolucionando en próximas entregas.. |
+| Sprint 2 \- 1 Retrospective Summary | Se logró un progreso razonable durante el sprint 2: si bien no se completaron tantas pantallas como se había previsto, el equipo mejoró significativamente en comunicación y trabajo colaborativo, lo que permitió alcanzar un avance satisfactorio en el desarrollo de la aplicación. |
+| Sprint 2 Goal | En este sprint, nos enfocamos principalmente en mejorar la calidad de la información presentada en los reportes e implementar la primera versión del Front End de la aplicación. Durante esta fase, desarrollamos diversos módulos con operaciones CRUD (crear, leer, actualizar y eliminar) que permiten gestionar distintos recursos del sistema. Esperamos que esta versión inicial proporcione una visualización clara de las funcionalidades esenciales y del diseño de la interfaz. La efectividad de este avance se validará mediante la interacción de los usuarios con las funcionalidades desarrolladas y la retroalimentación positiva sobre la experiencia de uso. |
+| Sprint 2 Velocity | Nuestro equipo puede aceptar hasta - Story Points. |
+| Sum of Story Points | La suma de Story Points atendidos es de -. |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
+Durante este sprint, nuestro objetivo fue definir nuestros puntos base para realizar una solucion acertada a lo que el usuario necesite. La investigacion, entrevistas y datos recolectados ayudaron a que se pueda generar una vision mas clara del objetivo en el grupo. Por ello aqui se presentan los roles que cada uno de los participantes tuvo a lo largo de este sprint.
 
 | Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 (L/C) |
 | ----- | ----- | ----- |
@@ -1810,9 +1818,34 @@ Durante el sprint planning, se identificó que el objetivo principal de este spr
 
 #### 5.2.2.3. Sprint Backlog 2
 
+Esta sección ofrece un resumen del objetivo central del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. Seguidamente, se incluye una captura del tablero del sprint en la herramienta de gestión elegida, Trello, junto con su enlace público. También se presenta una tabla con las User Stories asignadas al sprint, los Work-items o tareas derivadas, y otras actividades adicionales requeridas para alcanzar los objetivos generales del sprint.
+
+Este es nuestro link de invitación a nuestro Trello:
+
+Colocar los User Stories ---
+
 #### 5.2.2.4. Development Evidence for Sprint Review
 
+En la siguiente tabla se presentan los commits realizados durante el Sprint 2. En este sprint nos enfocamos en corregir observaciones clave de la primera entrega, como reformular los antecedentes y problemáticas, ajustar los Lean UX statements, completar el Impact Mapping y rehacer los diagramas de arquitectura, clases y base de datos. Además, se desarrolló y desplegó una versión inicial del backend con los principales CRUDs.
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
+
+En esta entrega se realizaron mejoras al Landing Page respecto a la versión presentada en el Sprint 1, optimizando su diseño y funcionalidad. Por otro lado, cada integrante del equipo implementó y desplegó su propio CRUD del backend, consolidando así el progreso técnico del proyecto.
+
+**Landing Page:** 
+
+
+**CRUDS:**
+
+ - **Crud de usuarios:** 
+
+ - **Crud de espacios de trabajo:** 
+
+ - **Crud de reservas:** 
+
+ - **Crud de reseñas:** 
+
+ - **Crud de servicios:** 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
 
@@ -1822,6 +1855,14 @@ Durante el sprint planning, se identificó que el objetivo principal de este spr
 
 
 ---
+### Conclusiones
+
+El proyecto de WorkStation surge debido a la necesidad que se está generando en el mercado laboral de hoy en día, que es la busqueda o la falta de espacios de trabajos flexible, accesibles y adaptables a las modalidades de trabajo tanto remoto como freelance. A partir del problema detectado, se encontró un desligamiento entre las ofertas de espacios de trabajo y la demanda de profesionales que requieren de un ambiente productivo a corto plazo. La solución que tenemos propuesta une varias soluciones en una sola plataforma con funcionalidades en tiempo real, optimizando la experiencia del usuario y del propietario.
+
+Esta propuesta no solo va orientada a la eficiencia operativa a travez de la digitalización de procesos, sino que también promociona la sostenibilidad en los espacios de trabajos. Viendolo de esta perspectiva, WorkStation no solo es un sistema de reservas, sino un herramienta que impulsa la poroductividad en los freelancers y startups, a la vez contribuye al crecimiento en el empredimiento en ciudades.
+
+Como idea final, WorkStation representa la iniciativa tecnológica con impacto social, económico y cultural, que alinea la flexibilidad del trabajo de hoy en día con la optimización digital. El desarrrollo se plantea como un aporte significativo a la transformación digital en el campo laboral, dandose como una solución innovadora y competitiva en el mercado de coworkings en el Perú.
+
 
 ### Anexos
 
