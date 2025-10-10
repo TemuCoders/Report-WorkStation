@@ -1983,10 +1983,14 @@ Enlace de la Landing Page desplegada: https://temucoders.github.io/Landing-Page/
 
   Link: https://workspaces---workstation.web.app/searching/workspaces
 
- - **Crud de reservas:** 
+ - **Crud de reservas:**
+  <img src="imgs/deploy6.png" alt="deploy6"/>
+  Link: https://workstation-huang.web.app/bookings
 
  - **Crud de reseñas:** 
+<img width="1903" height="523" alt="image" src="https://github.com/user-attachments/assets/a9cc1941-a032-4264-bbce-4a6b25b42683" />
 
+Link: https://workstation-temucoders.web.app/reviews
  - **Crud de servicios:** 
 ![Crud de Servicios](imgs/Servicios.png)
 
@@ -2000,7 +2004,7 @@ Durante este sprint, logramos desplegar una aplicación web funcional que consum
 Además de capturas que muestran el contenido de db.json ya desplegado en typicode:
 
 <p align="center">
-  <img src="assets/servicesEVIDENCE.png" alt="servicesEVIDENCE"/>
+  <img src="imgs/servicesEVIDENCE.png" alt="servicesEVIDENCE"/>
 </p>
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
@@ -2018,22 +2022,28 @@ Landing Page Para hacer el deployment de la landing page se utilizó Github Page
 ##### Evidencias Visuales
 
 * Configuración del repositorio GitHub y estructura inicial de carpetas.
+
   * Creamos un repositorio para la landing page dentro de la organizacion. La configuramos para que sea de tipo publico:
-  ![Repositorio](./assets/repositorio.png)
+
+    <p align="center">
+      <img src="./imgs/paso 1.png" alt="paso 1""/>
+    </p>
 
   * Una vez dentro copiamos la direccion HTTPS del repositorio y la clonamos en nuestro entorno local con el comando git clone. Preparamos una estructura de carpetas similar a la siguiente en nuestra maquina:
-  ![Carpetas](./assets/carpetas.png)
+
+    <p align="center">
+      <img src="./imgs/carpetas.png" alt="carpetas""/>
+    </p>
 
 * Implementación de flujo de trabajo con Git Flow, manteniendo los cambios en la rama develop.
 
-  * Desde la consola, creamos un push inicial en la rama remota main usando el comando git push origin main con un mensaje commit descriptivo.
-  initial-commit-landing
+  * Desde la consola, creamos un push inicial en la rama remota main usando el comando git push origin main con un mensaje commit descriptivo. initial-commit-landing
 
   * El siguiente paso es crear la rama local develop usando el comando git checkout -b develop, la creamos de manera remota con git push origin develop. Las ramas feature/* se crearan de la misma forma, pero hay que tener en cuenta que siempre se deben crear a partir de la rama develop, por lo que un paso previo es asegurarnos que estamos en la rama correcta con git checkout develop.
 
-* Realización de un merge desde develop hacia la rama main, de acuerdo a las convenciones definidas en la sección 5.1.2.
+*  Realización de un merge desde develop hacia la rama main, de acuerdo a las convenciones definidas en la sección 5.2.2.
 
-  * Antes de realizar el merge, se revisaron los cambios mediante un pull request en GitHub, asegurando que no existieran conflictos y que el código cumpliera con los estándares definidos.
+  *  Activación de GitHub Pages como servicio de despliegue estático, apuntando al contenido de la rama main.
 
   * Se realizaron pruebas manuales usando la extension Live Server para verificar la funcionalidad de la landing page antes de fusionar los cambios.
 
@@ -2043,43 +2053,41 @@ Landing Page Para hacer el deployment de la landing page se utilizó Github Page
 
   * Se verificó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
 
-  ![Page](./assets/page.png)
+  <p align="center">
+      <img src="./imgs/pages.png" alt="pages""/>
+    </p>
 
-  * Publicacion exitosa de la Landing Page
+* Publicacion exitosa de la Landing Page
 
-  ![Menu](./assets/LandingPageSprint2.png)
-
-  ![Nosotros](./assets/nosotros.png)
-
-  ![Servicios](./assets/servicios.png)
-  
-  ![Preguntas Frecuentes](./assets/LandingPageSprint2.1.png)
-
-  ![Contacto](./assets/contacto.png)
+![Landing-Page](imgs/l1.png)
+![Landing-Page](imgs/l2.png)
+![Landing-Page](imgs/l3.png)
+![Landing-Page](imgs/l4.png)
+![Landing-Page](imgs/l5.png)
 
   FrontEnd Para el FrontEnd, se utilizó Firebase para el despliegue de la página.
 <p align="center">
-  <img src="assets/deploy1.jpeg" alt="deploy1"/>
+  <img src="imgs/deploy1.png" alt="deploy1"/>
 </p>
 Antes del despliegue, debemos crear una cuenta, por lo que continuaremos con google.
 <p align="center">
-  <img src="assets/deploy2.jpeg" alt="deploy2"/>
+  <img src="imgs/deploy2.png" alt="deploy2"/>
 </p>
 Una vez tenemos la cuenta creada vamos a la parte de arriba a la izquierda "go to console" y creamos un nuevo proyecto de Firebase.
 <p align="center">
-  <img src="assets/deploy3.jpeg" alt="deploy3"/>
+  <img src="imgs/deploy3.png" alt="deploy3"/>
 </p>
 Le colocamos un nombre correspondiente al proyecto a realizar.
 <p align="center">
-  <img src="assets/deploy4.jpeg" alt="deploy4"/>
+  <img src="imgs/deploy4.png" alt="deploy4"/>
 </p>
 Una vez tenemos el proyecto creado, desde nuestro editor, en este caso IntelliJ IDEA Ultimate conectamos nuestro proyecto local al proyecto Firebase.
 <p align="center">
-  <img src="assets/deploy5.jpeg" alt="deploy5"/>
+  <img src="imgs/deploy5.png" alt="deploy5"/>
 </p>
 Al acceder al link, podemos ver la página correctamente desplegada.
 <p align="center">
-  <img src="assets/deploy6.jpeg" alt="deploy6"/>
+  <img src="imgs/deploy6.png" alt="deploy6"/>
 </p>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
