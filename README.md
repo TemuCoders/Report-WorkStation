@@ -1827,8 +1827,8 @@ El Sprint Planning 2 es una reunión esencial para iniciar el segundo sprint de 
 | Sprint 2 \- 1 Review Summary |Se han realizado mejoras en varios aspectos del informe según las sugerencias del profesor, además de haber desarrollado una primera versión de nuestra aplicación Front End, la cual continuará evolucionando en próximas entregas.. |
 | Sprint 2 \- 1 Retrospective Summary | Se logró un progreso razonable durante el sprint 2: si bien no se completaron tantas pantallas como se había previsto, el equipo mejoró significativamente en comunicación y trabajo colaborativo, lo que permitió alcanzar un avance satisfactorio en el desarrollo de la aplicación. |
 | Sprint 2 Goal | En este sprint, nos enfocamos principalmente en mejorar la calidad de la información presentada en los reportes e implementar la primera versión del Front End de la aplicación. Durante esta fase, desarrollamos diversos módulos con operaciones CRUD (crear, leer, actualizar y eliminar) que permiten gestionar distintos recursos del sistema. Esperamos que esta versión inicial proporcione una visualización clara de las funcionalidades esenciales y del diseño de la interfaz. La efectividad de este avance se validará mediante la interacción de los usuarios con las funcionalidades desarrolladas y la retroalimentación positiva sobre la experiencia de uso. |
-| Sprint 2 Velocity | Nuestro equipo puede aceptar hasta - Story Points. |
-| Sum of Story Points | La suma de Story Points atendidos es de -. |
+| Sprint 2 Velocity | Nuestro equipo puede aceptar hasta 26 Story Points. |
+| Sum of Story Points | La suma de Story Points atendidos es de 23. |
 
 #### 5.2.2.2. Aspect Leaders and Collaborators
 Durante este sprint, nuestro objetivo fue definir nuestros puntos base para realizar una solucion acertada a lo que el usuario necesite. La investigacion, entrevistas y datos recolectados ayudaron a que se pueda generar una vision mas clara del objetivo en el grupo. Por ello aqui se presentan los roles que cada uno de los participantes tuvo a lo largo de este sprint.
