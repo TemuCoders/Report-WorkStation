@@ -42,6 +42,12 @@ Desarrollo de Aplicaciones Open Source<br>
 | TB1     | 16/09/2025  | Cumba Rengifo,Leonardo Raul   | Desarrollo de las User Stories y Product backlog|
 | TB1     | 16/09/2025  | Saravia Huaricancha, Arturo  | Desarrollo de impact mapping y ayuda en el user stories |
 | TB1     | 16/09/2025  | La Madrid Lozano, Ivan  | Mejora del User Task Matrix, desarrollo del Customer Journey Map y Empathy Map de hosts |
+| TP1     | 09/10/2025  | Saravia Huaricancha, Arturo  | Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. |
+| TP1     | 09/10/2025  | Cumba Rengifo,Leonardo Raul  | Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. |
+| TP1     | 09/10/2025  | Huang Liu, Franco  | Mejora del Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. |
+| TP1     | 09/10/2025  | La Madrid Lozano, Ivan  | Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. |
+| TP1     | 109/10/2025  | Quijada Magro, Jeremy  | Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. |
+
 ---
 
 ## Contenido
@@ -147,6 +153,11 @@ Desarrollo de Aplicaciones Open Source<br>
   [https://github.com/TemuCoders](https://github.com/TemuCoders)
 - **URL del repositorio del informe:**  
     [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
+- **URL del repositorio del Frontend:**
+  https://github.com/TemuCoders/FrontEnd
+
+- **URL del repositorio del Backend:**
+  https://github.com/TemuCoders/BackEnd
 
 Todas las tareas correspondientes a la entrega de la TB1 han sido completadas y están documentadas en el repositorio de GitHub de la organización del equipo. Para la elaboración del informe, cada integrante del equipo se encargó de redactar y generar gráficos en formato Markdown, según los puntos que le fueron asignados, realizando commits para dejar constancia del progreso en el repositorio.
 
@@ -157,7 +168,15 @@ Aquí se pueden visualizar todos los commits realizados para la TB1, lo cual evi
   
 Para facilitar el desarrollo del trabajo, optamos por seguir el flujo de trabajo Gitflow. En este esquema, cada subtítulo del informe fue tratado como una feature. Un miembro del equipo creaba una rama específica para ese subtítulo y trabajaba en ella, mientras que otros miembros podían colaborar directamente o supervisar su progreso. Una vez finalizada la feature, todo el equipo revisaba el contenido y, tras obtener el consenso, se realizaba el merge hacia la rama develop. Además, organizamos las tareas considerando su nivel de dificultad, asegurando así una distribución equitativa del trabajo entre todos los integrantes.
 
+---
+## TP
 
+A lo largo del desarrollo del TP, generamos varias ramas distintas que fueron integradas a la rama develop. Cada una representaba una sección específica del proyecto. Este enfoque nos permitió trabajar de manera ordenada y colaborativa, asegurando que cada parte del informe fuera desarrollada y revisada de forma independiente antes de su integración final. Aquí se pueden visualizar todos los commits realizados para la TP1, lo cual evidencia el trabajo colaborativo del equipo.
+
+<img src="/imgs/Network - TP1.png" alt="colab" />
+
+
+---
 ## Student Outcome
 
 **ABET – EAC - Student Outcome 3**  
