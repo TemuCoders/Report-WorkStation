@@ -27,7 +27,6 @@ Desarrollo de Aplicaciones Open Source<br>
  | Saravia Huaricancha Arturo     | U202312447 |
  | Cumba Rengifo Leonardo      | U202311912 |
 
-
 </div>
 
 <p align="center"><strong>Diciembre 2025</strong></p>
@@ -43,6 +42,12 @@ Desarrollo de Aplicaciones Open Source<br>
 | TB1     | 16/09/2025  | Cumba Rengifo,Leonardo Raul   | Desarrollo de las User Stories y Product backlog|
 | TB1     | 16/09/2025  | Saravia Huaricancha, Arturo  | Desarrollo de impact mapping y ayuda en el user stories |
 | TB1     | 16/09/2025  | La Madrid Lozano, Ivan  | Mejora del User Task Matrix, desarrollo del Customer Journey Map y Empathy Map de hosts |
+| TP1     | 09/10/2025  | Saravia Huaricancha, Arturo  | Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. |
+| TP1     | 09/10/2025  | Cumba Rengifo,Leonardo Raul  | Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. |
+| TP1     | 09/10/2025  | Huang Liu, Franco  | Mejora del Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. |
+| TP1     | 09/10/2025  | La Madrid Lozano, Ivan  | Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. |
+| TP1     | 109/10/2025  | Quijada Magro, Jeremy  | Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. |
+
 ---
 
 ## Contenido
@@ -78,7 +83,8 @@ Desarrollo de Aplicaciones Open Source<br>
       - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
       - [2.3.4. Empathy Mapping](#234-empathy-mapping)
       - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-    - [2.4. Ubiquitous Language](#24-ubiquitous-language)
+    - [2.4. Big Picture Event Storming. ](#24-ubiquitous-language)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
   - [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
     - [3.1. User Stories](#31-user-stories)
     - [3.2. Impact Mapping](#32-impact-mapping)
@@ -126,6 +132,15 @@ Desarrollo de Aplicaciones Open Source<br>
         - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+      - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 1.](#5223-sprint-backlog-1)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [Conclusiones](#conclusiones)
     - [Anexos](#anexos)
     - [Bibliografía](#bibliografía)
@@ -138,6 +153,11 @@ Desarrollo de Aplicaciones Open Source<br>
   [https://github.com/TemuCoders](https://github.com/TemuCoders)
 - **URL del repositorio del informe:**  
     [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
+- **URL del repositorio del Frontend:**
+  https://github.com/TemuCoders/FrontEnd
+
+- **URL del repositorio del Backend:**
+  https://github.com/TemuCoders/BackEnd
 
 Todas las tareas correspondientes a la entrega de la TB1 han sido completadas y están documentadas en el repositorio de GitHub de la organización del equipo. Para la elaboración del informe, cada integrante del equipo se encargó de redactar y generar gráficos en formato Markdown, según los puntos que le fueron asignados, realizando commits para dejar constancia del progreso en el repositorio.
 
@@ -148,7 +168,15 @@ Aquí se pueden visualizar todos los commits realizados para la TB1, lo cual evi
   
 Para facilitar el desarrollo del trabajo, optamos por seguir el flujo de trabajo Gitflow. En este esquema, cada subtítulo del informe fue tratado como una feature. Un miembro del equipo creaba una rama específica para ese subtítulo y trabajaba en ella, mientras que otros miembros podían colaborar directamente o supervisar su progreso. Una vez finalizada la feature, todo el equipo revisaba el contenido y, tras obtener el consenso, se realizaba el merge hacia la rama develop. Además, organizamos las tareas considerando su nivel de dificultad, asegurando así una distribución equitativa del trabajo entre todos los integrantes.
 
+---
+## TP
 
+A lo largo del desarrollo del TP, generamos varias ramas distintas que fueron integradas a la rama develop. Cada una representaba una sección específica del proyecto. Este enfoque nos permitió trabajar de manera ordenada y colaborativa, asegurando que cada parte del informe fuera desarrollada y revisada de forma independiente antes de su integración final. Aquí se pueden visualizar todos los commits realizados para la TP1, lo cual evidencia el trabajo colaborativo del equipo.
+
+<img src="/imgs/Network - TP1.png" alt="colab" />
+
+
+---
 ## Student Outcome
 
 **ABET – EAC - Student Outcome 3**  
@@ -158,8 +186,8 @@ En el siguiente cuadro se describen las acciones realizadas y conclusiones del e
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.   | **TB1**: Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC.  |
-| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.   | **TB1:** Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC. |
+| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  **TP**: **Quijada Magro Jeremy**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  **Huang Liu Franco**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **La Madrid Lozano Ivan**:Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Saravia Huaricancha Arturo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Cumba Rengifo Leonardo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  | **TB1**: Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC.**TP**: Durante el desarrollo del Trabajo Parcial del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC.  |
+| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.   **TP**: **Quijada Magro Jeremy**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  **Huang Liu Franco**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **La Madrid Lozano Ivan**:Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Saravia Huaricancha Arturo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Cumba Rengifo Leonardo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. | **TB1:** Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC. **TP**: Durante el desarrollo del Trabajo Parcial del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC. |
 
 
 ## Capítulo I: Introducción
@@ -216,62 +244,100 @@ Por otro lado, el mercado de espacios coworking también ha crecido rápidamente
 
 Esta desconexión entre la **alta demanda de espacios temporales de trabajo** y la **oferta disponible sin digitalización adecuada** genera ineficiencias notorias: usuarios que no encuentran espacios adecuados en tiempo real, y propietarios que pierden ingresos por no contar con una plataforma de reservas automatizada. Además, la falta de sistemas de gestión y comparación centralizada crea una experiencia fragmentada, poco confiable y lenta para ambas partes.
 
-En este contexto, **WorkStation** surge como una solución tecnológica que busca cerrar esta brecha, permitiendo a freelancers, startups y profesionales acceder fácilmente a espacios de trabajo mediante una plataforma web intuitiva, al mismo tiempo que otorga a los propietarios herramientas de visibilidad, control de disponibilidad y generación de ingresos más eficientes.
-
 ### 1.2.2 Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
 ##### Dominio del Problema
+El proyecto se enmarca en la industria de espacios de trabajo compartidos (coworking), la cual ha crecido impulsada por el trabajo remoto y el autoempleo. A pesar de ese crecimiento, la interacción entre oferta (espacios disponibles) y demanda (profesionales y equipos pequeños) está fragmentada y desorganizada: la información está dispersa, la confirmación de disponibilidad no es inmediata y gran parte de la gestión ocurre por canales informales (redes sociales, mensajería, formularios sueltos).
 
-El proyecto WorkStation se desarrolla en el dominio de los espacios de trabajo compartidos (coworking), una industria en expansión que responde a la evolución del trabajo remoto, el crecimiento del autoempleo y la economía de los servicios digitales. A pesar de esta expansión, la interacción entre la oferta (espacios disponibles) y la demanda (profesionales independientes o empresas en crecimiento) aún se encuentra fragmentada y desorganizada, especialmente en el mercado peruano, donde no existen plataformas digitales de gran alcance que faciliten esta conexión de manera eficiente.
+##### Alcance del problema
+El problema se observa con especial énfasis en Perú (Lima Metropolitana y principales ciudades) y otras urbes de LATAM donde el trabajo remoto ha aumentado, pero no existe un mecanismo consolidado que garantice visibilidad, trazabilidad y confiabilidad en el proceso de búsqueda y reserva de espacios.
 
-#### Segmentos de Cliente
+##### Segmentos de cliente (actores involucrados)
+1. **Freelancers, startups y profesionales remotos (22–40 años):** usuarios que requieren espacios temporales y bien ubicados, con condiciones claras de precio, horarios y servicios (Wi-Fi, salas, etc.).
+2. **Propietarios o administradores de espacios de coworking:** organizaciones o personas que necesitan mantener ocupación, gestionar disponibilidad y validar a los arrendatarios con menor esfuerzo operativo.
 
-1. **Freelancers, startups y profesionales remotos**: Personas entre 22 y 40 años que requieren espacios de trabajo flexibles, temporales y bien ubicados. Este segmento prioriza la autonomía, la conectividad y la comodidad, y espera poder gestionar sus reservas de manera rápida y sencilla desde una plataforma digital.
-2. **Propietarios o administradores de espacios coworking**: Emprendedores o pequeñas empresas que buscan visibilidad, gestión automatizada de reservas y canales efectivos para ocupar sus instalaciones durante todo el día. Muchos de estos propietarios no cuentan con sistemas digitales propios y dependen de medios manuales o redes sociales para captar usuarios.
+##### Puntos de dolor
 
-#### Puntos de Dolor
+- **Freelancers / Startups**
+  - Falta de un **catálogo centralizado y confiable** de espacios disponibles.
+  - **Dificultad para comparar** por ubicación, precio, capacidad y amenities.
+  - **Procesos de coordinación lentos** (idas y vueltas para confirmar horarios).
+  - **Baja transparencia** en políticas, reglas y reseñas; riesgo de malas experiencias.
+  - **Incidencias** (ruido, Wi-Fi, limpieza) sin un canal formal de registro y seguimiento.
 
-- **Freelancers y startups**:
+- **Propietarios / Administradores**
+  - **Dependencia de canales informales** para captar clientes y gestionar reservas.
+  - **Ausencia de disponibilidad en tiempo real**; riesgo de **doble reserva**.
+  - **Conciliación de pagos manual** y trazabilidad limitada.
+  - **Verificación de arrendatarios** débil; exposición a **no-show** y daños.
+  - **Baja visibilidad** del espacio y dificultad para medir ocupación/ingresos.
 
-  - No encuentran una oferta centralizada y confiable de espacios disponibles.
-  - Carecen de filtros que les permitan comparar opciones según ubicación, precio o servicios.
-  - El proceso de reserva suele ser informal, poco transparente y lento.
+##### Causas raíz (hipótesis del problema)
+- **Descentralización de la información**: cada espacio publica por su cuenta con formatos y contenidos dispares.
+- **Falta de estandarización** en políticas de uso, cancelaciones y comprobantes.
+- **Gestión operativa manual** (agendas, hojas de cálculo, mensajes), susceptible a errores.
+- **Escasa cultura de datos** en la oferta: poca medición de ocupación, demanda y calidad de servicio.
+- **Asimetría de información** para la demanda: fotos desactualizadas, precios poco claros, reseñas dispersas.
 
-- **Propietarios de coworkings**:
-  - Alta dependencia de canales informales para captar clientes (WhatsApp, redes sociales).
-  - Ausencia de herramientas para gestionar disponibilidad en tiempo real.
-  - Pérdida de ingresos por falta de reservas constantes y baja visibilidad.
+##### Brecha detectada
+En el contexto local no existe un mecanismo digital consolidado que conecte, en tiempo cercano al real, a personas/equipos que buscan espacios con los administradores que los ofrecen, con reglas y datos homogéneos (precios, servicios, políticas, disponibilidad). Esta brecha deriva en fricción, incertidumbre y pérdida de oportunidades para ambos lados.
 
-#### Brecha Detectada
+##### Impactos y riesgos del problema
+- **Para la demanda:** más tiempo para encontrar un lugar apto, menor productividad, riesgo de mala experiencia.
+- **Para la oferta:** menor ocupación, ingresos inciertos, sobrecarga operativa y reputación difusa.
+- **Para el mercado:** **ineficiencias sistémicas** que limitan el crecimiento de la categoría en LATAM.
 
-En Perú, no existe actualmente una plataforma digital consolidada que conecte, en tiempo real, a freelancers y startups con espacios coworking disponibles. Esta brecha genera una experiencia ineficiente tanto para quienes buscan un lugar para trabajar como para quienes lo ofrecen. A diferencia de mercados como Estados Unidos o Europa —donde plataformas como LiquidSpace o Deskpass dominan el rubro, el ecosistema local aún carece de soluciones tecnológicas adaptadas al comportamiento y necesidades del mercado peruano.
+##### Indicadores (baseline a observar)
+- Tiempo promedio **búsqueda→confirmación**.
+- % de **doble reserva** / **no-show** reportado.
+- **Tasa de ocupación** por franja horaria.
+- % de publicaciones con **información incompleta** (precio, amenities, políticas).
+- **Satisfacción** de usuarios y administradores respecto al proceso actual.
 
-#### Visión y Estrategia
+#### 1.2.2.2. Lean UX Assumptions
 
-**Visión**: Crear una plataforma web que actúe como un marketplace digital para espacios de coworking, brindando a los usuarios una experiencia de reserva ágil, confiable y personalizada, y a los propietarios una solución de gestión eficiente que maximice el uso de sus instalaciones.
-**Estrategia**:
+**Sobre usuarios (freelancers, startups, profesionales remotos)**
+- Asumimos que **priorizan ubicación, precio y servicios clave** (Wi-Fi estable, salas, silencio) al decidir.
+- Asumimos que **la disponibilidad horaria** (por horas/días) es crítica y debe ser **predecible**.
+- Asumimos que **las reseñas y calificaciones** influyen significativamente en la decisión final.
+- Asumimos que **toleran poca fricción** en el proceso: múltiples mensajes y demoras desincentivan la reserva.
+- Asumimos que **valoran claridad** en **políticas** (cancelación, reembolsos, reglas de uso).
+- Asumimos que una parte de usuarios **prefiere pagar por uso** (pay-as-you-go) en lugar de contratos largos.
+- Asumimos que **disponen de medios de pago digitales** frecuentes en Perú/LATAM.
+- Asumimos que existe una proporción de usuarios **sensibles a la seguridad** (verificación básica del lugar).
 
-- Desarrollar un producto mínimo viable (MVP) que permita validar tempranamente la propuesta de valor.
-- Enfocarse en la usabilidad, accesibilidad y confiabilidad de la plataforma.
-- Establecer alianzas estratégicas con coworkings emergentes de Lima.
-- Implementar un modelo de monetización basado en comisión por reserva, con herramientas analíticas para los propietarios.
+**Sobre oferta (propietarios/administradores)**
+- Asumimos que muchos administradores **gestionan disponibilidad con herramientas manuales** (calendarios/Excel).
+- Asumimos que **carecen de métricas consistentes** de ocupación e ingresos por franja horaria.
+- Asumimos que **sufren no-shows** y necesitan mecanismos previos de **confirmación**.
+- Asumimos que desean **visibilidad incremental** hacia públicos específicos (freelancers, equipos pequeños).
+- Asumimos que **necesitan trazabilidad** de reservas y **conciliación simple** de pagos.
+- Asumimos que **la verificación mínima** del arrendatario reduce su percepción de riesgo.
+- Asumimos que **documentar políticas** (uso, limpieza, ruido) **reduce conflictos** posteriores.
 
-#### Segmento Inicial
+**Sobre el proceso actual y el mercado**
+- Asumimos que hoy la **información está dispersa** en múltiples canales y formatos.
+- Asumimos que **no hay estandarización** en cómo se presentan **precios, amenities y reglas**.
+- Asumimos que **confirmar disponibilidad** requiere **interacciones sincrónicas** (mensajes/llamadas).
+- Asumimos que la **demanda está creciendo** en zonas urbanas con alta conectividad.
+- Asumimos que existe **estacionalidad** y **picos horarios** que agravan la falta de disponibilidad confiable.
+- Asumimos que **la asimetría de información** genera **desconfianza** y reduce conversiones.
 
-Para validar la propuesta de valor de WorkStation, se priorizará un segmento específico en la etapa inicial del proyecto:
+**Sobre comportamiento y riesgos**
+- Asumimos que algunos usuarios **cancelan a último minuto** si el proceso es lento o poco claro.
+- Asumimos que **fotos y descripciones desactualizadas** elevan la tasa de reclamos.
+- Asumimos que **políticas ambiguas** elevan el conflicto (ruidos, aforo, limpieza).
+- Asumimos que **tiempos de respuesta altos** disminuyen la probabilidad de concretar la reserva.
+- Asumimos que **la ausencia de registro de incidencias** impide mejorar la calidad del servicio.
 
-- **Usuarios meta**: Freelancers y profesionales digitales entre 22 y 35 años, ubicados en Lima Metropolitana, que trabajan de forma remota o de manera independiente.
-- **Aliados estratégicos**: Coworkings de tamaño pequeño a mediano, ubicados en distritos céntricos como Miraflores, Barranco y San Isidro, que no cuentan con plataformas propias de gestión o marketing digital.
-
-#### 1.2.2.2. Lean UX Problem Assumptions
-
-- Asumimos que los usuarios requieren flexibilidad y comodidad en sus espacios de trabajo.
-- Asumimos que los propietarios de espacios de coworking necesitan mayor visibilidad y eficiencia en la gestión de reservas.
-- Asumimos que la búsqueda y reserva de espacios de coworking es un proceso fragmentado y poco confiable.
-- Asumimos que los usuarios están dispuestos a pagar por una solución eficiente y confiable.
-- Asumimos que la digitalización mejorará la eficiencia operativa de los espacios de coworking
+**Sobre tecnología y datos**
+- Asumimos que los actores están **dispuestos a compartir datos básicos** (horarios, capacidad, tarifas) si mejora su operación.
+- Asumimos que existe **heterogeneidad** en formatos de calendario y control de disponibilidad.
+- Asumimos que se requiere **gestión de zonas horarias** y precisión de **rango horario** (no solo por día).
+- Asumimos que **validaciones de identidad/contacto** básicas aumentan la confianza entre partes.
+- Asumimos que la **observabilidad del proceso** (eventos, logs de interacción) es necesaria para diagnosticar fricción.
 
 #### 1.2.2.3. Lean UX Problem Hypothesis Statements
 
@@ -638,11 +704,14 @@ Estamos considerando los segmentos objetivos **"Propietario de Inmueble"** y **"
 La mayoría de las tareas actuales de freelancers y propietarios se realizan de forma **manual y distribuida en múltiples canales** (WhatsApp, Google, redes, Excel). Esto provoca fricción: demora en confirmaciones, riesgo de doble reserva, mala calidad de información y dificultad para conciliar pagos. Las acciones recomendadas en esta matriz son medidas prácticas y aplicables hoy para mitigar riesgos sin depender de una solución técnica inmediata (ej. plantillas, checklist, captura de comprobantes, sincronización de calendarios).
 
 ### 2.3.3. User Journey Mapping
+Este conjunto de Customer Journey Maps presenta de forma conjunta el recorrido end-to-end de los dos segmentos clave: usuarios buscadores de espacios (freelancers y startups) y propietarios/hosts. El mapa cubre las etapas principales del ciclo de valor y articula, para cada etapa, acciones, pensamientos, emociones, puntos de contacto y problemas. Su objetivo es revelar los momentos donde la fricción impacta conversión, ocupación y satisfacción, y a su vez identificar oportunidades concretas. Use este mapa para derivar user stories, priorizar intervenciones por impacto y definir los KPIs iniciales a medir.
 
+#### Customer Journey Map — Freelancers / Startups
 <p align="center">
   <img src="imgs/Customer Journey Map Brainstorm.png" alt="Customer Journey Map Brainstorm.png" />
 </p>
 
+#### Customer Journey Map — Propietarios / Hosts
 <p align="center">
 <img width="1179" height="1059" alt="image" src="https://github.com/user-attachments/assets/84e017e5-dbfd-4bdf-8d45-5cc4de7f5ff8" />
 </p>
@@ -667,7 +736,14 @@ La mayoría de las tareas actuales de freelancers y propietarios se realizan de 
 **Propietarios de Inmuebles**
 ![As-Is-Propietario](imgs/as-is-propietario.jpg)
 
-## 2.4. Ubiquitous Language
+## 2.4. Big Picture Event Storming. 
+El Big Event Storybranding es una metodología estratégica que permite construir marcas sólidas y memorables a través de una narrativa coherente y emocionalmente conectada con el público. Este enfoque integra análisis de mercado, definición de identidad, y planificación de comunicación para transformar cada interacción con la marca en una experiencia significativa. A través de este logramos realizar lo siguiente:
+
+![Event Stoarming](imgs/Big%20Level%20Stoarming%20-%20WorkStation.jpg)
+
+La imagen muestra el proceso de Storybranding dividido por colores y etapas. Los colores representan los diferentes niveles de detalle y la narrativa se divide en etapas para crear una experiencia emocionalmente conectada con el público.
+
+## 2.5. Ubiquitous Language
 
 | Término      | Definición                                                                                                  |
 | ------------ | ----------------------------------------------------------------------------------------------------------- |
@@ -688,6 +764,7 @@ La mayoría de las tareas actuales de freelancers y propietarios se realizan de 
 # Capitulo III: Requirements Specification
 
 ## 3.1. User Stories
+
 
 
 | User Story ID | Título | Descripción | Criterios de Aceptación | Epic ID |
@@ -765,9 +842,6 @@ La mayoría de las tareas actuales de freelancers y propietarios se realizan de 
 
 
 
-
-
-
 Epicas
 | Epic ID | Título | Descripción |
 | :---- | :---- | :---- |
@@ -784,65 +858,81 @@ Epicas
 
 ## 3.2. Impact Mapping
 
-![ImpactMap](imgs/Impac1.png)
-![ImpactMap](imgs/Impac2.png)
+![ImpactMap](imgs/BG1.png)
+![ImpactMap](imgs/BG2.png)
+![ImpactMap](imgs/BG3.png)
 
 ## 3.3. Product backlog
 
-| \# Orden | User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
-| :---- | :---- | :---- | :---- | :---- |
-| 1 | US-01 | Búsqueda en Hero | Como visitante, quiero buscar por distrito/ciudad y fecha desde el hero para ir directo a los resultados. | 3 |
-| 2 | US-02 | Header claro | Como visitante, quiero un header con enlaces Explorar, Publica tu espacio e Ingresar para orientarme fácilmente. | 2 |
-| 3 | US-03 | Espacios destacados | Como visitante, quiero ver tarjetas de espacios destacados con imagen, precio desde y CTA. | 2 |
-| 4 | US-04 | Sección testimonios | Como visitante, quiero ver testimonios reales para ganar confianza antes de registrarme. | 2 |
-| 5 | US-05 | FAQ acordeón | Como visitante, quiero un acordeón de preguntas frecuentes para resolver dudas. | 2 |
-| 6 | US-06 | Footer con políticas y contacto | Como visitante, quiero acceder a términos, privacidad y contactos desde el pie de página. | 1 |
-| 7 | US-07 | SEO básico | Como visitante, quiero títulos, metadescripciones y etiquetas OG correctas para compartir bien. | 3 |
-| 8 | US-08 | Banner de cookies | Como visitante, quiero aceptar o rechazar cookies opcionales para controlar mi privacidad. | 2 |
-| 9 | US-09 | Animaciones sutiles | Como visitante, quiero microinteracciones en UI sin afectar el rendimiento. | 2 |
-| 10 | US-10 | Barra global de búsqueda | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | 5 |
-| 11 | US-11 | Lista \+ mapa sincronizados | Como usuario, quiero una lista de resultados y un mapa sincronizado para explorar por zona. | 5 |
-| 12 | US-12 | Filtros con chips | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ver chips activos. | 5 |
-| 13 | US-13 | Ordenamiento | Como usuario, quiero ordenar resultados por precio, distancia y rating. | 3 |
-| 14 | US-14 | Paginación / Infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página. | 3 |
-| 15 | US-15 | State in URL y compartir | Como usuario, quiero que filtros/orden/página se reflejen en la URL para compartir. | 3 |
-| 16 | US-16 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa en mi ubicación para ver opciones cercanas. | 3 |
-| 17 | US-17 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio desde y rating. | 2 |
-| 18 | US-18 | Comparar hasta 3 espacios | Como usuario, quiero seleccionar hasta 3 espacios para compararlos lado a lado. | 5 |
-| 19 | US-19 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto con datos clave. | 2 |
-| 20 | US-20 | Ficha: galería y detalles | Como usuario, quiero una galería de fotos y descripción completa del espacio. | 3 |
-| 21 | US-21 | Ficha: calendario de disponibilidad | Como usuario, quiero seleccionar fecha y horas disponibles antes de reservar. | 5 |
-| 22 | US-22 | Ficha: CTA reservar sticky | Como usuario, quiero tener siempre visible el botón 'Reservar'. | 2 |
-| 23 | US-23 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | 5 |
-| 24 | US-24 | Pago con SDK | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | 5 |
-| 25 | US-25 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA para mis reservas. | 2 |
-| 26 | US-26 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | 3 |
-| 27 | US-27 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | 2 |
-| 28 | US-28 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | 3 |
-| 29 | US-29 | Preferencias y notificaciones | Como usuario, quiero configurar idioma y notificaciones por email. | 2 |
-| 30 | US-30 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | 3 |
-| 31 | US-31 | Cancelar reserva (UI) | Como usuario, quiero cancelar mi reserva viendo política y cargo aplicable. | 3 |
-| 32 | US-32 | Recibos/Comprobante imprimible | Como usuario, quiero ver/descargar mi comprobante en PDF legible. | 3 |
-| 33 | US-33 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | 3 |
-| 34 | US-34 | Reseñar un espacio | Como usuario, quiero calificar con estrellas y comentar tras mi estancia. | 3 |
-| 35 | US-35 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket por canal definido. | 3 |
-| 36 | US-36 | Selector de moneda | Como usuario, quiero elegir mi moneda para ver precios entendibles. | 3 |
-| 37 | US-37 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro. | 2 |
-| 38 | US-38 | Breadcrumbs | Como usuario, quiero migas de pan para volver fácilmente. | 1 |
-| 39 | US-39 | Accesibilidad: navegación por teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | 3 |
-| 40 | US-40 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | 3 |
-| 41 | US-41 | Rendimiento: imágenes responsivas | Como usuario, quiero srcset/lazy-loading para cargar más rápido. | 3 |
-| 42 | US-42 | Rendimiento: caching y skeletons | Como usuario, quiero skeletons y cache para percibir rapidez. | 3 |
-| 43 | US-43 | Responsive design | Como usuario móvil, quiero vistas usables en pantallas pequeñas. | 3 |
-| 44 | US-44 | Design System base | Como equipo, quiero un set de componentes reutilizables. | 5 |
-| 45 | US-45 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes y opción de reintentar. | 3 |
-| 46 | US-46 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | 3 |
-| 47 | US-47 | Offline básico (fallback) | Como usuario, quiero un fallback útil cuando no hay conexión. | 3 |
-| 48 | US-48 | Notificaciones opt-in (reservas) | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | 3 |
-| 49 | US-49 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha/búsqueda desde la UI. | 2 |
-| 50 | US-50 | Scroll a anclas en landing | Como visitante, quiero navegar a secciones con scroll suave al hacer clic en el menú. | 1 |
-| 51 | US-51 | Previsualización de avatar | Como usuario, quiero ver una vista previa antes de guardar mi foto de perfil. | 2 |
-| 52 | US-52 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión actual. | 2 |
+| User Story Id | Título | Descripción | Story Points (1/2/3/5/8) |
+| :---- | :---- | :---- | :---- |
+| US-01 | Búsqueda en Hero | Como visitante, quiero buscar por distrito/ciudad y fecha desde el hero para ir directo a los resultados. | 3 |
+| US-02 | Header claro | Como visitante, quiero un header con enlaces Explorar, Publica tu espacio e Ingresar para orientarme fácilmente. | 2 |
+| US-03 | Espacios destacados | Como visitante, quiero ver tarjetas de espacios destacados con imagen, precio desde y CTA. | 2 |
+| US-04 | Sección testimonios | Como visitante, quiero ver testimonios reales para ganar confianza antes de registrarme. | 2 |
+| US-05 | FAQ acordeón | Como visitante, quiero un acordeón de preguntas frecuentes para resolver dudas. | 2 |
+| US-06 | Footer con políticas y contacto | Como visitante, quiero acceder a términos, privacidad y contactos desde el pie de página. | 1 |
+| US-07 | SEO básico | Como visitante, quiero títulos, metadescripciones y etiquetas OG correctas para compartir bien. | 3 |
+| US-08 | Banner de cookies | Como visitante, quiero aceptar o rechazar cookies opcionales para controlar mi privacidad. | 2 |
+| US-09 | Animaciones sutiles | Como visitante, quiero microinteracciones en UI sin afectar el rendimiento. | 2 |
+| US-50 | Scroll a anclas en landing | Como visitante, quiero navegar a secciones con scroll suave al hacer clic en el menú. | 1 |
+| US-30 | Mis reservas (listado) | Como usuario, quiero ver mi historial y próximos eventos con estados claros. | 3 |
+| US-31 | Cancelar reserva (UI) | Como usuario, quiero cancelar mi reserva viendo política y cargo aplicable. | 3 |
+| US-32 | Recibos/Comprobante imprimible | Como usuario, quiero ver/descargar mi comprobante en PDF legible. | 3 |
+| US-33 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | 3 |
+| US-34 | Reseñar un espacio | Como usuario, quiero calificar con estrellas y comentar tras mi estancia. | 3 |
+| US-10 | Barra global de búsqueda | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | 5 |
+| US-12 | Filtros con chips | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ver chips activos. | 5 |
+| US-13 | Ordenamiento | Como usuario, quiero ordenar resultados por precio, distancia y rating. | 3 |
+| US-16 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa en mi ubicación para ver opciones cercanas. | 3 |
+| US-15 | State in URL y compartir | Como usuario, quiero que filtros/orden/página se reflejen en la URL para compartir. | 3 |
+| US-14 | Paginación / Infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página. | 3 |
+| US-11 | Lista \+ mapa sincronizados | Como usuario, quiero una lista de resultados y un mapa sincronizado para explorar por zona. | 5 |
+| US-17 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio desde y rating. | 2 |
+| US-18 | Comparar hasta 3 espacios | Como usuario, quiero seleccionar hasta 3 espacios para compararlos lado a lado. | 5 |
+| US-19 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto con datos clave. | 2 |
+| US-20 | Ficha: galería y detalles | Como usuario, quiero una galería de fotos y descripción completa del espacio. | 3 |
+| US-22 | Ficha: CTA reservar sticky | Como usuario, quiero tener siempre visible el botón 'Reservar'. | 2 |
+| US-21 | Ficha: calendario de disponibilidad | Como usuario, quiero seleccionar fecha y horas disponibles antes de reservar. | 5 |
+| US-23 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | 5 |
+| US-24 | Pago con SDK | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | 5 |
+| US-25 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA para mis reservas. | 2 |
+| US-52 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión actual. | 2 |
+| US-49 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha/búsqueda desde la UI. | 2 |
+| US-53 | API Auth: registro & login | Como integrador frontend, quiero endpoints POST /auth/register y POST /auth/login para obtener JWT y acceder a recursos protegidos. | 5 |
+| US-54 | API Auth: refresh token | Como integrador frontend, quiero POST /auth/refresh para renovar el access token antes de su expiración. | 3 |
+| US-55 | API Password reset | Como integrador frontend, quiero POST /auth/request-reset y POST /auth/reset para restablecer contraseñas. | 3 |
+| US-56 | API Autocompletado de búsqueda | Como integrador frontend, quiero GET /search/suggest?q= para sugerir ciudades, distritos y espacios. | 3 |
+| US-57 | API Búsqueda de espacios | Como integrador frontend, quiero GET /spaces con filtros para listar resultados paginados. | 5 |
+| US-58 | API Mapa por bounding box | Como integrador frontend, quiero GET /spaces/map?bbox= para obtener marcadores en el viewport. | 3 |
+| US-59 | API Disponibilidad de espacio | Como integrador frontend, quiero GET /spaces/{id}/availability?date= para obtener slots libres/ocupados. | 5 |
+| US-60 | API Crear reserva (transaccional) | Como integrador frontend, quiero POST /bookings para crear una reserva atómica. | 5 |
+| US-61 | API Intent de pago e idempotencia | Como integrador frontend, quiero POST /payments/intent con Idempotency-Key para iniciar cobro. | 5 |
+| US-62 | Webhook de pagos (PSP) | Como integrador frontend, quiero POST /webhooks/payments para confirmar pagos firmados por el PSP. | 5 |
+| US-63 | API Confirmación y comprobante | Como integrador frontend, quiero GET /bookings/{id} y /bookings/{id}/receipt.pdf para confirmar y emitir comprobante. | 3 |
+| US-64 | API Cancelación con política | Como integrador frontend, quiero POST /bookings/{id}/cancel con reason para cancelar aplicando política y reembolsos. | 5 |
+| US-68 | API Fotos del espacio | Como integrador frontend, quiero GET /spaces/{id}/photos con URLs firmadas/variantes. | 3 |
+| US-69 | API Health y readiness | Como integrador/ops, quiero GET /health y GET /ready para monitoreo. | 2 |
+| US-70 | Errores estándar y CORS | Como integrador frontend, quiero que todas las APIs usen RFC 7807 y CORS seguro. | 3 |
+| US-26 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | 3 |
+| US-27 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | 2 |
+| US-28 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | 3 |
+| US-29 | Preferencias y notificaciones | Como usuario, quiero configurar idioma y notificaciones por email. | 2 |
+| US-36 | Selector de moneda | Como usuario, quiero elegir mi moneda para ver precios entendibles. | 3 |
+| US-37 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro. | 2 |
+| US-48 | Notificaciones opt-in (reservas) | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | 3 |
+| US-51 | Previsualización de avatar | Como usuario, quiero ver una vista previa antes de guardar mi foto de perfil. | 2 |
+| US-39 | Accesibilidad: navegación por teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | 3 |
+| US-40 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | 3 |
+| US-41 | Rendimiento: imágenes responsivas | Como usuario, quiero srcset/lazy-loading para cargar más rápido. | 3 |
+| US-42 | Rendimiento: caching y skeletons | Como usuario, quiero skeletons y cache para percibir rapidez. | 3 |
+| US-43 | Responsive design | Como usuario móvil, quiero vistas usables en pantallas pequeñas. | 3 |
+| US-44 | Design System base | Como equipo, quiero un set de componentes reutilizables. | 5 |
+| US-45 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes y opción de reintentar. | 3 |
+| US-46 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | 3 |
+| US-47 | Offline básico (fallback) | Como usuario, quiero un fallback útil cuando no hay conexión. | 3 |
+| US-35 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket por canal definido. | 3 |
+
 
 
 
@@ -1191,6 +1281,18 @@ https://miro.com/app/board/uXjVJI6oqFo=/?share_link_id=929784522141
 
 ### 4.7. Software Object-Oriented Design
 
+Este Diagrama de Clases UML establece el modelo de datos estático para una plataforma de gestión de espacios de trabajo compartido (coworking).
+
+El sistema se estructura en torno a las siguientes funcionalidades clave:
+
+| Dominio            | Clases Principales        | Relaciones Clave                                                |
+|--------------------|-----------------|---------------------------------------------------------------------------|
+| Actores       | User, Owner, Freelancer        | Herencia (EXTENDS) para roles especializados.                   |
+| Infraestructura       | Space, Workstation, Location        | Asociación para definir dónde y qué se reserva.                   |
+| Transacciones       | Booking, Payment, Invoice        | Composición para gestionar el flujo de reserva y pago.                  |
+| Servicios       | Service, Availability, Review        | Asociación para describir, calendarizar y evaluar los espacios.                  |
+
+
 #### 4.7.1. Class Diagrams
 
 <p align="center">
@@ -1198,6 +1300,18 @@ https://miro.com/app/board/uXjVJI6oqFo=/?share_link_id=929784522141
 </p>
 
 ### 4.8. Database Design
+
+Este Diagrama Entidad-Relación (ERD) define la estructura de la base de datos para una plataforma de coworking (gestión de espacios de trabajo).
+
+El modelo se organiza en estas áreas clave:
+
+| Dominio            | Tablas Principales        | Propósito                                                |
+|--------------------|-----------------|---------------------------------------------------------------------------|
+| Actores       | 	user, memberships, notifications        | Gestión de cuentas, roles y comunicaciones.                   |
+| Inventario       | coworking, spaces, services        | Definición de centros, características y disponibilidad de los espacios.                  |
+| Transacciones       | booking, payments, booking_history        | Registro y seguimiento del ciclo completo de reservas, pagos y su historial de estados.                  |
+
+La estructura utiliza Claves Primarias (PK) y Claves Foráneas (FK) para asegurar la integridad referencial y la coherencia de los datos en todas las operaciones del sistema.
 
 ### 4.8.1. Database Diagrams
 
@@ -1283,7 +1397,10 @@ Para el despliegue de la landing page, se optó por una plataforma de hosting qu
 
 | Producto             | Repositorio        | URL                                                       |
 |----------------------|--------------------|------------------------------------------------------------|
-| Landing Page         | WorkStation-Landing Page| [https://github.com/TemuCoders/Landing-Page](https://github.com/TemuCoders/Landing-Page)     |
+| WorkStation-Landing Page         | WorkStation-Landing Page| [https://github.com/TemuCoders/Landing-Page](https://github.com/TemuCoders/Landing-Page)     |
+| WorkStation-Report        | Report| [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)     |
+| WorkStation-BackEnd         | BackEnd| [https://github.com/TemuCoders/BackEnd](https://github.com/TemuCoders/BackEnd)     |
+| WorkStation-FrontEnd         | FrontEnd| [https://github.com/TemuCoders/FrontEnd](https://github.com/TemuCoders/FrontEnd)     |
 
 #### Estructura del Repositorio
 
@@ -1332,13 +1449,26 @@ Adoptamos el estándar **Conventional Commits** para los mensajes de nuestros co
 
 La documentación del proyecto se encuentra en el archivo `README.md` dentro del repositorio. Este archivo proporciona detalles sobre la configuración, el uso del software y las guías para contribuir al proyecto.
 
+
 ### 5.1.3. Source Code Style Guide & Conventions
 
-El equipo adopta convenciones de estilo sencillas y consistentes para facilitar la lectura, el mantenimiento y la colaboración en la landing page. El idioma de los identificadores (nombres de archivos, variables, funciones y clases) es **inglés**, manteniendo coherencia con el código existente en `js/lang.js` y `js/java.js`.
+El equipo adopta convenciones de estilo consistentes y basadas en estándares reconocidos para facilitar la lectura, el mantenimiento y la colaboración en la landing page. El idioma de los identificadores (nombres de archivos, variables, funciones y clases) es **inglés**, manteniendo coherencia con el código existente en `js/lang.js` y `js/java.js`. A continuación, se detallan las referencias y convenciones aplicadas para cada lenguaje utilizado (HTML, CSS, JavaScript, TypeScript, Java).
 
-**Estructura del proyecto**
+#### Referencias Adoptadas
+- **HTML**: Especificación HTML5 del W3C [https://html.spec.whatwg.org/](https://html.spec.whatwg.org/). Se elige esta referencia porque proporciona la norma oficial para la estructura y semántica del HTML5, asegurando compatibilidad con navegadores modernos y cumplimiento de estándares web actuales.
+- **HTML**: Guía de Accesibilidad de la WAI-ARIA [https://www.w3.org/WAI/ARIA/](https://www.w3.org/WAI/ARIA/). Esta guía se adopta para garantizar que la landing page sea accesible para usuarios con discapacidades, alineándose con las mejores prácticas de inclusión y normativas como WCAG.
+- **CSS**: CSS Specification del W3C [https://www.w3.org/Style/CSS/](https://www.w3.org/Style/CSS/). Se selecciona por ser la fuente autoritativa de las especificaciones CSS, permitiendo un desarrollo robusto y compatible con diversas plataformas.
+- **CSS**: MDN Web Docs [https://developer.mozilla.org/en-US/docs/Web/CSS](https://developer.mozilla.org/en-US/docs/Web/CSS). Se utiliza por su documentación detallada y ejemplos prácticos que facilitan la implementación de estilos responsivos y modernos.
+- **JavaScript**: Guías de Estilo de JavaScript de Airbnb [https://github.com/airbnb/javascript](https://github.com/airbnb/javascript). Esta guía se adopta por sus convenciones ampliamente aceptadas en la industria, promoviendo código limpio y mantenible.
+- **JavaScript**: Especificaciones de ECMAScript [https://www.ecma-international.org/publications-and-standards/standards/ecma-262/](https://www.ecma-international.org/publications-and-standards/standards/ecma-262/). Se elige como base técnica para garantizar que el código JavaScript cumpla con los estándares más recientes.
+- **TypeScript**: Guía de Estilo de TypeScript de Google [https://google.github.io/styleguide/tsguide.html](https://google.github.io/styleguide/tsguide.html). Se selecciona por sus directrices claras para tipado y estructura, ideales para proyectos escalables.
+- **TypeScript**: Recomendaciones Oficiales de TypeScript [https://www.typescriptlang.org/docs/handbook/style-guide.html](https://www.typescriptlang.org/docs/handbook/style-guide.html). Se adopta para complementar con las mejores prácticas oficiales del lenguaje.
+- **Java**: Guía de Estilo de Código de Google para Java [https://google.github.io/styleguide/javaguide.html](https://google.github.io/styleguide/javaguide.html). Se elige por su enfoque en consistencia y legibilidad en proyectos grandes.
+- **Java**: Convenciones de Codificación de Java de Oracle [https://www.oracle.com/java/technologies/javase/codeconventions.html](https://www.oracle.com/java/technologies/javase/codeconventions.html). Se utiliza como estándar histórico y ampliamente aceptado en el ecosistema Java.
 
-``
+#### Estructura del proyecto
+
+```
 / (repo root)
 ├─ imgs/
 │ ├─ concepto-faq_23-2148162317.jpg
@@ -1350,38 +1480,48 @@ El equipo adopta convenciones de estilo sencillas y consistentes para facilitar 
 │ └─ lang.js ← traducciones (export const traduccion)
 ├─ index.html
 └─ style.css
-``
+```
 
-**Convenciones y prácticas aplicadas**
+
+#### Convenciones y prácticas aplicadas
 
 - **HTML**
-  - Uso de etiquetas semánticas: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>` y `<footer>` para estructurar el documento.
-  - Identificadores (`id`) estables y descriptivos para i18n y manipulación DOM (por ejemplo `WorkStation-title`, `srv-booking`).
-  - Atributos `alt` descriptivos en todas las imágenes para accesibilidad.
+  - Uso de etiquetas semánticas (`<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`) conforme a la **Especificación HTML5 del W3C**.
+  - Identificadores (`id`) estables y descriptivos (e.g., `WorkStation-title`, `srv-booking`) siguiendo la convención de nombres claros y específicos para i18n y manipulación DOM.
+  - Atributos `alt` descriptivos en todas las imágenes para cumplir con los estándares de accesibilidad **WCAG 2.1**.
 
 - **CSS**
-  - Clases en **kebab-case**: `.nav-links`, `.header-content`, `.menu-btn`.
-  - Organización por bloques (header, hero, services, faq, contact, footer) dentro de `style.css`.
-  - Preferencia por clases frente a selectores muy específicos; estructura de estilos pensada para facilitar la evolución a SCSS si fuera necesario.
+  - Clases en **kebab-case** (e.g., `.nav-links`, `.header-content`, `.menu-btn`) según las **Recomendaciones de MDN**.
+  - Organización por bloques (header, hero, services, faq, contact, footer) en `style.css`, alineada con las prácticas de **BEM (Block Element Modifier)**.
+  - Preferencia por clases sobre selectores complejos, con preparación para evolución a SCSS si fuera necesario, siguiendo las **Guías de CSS de Airbnb**.
 
 - **JavaScript**
-  - Módulos ES6 (`import` / `export`) tal como está implementado en `js/lang.js` y `js/java.js`.
-  - Nombres en **camelCase** para variables y funciones (`menuBtn`, `updateLanguage`).
-  - Separación clara entre la tabla de traducciones (`lang.js`) y la lógica de manipulación del DOM (`java.js`).
+  - Uso de módulos ES6 (`import` / `export`) conforme a las **Especificaciones de ECMAScript**.
+  - Nombres en **camelCase** para variables y funciones (e.g., `menuBtn`, `updateLanguage`) según la **Guía de JavaScript de Airbnb**.
+  - Separación clara entre la tabla de traducciones (`lang.js`) y la lógica de manipulación del DOM (`java.js`), siguiendo el principio de responsabilidad única.
+
+- **TypeScript**
+  - Nombres de interfaces y tipos en **PascalCase** (e.g., `UserProfile`, `BookingData`) y variables en **camelCase**, según la **Guía de Estilo de TypeScript de Google**.
+  - Uso de tipos explícitos y anotaciones para mejorar la mantenibilidad, alineado con las **Recomendaciones Oficiales de TypeScript**.
+
+- **Java**
+  - Clases y interfaces en **UpperCamelCase** (e.g., `UserService`, `BookingManager`), variables y métodos en **lowerCamelCase**, según la **Guía de Estilo de Código de Google para Java**.
+  - Uso de bloques de código indentados con 2 espacios y manejo de excepciones explícito, siguiendo las **Convenciones de Codificación de Java de Oracle**.
 
 - **Internacionalización (i18n)**
   - Traducciones mantenidas en `lang.js` como `export const traduccion` con claves que coinciden con los `id` del HTML.
   - Traducción dinámica que actualiza `innerText`, `placeholder` y `value` según el tipo de elemento.
 
 - **Accesibilidad (A11y)**
-  - Formularios con `label` o `aria-label` y controles navegables por teclado.
+  - Formularios con `label` o `aria-label` y controles navegables por teclado, conforme a **WCAG 2.1**.
   - Acordeón del FAQ con cambio visual claro; se recomienda mantener atributos ARIA (`aria-expanded`) al evolucionar la implementación.
-  - Contrastes y tamaños de texto orientados a cumplir al menos nivel AA.
+  - Contrastes y tamaños de texto orientados a cumplir al menos nivel AA de accesibilidad.
 
 - **Control de calidad**
-  - Mensajes de commit siguiendo **Conventional Commits** (`feat:`, `fix:`, `docs:`).
+  - Mensajes de commit siguiendo **Conventional Commits** (`feat:`, `fix:`, `docs:`) según conventionalcommits.org.
   - Flujo de ramas simple: `main` (producción), `develop` (integración) y `feature/*` para trabajo aislado.
-  - Recomendación de linters y formateadores (ESLint / Prettier) para mantener consistencia estilística.
+  - Uso de linters (ESLint) y formateadores (Prettier) configurados según las **Guías de Airbnb** y **Prettier**.
+
 
 ### 5.1.4. Software Deployment Configuration
 
@@ -1428,6 +1568,8 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 
 ##### 5.2.1.2. Aspect Leaders and Collaborators     
 
+Este Sprint se centró exclusivamente en el desarrollo y optimización de la landing page WorkStation, abordando aspectos clave como el diseño y estructura para garantizar una interfaz intuitiva y responsiva mediante HTML semántico y CSS bien organizado, la funcionalidad y dinamismo con JavaScript, la accesibilidad y usabilidad cumpliendo estándares WCAG 2.1, la colaboración y control de calidad mediante un flujo de ramas claro. Todos trabajados en colaboración entre el líder y los colaboradores para alinear las tareas con los objetivos del Sprint.
+
 | Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 (L/C) |
 | ----- | ----- | ----- |
 | Quijada Magro Jeremy Alexander | jhonson2021 | L |
@@ -1436,7 +1578,7 @@ El Sprint Planning 1 es una reunión esencial para iniciar el primer sprint de u
 | Cumba Rengifo Leonardo Raul | LeonardoC72 | C |
 | La Madrid Lozano Ivan Jeanpierre | ivanlamadrid | C |
 
-#### **5.2.1.3. Sprint Backlog 1\.**
+##### 5.2.1.3. Sprint Backlog 1
 
 Para el primer sprint, desarrollamos la estructura y las funcionalidades básicas de la landing page, así como el diseño visual y la barra de navegación.
 
@@ -1468,7 +1610,92 @@ Para el primer sprint, desarrollamos la estructura y las funcionalidades básica
 | **US-14** | Scroll a anclas | T24 | Anclas y scroll suave | Menú a secciones (\#servicios, \#faq, \#contacto). | 3 | Saravia Huaricancha Arturo Axel | Done |
 
 ##### 5.2.1.4. Development Evidence for Sprint Review
-En este punto evidenciamos el desarrollo y el apoyo por parte de los integrantes del equipo en la construcción del frontend estático de la Landing Page.
+
+Durante este Sprint, se lograron avances significativos en la implementación de la landing page WorkStation, destacando la creación del frontend estático con una estructura semántica sólida usando HTML, un diseño responsivo y estilizado con CSS, y la incorporación de funcionalidades dinámicas como la traducción internacional y el acordeón de FAQ mediante JavaScript. Los esfuerzos se concentraron en los periodos del 7 al 14 de septiembre de 2025, donde se registraron 22 commits, y del 14 al 21 de septiembre de 2025, con 56 commits, reflejando una intensa actividad de desarrollo y colaboración para completar la base del proyecto.
+
+**Commits del Reporte:**
+
+| Repository | DateTime       | Commit Hash     | Author          | Commit Message                          |
+|------------|----------------|-----------------|-----------------|-----------------------------------------|
+| WorkStation | 2025-10-07     | 3034fff         | Ivan La Madrid  | feat: Add customer journey map for propietarios/hosts |
+| WorkStation | 2025-10-07     | 398362b         | Ivan La Madrid  | feat: Enhance User Journey Mapping section |
+| WorkStation | 2025-10-07     | 4a2a514         | Ivan La Madrid  | feat: Clarify Lean UX assumptions section |
+| WorkStation | 2025-10-07     | 44b12b3         | Ivan La Madrid  | fix: lean ux problem statements y assumptions |
+| WorkStation | 2025-09-19     | 336079c         | jhonson2021     | feat: Merge pull request #8 from TemuCoders/TB1 |
+| WorkStation | 2025-09-19     | 05ca32a         | jhonson2021     | fix: inshigth and links                 |
+| WorkStation | 2025-09-19     | f74d9f1         | jhonson2021     | feat: Merge pull request #6 from TemuCoders/TB1 |
+| WorkStation | 2025-09-19     | 1510737         | Ivan La Madrid  | fix: Revise User Task Matrix and clarify user personas |
+| WorkStation | 2025-09-19     | f3df1c2         | Ivan La Madrid  | fix: Update images in Empathy Mapping section |
+| WorkStation | 2025-09-19     | 82c0544         | Ivan La Madrid  | fix: Update with project structure details |
+| WorkStation | 2025-09-19     | fd55a31         | Ivan La Madrid  | doc: Document project style guide and deployment practices |
+| WorkStation | 2025-09-19     | 275d9ba         | LeonardoC72     | feat: Correccion del sprint 1           |
+| WorkStation | 2025-09-19     | e4f9858         | LeonardoC72     | feat: Product backlog Correcciones      |
+| WorkStation | 2025-09-19     | 9d08022         | LeonardoC72     | feat: userstories correccion            |
+| WorkStation | 2025-09-19     | 255aa2a         | LeonardoC72     | feat: Entrevista correccion             |
+| WorkStation | 2025-09-19     | d02380f         | LeonardoC72     | feat: Entrevista frelancer              |
+| WorkStation | 2025-09-19     | 908187e         | LeonardoC72     | feat: ImagenEntrevista                  |
+| WorkStation | 2025-09-19     | 4834314         | jhonson2021     | fix: diagrama de clases                 |
+| WorkStation | 2025-09-19     | b160721         | jhonson2021     | fix: Antecedentes y problematica        |
+| WorkStation | 2025-09-18     | 062a780         | Thunder         | feat(7377): Añadido dos entrevistas al segmento 1 |
+| WorkStation | 2025-09-18     | 472f12e         | LeonardoC72     | feat: userstories epcis                 |
+| WorkStation | 2025-09-18     | ea0c8b3         | Ivan La Madrid  | fix: Formateo de estructura de proyecto landing |
+| WorkStation | 2025-09-18     | e422b21         | jhonson2021     | feat: Merge pull request #5 from TemuCoders/TB1 |
+| WorkStation | 2025-09-18     | 545c5c5         | Ivan La Madrid  | doc: 5.1.3 y 5.1.4 agregados            |
+| WorkStation | 2025-09-18     | 09e4e66         | jhonson2021     | feat: Project Report Collaboration Insights |
+| WorkStation | 2025-09-18     | 444ffa4         | jhonson2021     | feat: Student Outcome                   |
+| WorkStation | 2025-09-18     | b5785ce         | LeonardoC72     | feat: Sprint Backlog horas              |
+| WorkStation | 2025-09-18     | 940a15b         | Thunder         | feat(7377): añadido el punto 5.2.1.4 y 5.2.1.5 |
+| WorkStation | 2025-09-18     | cf235dc         | Thunder         | feat(7377): añadido el punto 5.2.1.4 y 5.2.1.5 |
+| WorkStation | 2025-09-18     | 8d7dc22         | St4rLght05      | fix(chapter4): Landing page wrong image |
+| WorkStation | 2025-09-18     | b9c74ca         | LeonardoC72     | feat: Sprint Backlog 1                  |
+| WorkStation | 2025-09-18     | 603201a         | LeonardoC72     | feat: Correccion                        |
+| WorkStation | 2025-09-18     | a66d08c         | LeonardoC72     | feat: Descripcion de sprint             |
+| WorkStation | 2025-09-18     | f6e4665         | jhonson2021     | feat: Insights during Sprint            |
+| WorkStation | 2025-09-17     | f8cc5c1         | St4rLght05      | feat: added prototype and userflow      |
+| WorkStation | 2025-09-17     | 17d200e         | St4rLght05      | feat: added imgs                        |
+| WorkStation | 2025-09-17     | e1a94dc         | St4rLght05      | feat: added class diagram               |
+| WorkStation | 2025-09-17     | b3136b4         | St4rLght05      | feat: Add files via upload              |
+| WorkStation | 2025-09-17     | 940a362         | jhonson2021     | feat: division del capitulo 5           |
+| WorkStation | 2025-09-16     | 7dcb6e4         | Ivan La Madrid  | feat: add foto de perfil de integrante  |
+| WorkStation | 2025-09-16     | 8f4f9b4         | Ivan La Madrid  | docs: Agregado de estudiante            |
+| WorkStation | 2025-09-16     | 0962cd0         | Thunder         | feat: new img, registro de versiones, perfil de integrante |
+| WorkStation | 2025-09-16     | 6c53971         | Thunder         | feat: new img, registro de versiones, perfil de integrante |
+| WorkStation | 2025-09-16     | e557d66         | Thunder         | fix: imgs                               |
+| WorkStation | 2025-09-16     | 1c72be1         | Ivan La Madrid  | docs: actualizar Customer Journey y Empathy Map |
+| WorkStation | 2025-09-15     | c2de007         | Ivan La Madrid  | docs(user-tasks): mejorar User Task Matrix con prioridades, KPIs y riesgos |
+| WorkStation | 2025-09-15     | 51cc492         | jhonson2021     | fix: Readme                             |
+| WorkStation | 2025-09-15     | a7b8a80         | jhonson2021     | feat: Level Stoarming                   |
+| WorkStation | 2025-09-15     | 0d04602         | jhonson2021     | fix: Cap II                             |
+| WorkStation | 2025-09-15     | becbb93         | St4rLght05      | feat: Add files via upload              |
+| WorkStation | 2025-09-13     | 68859f7         | St4rLght05      | feat: Add files via upload              |
+| WorkStation | 2025-09-13     | c775f47         | jhonson2021     | fix: imgs                               |
+| WorkStation | 2025-09-13     | 6308850         | jhonson2021     | fix: perfil de integrantes              |
+| WorkStation | 2025-09-13     | 8903be5         | jhonson2021     | feat: desing-level event storming       |
+| WorkStation | 2025-09-13     | bdec415         | jhonson2021     | feat: Domain-Driven Software Architecture |
+| WorkStation | 2025-09-12     | f108574         | St4rLght05      | feat: Add files via upload              |
+| WorkStation | 2025-09-12     | d6deaba         | jhonson2021     | fix: content                            |
+| WorkStation | 2025-09-12     | 71fac1f         | jhonson2021     | feat: Information Architecture          |
+| WorkStation | 2025-09-12     | ffb40ad         | jhonson2021     | feat: style guidelines                  |
+| WorkStation | 2025-09-12     | f89ca23         | Thunder         | feat: user Hisoties, Impact Maping      |
+| WorkStation | 2025-09-12     | 3404aef         | Thunder         | fix: imgs                               |
+| WorkStation | 2025-09-12     | 5ad3a2f         | Thunder         | fix: imgs                               |
+| WorkStation | 2025-09-08     | a8837b1         | jhonson2021     | feat: presentation and content          |
+| WorkStation | 2025-09-08     | b80ad6e         | jhonson2021     | fix: Cap I, II II                       |
+| WorkStation | 2025-09-08     | f4931e4         | jhonson2021     | feat: Initial commit                    |
+
+**Commits de la Landing Page:**
+| Repository | DateTime       | Commit Hash     | Author          | Commit Message                          |
+|------------|----------------|-----------------|-----------------|-----------------------------------------|
+| LandingPage | 2025-09-19     | d9c8c9d         | jhonson2021     | feat: Merge pull request #7 from TemuCoders/TB1 |
+| LandingPage | 2025-09-18     | e33caaa         | Thunder         | feat(7377): optimización del html y js del proyecto |
+| LandingPage | 2025-09-17     | 8c12f06         | Thunder         | feat(7377): recontruscción del sistema de traducción e implementación del logo de la imagen |
+| LandingPage | 2025-09-17     | b3980c8         | jhonson2021     | fix: v1                                 |
+| LandingPage | 2025-09-15     | 50347d9         | jhonson2021     | feat: java and css                      |
+| LandingPage | 2025-09-15     | 447b6a9         | jhonson2021     | feat: creating html and css             |
+| LandingPage | 2025-09-15     | d03b1b5         | jhonson2021     | feat: Initial commit                    |
+
+**Evidencias visuales:**
+En este punto evidenciamos el desarrollo y el apoyo por parte de los integrantes del equipo en la construcción del frontend estático de la Landing Page y el reporte teniendo en cuenta el avance en el desarrollo visto en los commits presentados.
 ![Development-evidence](imgs/commits.png)
 
 
@@ -1553,15 +1780,20 @@ Se realizó el despliegue de la **landing page** del proyecto *AgeCare*, marcand
 * Publicacion exitosa de la Landing Page
 
 
-
-
 ##### 5.2.1.8. Team Collaboration Insights during Sprint
 
-Para este sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyó entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo por todo el equipo.
+Para este Sprint, las tareas de diseño, implementación y documentación de la landing page se distribuyeron entre los integrantes del equipo. La implementación y despliegue de la landing page fue llevado a cabo por todo el equipo, siguiendo un enfoque colaborativo que involucró diversas etapas bien definidas.
+
+Las actividades de implementación se desarrollaron mediante un flujo de trabajo ágil. El proceso comenzó con la planificación inicial, donde se asignaron roles específicos para cada fase. Esto incluyó el diseño de la estructura HTML y los estilos CSS, que se iniciaron con commits iniciales para establecer la base del proyecto.
 
 <p align="center">
   <img src="./imgs/insight - tb1.png" alt="insight""/>
 </p>
+
+
+Posteriormente, se integraron funcionalidades dinámicas con JavaScript, junto con la optimización del código y los ajustes necesarios para la traducción internacional. Las tareas se coordinaron a través de reuniones diarias, permitiendo priorizar actividades, resolver bloqueos y garantizar la calidad del código mediante revisiones de pares.
+
+Finalmente, los avances se registraron en el repositorio con commits regulares, facilitando un seguimiento claro del progreso. Se utilizaron herramientas como ESLint y Prettier para mantener la consistencia y calidad del código, fortaleciendo la colaboración entre los miembros del equipo. 
 
 <p align="center">
   <img src="./imgs/commits -tb1.png" alt="commits""/>
@@ -1570,6 +1802,206 @@ Para este sprint, las tareas de diseño, implementación y documentación de la 
 
 
 
+### 5.2.2. Sprint 2
+
+En esta sección se registra el avance del producto y las acciones colaborativas realizadas por el equipo para el Sprint 2.
+
+#### 5.2.2.1. Sprint Planning 2
+
+El Sprint Planning 2 es una reunión esencial para iniciar el segundo sprint de un proyecto, donde el equipo define los objetivos y entregables y tareas asignadas para el sprint. A continuación, se presenta un cuadro con los detalles acordados.
+
+| Sprint \# | Sprint 2 |
+| ----- | ----- |
+| Date | 2025-09-01 |
+| Time | 9:00 PM |
+| Location | Virtual \- Meet |
+| Prepared By | Jeremy Quijada |
+| Attendees (to planning meeting) | Jeremy Quijada, Franco Gabriel Huang Liu, Arturo Axel Saravia Huaricancha, Leonardo Raul Cumba Rengifo y Ivan Jeanpierre La Madrid Lozano |
+| Sprint 2 \- 1 Review Summary |Se han realizado mejoras en varios aspectos del informe según las sugerencias del profesor, además de haber desarrollado una primera versión de nuestra aplicación Front End, la cual continuará evolucionando en próximas entregas.. |
+| Sprint 2 \- 1 Retrospective Summary | Se logró un progreso razonable durante el sprint 2: si bien no se completaron tantas pantallas como se había previsto, el equipo mejoró significativamente en comunicación y trabajo colaborativo, lo que permitió alcanzar un avance satisfactorio en el desarrollo de la aplicación. |
+| Sprint 2 Goal | En este sprint, nos enfocamos principalmente en mejorar la calidad de la información presentada en los reportes e implementar la primera versión del Front End de la aplicación. Durante esta fase, desarrollamos diversos módulos con operaciones CRUD (crear, leer, actualizar y eliminar) que permiten gestionar distintos recursos del sistema. Esperamos que esta versión inicial proporcione una visualización clara de las funcionalidades esenciales y del diseño de la interfaz. La efectividad de este avance se validará mediante la interacción de los usuarios con las funcionalidades desarrolladas y la retroalimentación positiva sobre la experiencia de uso. |
+| Sprint 2 Velocity | Nuestro equipo puede aceptar hasta - Story Points. |
+| Sum of Story Points | La suma de Story Points atendidos es de -. |
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+Durante este sprint, nuestro objetivo fue definir nuestros puntos base para realizar una solucion acertada a lo que el usuario necesite. La investigacion, entrevistas y datos recolectados ayudaron a que se pueda generar una vision mas clara del objetivo en el grupo. Por ello aqui se presentan los roles que cada uno de los participantes tuvo a lo largo de este sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 (L/C) |
+| ----- | ----- | ----- |
+| Quijada Magro Jeremy Alexander | jhonson2021 | L |
+| Ivan La Madrid Lozano | IvanLaMadrid | C |
+| Arturo Saravia Huaricancha | thunder053 | C |
+| Luis Alberto Cumba Rengifo | LeonardoC72 | C |
+| Arturo Saravia Huaricancha | thunder053 | C |
+| Luis Alberto Cumba Rengifo | LeonardoC72 | C |
+
+
+#### 5.2.2.3. Sprint Backlog 2
+
+Esta sección ofrece un resumen del objetivo central del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. Seguidamente, se incluye una captura del tablero del sprint en la herramienta de gestión elegida, Trello, junto con su enlace público. También se presenta una tabla con las User Stories asignadas al sprint, los Work-items o tareas derivadas, y otras actividades adicionales requeridas para alcanzar los objetivos generales del sprint.
+
+Este es nuestro link de invitación a nuestro Trello:
+
+Colocar los User Stories ---
+
+#### 5.2.2.4. Development Evidence for Sprint Review
+
+En la siguiente tabla se presentan los commits realizados durante el Sprint 2. En este sprint nos enfocamos en corregir observaciones clave de la primera entrega, como reformular los antecedentes y problemáticas, ajustar los Lean UX statements, completar el Impact Mapping y rehacer los diagramas de arquitectura, clases y base de datos. Además, se desarrolló y desplegó una versión inicial del backend con los principales CRUDs.
+
+| Hash      | Autor         | Fecha       | Commit Message                                                        |
+|-----------|---------------|-------------|-------------------------------------------------------------------------|
+| b816fb4   | jhonson2021   | 2025-10-07  | feat: Big Event Stoarming                                              |
+| 73dc520   | jhonson2021   | 2025-10-07  | fix: Mejoras del Cap V                                                 |
+| 3034fff   | Ivan La Madrid| 2025-10-07  | Add customer journey map for propietarios/hosts                        |
+| 398362b   | Ivan La Madrid| 2025-10-07  | add/Enhance User Journey Mapping section                               |
+| 4a2a514   | Ivan La Madrid| 2025-10-07  | Clarify Lean UX assumptions section                                    |
+| 44b12b3   | Ivan La Madrid| 2025-10-07  | fix/ lean ux problem statements y assumptions                          |
+| 9857a2a   | LeonardoC72   | 2025-10-08  | Correccion Product Backlog                                             |
+| bd533f3   | LeonardoC72   | 2025-10-08  | Correcion de Impactmap                                                 |
+| 7de0d48   | LeonardoC72   | 2025-10-08  | Rename BG 1.png to BG1.png                                             |
+| 7a38a5c   | LeonardoC72   | 2025-10-08  | Correccion de los impact maping                                        |
+| e00d945   | LeonardoC72   | 2025-10-08  | Correccion de las US                                                   |
+| b6bd321   | LeonardoC72   | 2025-10-08  | Add files via upload                                                   |
+| 9d7e860   | St4rLght05    | 2025-10-08  | feat(chapter4): added introduction to Class & Database Diagrams        |
+| ca09f6a   | jhonson2021   | 2025-10-09  | fix: typicode                                                          |
+| afaf84e   | St4rLght05    | 2025-10-09  | feat(chapter5): Added services documentarion and Software deplyment evidence |
+| 454cf04   | jhonson2021   | 2025-10-09  | feat: Execution Evidence for Sprint Review                             |
+| 1a8f8a8   | jhonson2021   | 2025-10-09  | feat: Sprint 2                                                         |
+
+
+#### 5.2.2.5. Execution Evidence for Sprint Review
+
+En esta entrega se realizaron mejoras al Landing Page respecto a la versión presentada en el Sprint 1, optimizando su diseño y funcionalidad. Por otro lado, cada integrante del equipo implementó y desplegó su propio CRUD del backend, consolidando así el progreso técnico del proyecto.
+
+**Landing Page:** 
+
+![Landing-Page](imgs/l1.png)
+![Landing-Page](imgs/l2.png)
+![Landing-Page](imgs/l3.png)
+![Landing-Page](imgs/l4.png)
+![Landing-Page](imgs/l5.png)
+
+Enlace de la Landing Page desplegada: https://temucoders.github.io/Landing-Page/
+
+**CRUDS:**
+
+ - **Crud de usuarios:** 
+
+ - **Crud de espacios de trabajo:** 
+  ![Crud de espacios de trabajo](imgs/CRUD%20-%20workspaces.png)
+
+  Link: https://workspaces---workstation.web.app/searching/workspaces
+
+ - **Crud de reservas:** 
+
+ - **Crud de reseñas:** 
+
+ - **Crud de servicios:** 
+
+#### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+Durante este sprint, logramos desplegar una aplicación web funcional que consume datos desde un servidor JSON previamente configurado y desplegado. Este servidor, implementado mediante Typicode, simula la base de datos del proyecto y proporciona la información principal visualizada en la interfaz.
+
+| Nombre del Endpoint | Acciones Implementadas      | Sintaxis de Llamada                                                                                                                                          | Especificación de Parámetros | Ejemplo de Llamada                                                           | Explicación del Response                                         |
+|---------------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------|
+| `base.service.ts`   | `GET`, `POST`, `PUT`, `DELETE` | ```export const environment = {production: true,platformProviderApiBaseUrl: 'https://my-json-server.typicode.com/jhonson2021/db-server',platformProviderWorkspacesEndpointPath: '/workspaces'};``` | No requiere parámetros         | `https://ca3ae4ce59df808f6d28.free.beeceptor.com/api/v1/doctors/`           | Muestra la información de la base de datos en formato JSON.     |
+
+Además de capturas que muestran el contenido de db.json ya desplegado en typicode:
+
+<p align="center">
+  <img src="assets/servicesEVIDENCE.png" alt="servicesEVIDENCE"/>
+</p>
+
+#### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Landing Page Para hacer el deployment de la landing page se utilizó Github Pages, una funcionalidad de Github que permite hacer el deployment de páginas web de forma rápida y pública. Dentro del repositorio, en el apartado de settings , se encuentra la opcion de Pages.
+
+##### Actividades Realizadas
+
+- Configuración del repositorio **GitHub** y definición de la estructura inicial de carpetas.
+- Implementación del flujo de trabajo **Git Flow**, manteniendo los cambios en la rama *develop*.
+- Realización de un **merge** desde *develop* hacia la rama *main*, siguiendo las convenciones definidas en la sección *5.1.2*.
+- Activación de **GitHub Pages** como servicio de despliegue estático, apuntando al contenido de la rama *main*.
+- Publicación exitosa de la **landing page**, accesible mediante una URL pública.
+
+##### Evidencias Visuales
+
+* Configuración del repositorio GitHub y estructura inicial de carpetas.
+  * Creamos un repositorio para la landing page dentro de la organizacion. La configuramos para que sea de tipo publico:
+  ![Repositorio](./assets/repositorio.png)
+
+  * Una vez dentro copiamos la direccion HTTPS del repositorio y la clonamos en nuestro entorno local con el comando git clone. Preparamos una estructura de carpetas similar a la siguiente en nuestra maquina:
+  ![Carpetas](./assets/carpetas.png)
+
+* Implementación de flujo de trabajo con Git Flow, manteniendo los cambios en la rama develop.
+
+  * Desde la consola, creamos un push inicial en la rama remota main usando el comando git push origin main con un mensaje commit descriptivo.
+  initial-commit-landing
+
+  * El siguiente paso es crear la rama local develop usando el comando git checkout -b develop, la creamos de manera remota con git push origin develop. Las ramas feature/* se crearan de la misma forma, pero hay que tener en cuenta que siempre se deben crear a partir de la rama develop, por lo que un paso previo es asegurarnos que estamos en la rama correcta con git checkout develop.
+
+* Realización de un merge desde develop hacia la rama main, de acuerdo a las convenciones definidas en la sección 5.1.2.
+
+  * Antes de realizar el merge, se revisaron los cambios mediante un pull request en GitHub, asegurando que no existieran conflictos y que el código cumpliera con los estándares definidos.
+
+  * Se realizaron pruebas manuales usando la extension Live Server para verificar la funcionalidad de la landing page antes de fusionar los cambios.
+
+* Activación de GitHub Pages como servicio de despliegue estático, apuntando al contenido de la rama main.
+
+  * En la configuración del repositorio, se seleccionó la rama main como fuente para GitHub Pages. Esto se realizó desde la pestaña "Settings" > "Pages" en GitHub.
+
+  * Se verificó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
+
+  ![Page](./assets/page.png)
+
+  * Publicacion exitosa de la Landing Page
+
+  ![Menu](./assets/LandingPageSprint2.png)
+
+  ![Nosotros](./assets/nosotros.png)
+
+  ![Servicios](./assets/servicios.png)
+  
+  ![Preguntas Frecuentes](./assets/LandingPageSprint2.1.png)
+
+  ![Contacto](./assets/contacto.png)
+
+  FrontEnd Para el FrontEnd, se utilizó Firebase para el despliegue de la página.
+<p align="center">
+  <img src="assets/deploy1.jpeg" alt="deploy1"/>
+</p>
+Antes del despliegue, debemos crear una cuenta, por lo que continuaremos con google.
+<p align="center">
+  <img src="assets/deploy2.jpeg" alt="deploy2"/>
+</p>
+Una vez tenemos la cuenta creada vamos a la parte de arriba a la izquierda "go to console" y creamos un nuevo proyecto de Firebase.
+<p align="center">
+  <img src="assets/deploy3.jpeg" alt="deploy3"/>
+</p>
+Le colocamos un nombre correspondiente al proyecto a realizar.
+<p align="center">
+  <img src="assets/deploy4.jpeg" alt="deploy4"/>
+</p>
+Una vez tenemos el proyecto creado, desde nuestro editor, en este caso IntelliJ IDEA Ultimate conectamos nuestro proyecto local al proyecto Firebase.
+<p align="center">
+  <img src="assets/deploy5.jpeg" alt="deploy5"/>
+</p>
+Al acceder al link, podemos ver la página correctamente desplegada.
+<p align="center">
+  <img src="assets/deploy6.jpeg" alt="deploy6"/>
+</p>
+
+#### 5.2.2.8. Team Collaboration Insights during Sprint
+A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
+
+<p align="center">
+  <img src="imgs/Pulse-TP1.png" alt="deploy6"/>
+</p>
+
+<p align="center">
+  <img src="imgs/Network - TP1.png" alt="deploy6"/>
+</p>
+
+---
 ### Conclusiones
 
 El proyecto de WorkStation surge debido a la necesidad que se está generando en el mercado laboral de hoy en día, que es la busqueda o la falta de espacios de trabajos flexible, accesibles y adaptables a las modalidades de trabajo tanto remoto como freelance. A partir del problema detectado, se encontró un desligamiento entre las ofertas de espacios de trabajo y la demanda de profesionales que requieren de un ambiente productivo a corto plazo. La solución que tenemos propuesta une varias soluciones en una sola plataforma con funcionalidades en tiempo real, optimizando la experiencia del usuario y del propietario.
@@ -1577,6 +2009,7 @@ El proyecto de WorkStation surge debido a la necesidad que se está generando en
 Esta propuesta no solo va orientada a la eficiencia operativa a travez de la digitalización de procesos, sino que también promociona la sostenibilidad en los espacios de trabajos. Viendolo de esta perspectiva, WorkStation no solo es un sistema de reservas, sino un herramienta que impulsa la poroductividad en los freelancers y startups, a la vez contribuye al crecimiento en el empredimiento en ciudades.
 
 Como idea final, WorkStation representa la iniciativa tecnológica con impacto social, económico y cultural, que alinea la flexibilidad del trabajo de hoy en día con la optimización digital. El desarrrollo se plantea como un aporte significativo a la transformación digital en el campo laboral, dandose como una solución innovadora y competitiva en el mercado de coworkings en el Perú.
+
 
 ### Anexos
 
@@ -1593,4 +2026,3 @@ Binswanger Perú (2018). Reporte inmoviliario, Coworking y centros de negocio. B
 Ikeda L. (2019, 25 de octubre). *Coworking y Maker Space en Lima Moderna: un estudio de factibilidad*. Repositorio Académico UPC. <https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/628237/IkedaT_Luc%C3%ADa.pdf?sequence=1>
 
 López, E., Pejerrey, A., Suca, M. (2020, diciembre). *Plan de marketing para el lanzamiento de oficinas coworking en el distrito de Los Olivos*. Repositorio Institucional de la Universidad del Pacífico. <https://repositorio.up.edu.pe/backend/api/core/bitstreams/3ef2451a-0908-4942-9efd-fa08dca41d98/content>
-
