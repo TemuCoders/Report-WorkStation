@@ -1828,18 +1828,49 @@ Colocar los User Stories ---
 
 En la siguiente tabla se presentan los commits realizados durante el Sprint 2. En este sprint nos enfocamos en corregir observaciones clave de la primera entrega, como reformular los antecedentes y problemáticas, ajustar los Lean UX statements, completar el Impact Mapping y rehacer los diagramas de arquitectura, clases y base de datos. Además, se desarrolló y desplegó una versión inicial del backend con los principales CRUDs.
 
+| Hash      | Autor         | Fecha       | Commit Message                                                        |
+|-----------|---------------|-------------|-------------------------------------------------------------------------|
+| b816fb4   | jhonson2021   | 2025-10-07  | feat: Big Event Stoarming                                              |
+| 73dc520   | jhonson2021   | 2025-10-07  | fix: Mejoras del Cap V                                                 |
+| 3034fff   | Ivan La Madrid| 2025-10-07  | Add customer journey map for propietarios/hosts                        |
+| 398362b   | Ivan La Madrid| 2025-10-07  | add/Enhance User Journey Mapping section                               |
+| 4a2a514   | Ivan La Madrid| 2025-10-07  | Clarify Lean UX assumptions section                                    |
+| 44b12b3   | Ivan La Madrid| 2025-10-07  | fix/ lean ux problem statements y assumptions                          |
+| 9857a2a   | LeonardoC72   | 2025-10-08  | Correccion Product Backlog                                             |
+| bd533f3   | LeonardoC72   | 2025-10-08  | Correcion de Impactmap                                                 |
+| 7de0d48   | LeonardoC72   | 2025-10-08  | Rename BG 1.png to BG1.png                                             |
+| 7a38a5c   | LeonardoC72   | 2025-10-08  | Correccion de los impact maping                                        |
+| e00d945   | LeonardoC72   | 2025-10-08  | Correccion de las US                                                   |
+| b6bd321   | LeonardoC72   | 2025-10-08  | Add files via upload                                                   |
+| 9d7e860   | St4rLght05    | 2025-10-08  | feat(chapter4): added introduction to Class & Database Diagrams        |
+| ca09f6a   | jhonson2021   | 2025-10-09  | fix: typicode                                                          |
+| afaf84e   | St4rLght05    | 2025-10-09  | feat(chapter5): Added services documentarion and Software deplyment evidence |
+| 454cf04   | jhonson2021   | 2025-10-09  | feat: Execution Evidence for Sprint Review                             |
+| 1a8f8a8   | jhonson2021   | 2025-10-09  | feat: Sprint 2                                                         |
+
+
 #### 5.2.2.5. Execution Evidence for Sprint Review
 
 En esta entrega se realizaron mejoras al Landing Page respecto a la versión presentada en el Sprint 1, optimizando su diseño y funcionalidad. Por otro lado, cada integrante del equipo implementó y desplegó su propio CRUD del backend, consolidando así el progreso técnico del proyecto.
 
 **Landing Page:** 
 
+![Landing-Page](imgs/l1.png)
+![Landing-Page](imgs/l2.png)
+![Landing-Page](imgs/l3.png)
+![Landing-Page](imgs/l4.png)
+![Landing-Page](imgs/l5.png)
+
+Enlace de la Landing Page desplegada: https://temucoders.github.io/Landing-Page/
 
 **CRUDS:**
 
  - **Crud de usuarios:** 
 
  - **Crud de espacios de trabajo:** 
+  ![Crud de espacios de trabajo](imgs/CRUD%20-%20workspaces.png)
+
+  Link: https://workspaces---workstation.web.app/searching/workspaces
 
  - **Crud de reservas:** 
 
