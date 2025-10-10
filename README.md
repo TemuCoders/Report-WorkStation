@@ -1848,8 +1848,95 @@ En esta entrega se realizaron mejoras al Landing Page respecto a la versión pre
  - **Crud de servicios:** 
 
 #### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+Durante este sprint, logramos desplegar una aplicación web funcional que consume datos desde un servidor JSON previamente configurado y desplegado. Este servidor, implementado mediante Typicode, simula la base de datos del proyecto y proporciona la información principal visualizada en la interfaz.
+
+| Nombre del Endpoint | Acciones Implementadas      | Sintaxis de Llamada                                                                                                                                          | Especificación de Parámetros | Ejemplo de Llamada                                                           | Explicación del Response                                         |
+|---------------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------|
+| `base.service.ts`   | `GET`, `POST`, `PUT`, `DELETE` | ```export const environment = {production: true,platformProviderApiBaseUrl: 'https://my-json-server.typicode.com/jhonson2021/db-server',platformProviderWorkspacesEndpointPath: '/workspaces'};``` | No requiere parámetros         | `https://ca3ae4ce59df808f6d28.free.beeceptor.com/api/v1/doctors/`           | Muestra la información de la base de datos en formato JSON.     |
+
+Además de capturas que muestran el contenido de db.json ya desplegado en Beeceptor
+<p align="center">
+  <img src="assets/servicesEVIDENCE.png" alt="servicesEVIDENCE"/>
+</p>
 
 #### 5.2.2.7. Software Deployment Evidence for Sprint Review
+
+Landing Page Para hacer el deployment de la landing page se utilizó Github Pages, una funcionalidad de Github que permite hacer el deployment de páginas web de forma rápida y pública. Dentro del repositorio, en el apartado de settings , se encuentra la opcion de Pages.
+
+##### Actividades Realizadas
+
+- Configuración del repositorio **GitHub** y definición de la estructura inicial de carpetas.
+- Implementación del flujo de trabajo **Git Flow**, manteniendo los cambios en la rama *develop*.
+- Realización de un **merge** desde *develop* hacia la rama *main*, siguiendo las convenciones definidas en la sección *5.1.2*.
+- Activación de **GitHub Pages** como servicio de despliegue estático, apuntando al contenido de la rama *main*.
+- Publicación exitosa de la **landing page**, accesible mediante una URL pública.
+
+##### Evidencias Visuales
+
+* Configuración del repositorio GitHub y estructura inicial de carpetas.
+  * Creamos un repositorio para la landing page dentro de la organizacion. La configuramos para que sea de tipo publico:
+  ![Repositorio](./assets/repositorio.png)
+
+  * Una vez dentro copiamos la direccion HTTPS del repositorio y la clonamos en nuestro entorno local con el comando git clone. Preparamos una estructura de carpetas similar a la siguiente en nuestra maquina:
+  ![Carpetas](./assets/carpetas.png)
+
+* Implementación de flujo de trabajo con Git Flow, manteniendo los cambios en la rama develop.
+
+  * Desde la consola, creamos un push inicial en la rama remota main usando el comando git push origin main con un mensaje commit descriptivo.
+  initial-commit-landing
+
+  * El siguiente paso es crear la rama local develop usando el comando git checkout -b develop, la creamos de manera remota con git push origin develop. Las ramas feature/* se crearan de la misma forma, pero hay que tener en cuenta que siempre se deben crear a partir de la rama develop, por lo que un paso previo es asegurarnos que estamos en la rama correcta con git checkout develop.
+
+* Realización de un merge desde develop hacia la rama main, de acuerdo a las convenciones definidas en la sección 5.1.2.
+
+  * Antes de realizar el merge, se revisaron los cambios mediante un pull request en GitHub, asegurando que no existieran conflictos y que el código cumpliera con los estándares definidos.
+
+  * Se realizaron pruebas manuales usando la extension Live Server para verificar la funcionalidad de la landing page antes de fusionar los cambios.
+
+* Activación de GitHub Pages como servicio de despliegue estático, apuntando al contenido de la rama main.
+
+  * En la configuración del repositorio, se seleccionó la rama main como fuente para GitHub Pages. Esto se realizó desde la pestaña "Settings" > "Pages" en GitHub.
+
+  * Se verificó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
+
+  ![Page](./assets/page.png)
+
+  * Publicacion exitosa de la Landing Page
+
+  ![Menu](./assets/LandingPageSprint2.png)
+
+  ![Nosotros](./assets/nosotros.png)
+
+  ![Servicios](./assets/servicios.png)
+  
+  ![Preguntas Frecuentes](./assets/LandingPageSprint2.1.png)
+
+  ![Contacto](./assets/contacto.png)
+
+  FrontEnd Para el FrontEnd, se utilizó Firebase para el despliegue de la página.
+<p align="center">
+  <img src="assets/deploy1.jpeg" alt="deploy1"/>
+</p>
+Antes del despliegue, debemos crear una cuenta, por lo que continuaremos con google.
+<p align="center">
+  <img src="assets/deploy2.jpeg" alt="deploy2"/>
+</p>
+Una vez tenemos la cuenta creada vamos a la parte de arriba a la izquierda "go to console" y creamos un nuevo proyecto de Firebase.
+<p align="center">
+  <img src="assets/deploy3.jpeg" alt="deploy3"/>
+</p>
+Le colocamos un nombre correspondiente al proyecto a realizar.
+<p align="center">
+  <img src="assets/deploy4.jpeg" alt="deploy4"/>
+</p>
+Una vez tenemos el proyecto creado, desde nuestro editor, en este caso IntelliJ IDEA Ultimate conectamos nuestro proyecto local al proyecto Firebase.
+<p align="center">
+  <img src="assets/deploy5.jpeg" alt="deploy5"/>
+</p>
+Al acceder al link, podemos ver la página correctamente desplegada.
+<p align="center">
+  <img src="assets/deploy6.jpeg" alt="deploy6"/>
+</p>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
 
@@ -1879,4 +1966,3 @@ Binswanger Perú (2018). Reporte inmoviliario, Coworking y centros de negocio. B
 Ikeda L. (2019, 25 de octubre). *Coworking y Maker Space en Lima Moderna: un estudio de factibilidad*. Repositorio Académico UPC. <https://repositorioacademico.upc.edu.pe/bitstream/handle/10757/628237/IkedaT_Luc%C3%ADa.pdf?sequence=1>
 
 López, E., Pejerrey, A., Suca, M. (2020, diciembre). *Plan de marketing para el lanzamiento de oficinas coworking en el distrito de Los Olivos*. Repositorio Institucional de la Universidad del Pacífico. <https://repositorio.up.edu.pe/backend/api/core/bitstreams/3ef2451a-0908-4942-9efd-fa08dca41d98/content>
-
