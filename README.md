@@ -1930,22 +1930,28 @@ Landing Page Para hacer el deployment de la landing page se utilizó Github Page
 ##### Evidencias Visuales
 
 * Configuración del repositorio GitHub y estructura inicial de carpetas.
+
   * Creamos un repositorio para la landing page dentro de la organizacion. La configuramos para que sea de tipo publico:
-  ![Repositorio](./assets/repositorio.png)
+
+    <p align="center">
+      <img src="./imgs/paso 1.png" alt="paso 1""/>
+    </p>
 
   * Una vez dentro copiamos la direccion HTTPS del repositorio y la clonamos en nuestro entorno local con el comando git clone. Preparamos una estructura de carpetas similar a la siguiente en nuestra maquina:
-  ![Carpetas](./assets/carpetas.png)
+
+    <p align="center">
+      <img src="./imgs/carpetas.png" alt="carpetas""/>
+    </p>
 
 * Implementación de flujo de trabajo con Git Flow, manteniendo los cambios en la rama develop.
 
-  * Desde la consola, creamos un push inicial en la rama remota main usando el comando git push origin main con un mensaje commit descriptivo.
-  initial-commit-landing
+  * Desde la consola, creamos un push inicial en la rama remota main usando el comando git push origin main con un mensaje commit descriptivo. initial-commit-landing
 
   * El siguiente paso es crear la rama local develop usando el comando git checkout -b develop, la creamos de manera remota con git push origin develop. Las ramas feature/* se crearan de la misma forma, pero hay que tener en cuenta que siempre se deben crear a partir de la rama develop, por lo que un paso previo es asegurarnos que estamos en la rama correcta con git checkout develop.
 
-* Realización de un merge desde develop hacia la rama main, de acuerdo a las convenciones definidas en la sección 5.1.2.
+*  Realización de un merge desde develop hacia la rama main, de acuerdo a las convenciones definidas en la sección 5.2.2.
 
-  * Antes de realizar el merge, se revisaron los cambios mediante un pull request en GitHub, asegurando que no existieran conflictos y que el código cumpliera con los estándares definidos.
+  *  Activación de GitHub Pages como servicio de despliegue estático, apuntando al contenido de la rama main.
 
   * Se realizaron pruebas manuales usando la extension Live Server para verificar la funcionalidad de la landing page antes de fusionar los cambios.
 
@@ -1955,19 +1961,17 @@ Landing Page Para hacer el deployment de la landing page se utilizó Github Page
 
   * Se verificó que la URL generada por GitHub Pages estuviera activa y mostrara correctamente el contenido de la landing page.
 
-  ![Page](./assets/page.png)
+  <p align="center">
+      <img src="./imgs/pages.png" alt="pages""/>
+    </p>
 
-  * Publicacion exitosa de la Landing Page
+* Publicacion exitosa de la Landing Page
 
-  ![Menu](./assets/LandingPageSprint2.png)
-
-  ![Nosotros](./assets/nosotros.png)
-
-  ![Servicios](./assets/servicios.png)
-  
-  ![Preguntas Frecuentes](./assets/LandingPageSprint2.1.png)
-
-  ![Contacto](./assets/contacto.png)
+![Landing-Page](imgs/l1.png)
+![Landing-Page](imgs/l2.png)
+![Landing-Page](imgs/l3.png)
+![Landing-Page](imgs/l4.png)
+![Landing-Page](imgs/l5.png)
 
   FrontEnd Para el FrontEnd, se utilizó Firebase para el despliegue de la página.
 <p align="center">
