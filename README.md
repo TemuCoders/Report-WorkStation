@@ -1582,6 +1582,11 @@ Este Sprint se centró exclusivamente en el desarrollo y optimización de la lan
 
 Para el primer sprint, desarrollamos la estructura y las funcionalidades básicas de la landing page, así como el diseño visual y la barra de navegación.
 
+![Sprint Backlog](imgs/SprintBacklog.png)
+
+link:https://trello.com/invite/b/68e843cd9788f0fca4edea0b/ATTId5605175984866352bf64ed5b6587a7419E26545/workstate
+
+
 | User Story ID | Título | Work-Item ID | Título de la tarea | Descripción | Estimación (h) | Assigned to | Status |
 | ----- | ----- | ----- | ----- | ----- | ----- | ----- | ----- |
 | **US-01** | Búsqueda rápida en Hero | T01 | Diseñar sección Hero | Wireframe \+ copy (campo ciudad/fecha \+ CTA). | 4 | Quijada Magro Jeremy Alexander  | Done |
