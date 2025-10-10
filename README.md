@@ -1892,7 +1892,9 @@ Enlace de la Landing Page desplegada: https://temucoders.github.io/Landing-Page/
 
   Link: https://workspaces---workstation.web.app/searching/workspaces
 
- - **Crud de reservas:** 
+ - **Crud de reservas:**
+  <img src="imgs/deploy6.png" alt="deploy6"/>
+  Link: https://workstation-huang.web.app/bookings
 
  - **Crud de reseñas:** 
 <img width="1903" height="523" alt="image" src="https://github.com/user-attachments/assets/a9cc1941-a032-4264-bbce-4a6b25b42683" />
@@ -1969,27 +1971,27 @@ Landing Page Para hacer el deployment de la landing page se utilizó Github Page
 
   FrontEnd Para el FrontEnd, se utilizó Firebase para el despliegue de la página.
 <p align="center">
-  <img src="assets/deploy1.jpeg" alt="deploy1"/>
+  <img src="imgs/deploy1.png" alt="deploy1"/>
 </p>
 Antes del despliegue, debemos crear una cuenta, por lo que continuaremos con google.
 <p align="center">
-  <img src="assets/deploy2.jpeg" alt="deploy2"/>
+  <img src="imgs/deploy2.png" alt="deploy2"/>
 </p>
 Una vez tenemos la cuenta creada vamos a la parte de arriba a la izquierda "go to console" y creamos un nuevo proyecto de Firebase.
 <p align="center">
-  <img src="assets/deploy3.jpeg" alt="deploy3"/>
+  <img src="imgs/deploy3.png" alt="deploy3"/>
 </p>
 Le colocamos un nombre correspondiente al proyecto a realizar.
 <p align="center">
-  <img src="assets/deploy4.jpeg" alt="deploy4"/>
+  <img src="imgs/deploy4.png" alt="deploy4"/>
 </p>
 Una vez tenemos el proyecto creado, desde nuestro editor, en este caso IntelliJ IDEA Ultimate conectamos nuestro proyecto local al proyecto Firebase.
 <p align="center">
-  <img src="assets/deploy5.jpeg" alt="deploy5"/>
+  <img src="imgs/deploy5.png" alt="deploy5"/>
 </p>
 Al acceder al link, podemos ver la página correctamente desplegada.
 <p align="center">
-  <img src="assets/deploy6.jpeg" alt="deploy6"/>
+  <img src="imgs/deploy6.png" alt="deploy6"/>
 </p>
 
 #### 5.2.2.8. Team Collaboration Insights during Sprint
