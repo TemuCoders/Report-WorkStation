@@ -842,7 +842,6 @@ La imagen muestra el proceso de Storybranding dividido por colores y etapas. Los
 
 
 
-
 Epicas
 | Epic ID | Título | Descripción |
 | :---- | :---- | :---- |
@@ -933,6 +932,9 @@ Epicas
 | US-46 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | 3 |
 | US-47 | Offline básico (fallback) | Como usuario, quiero un fallback útil cuando no hay conexión. | 3 |
 | US-35 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket por canal definido. | 3 |
+
+
+
 
 
 ## Capítulo IV: Product Design
