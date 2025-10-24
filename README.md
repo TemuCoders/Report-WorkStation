@@ -953,13 +953,18 @@ Epicas
 | US-32 | Recibos/Comprobante imprimible | Como usuario, quiero ver/descargar mi comprobante en PDF legible. | 3 |
 | US-33 | Favoritos (wishlist) | Como usuario, quiero guardar y quitar favoritos para decidir más tarde. | 3 |
 | US-34 | Reseñar un espacio | Como usuario, quiero calificar con estrellas y comentar tras mi estancia. | 3 |
+| US-28 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | 3 |
+| US-29 | Preferencias y notificaciones | Como usuario, quiero configurar idioma y notificaciones por email. | 3 |
+| US-51 | Previsualización de avatar | Como usuario, quiero ver una vista previa antes de guardar mi foto de perfil. | 3 |
 | US-10 | Barra global de búsqueda | Como usuario, quiero autocompletado de ciudades/distritos/espacios para acelerar la búsqueda. | 5 |
+| US-11 | Lista \+ mapa sincronizados | Como usuario, quiero una lista de resultados y un mapa sincronizado para explorar por zona. | 5 |
 | US-12 | Filtros con chips | Como usuario, quiero filtrar por capacidad, precio, tipo y amenities y ver chips activos. | 5 |
 | US-13 | Ordenamiento | Como usuario, quiero ordenar resultados por precio, distancia y rating. | 3 |
-| US-16 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa en mi ubicación para ver opciones cercanas. | 3 |
-| US-15 | State in URL y compartir | Como usuario, quiero que filtros/orden/página se reflejen en la URL para compartir. | 3 |
 | US-14 | Paginación / Infinite scroll | Como usuario, quiero cargar más resultados sin recargar la página. | 3 |
-| US-11 | Lista \+ mapa sincronizados | Como usuario, quiero una lista de resultados y un mapa sincronizado para explorar por zona. | 5 |
+| US-15 | State in URL y compartir | Como usuario, quiero que filtros/orden/página se reflejen en la URL para compartir. | 3 |
+| US-49 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha/búsqueda desde la UI. | 2 |
+| US-52 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión actual. | 2 |
+| US-16 | Geolocalización 'cerca de mí' | Como usuario, quiero centrar el mapa en mi ubicación para ver opciones cercanas. | 3 |
 | US-17 | Cards de resultados | Como usuario, quiero cards con foto, nombre, precio desde y rating. | 2 |
 | US-18 | Comparar hasta 3 espacios | Como usuario, quiero seleccionar hasta 3 espacios para compararlos lado a lado. | 5 |
 | US-19 | Vista de impresión de resultados | Como usuario, quiero imprimir un listado corto con datos clave. | 2 |
@@ -969,11 +974,6 @@ Epicas
 | US-23 | Checkout paso a paso | Como usuario, quiero un flujo guiado (resumen → datos → pago) con indicador de progreso. | 5 |
 | US-24 | Pago con SDK | Como usuario, quiero ingresar tarjeta de forma segura usando el SDK de la pasarela. | 5 |
 | US-25 | Confirmación de reserva | Como usuario, quiero ver una pantalla de éxito con código de reserva y CTA para mis reservas. | 2 |
-| US-52 | Persistir filtros en sesión | Como usuario, quiero que mis filtros recientes se recuerden durante la sesión actual. | 2 |
-| US-49 | Copiar enlace/Compartir | Como usuario, quiero copiar el enlace de una ficha/búsqueda desde la UI. | 2 |
-| US-53 | API Auth: registro & login | Como integrador frontend, quiero endpoints POST /auth/register y POST /auth/login para obtener JWT y acceder a recursos protegidos. | 5 |
-| US-54 | API Auth: refresh token | Como integrador frontend, quiero POST /auth/refresh para renovar el access token antes de su expiración. | 3 |
-| US-55 | API Password reset | Como integrador frontend, quiero POST /auth/request-reset y POST /auth/reset para restablecer contraseñas. | 3 |
 | US-56 | API Autocompletado de búsqueda | Como integrador frontend, quiero GET /search/suggest?q= para sugerir ciudades, distritos y espacios. | 3 |
 | US-57 | API Búsqueda de espacios | Como integrador frontend, quiero GET /spaces con filtros para listar resultados paginados. | 5 |
 | US-58 | API Mapa por bounding box | Como integrador frontend, quiero GET /spaces/map?bbox= para obtener marcadores en el viewport. | 3 |
@@ -986,24 +986,28 @@ Epicas
 | US-68 | API Fotos del espacio | Como integrador frontend, quiero GET /spaces/{id}/photos con URLs firmadas/variantes. | 3 |
 | US-69 | API Health y readiness | Como integrador/ops, quiero GET /health y GET /ready para monitoreo. | 2 |
 | US-70 | Errores estándar y CORS | Como integrador frontend, quiero que todas las APIs usen RFC 7807 y CORS seguro. | 3 |
-| US-26 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | 3 |
-| US-27 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | 2 |
-| US-28 | Perfil del usuario | Como usuario, quiero ver y editar mis datos básicos (nombre, teléfono, foto). | 3 |
-| US-29 | Preferencias y notificaciones | Como usuario, quiero configurar idioma y notificaciones por email. | 2 |
-| US-36 | Selector de moneda | Como usuario, quiero elegir mi moneda para ver precios entendibles. | 3 |
-| US-37 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro. | 2 |
-| US-48 | Notificaciones opt-in (reservas) | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | 3 |
-| US-51 | Previsualización de avatar | Como usuario, quiero ver una vista previa antes de guardar mi foto de perfil. | 2 |
-| US-39 | Accesibilidad: navegación por teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | 3 |
-| US-40 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | 3 |
+| US-44 | Design System base | Como equipo, quiero un set de componentes reutilizables. | 5 |
 | US-41 | Rendimiento: imágenes responsivas | Como usuario, quiero srcset/lazy-loading para cargar más rápido. | 3 |
 | US-42 | Rendimiento: caching y skeletons | Como usuario, quiero skeletons y cache para percibir rapidez. | 3 |
 | US-43 | Responsive design | Como usuario móvil, quiero vistas usables en pantallas pequeñas. | 3 |
-| US-44 | Design System base | Como equipo, quiero un set de componentes reutilizables. | 5 |
-| US-45 | Manejo de errores global | Como usuario, quiero mensajes de error consistentes y opción de reintentar. | 3 |
+| US-39 | Accesibilidad: navegación por teclado | Como usuario con movilidad reducida, quiero operar toda la UI con teclado. | 3 |
+| US-40 | Accesibilidad: ARIA y lectores | Como usuario de lector de pantalla, quiero etiquetas y roles adecuados. | 3 |
 | US-46 | PWA: instalación | Como usuario, quiero instalar la app como PWA para acceso rápido. | 3 |
 | US-47 | Offline básico (fallback) | Como usuario, quiero un fallback útil cuando no hay conexión. | 3 |
+| US-36 | Selector de moneda | Como usuario, quiero elegir mi moneda para ver precios entendibles. | 3 |
+| US-37 | Dark mode | Como usuario, quiero alternar entre modo claro y oscuro. | 2 |
+| US-48 | Notificaciones opt-in (reservas) | Como usuario, quiero recibir notificaciones sobre cambios de mis reservas si acepto permisos. | 3 |
 | US-35 | Centro de ayuda (UI) | Como usuario, quiero buscar artículos de ayuda y abrir un ticket por canal definido. | 3 |
+| US-26 | Registro e inicio de sesión | Como usuario, quiero registrarme/iniciar sesión con validaciones y feedback claros. | 3 |
+| US-27 | Recuperar contraseña | Como usuario, quiero poder restablecer mi contraseña vía correo. | 2 |
+| US-53 | API Auth: registro & login | Como integrador frontend, quiero endpoints POST /auth/register y POST /auth/login para obtener JWT y acceder a recursos protegidos. | 5 |
+| US-54 | API Auth: refresh token | Como integrador frontend, quiero POST /auth/refresh para renovar el access token antes de su expiración. | 3 |
+| US-55 | API Password reset | Como integrador frontend, quiero POST /auth/request-reset y POST /auth/reset para restablecer contraseñas. | 3 |
+
+Product Baclog:
+enlace: https://trello.com/invite/b/68f9c1edf86f722912d79b84/ATTI44bc4961e7a10083c4b2fa51186ca8db8D7980D0/workstate
+
+![productbacklog](imgs/productBacklog.png)
 
 
 
