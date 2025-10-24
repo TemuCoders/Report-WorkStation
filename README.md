@@ -1005,7 +1005,7 @@ Epicas
 | US-55 | API Password reset | Como integrador frontend, quiero POST /auth/request-reset y POST /auth/reset para restablecer contraseñas. | 3 |
 
 Product Baclog:
-enlace: https://trello.com/invite/b/68f9c1edf86f722912d79b84/ATTI44bc4961e7a10083c4b2fa51186ca8db8D7980D0/workstate
+ https://trello.com/invite/b/68f9c1edf86f722912d79b84/ATTI44bc4961e7a10083c4b2fa51186ca8db8D7980D0/workstate
 
 ![productbacklog](imgs/productBacklog.png)
 
