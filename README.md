@@ -213,6 +213,15 @@ Desarrollo de Aplicaciones Open Source<br>
         - [Actividades Realizadas](#actividades-realizadas-1)
         - [Evidencias Visuales](#evidencias-visuales-1)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+    - [5.2.3. Sprint 2](#523-sprint-3)
+      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
+      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5328-team-collaboration-insights-during-sprint)
     - [Conclusiones](#conclusiones)
     - [Anexos](#anexos)
     - [Bibliografía](#bibliografía)
@@ -249,6 +258,14 @@ A lo largo del desarrollo del TP, generamos varias ramas distintas que fueron in
 
 
 ---
+## TB2
+
+En este segundo trabajo práctico, continuamos con el desarrollo y perfeccionamiento del proyecto, utilizando una metodología ágil que nos permitió mantener una estructura modular y flexible. Al igual que en el TP1, se crearon distintas ramas para abordar cada sección del proyecto de manera independiente. Esto facilitó la asignación de tareas y permitió un control más eficiente sobre el progreso del equipo. Cada rama fue posteriormente integrada a la rama develop, garantizando una evolución constante del proyecto con revisiones periódicas.
+
+A continuación, se presentan los avances y reportes obtenidos durante este proceso, donde se puede observar el impacto de las tareas realizadas y cómo cada una contribuyó al resultado final.
+
+
+---
 ## Student Outcome
 
 **ABET – EAC - Student Outcome 3**  
@@ -258,8 +275,8 @@ En el siguiente cuadro se describen las acciones realizadas y conclusiones del e
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  **TP**: **Quijada Magro Jeremy**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  **Huang Liu Franco**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **La Madrid Lozano Ivan**:Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Saravia Huaricancha Arturo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Cumba Rengifo Leonardo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  | **TB1**: Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC.**TP**: Durante el desarrollo del Trabajo Parcial del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC.  |
-| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog. **Cumba Rengifo Leonardo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.   **TP**: **Quijada Magro Jeremy**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  **Huang Liu Franco**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **La Madrid Lozano Ivan**:Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Saravia Huaricancha Arturo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Cumba Rengifo Leonardo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. | **TB1:** Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC. **TP**: Durante el desarrollo del Trabajo Parcial del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC. |
+| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  **TP**: **Quijada Magro Jeremy**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  **Huang Liu Franco**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **La Madrid Lozano Ivan**:Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Saravia Huaricancha Arturo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **TB2**: **Quijada Magro Jeremy**: Lideró la defensa del avance técnico ante docentes, respondiendo preguntas con claridad.  **Huang Liu Franco**: Presentó las decisiones de diseño y justificó sus elecciones con base en la experiencia de usuario **La Madrid Lozano Ivan**:Expuso el flujo de funcionalidades del frontend con claridad para todos los participantes. **Saravia Huaricancha Arturo**: Detalló aspectos técnicos de la arquitectura de frontend. | **TB1**: Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC.**TP**: Durante el desarrollo del Trabajo Parcial del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC. **TB2**: El equipo reforzó la claridad y efectividad de su comunicación oral, evidenciando mayor dominio técnico y capacidad de síntesis al presentar avances. Se observó un lenguaje más preciso y enfocado en los objetivos del proyecto, lo que facilitó la toma de decisiones y la integración de componentes desarrollados.|
+| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  **TP**: **Quijada Magro Jeremy**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  **Huang Liu Franco**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **La Madrid Lozano Ivan**:Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Saravia Huaricancha Arturo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **TB2**: **Quijada Magro Jeremy**: Lideró la defensa del avance técnico ante docentes, respondiendo preguntas con claridad.  **Huang Liu Franco**: Presentó las decisiones de diseño y justificó sus elecciones con base en la experiencia de usuario **La Madrid Lozano Ivan**:Expuso el flujo de funcionalidades del frontend con claridad para todos los participantes. **Saravia Huaricancha Arturo**: Detalló aspectos técnicos de la arquitectura de frontend. | **TB1:** Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC. **TP**: Durante el desarrollo del Trabajo Parcial del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC. **TB2**: El equipo reforzó la claridad y efectividad de su comunicación oral, evidenciando mayor dominio técnico y capacidad de síntesis al presentar avances. Se observó un lenguaje más preciso y enfocado en los objetivos del proyecto, lo que facilitó la toma de decisiones y la integración de componentes desarrollados.|
 
 
 ## Capítulo I: Introducción
@@ -2176,6 +2193,67 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 <p align="center">
   <img src="imgs/Network - TP1.png" alt="deploy6"/>
 </p>
+
+
+
+### 5.2.3. Sprint 3
+
+En esta sección se registra el avance del producto y las acciones colaborativas realizadas por el equipo para el Sprint 3.
+
+#### 5.2.2.1. Sprint Planning 3
+
+
+#### 5.2.2.2. Aspect Leaders and Collaborators
+Durante este sprint, nuestro objetivo fue definir nuestros puntos base para realizar una solucion acertada a lo que el usuario necesite. La investigacion, entrevistas y datos recolectados ayudaron a que se pueda generar una vision mas clara del objetivo en el grupo. Por ello aqui se presentan los roles que cada uno de los participantes tuvo a lo largo de este sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 (L/C) |
+| ----- | ----- | ----- |
+| Quijada Magro Jeremy Alexander | jhonson2021 | L |
+| Ivan La Madrid Lozano | IvanLaMadrid | C |
+| Arturo Saravia Huaricancha | thunder053 | C |
+| Luis Alberto Cumba Rengifo | LeonardoC72 | C |
+| Arturo Saravia Huaricancha | thunder053 | C |
+
+
+#### 5.2.3.3. Sprint Backlog 3
+Esta sección ofrece un resumen del objetivo central del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. Seguidamente, se incluye una captura del tablero del sprint en la herramienta de gestión elegida, Trello, junto con su enlace público. También se presenta una tabla con las User Stories asignadas al sprint, los Work-items o tareas derivadas, y otras actividades adicionales requeridas para alcanzar los objetivos generales del sprint.
+
+#### 5.2.3.4. Development Evidence for Sprint Review
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Web Applications (Frontend) y Web Services (Backend).
+La sección inicia con una introducción que resume los principales avances en la implementación.
+
+Durante este Sprint se lograron avances importantes en los diferentes componentes del sistema:
+
+-  **Web Services (Backend)**: Se implementaron y desplegaron los servicios principales en Azure, con integración a base de datos PostgreSQL. Se agregaron funcionalidades como usuarios, notificaciones, residentes y configuración de la infraestructura para despliegue automático.
+- **Web Applications (Frontend)**: Se avanzó en la implementación de funcionalidades de la interfaz de usuario, incluyendo recomendaciones, cambio de idioma y ajustes en la estructura del proyecto.
+- **Landing Page:** Se desarrollaron y ajustaron secciones informativas, se implementó un conmutador de idiomas y se realizaron mejoras en la navegación y estilo.
+
+A continuación se detallan los commits relevantes asociados a cada uno de los repositorios:
+
+#### 5.2.3.5. Execution Evidence for Sprint Review
+
+
+
+#### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+Durante este sprint, 
+
+#### 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+Landing Page Para hacer el deployment de la landing page se utilizó Github Pages, una funcionalidad de Github que permite hacer el deployment de páginas web de forma rápida y pública. Dentro del repositorio, en el apartado de settings , se encuentra la opcion de Pages.
+
+##### Actividades Realizadas
+
+- Configuración del repositorio **GitHub** y definición de la estructura inicial de carpetas.
+- Implementación del flujo de trabajo **Git Flow**, manteniendo los cambios en la rama *develop*.
+- Realización de un **merge** desde *develop* hacia la rama *main*, siguiendo las convenciones definidas en la sección *5.2.3*.
+- Activación de **GitHub Pages** como servicio de despliegue estático, apuntando al contenido de la rama *main*.
+- Publicación exitosa de la **landing page**, accesible mediante una URL pública.
+
+##### Evidencias Visuales
+
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
 
 ---
 ### Conclusiones
