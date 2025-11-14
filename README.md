@@ -2675,33 +2675,29 @@ Como parte del proceso de validación del sistema WorkStation, se realizaron ent
 
 #### 5.3.1. Diseño de Entrevistas
 
-**Segmento 1: Freelancers y Trabajadores Remotos**
+**Segmento 1: Freelancers y Trabajadores Remotos**  
 
-1. ¿Cómo calificas la facilidad para encontrar y reservar espacios de coworking en la landing page (del 1 al 5)?
-2. ¿La información sobre disponibilidad en tiempo real te genera confianza para reservar? ¿Por qué?
-3. ¿Consideras útil el sistema de traducción en múltiples idiomas? ¿Qué idioma usaste?
-4. ¿Los pasos para completar una reserva (buscar → seleccionar → pagar) son claros e intuitivos?
-5. ¿Qué tan importante es para ti ver reseñas de otros usuarios antes de reservar un espacio?
-6. ¿La sección "Cómo funciona" te ayudó a entender rápidamente el proceso de reserva?
-7. ¿Encontraste algún problema al navegar en móvil o desktop? ¿Cuál?
-8. ¿El diseño visual (colores, imágenes, tipografía) te transmite profesionalismo y confianza?
-9. ¿Reservarías un espacio a través de WorkStation en el futuro? ¿Por qué sí o no?
-10. ¿Qué cambiarías o mejorarías en la landing page para que reserves más fácilmente?
+1. **¿Cómo calificas la navegación entre la página principal, búsqueda de espacios y tu perfil (del 1 al 5)?**  
+2. **¿Los filtros de búsqueda (ubicación, precio, servicios) son fáciles de usar y rápidos en móvil?**  
+3. **¿El diseño visual de la página principal (colores, tipografía, espaciado) te transmite confianza y profesionalismo?**  
+4. **¿La sección de pagos es clara y segura? ¿Te genera confianza al ingresar tu tarjeta?**  
+5. **¿Cómo valoras la visibilidad de las reseñas al ver un espacio? ¿Son fáciles de leer y útiles?**  
+6. **¿El flujo completo (buscar → reservar → pagar) se siente intuitivo y sin fricciones?**  
+7. **¿Encontraste algún detalle visual o funcional que te molestara en el perfil o dashboard?**  
+8. **¿Qué mejora específica agregarías a la búsqueda, perfil, pagos o reseñas para usar WorkStation más seguido?**
 
 ---
 
-**Segmento 2: Propietarios y Administradores de Espacios de Coworking**
+**Segmento 2: Propietarios y Administradores de Espacios de Coworking**  
 
-1. ¿Cómo calificas la facilidad para listar y gestionar tus espacios en la landing page (del 1 al 5)?
-2. ¿El proceso de agregar disponibilidad en tiempo real es claro y rápido?
-3. ¿Te genera confianza que los freelancers vean reseñas y calificaciones de tu espacio?
-4. ¿La sección de contacto te parece adecuada para recibir consultas de potenciales clientes?
-5. ¿Consideras útil la traducción automática para atraer usuarios internacionales?
-6. ¿Qué tan importante es para ti recibir notificaciones instantáneas de nuevas reservas?
-7. ¿El diseño de la landing page refleja profesionalismo para tu negocio?
-8. ¿Encontraste dificultades técnicas al probar la gestión de espacios desde móvil o desktop?
-9. ¿Publicarías tu espacio en WorkStation para captar más clientes? ¿Por qué sí o no?
-10. ¿Qué funcionalidad agregarías o mejorarías para gestionar mejor tus reservas y clientes?
+1. **¿Cómo calificas la facilidad para acceder a tu dashboard y gestionar espacios desde la página principal (del 1 al 5)?**  
+2. **¿El proceso de actualizar disponibilidad y precios en tiempo real es rápido y claro?**  
+3. **¿El diseño del panel de reseñas (calificaciones, comentarios) es profesional y fácil de gestionar?**  
+4. **¿La sección de pagos muestra claramente tus ingresos, comisiones y transacciones pendientes?**  
+5. **¿Cómo valoras la visibilidad de tu espacio en los resultados de búsqueda (fotos, descripción, etiquetas)?**  
+6. **¿La navegación entre “Mis espacios”, “Reservas” y “Reseñas” es lógica y eficiente?**  
+7. **¿Encontraste algún problema visual o funcional al usar la plataforma en móvil o desktop?**  
+8. **¿Qué funcionalidad o mejora visual agregarías al dashboard, pagos o reseñas para gestionar mejor tu negocio?**
 
 #### 5.3.2. Registro de Entrevistas
 
@@ -2718,9 +2714,9 @@ Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2023
 
 **Segmento 2 - Freelancers**
 
-![Img propietario2](imgs/Entrevista-Miguel.png)
+![Img propietario2](imgs/Entrevista%20-%20Heuristica%20-%201.png)
 
-**Link de la entrevista:** [Link-Entrevista](https://youtu.be/SHj6_AyGAPc)
+**Link de la entrevista:** https://youtu.be/orP-oTP9Nzc
 
 
 #### 5.3.3. Evaluaciones según heurísticas
