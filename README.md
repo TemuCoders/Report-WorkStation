@@ -2329,7 +2329,70 @@ A continuación se detallan los commits relevantes asociados a cada uno de los r
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
+Se mejoro todo el tema de la landing page, mejorando la usabilidad y la experiencia del usuario, y mejorando la presentación de los servicios y productos.
 
+**Presentation de la Landing Page:**
+<p align="center">
+  <img src="imgs/LandingDash.png"/>
+</p>
+
+**About Landing Page:**
+<p align="center">
+  <img src="imgs/About-Landingg.png"/>
+</p>
+
+**Our Services:**
+<p align="center">
+  <img src="imgs/OurServices.png"/>
+</p>
+
+**Services:**
+<p align="center">
+  <img src="imgs/Services.png"/>
+</p>
+
+**Videos:**
+<p align="center">
+  <img src="imgs/Videos.png"/>
+</p>
+
+**Our Team:**
+<p align="center">
+  <img src="imgs/OurTeam.png"/>
+</p>
+
+Para la parte de Backend se logra ver la correcta implementación de todos nuestros endpoints.
+
+**Booking Management:**
+<p align="center">
+  <img src="imgs/swagger1.png"/>
+</p>
+
+<p align="center">
+  <img src="imgs/swagger2.png"/>
+</p>
+
+**Spaces Management:**
+<p align="center">
+  <img src="imgs/swagger3.png"/>
+</p>
+
+**Payment Management:**
+<p align="center">
+  <img src="imgs/swagger4.png"/>
+</p>
+
+**User Management:**
+<p align="center">
+  <img src="imgs/swagger5.png"/>
+</p>
+
+**Schemas:**
+<p align="center">
+  <img src="imgs/swagger6.png"/>
+</p>
+
+Para la parte de Frontend se mejoro mucho el diseño de la pagina principal, y se logra ver la correcta navegación para los usuarios.
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
