@@ -213,7 +213,7 @@ Desarrollo de Aplicaciones Open Source<br>
         - [Actividades Realizadas](#actividades-realizadas-1)
         - [Evidencias Visuales](#evidencias-visuales-1)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 2](#523-sprint-3)
+    - [5.2.3. Sprint 3](#523-sprint-3)
       - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
       - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
       - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
@@ -222,6 +222,11 @@ Desarrollo de Aplicaciones Open Source<br>
       - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
       - [5.2.3.8. Team Collaboration Insights during Sprint](#5328-team-collaboration-insights-during-sprint)
+    - [5.3.Validation Interviews](#53validation-interviews)
+      - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
+      - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
+      - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
+    - [5.4. Video About-the-Product](#54video-about-the-product)
     - [Conclusiones](#conclusiones)
     - [Anexos](#anexos)
     - [Bibliografía](#bibliografía)
@@ -235,10 +240,13 @@ Desarrollo de Aplicaciones Open Source<br>
 - **URL del repositorio del informe:**  
     [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
 - **URL del repositorio del Frontend:**
-  https://github.com/TemuCoders/FrontEnd
+  https://github.com/TemuCoders/Front-End-WorkStation
 
 - **URL del repositorio del Backend:**
   https://github.com/TemuCoders/BackEnd
+
+- **URL del repositorio de la Landing Page:**
+https://temucoders.github.io/Landing-Page/
 
 Todas las tareas correspondientes a la entrega de la TB1 han sido completadas y están documentadas en el repositorio de GitHub de la organización del equipo. Para la elaboración del informe, cada integrante del equipo se encargó de redactar y generar gráficos en formato Markdown, según los puntos que le fueron asignados, realizando commits para dejar constancia del progreso en el repositorio.
 
@@ -2203,8 +2211,7 @@ En esta sección se registra el avance del producto y las acciones colaborativas
 #### 5.2.2.1. Sprint Planning 3
 En esta sección se resumen los puntos clave del Sprint Planning, incluyendo los objetivos, entregables y tareas asignadas para el sprint. A continuación, se presenta un cuadro con los detalles acordados.
 
-
-| Sprint \# | Sprint 2 |
+| Sprint \# | Sprint 3 |
 | ----- | ----- |
 | Date | 2025-11-10 |
 | Time | 9:00 PM |
@@ -2226,7 +2233,6 @@ Durante este sprint, nuestro objetivo fue definir nuestros puntos base para real
 | Quijada Magro Jeremy Alexander | jhonson2021 | L |
 | Ivan La Madrid Lozano | IvanLaMadrid | C |
 | Arturo Saravia Huaricancha | thunder053 | C |
-| Luis Alberto Cumba Rengifo | LeonardoC72 | C |
 | Arturo Saravia Huaricancha | thunder053 | C |
 
 
@@ -2244,6 +2250,83 @@ Durante este Sprint se lograron avances importantes en los diferentes componente
 - **Landing Page:** Se desarrollaron y ajustaron secciones informativas, se implementó un conmutador de idiomas y se realizaron mejoras en la navegación y estilo.
 
 A continuación se detallan los commits relevantes asociados a cada uno de los repositorios:
+
+**Web Services (Backend):** - /TemuCoders/BackEnd
+| Repository          | Branch | Commit                  | IDCommit | MessageCommit                                  | Message Body | Commited on (Date) |
+|---------------------|--------|-------------------------|----------|------------------------------------------------|--------------|--------------------|
+| TemuCoder-Backend   | main   | Ivan La Madrid          | 6516dd8 | Set server address to 0.0.0.0                  |              | 2025-11-13         |
+| TemuCoder-Backend   | main   | Ivan La Madrid          | 4b44c97 | Upgrade Java version to 21 in pom.xml          |              | 2025-11-13         |
+| TemuCoder-Backend   | main   | Ivan La Madrid          | a0e6c4f | Update Java version to 17 in pom.xml           |              | 2025-11-13         |
+| TemuCoder-Backend   | main   | Ivan La Madrid          | a1f482f | Downgrade Java version to 24 in pom.xml        |              | 2025-11-13         |
+| TemuCoder-Backend   | main   | Ivan La Madrid          | 44b103f | Merge pull request #10 from TemuCoders/feat/reviews |              | 2025-11-13         |
+| TemuCoder-Backend   | main   | Ivan La Madrid          | 20db536 | Merge branch 'main' into feat/reviews          |              | 2025-11-13         |
+| TemuCoder-Backend   | main   | ivanlamadrid            | 2e2a5f6 | database modified for production               |              | 2025-11-13         |
+| TemuCoder-Backend   | main   | jhonson2021             | f18f2be | fix: deploy                                    |              | 2025-11-12         |
+| TemuCoder-Backend   | main   | jhonson2021             | 18bdc2f | fix:deploy                                     |              | 2025-11-12         |
+| TemuCoder-Backend   | main   | Ivan La Madrid          | b8763eb | Merge pull request #9 from TemuCoders/feat/reviews |              | 2025-11-11         |
+| TemuCoder-Backend   | main   | ivanlamadrid            | 6fb4c53 | paymentsManagement finished :D                 |              | 2025-11-11         |
+| TemuCoder-Backend   | main   | ivanlamadrid            | 1319b14 | Reviews finished :D                            |              | 2025-11-11         |
+| TemuCoder-Backend   | main   | St4rLght05              | 6cc7eea | Merge pull request #8 from TemuCoders/feat/booking-management |              | 2025-11-11         |
+| TemuCoder-Backend   | main   | St4rLght05              | b4ba0e7 | feat(bookingManagement)                        |              | 2025-11-11         |
+| TemuCoder-Backend   | main   | Jeremy Alexander Quijada Magro | aa9299d | Merge pull request #7 from TemuCoders/feat-user-managment |              | 2025-11-10         |
+| TemuCoder-Backend   | main   | Thunder                 | 9481eed | feat: change the schema mini to small, delete booking in owner and freelancer |              | 2025-11-09         |
+| TemuCoder-Backend   | main   | Jeremy Alexander Quijada Magro | 32434fc | Merge pull request #6 from TemuCoders/feat-spaces-managment |              | 2025-11-08         |
+| TemuCoder-Backend   | main   | jhonson2021             | 1f8da01 | feat: services managment                       |              | 2025-11-08         |
+| TemuCoder-Backend   | main   | Thunder                 | 8cea6b6 |  test                                          |              | 2025-11-08         |
+| TemuCoder-Backend   | main   | Thunder                 | 1a1c311 | porsiaca                                       |              | 2025-11-08         |
+| TemuCoder-Backend   | main   | Jeremy Alexander Quijada Magro | 96f5efb | Merge pull request #5 from TemuCoders/feat-spaces-managment |              | 2025-11-08         |
+| TemuCoder-Backend   | main   | jhonson2021             | 3d71729 | feat: swagger v2                               |              | 2025-11-08         |
+| TemuCoder-Backend   | main   | Jeremy Alexander Quijada Magro | 1338e0a | Merge pull request #4 from TemuCoders/feat-spaces-managment |              | 2025-11-06         |
+| TemuCoder-Backend   | main   | jhonson2021             | c3508c4 | feat: Controllers                              |              | 2025-11-06         |
+| TemuCoder-Backend   | main   | Jeremy Alexander Quijada Magro | a718a37 | Merge pull request #3 from TemuCoders/feat-user-managment |              | 2025-11-06         |
+| TemuCoder-Backend   | main   | jhonson2021             | d075c93 | feat: queries                                  |              | 2025-11-06         |
+| TemuCoder-Backend   | main   | Jeremy Alexander Quijada Magro | cf18f0e | Merge pull request #2 from TemuCoders/feat-user-managment |              | 2025-11-06         |
+| TemuCoder-Backend   | main   | Thunder                 | b6c3788 | feat: owner and freelancer controllers         |              | 2025-11-05         |
+| TemuCoder-Backend   | main   | jhonson2021             | 5fdb2cc | feat: creating value objects y aggregates      |              | 2025-11-02         |
+| TemuCoder-Backend   | main   | Jeremy Alexander Quijada Magro | 29327e5 | Merge pull request #1 from TemuCoders/feat-user-managment |              | 2025-11-01         |
+| TemuCoder-Backend   | main   | Thunder                 | 9f3e189 | feat: add owner and freelancer comand, queries, services and interfaces |              | 2025-10-30         |
+| TemuCoder-Backend   | main   | Thunder                 | 329a520 | feat: add User interfaces, services, model, repositories, controllers, internals and facade |              | 2025-10-30         |
+| TemuCoder-Backend   | main   | Thunder                 | fcfbe46 | feat: add bounded context userManagment properties booking ( los 2 ultimo solo de mientras) |              | 2025-10-30         |
+| TemuCoder-Backend   | main   | Jeremy Alexander Quijada Magro | d60361e | fix: Readme                                    |              | 2025-10-30         |
+| TemuCoder-Backend   | main   | jhonson2021             | d5f02d8 | feat: creating database                        |              | 2025-10-30         |
+| TemuCoder-Backend   | main   | jhonson2021             | 2af8024 | Initial commit                                 |              | 2025-10-09         |
+
+
+**Web Applications (Frontend):** - /TemuCoders/Front-End-WorkStation
+
+| Repository                        | Branch | Commit                  | IDCommit | MessageCommit                                                                 | Message Body | Commited on (Date) |
+|-----------------------------------|--------|-------------------------|----------|-------------------------------------------------------------------------------|--------------|--------------------|
+| TemuCoders-Front-End-WorkStation  | main   | St4rLght05              | 9f2a1c3  | feat: responsive navbar with dark mode toggle                                 |              | 2025-11-11         |
+| TemuCoders-Front-End-WorkStation  | main   | Thunder                 | 4b8d7e9  | fix: booking modal alignment on mobile                                        |              | 2025-11-09         |
+| TemuCoders-Front-End-WorkStation  | main   | jhonson2021             | 8179c50  | On main: !!GitHub_Desktop<main>                                               |              | 2025-11-13         |
+| TemuCoders-Front-End-WorkStation  | main   | jhonson2021             | c622ae1  | index on main: 07dbd69 feat: main page                                        |              | 2025-11-13         |
+| TemuCoders-Front-End-WorkStation  | main   | ivanlamadrid            | 0ae2fbf  | reviews and payment added                                                     |              | 2025-11-12         |
+| TemuCoders-Front-End-WorkStation  | main   | St4rLght05              | b1e4f7a  | feat: freelancer profile dashboard with stats                                 |              | 2025-11-10         |
+| TemuCoders-Front-End-WorkStation  | main   | jhonson2021             | 07dbd69  | feat: main page                                                               |              | 2025-11-10         |
+| TemuCoders-Front-End-WorkStation  | main   | Thunder                 | 6d3c9b2  | chore: update dependencies and fix console warnings                           |              | 2025-11-05         |
+| TemuCoders-Front-End-WorkStation  | main   | jhonson2021             | e6bb3e5  | Feat: WorkSpaces View                                                         |              | 2025-10-30         |
+| TemuCoders-Front-End-WorkStation  | main   | St4rLght05              | 2a7f1d4  | feat: real-time notifications using WebSocket                                 |              | 2025-10-28         |
+
+
+**Landing Page:** - /TemuCoders/Landing-Page
+
+| Repository             | Branch | Commit                          | IDCommit | MessageCommit                                                                 | Message Body | Commited on (Date) |
+|------------------------|--------|---------------------------------|----------|-------------------------------------------------------------------------------|--------------|--------------------|
+| TemuCoders-LandingPage | main   | Jeremy Alexander Quijada Magro  | 975e3aa  | Create README.md for Landing-Page project                                     |              | 2025-11-13         |
+| TemuCoders-LandingPage | main   | Jeremy Alexander Quijada Magro  | 1aa6196  | Merge pull request #2 from TemuCoders/v1.0                                    |              | 2025-11-13         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 814c18d  | feat: videos                                                                  |              | 2025-11-13         |
+| TemuCoders-LandingPage | main   | Jeremy Alexander Quijada Magro  | 2c54ab9  | Merge pull request #1 from TemuCoders/v1.0                                    |              | 2025-11-12         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | cb3d2ee  | feat: Our Team, Servicios                                                     |              | 2025-11-12         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 2898919  | Feat: How it works and contact us                                             |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 78c6708  | On v1.0: !!GitHub_Desktop<v1.0>                                               |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 50c5741  | index on v1.0: 8c12f06 feat(7377): recontruscción del sistema de traducción e implementación del logo de la imagen |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | Thunder                         | e33caaa  | feat(7377): optimización del html y js del proyecto                           |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | Thunder                         | 8c12f06  | feat(7377): recontruscción del sistema de traducción e implementación del logo de la imagen |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | b3980c8  | fix: v1                                                                       |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 50347d9  | feat: java and css                                                            |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 447b6a9  | feat: creating html and css                                                   |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | d03b1b5  | Initial commit                                                                |              | 2025-09-18         |
+
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
 
@@ -2269,6 +2352,46 @@ Landing Page Para hacer el deployment de la landing page se utilizó Github Page
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
+
+#### 5.3. Validation Interviews
+
+Como parte del proceso de validación del sistema WorkStation, se realizaron entrevistas semiestructuradas con distintos tipos de usuarios para evaluar la utilidad, usabilidad y aceptación de la plataforma en contextos reales. Estas entrevistas permitieron recopilar información cualitativa sobre la experiencia de uso desde la perspectiva de los usuarios, así como la satisfacción y apreciación de las funcionalidades y características de la aplicación.
+
+#### 5.3.1. Diseño de Entrevistas
+
+**Segmento 1: Freelancers y Trabajadores Remotos**
+
+1. ¿Cómo calificas la facilidad para encontrar y reservar espacios de coworking en la landing page (del 1 al 5)?
+2. ¿La información sobre disponibilidad en tiempo real te genera confianza para reservar? ¿Por qué?
+3. ¿Consideras útil el sistema de traducción en múltiples idiomas? ¿Qué idioma usaste?
+4. ¿Los pasos para completar una reserva (buscar → seleccionar → pagar) son claros e intuitivos?
+5. ¿Qué tan importante es para ti ver reseñas de otros usuarios antes de reservar un espacio?
+6. ¿La sección "Cómo funciona" te ayudó a entender rápidamente el proceso de reserva?
+7. ¿Encontraste algún problema al navegar en móvil o desktop? ¿Cuál?
+8. ¿El diseño visual (colores, imágenes, tipografía) te transmite profesionalismo y confianza?
+9. ¿Reservarías un espacio a través de WorkStation en el futuro? ¿Por qué sí o no?
+10. ¿Qué cambiarías o mejorarías en la landing page para que reserves más fácilmente?
+
+---
+
+**Segmento 2: Propietarios y Administradores de Espacios de Coworking**
+
+1. ¿Cómo calificas la facilidad para listar y gestionar tus espacios en la landing page (del 1 al 5)?
+2. ¿El proceso de agregar disponibilidad en tiempo real es claro y rápido?
+3. ¿Te genera confianza que los freelancers vean reseñas y calificaciones de tu espacio?
+4. ¿La sección de contacto te parece adecuada para recibir consultas de potenciales clientes?
+5. ¿Consideras útil la traducción automática para atraer usuarios internacionales?
+6. ¿Qué tan importante es para ti recibir notificaciones instantáneas de nuevas reservas?
+7. ¿El diseño de la landing page refleja profesionalismo para tu negocio?
+8. ¿Encontraste dificultades técnicas al probar la gestión de espacios desde móvil o desktop?
+9. ¿Publicarías tu espacio en WorkStation para captar más clientes? ¿Por qué sí o no?
+10. ¿Qué funcionalidad agregarías o mejorarías para gestionar mejor tus reservas y clientes?
+
+#### 5.3.2. Registro de Entrevistas
+
+#### 5.3.3. Evaluaciones según heurísticas
+
+### 5.4. Video About-the-Product
 
 ---
 ### Conclusiones
