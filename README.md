@@ -2624,17 +2624,57 @@ Para la parte de Frontend se mejoro mucho el diseño de la pagina principal, y s
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Landing Page Para hacer el deployment de la landing page se utilizó Github Pages, una funcionalidad de Github que permite hacer el deployment de páginas web de forma rápida y pública. Dentro del repositorio, en el apartado de settings , se encuentra la opcion de Pages.
+Se entra a la pagina principal de azure:
+![Evidence](./assets/az1.jpg)
+Se da click a crear -> Web App:
+![Evidence](./assets/az2.jpg)
+Se llena los datos del proyecto:
+![Evidence](./assets/az3.jpg)
+Se da a click al botón crear:
+![Evidence](./assets/az4.jpg)
+Se procede a realizar el deplegue:
+![Evidence](./assets/az5jpg.jpg)
+Se espera a que termine de desplegar:
+![Evidence](./assets/az6jpg.jpg)
+![Evidence](./assets/az7.jpg)
+Y va a salir la notificación de que ha sido un exito el despligue en la esquina superior derecha:
+![Evidence](./assets/az8.jpg)
+Al entrar al web app se da click en configuración:
+![Evidence](./assets/az9.jpg)
+Se llenan los datos necesarios para que pueda correr la pagina:
+![Evidence](./assets/az10.jpg)
+Y por ultimo se le agrega el repositorio de github al que tomará referencia:
+![Evidence](./assets/az11.jpg)
 
-##### Actividades Realizadas
+Este es el resultado:
+**Booking Management:**
+<p align="center">
+  <img src="imgs/swagger1.png"/>
+</p>
 
-- Configuración del repositorio **GitHub** y definición de la estructura inicial de carpetas.
-- Implementación del flujo de trabajo **Git Flow**, manteniendo los cambios en la rama *develop*.
-- Realización de un **merge** desde *develop* hacia la rama *main*, siguiendo las convenciones definidas en la sección *5.2.3*.
-- Activación de **GitHub Pages** como servicio de despliegue estático, apuntando al contenido de la rama *main*.
-- Publicación exitosa de la **landing page**, accesible mediante una URL pública.
+<p align="center">
+  <img src="imgs/swagger2.png"/>
+</p>
 
-##### Evidencias Visuales
+**Spaces Management:**
+<p align="center">
+  <img src="imgs/swagger3.png"/>
+</p>
+
+**Payment Management:**
+<p align="center">
+  <img src="imgs/swagger4.png"/>
+</p>
+
+**User Management:**
+<p align="center">
+  <img src="imgs/swagger5.png"/>
+</p>
+
+**Schemas:**
+<p align="center">
+  <img src="imgs/swagger6.png"/>
+</p>
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
@@ -2698,6 +2738,24 @@ Como parte del proceso de validación del sistema WorkStation, se realizaron ent
 #### 5.3.2. Registro de Entrevistas
 
 #### 5.3.3. Evaluaciones según heurísticas
+Para garantizar una experiencia de usuario en toda la plataforma WorkStation —tanto en la landing page como en la aplicación frontend completa—, se realizó una evaluación heurística exhaustiva basada en las 10 heurísticas de usabilidad de Jakob Nielsen. A continuación, los hallazgos y recomendaciones creativas y realistas para pulir la experiencia final.
+
+| # | Heurística | Evaluación | Recomendaciones Creativas |
+|---|------------|------------|---------------------------|
+| 1 | **Visibilidad del estado del sistema** | En la landing: cambio de idioma instantáneo. En dashboard: reservas mostradas en tiempo real. En pagos: falta feedback tras confirmar. | Implementar **"toast notifications"** flotantes: “Reserva confirmada” (check), “Pago procesado” (dollar), “Espacio actualizado” (refresh). Animar con **micro-interacciones** (check → confeti sutil). |
+| 2 | **Concordancia entre el sistema y el mundo real** | Términos como “hot-desk”, “day pass” son comunes en coworking. Pero “pending approval” en dashboard puede confundir. | Cambiar a **“Esperando confirmación del host”** + ícono de reloj. En perfil: “Tu saldo disponible” en vez de “Balance”. |
+| 3 | **Control y libertad del usuario** | Fácil cancelar búsqueda, volver al dashboard. En pagos: no se puede retroceder tras iniciar. | Añadir **“¿Seguro que quieres cancelar el pago?”** con opción “Volver al espacio” o “Cancelar y volver al dashboard”. |
+| 4 | **Consistencia y estándares** | Colores y tipografía uniformes. Pero en **perfil**, el botón “Guardar cambios” es azul claro, mientras que en **pagos** es verde. | Estandarizar **CTA primarios en #4A90E2**, secundarios en #003087. Usar **íconos idénticos** (save, edit, trash) en todo el sistema. |
+| 5 | **Prevención de errores** | Validación en formularios de perfil y pagos. Pero permite reservar un espacio sin WiFi si el usuario lo filtró. | **Filtro persistente**: si seleccionó “WiFi obligatorio”, bloquear espacios sin él con mensaje: “Este espacio no cumple tus filtros”. |
+| 6 | **Reconocimiento antes que recuerdo** | Dashboard muestra “Próximas reservas” con fecha, hora, ubicación. En búsqueda: filtros guardados. | Añadir **“Favoritos”** con corazón rojo. En perfil: **“Historial de reservas”** con tarjetas resumidas (foto, nombre, fecha). |
+| 7 | **Flexibilidad y eficiencia de uso** | Freelancers: acceso rápido a “Buscar ahora”. Propietarios: dashboard con métricas. | **Modo dual en header**: toggle “Soy freelancer” / “Soy host” → cambia menú y dashboard. **Atajos de teclado**: Ctrl+B → buscar, Ctrl+D → dashboard. |
+| 8 | **Estética y diseño minimalista** | Landing limpia, dashboard con tarjetas. Pero en **reviews**, estrellas muy pequeñas en móvil. | Aumentar **tamaño de estrellas a 24px** en móvil. Usar **grid responsivo** en dashboard: 1 columna (móvil), 3 (desktop). |
+| 9 | **Ayuda con errores** | En pagos: “Tarjeta rechazada” genérico. En perfil: sin mensaje si email ya existe. | Mostrar **errores empáticos**: “¡Uy! Ese email ya está en uso. ¿Quieres iniciar sesión?” + enlace azul. En pagos: “Tu banco rechazó el cargo. Prueba otra tarjeta”. |
+| 10 | **Ayuda y documentación** | No hay ayuda en la app. Solo FAQ en landing. | Añadir **“Ayuda contextual”** en cada sección: ícono (?) → modal con: “¿Cómo reservar?”, “¿Cómo subir fotos de mi espacio?”, video de 15s + texto. **Chatbot flotante** en esquina inferior (solo en app). |
+
+---
+
+WorkStation ya tiene una base técnica impecable (backend sólido, landing profesional) y un frontend en excelente camino. Brilla en velocidad, diseño y funcionalidad clave**. Las oportunidades reales están en humanizar la interacción (mensajes cercanos, feedback vivo), anticiparse al usuario (filtros inteligentes, atajos) y dar control total (cancelaciones seguras, modos duales). Con estos ajustes, no solo será usable: será la plataforma que todos recomienden.
 
 ### 5.4. Video About-the-Product
 
