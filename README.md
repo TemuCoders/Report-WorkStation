@@ -2550,17 +2550,57 @@ Para la parte de Frontend se mejoro mucho el diseño de la pagina principal, y s
 
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
-Landing Page Para hacer el deployment de la landing page se utilizó Github Pages, una funcionalidad de Github que permite hacer el deployment de páginas web de forma rápida y pública. Dentro del repositorio, en el apartado de settings , se encuentra la opcion de Pages.
+Se entra a la pagina principal de azure:
+![Evidence](./assets/az1.jpg)
+Se da click a crear -> Web App:
+![Evidence](./assets/az2.jpg)
+Se llena los datos del proyecto:
+![Evidence](./assets/az3.jpg)
+Se da a click al botón crear:
+![Evidence](./assets/az4.jpg)
+Se procede a realizar el deplegue:
+![Evidence](./assets/az5jpg.jpg)
+Se espera a que termine de desplegar:
+![Evidence](./assets/az6jpg.jpg)
+![Evidence](./assets/az7.jpg)
+Y va a salir la notificación de que ha sido un exito el despligue en la esquina superior derecha:
+![Evidence](./assets/az8.jpg)
+Al entrar al web app se da click en configuración:
+![Evidence](./assets/az9.jpg)
+Se llenan los datos necesarios para que pueda correr la pagina:
+![Evidence](./assets/az10.jpg)
+Y por ultimo se le agrega el repositorio de github al que tomará referencia:
+![Evidence](./assets/az11.jpg)
 
-##### Actividades Realizadas
+Este es el resultado:
+**Booking Management:**
+<p align="center">
+  <img src="imgs/swagger1.png"/>
+</p>
 
-- Configuración del repositorio **GitHub** y definición de la estructura inicial de carpetas.
-- Implementación del flujo de trabajo **Git Flow**, manteniendo los cambios en la rama *develop*.
-- Realización de un **merge** desde *develop* hacia la rama *main*, siguiendo las convenciones definidas en la sección *5.2.3*.
-- Activación de **GitHub Pages** como servicio de despliegue estático, apuntando al contenido de la rama *main*.
-- Publicación exitosa de la **landing page**, accesible mediante una URL pública.
+<p align="center">
+  <img src="imgs/swagger2.png"/>
+</p>
 
-##### Evidencias Visuales
+**Spaces Management:**
+<p align="center">
+  <img src="imgs/swagger3.png"/>
+</p>
+
+**Payment Management:**
+<p align="center">
+  <img src="imgs/swagger4.png"/>
+</p>
+
+**User Management:**
+<p align="center">
+  <img src="imgs/swagger5.png"/>
+</p>
+
+**Schemas:**
+<p align="center">
+  <img src="imgs/swagger6.png"/>
+</p>
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
