@@ -2410,15 +2410,23 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 
 ##### Report-WorkStation
 <img width="804" height="940" alt="image" src="https://github.com/user-attachments/assets/ab20ae2b-5b85-4116-ab1a-f9fd352a4e0a" />
+<img width="892" height="561" alt="image" src="https://github.com/user-attachments/assets/8b364b49-25b9-44da-b1dd-824c74ed8612" />
+
 
 ##### Landing-Page
 <img width="802" height="525" alt="image" src="https://github.com/user-attachments/assets/80e5e93e-6320-4d74-8910-517fbff47494" />
+<img width="897" height="557" alt="image" src="https://github.com/user-attachments/assets/69dab55e-0723-4bf7-b69d-afe356ff776a" />
+
 
 ##### BackEnd
 <img width="800" height="735" alt="image" src="https://github.com/user-attachments/assets/be25013a-135b-4585-93cf-5eedeaa80c8f" />
+<img width="891" height="555" alt="image" src="https://github.com/user-attachments/assets/46463e3f-eb16-41b7-816d-2d63d6ef4ca0" />
+
 
 ##### Front-End-WorkStation
 <img width="804" height="523" alt="image" src="https://github.com/user-attachments/assets/2c06a056-3b34-40bf-9959-ac2eebf9d515" />
+<img width="892" height="559" alt="image" src="https://github.com/user-attachments/assets/4972113b-f487-4075-9546-317cb28683fb" />
+
 
 
 #### 5.3. Validation Interviews
