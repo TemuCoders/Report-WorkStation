@@ -55,104 +55,58 @@ Desarrollo de Aplicaciones Open Source<br>
 
 - [Registro de Versiones del Informe](#registro-de-versiones-del-informe)
   - [Contenido](#contenido)
-      - [Tabla de contenidos](#tabla-de-contenidos)
+  - [Tabla de contenidos](#tabla-de-contenidos)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [TP](#tp)
   - [TB2](#tb2)
   - [Student Outcome](#student-outcome)
   - [Capítulo I: Introducción](#capítulo-i-introducción)
     - [1.1. Startup Profile](#11-startup-profile)
-    - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
-    - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
-  - [1.2. Solution Profile](#12-solution-profile)
-    - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
-    - [Descripción de la Problemática](#descripción-de-la-problemática)
-    - [1.2.2 Lean UX Process](#122-lean-ux-process)
+      - [1.1.1. Descripción de la Startup](#111-descripción-de-la-startup)
+      - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
+    - [1.2. Solution Profile](#12-solution-profile)
+      - [1.2.1 Antecedentes y problemática](#121-antecedentes-y-problemática)
+      - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [Dominio del Problema](#dominio-del-problema)
-        - [Alcance del problema](#alcance-del-problema)
-        - [Segmentos de cliente (actores involucrados)](#segmentos-de-cliente-actores-involucrados)
-        - [Puntos de dolor](#puntos-de-dolor)
-        - [Causas raíz (hipótesis del problema)](#causas-raíz-hipótesis-del-problema)
-        - [Brecha detectada](#brecha-detectada)
-        - [Impactos y riesgos del problema](#impactos-y-riesgos-del-problema)
-        - [Indicadores (baseline a observar)](#indicadores-baseline-a-observar)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Problem Hypothesis Statements](#1223-lean-ux-problem-hypothesis-statements)
       - [1.2.2.4. Lean UX Problem Canvas](#1224-lean-ux-problem-canvas)
-      - [1. Business Problem](#1-business-problem)
-      - [2. Business Outcomes](#2-business-outcomes)
-      - [3. Users](#3-users)
-      - [4. User Benefits](#4-user-benefits)
-      - [5. Solutions](#5-solutions)
-      - [6. Hypotheses](#6-hypotheses)
-      - [7. What’s the most important thing we need to learn first?](#7-whats-the-most-important-thing-we-need-to-learn-first)
-      - [8. What’s the least amount of work we need to do to learn the next most important thing?](#8-whats-the-least-amount-of-work-we-need-to-do-to-learn-the-next-most-important-thing)
-  - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
-    - [Propietarios de Inmuebles (Coworkings)](#propietarios-de-inmuebles-coworkings)
-      - [Características Demográficas](#características-demográficas)
-      - [Datos Relevantes](#datos-relevantes)
-      - [Necesidades Clave](#necesidades-clave)
-    - [Freelancers y Startups](#freelancers-y-startups)
-      - [Características Demográficas](#características-demográficas-1)
-      - [Datos Relevantes](#datos-relevantes-1)
-      - [Necesidades Clave](#necesidades-clave-1)
+    - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
+      - [Propietarios de Inmuebles (Coworkings)](#propietarios-de-inmuebles-coworkings)
+      - [Freelancers y Startups](#freelancers-y-startups)
   - [Capítulo II: Requirements Elicitation \& Analysis](#capítulo-ii-requirements-elicitation--analysis)
-  - [2.1. Competidores](#21-competidores)
-    - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
-    - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-  - [2.2. Entrevistas](#22-entrevistas)
-    - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
-    - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
-    - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
-      - [Freelancers](#freelancers)
-      - [Propietarios de inmuebles](#propietarios-de-inmuebles)
-  - [2.3. Needfinding](#23-needfinding)
-    - [2.3.1. User Personas](#231-user-personas)
-    - [2.3.2. User Task Matrix (AS-IS)](#232-user-task-matrix-as-is)
-      - [**Leyenda — Escalas**](#leyenda--escalas)
-      - [a) Trabajador independiente / Freelancer (AS-IS)](#a-trabajador-independiente--freelancer-as-is)
-      - [b) Propietario de inmueble / Host (AS-IS)](#b-propietario-de-inmueble--host-as-is)
-    - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
-      - [Customer Journey Map — Freelancers / Startups](#customer-journey-map--freelancers--startups)
-      - [Customer Journey Map — Propietarios / Hosts](#customer-journey-map--propietarios--hosts)
-    - [2.3.4. Empathy Mapping](#234-empathy-mapping)
-    - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
-  - [2.4. Big Picture Event Storming.](#24-big-picture-event-storming)
-  - [2.5. Ubiquitous Language](#25-ubiquitous-language)
-- [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
-  - [3.1. User Stories](#31-user-stories)
-  - [3.2. Impact Mapping](#32-impact-mapping)
-  - [3.3. Product backlog](#33-product-backlog)
+    - [2.1. Competidores](#21-competidores)
+      - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
+      - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
+    - [2.2. Entrevistas](#22-entrevistas)
+      - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
+      - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
+      - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
+        - [Freelancers](#freelancers)
+        - [Propietarios de inmuebles](#propietarios-de-inmuebles)
+    - [2.3. Needfinding](#23-needfinding)
+      - [2.3.1. User Personas](#231-user-personas)
+      - [2.3.2. User Task Matrix (AS-IS)](#232-user-task-matrix-as-is)
+      - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
+      - [2.3.4. Empathy Mapping](#234-empathy-mapping)
+      - [2.3.5. As-is Scenario Mapping](#235-as-is-scenario-mapping)
+    - [2.4. Big Picture Event Storming.](#24-big-picture-event-storming)
+    - [2.5. Ubiquitous Language](#25-ubiquitous-language)
+  - [Capitulo III: Requirements Specification](#capitulo-iii-requirements-specification)
+    - [3.1. User Stories](#31-user-stories)
+    - [3.2. Impact Mapping](#32-impact-mapping)
+    - [3.3. Product backlog](#33-product-backlog)
   - [Capítulo IV: Product Design](#capítulo-iv-product-design)
     - [4.1. Style Guidelines](#41-style-guidelines)
       - [4.1.1. General Style Guidelines](#411-general-style-guidelines)
-        - [Branding:](#branding)
-        - [Typography](#typography)
-        - [Colors](#colors)
-        - [Spacing](#spacing)
-        - [Tone of Communication and Language](#tone-of-communication-and-language)
-          - [Ejemplos](#ejemplos)
       - [4.1.2. Web Style Guidelines.](#412-web-style-guidelines)
-        - [Diseño Responsive](#diseño-responsive)
-        - [Breakpoints](#breakpoints)
     - [4.2. Information Architecture](#42-information-architecture)
       - [4.2.1. Organization Systems](#421-organization-systems)
-        - [Sistemas Visuales](#sistemas-visuales)
-        - [Esquemas de Categorización](#esquemas-de-categorización)
       - [4.2.2. Labeling Systems](#422-labeling-systems)
-        - [Etiquetas del Landing Page](#etiquetas-del-landing-page)
-        - [Etiquetas de la Web Application (Freelancers)](#etiquetas-de-la-web-application-freelancers)
-        - [Etiquetas de la Web Application (Propietarios)](#etiquetas-de-la-web-application-propietarios)
       - [4.2.3. SEO Tags and Meta Tags](#423-seo-tags-and-meta-tags)
-        - [Landing Page](#landing-page)
-        - [Web Application](#web-application)
       - [4.2.4. Searching Systems](#424-searching-systems)
-        - [Barra de Búsqueda Inteligente](#barra-de-búsqueda-inteligente)
-        - [Filtros Avanzados](#filtros-avanzados)
       - [4.2.5. Navigation Systems](#425-navigation-systems)
-    - [Landing Page Navigation](#landing-page-navigation)
-        - [4.2. Web Application Navigation](#42-web-application-navigation)
+    - [4.2. Web Application Navigation](#42-web-application-navigation)
     - [4.3. Landing Page UI Design](#43-landing-page-ui-design)
       - [4.3.1. Landing Page Wireframe](#431-landing-page-wireframe)
       - [4.3.2. Landing Page Mock-up](#432-landing-page-mock-up)
@@ -170,27 +124,13 @@ Desarrollo de Aplicaciones Open Source<br>
     - [4.7. Software Object-Oriented Design](#47-software-object-oriented-design)
       - [4.7.1. Class Diagrams](#471-class-diagrams)
     - [4.8. Database Design](#48-database-design)
-    - [4.8.1. Database Diagrams](#481-database-diagrams)
+      - [4.8.1. Database Diagrams](#481-database-diagrams)
   - [Capítulo V: Product Implementation, Validation \& Deployment](#capítulo-v-product-implementation-validation--deployment)
     - [5.1. Software Configuration Management](#51-software-configuration-management)
-    - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
-      - [Project Management](#project-management)
-      - [Requirement Management](#requirement-management)
-      - [Product UX/UI Design](#product-uxui-design)
-      - [Software Development](#software-development)
-      - [Software Documentation](#software-documentation)
-      - [Software Deployment](#software-deployment)
-    - [5.1.2. Source Code Management](#512-source-code-management)
-      - [Producto y Repositorio](#producto-y-repositorio)
-      - [Estructura del Repositorio](#estructura-del-repositorio)
-      - [Flujo de trabajo GitFlow](#flujo-de-trabajo-gitflow)
-      - [Mensajes de Commits](#mensajes-de-commits)
-      - [Documentación](#documentación)
-    - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
-      - [Referencias Adoptadas](#referencias-adoptadas)
-      - [Estructura del proyecto](#estructura-del-proyecto)
-      - [Convenciones y prácticas aplicadas](#convenciones-y-prácticas-aplicadas)
-    - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+      - [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)
+      - [5.1.2. Source Code Management](#512-source-code-management)
+      - [5.1.3. Source Code Style Guide \& Conventions](#513-source-code-style-guide--conventions)
+      - [5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
     - [5.2. Landing Page, Services \& Applications Implementation](#52-landing-page-services--applications-implementation)
       - [5.2.1. Sprint 1](#521-sprint-1)
         - [5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
@@ -198,38 +138,28 @@ Desarrollo de Aplicaciones Open Source<br>
         - [5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
         - [5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
         - [5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-      - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
+        - [5.2.1.6. Services Documentation Evidence for Sprint Review.](#5216-services-documentation-evidence-for-sprint-review)
         - [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-        - [Actividades Realizadas](#actividades-realizadas)
-        - [Evidencias Visuales](#evidencias-visuales)
         - [5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
-    - [5.2.2. Sprint 2](#522-sprint-2)
-      - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
-      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
-      - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
-      - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
-      - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
-      - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
-      - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
-        - [Actividades Realizadas](#actividades-realizadas-1)
-        - [Evidencias Visuales](#evidencias-visuales-1)
-      - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
-    - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.2.1. Sprint Planning 3](#5221-sprint-planning-3)
-      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators-1)
-      - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
-      - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
-      - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
-      - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-        - [Actividades Realizadas](#actividades-realizadas-2)
-        - [Evidencias Visuales](#evidencias-visuales-2)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
-        - [Report-WorkStation](#report-workstation)
-        - [Landing-Page](#landing-page-1)
-        - [BackEnd](#backend)
-        - [Front-End-WorkStation](#front-end-workstation)
-      - [5.3. Validation Interviews](#53-validation-interviews)
+      - [5.2.2. Sprint 2](#522-sprint-2)
+        - [5.2.2.1. Sprint Planning 2](#5221-sprint-planning-2)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators)
+        - [5.2.2.3. Sprint Backlog 2](#5223-sprint-backlog-2)
+        - [5.2.2.4. Development Evidence for Sprint Review](#5224-development-evidence-for-sprint-review)
+        - [5.2.2.5. Execution Evidence for Sprint Review](#5225-execution-evidence-for-sprint-review)
+        - [5.2.2.6. Services Documentation Evidence for Sprint Review.](#5226-services-documentation-evidence-for-sprint-review)
+        - [5.2.2.7. Software Deployment Evidence for Sprint Review](#5227-software-deployment-evidence-for-sprint-review)
+        - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
+      - [5.2.3. Sprint 3](#523-sprint-3)
+        - [5.2.2.1. Sprint Planning 3](#5221-sprint-planning-3)
+        - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators-1)
+        - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
+        - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
+        - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
+        - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+        - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
+        - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
       - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
@@ -2311,7 +2241,8 @@ Durante este Sprint se lograron avances importantes en los diferentes componente
 
 A continuación se detallan los commits relevantes asociados a cada uno de los repositorios:
 
-**Web Services (Backend):** - /TemuCoders/BackEnd
+**Web Services (Backend):** - https://github.com/TemuCoders/BackEnd
+
 | Repository          | Branch | Commit                  | IDCommit | MessageCommit                                  | Message Body | Commited on (Date) |
 |---------------------|--------|-------------------------|----------|------------------------------------------------|--------------|--------------------|
 | TemuCoder-Backend   | main   | Ivan La Madrid          | 6516dd8 | Set server address to 0.0.0.0                  |              | 2025-11-13         |
@@ -2352,7 +2283,7 @@ A continuación se detallan los commits relevantes asociados a cada uno de los r
 | TemuCoder-Backend   | main   | jhonson2021             | 2af8024 | Initial commit                                 |              | 2025-10-09         |
 
 
-**Web Applications (Frontend):** - /TemuCoders/Front-End-WorkStation
+**Web Applications (Frontend):** - https://github.com/TemuCoders/Front-End-WorkStation
 
 | Repository                        | Branch | Commit                  | IDCommit | MessageCommit                                                                 | Message Body | Commited on (Date) |
 |-----------------------------------|--------|-------------------------|----------|-------------------------------------------------------------------------------|--------------|--------------------|
@@ -2368,7 +2299,7 @@ A continuación se detallan los commits relevantes asociados a cada uno de los r
 | TemuCoders-Front-End-WorkStation  | main   | St4rLght05              | 2a7f1d4  | feat: real-time notifications using WebSocket                                 |              | 2025-10-28         |
 
 
-**Landing Page:** - /TemuCoders/Landing-Page
+**Landing Page:** - https://temucoders.github.io/Landing-Page/
 
 | Repository             | Branch | Commit                          | IDCommit | MessageCommit                                                                 | Message Body | Commited on (Date) |
 |------------------------|--------|---------------------------------|----------|-------------------------------------------------------------------------------|--------------|--------------------|
@@ -2389,6 +2320,10 @@ A continuación se detallan los commits relevantes asociados a cada uno de los r
 
 
 #### 5.2.3.5. Execution Evidence for Sprint Review
+
+**URL del repositorio de la Landing Page:**
+https://temucoders.github.io/Landing-Page/
+
 Se mejoro todo el tema de la landing page, mejorando la usabilidad y la experiencia del usuario, y mejorando la presentación de los servicios y productos.
 
 **Presentation de la Landing Page:**
@@ -2421,6 +2356,10 @@ Se mejoro todo el tema de la landing page, mejorando la usabilidad y la experien
   <img src="imgs/OurTeam.png"/>
 </p>
 
+
+**URL del repositorio del Backend:**
+  https://github.com/TemuCoders/BackEnd
+
 Para la parte de Backend se logra ver la correcta implementación de todos nuestros endpoints.
 
 **Booking Management:**
@@ -2452,12 +2391,38 @@ Para la parte de Backend se logra ver la correcta implementación de todos nuest
   <img src="imgs/swagger6.png"/>
 </p>
 
-Para la parte de Frontend se mejoro mucho el diseño de la pagina principal, y se logra ver la correcta navegación para los usuarios.
+**URL del repositorio del Frontend:**
+  https://github.com/TemuCoders/Front-End-WorkStation
+
+Para la parte de Frontend se mejoro mucho el diseño de la pagina principal, y se logra ver la correcta navegación para los usuarios durante cada etapa de la página.
+
+**Perfil:**
+<p align="center">
+  <img src="imgs/Perfil- Front.png"/>
+</p>
 
 **Buscador:**
 <p align="center">
   <img src="imgs/Busqueda de Espacios.png"/>
 </p>
+
+**Dashboard:**
+<p align="center">
+  <img src="imgs/Dashboard - Front.png"/>
+</p>
+
+**Pagos y Transferencias:**
+<p align="center">
+  <img src="imgs/Payment - Front.png"/>
+</p>
+
+
+**Reseñas:**
+<p align="center">
+  <img src="imgs/Reseñas - Front.png"/>
+</p>
+
+
 
 Ademas se realizo el video de presentación sobre el proyecto:
 
@@ -2677,25 +2642,32 @@ Este es el resultado:
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
 
 ##### Report-WorkStation
-<img width="804" height="940" alt="image" src="https://github.com/user-attachments/assets/ab20ae2b-5b85-4116-ab1a-f9fd352a4e0a" />
-<img width="892" height="561" alt="image" src="https://github.com/user-attachments/assets/8b364b49-25b9-44da-b1dd-824c74ed8612" />
+<img width="804" height="500" alt="image" src="https://github.com/user-attachments/assets/ab20ae2b-5b85-4116-ab1a-f9fd352a4e0a" />
+<img width="892" height="500" alt="image" src="https://github.com/user-attachments/assets/8b364b49-25b9-44da-b1dd-824c74ed8612" />
 
+**URL del repositorio del informe:**  
+    [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
 
 ##### Landing-Page
-<img width="802" height="525" alt="image" src="https://github.com/user-attachments/assets/80e5e93e-6320-4d74-8910-517fbff47494" />
-<img width="897" height="557" alt="image" src="https://github.com/user-attachments/assets/69dab55e-0723-4bf7-b69d-afe356ff776a" />
+<img width="802" height="500" alt="image" src="https://github.com/user-attachments/assets/80e5e93e-6320-4d74-8910-517fbff47494" />
+<img width="897" height="500" alt="image" src="https://github.com/user-attachments/assets/69dab55e-0723-4bf7-b69d-afe356ff776a" />
 
+**URL del repositorio de la Landing Page:**
+https://temucoders.github.io/Landing-Page/
 
 ##### BackEnd
-<img width="800" height="735" alt="image" src="https://github.com/user-attachments/assets/be25013a-135b-4585-93cf-5eedeaa80c8f" />
-<img width="891" height="555" alt="image" src="https://github.com/user-attachments/assets/46463e3f-eb16-41b7-816d-2d63d6ef4ca0" />
+<img width="800" height="500" alt="image" src="https://github.com/user-attachments/assets/be25013a-135b-4585-93cf-5eedeaa80c8f" />
+<img width="891" height="500" alt="image" src="https://github.com/user-attachments/assets/46463e3f-eb16-41b7-816d-2d63d6ef4ca0" />
 
+**URL del repositorio del Backend:**
+  https://github.com/TemuCoders/BackEnd
 
 ##### Front-End-WorkStation
-<img width="804" height="523" alt="image" src="https://github.com/user-attachments/assets/2c06a056-3b34-40bf-9959-ac2eebf9d515" />
-<img width="892" height="559" alt="image" src="https://github.com/user-attachments/assets/4972113b-f487-4075-9546-317cb28683fb" />
+<img width="804" height="500" alt="image" src="https://github.com/user-attachments/assets/2c06a056-3b34-40bf-9959-ac2eebf9d515" />
+<img width="892" height="500" alt="image" src="https://github.com/user-attachments/assets/4972113b-f487-4075-9546-317cb28683fb" />
 
-
+**URL del repositorio del Frontend:**
+  https://github.com/TemuCoders/Front-End-WorkStation
 
 #### 5.3. Validation Interviews
 
