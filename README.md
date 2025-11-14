@@ -2621,26 +2621,26 @@ https://youtu.be/5BCJwLL9gJU
 #### 5.2.3.7. Software Deployment Evidence for Sprint Review
 
 Se entra a la pagina principal de azure:
-![Evidence](./assets/az1.png)
+![Evidence](./imgs/az1.png)
 Se da click a crear -> Web App:
-![Evidence](./assets/az2.png)
+![Evidence](./imgs/az2.png)
 Se llena los datos del proyecto:
-![Evidence](./assets/az3.png)
+![Evidence](./imgs/az3.png)
 Se da a click al botón crear:
-![Evidence](./assets/az4.png)
+![Evidence](./imgs/az4.png)
 Se procede a realizar el deplegue:
-![Evidence](./assets/az5.png)
+![Evidence](./imgs/az5.png)
 Se espera a que termine de desplegar:
-![Evidence](./assets/az6.png)
-![Evidence](./assets/az7.png)
+![Evidence](./imgs/az6.png)
+![Evidence](./imgs/az7.png)
 Y va a salir la notificación de que ha sido un exito el despligue en la esquina superior derecha:
-![Evidence](./assets/az8.png)
+![Evidence](./imgs/az8.png)
 Al entrar al web app se da click en configuración:
-![Evidence](./assets/az9.png)
+![Evidence](./imgs/az9.png)
 Se llenan los datos necesarios para que pueda correr la pagina:
-![Evidence](./assets/az10.png)
+![Evidence](./imgs/az10.png)
 Y por ultimo se le agrega el repositorio de github al que tomará referencia:
-![Evidence](./assets/az11.png)
+![Evidence](./imgs/az11.png)
 
 Este es el resultado:
 **Booking Management:**
