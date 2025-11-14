@@ -58,6 +58,7 @@ Desarrollo de Aplicaciones Open Source<br>
       - [Tabla de contenidos](#tabla-de-contenidos)
   - [Project Report Collaboration Insights](#project-report-collaboration-insights)
   - [TP](#tp)
+  - [TB2](#tb2)
   - [Student Outcome](#student-outcome)
   - [Capítulo I: Introducción](#capítulo-i-introducción)
     - [1.1. Startup Profile](#11-startup-profile)
@@ -214,19 +215,39 @@ Desarrollo de Aplicaciones Open Source<br>
         - [Evidencias Visuales](#evidencias-visuales-1)
       - [5.2.2.8. Team Collaboration Insights during Sprint](#5228-team-collaboration-insights-during-sprint)
     - [5.2.3. Sprint 3](#523-sprint-3)
-      - [5.2.3.1. Sprint Planning 3](#5231-sprint-planning-3)
-      - [5.2.3.2. Aspect Leaders and Collaborators](#5232-aspect-leaders-and-collaborators)
+      - [5.2.2.1. Sprint Planning 3](#5221-sprint-planning-3)
+      - [5.2.2.2. Aspect Leaders and Collaborators](#5222-aspect-leaders-and-collaborators-1)
       - [5.2.3.3. Sprint Backlog 3](#5233-sprint-backlog-3)
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
+    - [Bookings](#bookings)
+    - [Services](#services)
+    - [Payments - Queries](#payments---queries)
+    - [Spaces](#spaces)
+    - [Payment Methods - Queries](#payment-methods---queries)
+    - [Owners](#owners)
+    - [Reviews - Commands](#reviews---commands)
+    - [Reviews - Queries](#reviews---queries)
+    - [Payment Methods - Commands](#payment-methods---commands)
+    - [Payments - Commands](#payments---commands)
+    - [Invoices - Queries](#invoices---queries)
+    - [Freelancers](#freelancers-1)
+    - [Users](#users)
+    - [Invoices - Commands](#invoices---commands)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5328-team-collaboration-insights-during-sprint)
-    - [5.3.Validation Interviews](#53validation-interviews)
+        - [Actividades Realizadas](#actividades-realizadas-2)
+        - [Evidencias Visuales](#evidencias-visuales-2)
+      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+        - [Report-WorkStation](#report-workstation)
+        - [Landing-Page](#landing-page-1)
+        - [BackEnd](#backend)
+        - [Front-End-WorkStation](#front-end-workstation)
+      - [5.3. Validation Interviews](#53-validation-interviews)
       - [5.3.1. Diseño de Entrevistas](#531-diseño-de-entrevistas)
       - [5.3.2. Registro de Entrevistas](#532-registro-de-entrevistas)
       - [5.3.3. Evaluaciones según heurísticas](#533-evaluaciones-según-heurísticas)
-    - [5.4. Video About-the-Product](#54video-about-the-product)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
     - [Conclusiones](#conclusiones)
     - [Anexos](#anexos)
     - [Bibliografía](#bibliografía)
@@ -2238,6 +2259,59 @@ Durante este sprint, nuestro objetivo fue definir nuestros puntos base para real
 
 #### 5.2.3.3. Sprint Backlog 3
 Esta sección ofrece un resumen del objetivo central del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. Seguidamente, se incluye una captura del tablero del sprint en la herramienta de gestión elegida, Trello, junto con su enlace público. También se presenta una tabla con las User Stories asignadas al sprint, los Work-items o tareas derivadas, y otras actividades adicionales requeridas para alcanzar los objetivos generales del sprint.
+
+![sprint3](imgs/sprint3.png)
+
+Este es nuestro link de invitación a nuestro Trello: https://trello.com/invite/b/68e843cd9788f0fca4edea0b/ATTId5605175984866352bf64ed5b6587a7419E26545/workstate
+
+| User Story ID | Título                    | Work-Item ID | Título de la tarea                    | Descripción                                                                                                  | Estimación (h) |
+| ------------- | ------------------------- | -----------: | ------------------------------------- | ------------------------------------------------------------------------------------------------------------ | -------------: |
+| US-53         | Auth (registro / login)   |          T23 | Modelo User + hashing                 | Esquema ORM, validaciones y hashing seguro (bcrypt/argon2).                                                  |              4 |
+|           |     |          T24 | Endpoint POST /auth/register          | Validaciones, persistencia y respuesta 201.                                                                  |              4 |
+|           |     |          T25 | Endpoint POST /auth/login             | Verificación credenciales, retorno JWT + refresh token.                                                      |              4 |
+|           |     |          T26 | Tests auth (unit/integr)              | Unitarios para hashing y e2e para register/login.                                                            |              4 |
+|           |     |          T27 | OpenAPI Auth                          | Esquema y ejemplos para /auth.                                                                               |              3 |
+| US-54         | Tokens / Refresh          |          T29 | Modelo refresh token                  | Almacenamiento seguro (whitelist/blacklist).                                                                 |              3 |
+|           |           |          T30 | Endpoint POST /auth/refresh           | Emisión de nuevo access token.                                                                               |              4 |
+|           |            |          T31 | Middleware expiración                 | Middleware para rutas protegidas y refresh handling.                                                         |              3 |
+|           |            |          T32 | Tests refresh                         | Casos: expirado, inválido, rotación.                                                                         |              4 |
+| US-55         | Reset password            |          T33 | /auth/request-reset                   | Generar token, persistir y enviar email (plantilla).                                                         |              4 |
+|           |              |          T34 | /auth/reset                           | Validar token y actualizar password.                                                                         |              4 |
+|           |              |          T35 | Plantilla email reset                 | HTML accesible + variables.                                                                                  |              3 |
+|           |              |          T36 | Tests reset flow                      | Expirado/inválido/éxito.                                                                                     |              6 |
+| US-57         | Spaces / catálogo         |          T41 | Modelo Space + filtros                | Definir esquema, índices y query builder.                                                                    |              5 |
+|           |           |          T42 | GET /spaces (paginado)                | Respuesta {items,page,total} + validaciones.                                                                 |              5 |
+|           |           |          T43 | Índices y optimización                | Crear índices DB para filtros frecuentes.                                                                    |              4 |
+|           |           |          T44 | Tests + OpenAPI spaces                | Tests filtros y contrato.                                                                                    |              4 |
+| US-58         | Map / geolocalización     |          T45 | Parseo bbox                           | Validador bbox → coordenadas.                                                                                |              3 |
+|           |       |          T46 | GET /spaces/map (GeoJSON)             | FeatureCollection con fields mínimos.                                                                        |              5 |
+|           |       |          T47 | Tests map/bbox                        | Casos borde y bbox inválido.                                                                                 |              3 |
+| US-59         | Availability              |          T48 | Modelo Availability + locks           | Slots, reglas de solape y metadata TZ.                                                                       |              5 |
+|          |                |          T49 | GET /spaces/{id}/availability         | Normalizar a TZ del espacio y devolver rangos.                                                               |              5 |
+|           |                |          T50 | Tests availability                    | Bloqueos, solape y tz checks.                                                                                |              4 |
+| US-60         | Booking                   |          T54 | Modelo Booking + estados              | Modelado PENDING_PAYMENT/CONFIRMED/CANCELLED.                                                                |              5 |
+|           |                     |          T55 | Regla de disponibilidad transaccional | Locking / chequeo atómico antes de reservar.                                                                 |              6 |
+|           |                     |          T56 | POST /bookings                        | Creación atómica (transacción DB).                                                                           |              6 |
+|           |                     |          T57 | Tests booking                         | Conflictos 409, validaciones y retries.                                                                      |              6 |
+| US-61         | Payments (PSP)            |          T58 | Integración PSP (sandbox)             | Implementar flow intent en sandbox (Stripe/MercadoPago).                                                     |              6 |
+|           |              |          T59 | Idempotency-Key                       | Middleware y persistencia de keys; tests reintentos.                                                         |              4 |
+|           |              |          T60 | Tests PSP e2e                         | Simular reintentos y validar no duplicados.                                                                  |              4 |
+| US-62         | Webhooks                  |          T61 | Webhook signature verification        | Validación segura de firma y esquema.                                                                        |              5 |
+|           |                    |          T62 | Update booking → CONFIRMED            | Lógica idempotente al recibir evento.                                                                        |              4 |
+|           |                    |          T63 | Tests webhooks                        | Eventos duplicados/ordenados/retardados.                                                                     |              4 |
+| US-63         | Bookings — vistas         |          T64 | GET /bookings/{id}                    | Endpoint detalle para pantalla de éxito.                                                                     |              4 |
+|          |           |          T65 | Generación PDF reserva                | Plantilla imprimible y API de generación.                                                                    |              6 |
+|           |           |          T66 | Tests booking detail & pdf            | Casos inexistente/estado inválido.                                                                           |              4 |
+| US-64         | Políticas / cancelaciones |          T67 | Políticas fee & refund                | Definir reglas y cálculo.                                                                                    |              5 |
+|           |   |          T68 | POST /bookings/{id}/cancel            | Cancelación con motivo y cálculo fee.                                                                        |              5 |
+|           |   |          T69 | Tests cancel policy                   | Casos gratuidad/tardía.                                                                                      |              4 |
+| US-65         | Perfil / preferencias     |          T37 | /me (GET/PUT)                         | Perfil usuario y scopes ownership checks.                                                                    |              4 |
+|           |       |          T38 | /preferences (GET/PUT)                | Idioma/moneda/notificaciones.                                                                                |              4 |
+|           |       |          T39 | Validaciones seguridad scopes         | Ownership checks y tests.                                                                                    |              3 |
+| US-68         | Fotos / media             |          T51 | Almacenamiento fotos + variants       | Thumb/medium/large + signed URLs.                                                                            |              4 |
+|           |               |          T52 | GET /spaces/{id}/photos               | Listado con srcset y signed URLs.                                                                            |              4 |
+|           |              |          T53 | Tests photos                          | Permisos y ausencia.                                                                                         |              3 |
+
 
 #### 5.2.3.4. Development Evidence for Sprint Review
 En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Web Applications (Frontend) y Web Services (Backend).
