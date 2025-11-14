@@ -2396,45 +2396,125 @@ Para la parte de Frontend se mejoro mucho el diseño de la pagina principal, y s
 
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+### Bookings
+
 | Método | Endpoint | Descripción |
 | --- | --- | --- |
 | PUT | /api/v1/bookings/{bookingCode}/change | Cambiar el estado de una reserva |
 | GET | /api/v1/bookings | Obtener todas las reservas |
 | POST | /api/v1/bookings | Crear una nueva reserva |
 | GET | /api/v1/bookings/{bookingCode} | Obtener una reserva por su código |
+
+---
+
+### Services
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | GET | /api/v1/services/{serviceId} | Obtener un servicio por su ID |
 | PUT | /api/v1/services/{serviceId} | Actualizar un servicio |
 | DELETE | /api/v1/services/{serviceId} | Eliminar un servicio por su ID |
 | GET | /api/v1/services | Obtener todos los servicios |
 | POST | /api/v1/services | Crear un nuevo servicio |
 | GET | /api/v1/services/space/{spaceId} | Obtener servicios por ID de espacio |
+
+---
+
+### Payments - Queries
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | GET | /api/v1/payments/{paymentId} | Obtener un pago por su ID |
 | GET | /api/v1/invoices/{invoiceId}/payments | Obtener todos los pagos de una factura |
+
+---
+
+### Spaces
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | GET | /api/v1/spaces/{spaceId} | Obtener un espacio por su ID |
 | PUT | /api/v1/spaces/{spaceId} | Actualizar un espacio existente |
 | DELETE | /api/v1/spaces/{spaceId} | Eliminar un espacio por su ID |
 | GET | /api/v1/spaces | Obtener todos los espacios |
 | POST | /api/v1/spaces | Crear un nuevo espacio |
 | GET | /api/v1/spaces/owner/{ownerId} | Obtener espacios por ID de propietario |
+
+---
+
+### Payment Methods - Queries
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | GET | /api/v1/payment-methods | Obtener métodos de pago de un usuario |
+
+---
+
+### Owners
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | GET | /api/v1/owners/{ownerId} | Obtener un propietario por su ID |
 | PUT | /api/v1/owners/{ownerId} | Actualizar un propietario |
 | DELETE | /api/v1/owners/{ownerId} | Eliminar un propietario por su ID |
 | GET | /api/v1/owners | Obtener todos los propietarios |
 | POST | /api/v1/owners | Crear un nuevo propietario |
+
+---
+
+### Reviews - Commands
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | PUT | /api/v1/reviews/{reviewId} | Actualizar una reseña existente |
 | DELETE | /api/v1/reviews/{reviewId} | Eliminar una reseña (borrado lógico) |
 | POST | /api/v1/reviews | Crear una nueva reseña |
+
+---
+
+### Reviews - Queries
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | GET | /api/v1/reviews/{reviewId} | Obtener una reseña por su ID |
 | GET | /api/v1/users/{userId}/reviews | Obtener todas las reseñas de un usuario |
 | GET | /api/v1/spaces/{spaceId}/reviews | Obtener todas las reseñas de un espacio (paginado) |
 | GET | /api/v1/spaces/{spaceId}/reviews/summary | Obtener el resumen de reseñas de un espacio |
+
+---
+
+### Payment Methods - Commands
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | POST | /api/v1/payment-methods | Añadir un método de pago |
 | DELETE | /api/v1/payment-methods/{paymentMethodId} | Deshabilitar un método de pago |
+
+---
+
+### Payments - Commands
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | POST | /api/v1/payments | Crear un nuevo pago |
 | POST | /api/v1/payments/{paymentId}/refund | Reembolsar un pago |
+
+---
+
+### Invoices - Queries
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | GET | /api/v1/invoices/{invoiceId} | Obtener una factura por su ID |
 | GET | /api/v1/bookings/{bookingId}/invoice | Obtener la factura asociada a una reserva |
+
+---
+
+### Freelancers
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | GET | /api/v1/freelancers/{freelancerId} | Obtener un freelancer por su ID |
 | PUT | /api/v1/freelancers/{freelancerId} | Actualizar un freelancer |
 | DELETE | /api/v1/freelancers/{freelancerId} | Eliminar un freelancer por su ID |
@@ -2442,13 +2522,28 @@ Para la parte de Frontend se mejoro mucho el diseño de la pagina principal, y s
 | POST | /api/v1/freelancers | Crear un nuevo freelancer |
 | PATCH | /api/v1/freelancers/{freelancerId}/user-type | Actualizar el tipo de usuario de un freelancer |
 | GET | /api/v1/freelancers/{freelancerId}/preferences | Obtener las preferencias de un freelancer |
+
+---
+
+### Users
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | GET | /api/v1/users/{userId} | Obtener un usuario por su ID |
 | PUT | /api/v1/users/{userId} | Actualizar un usuario |
 | DELETE | /api/v1/users/{userId} | Eliminar un usuario por su ID |
 | GET | /api/v1/users | Obtener todos los usuarios |
 | POST | /api/v1/users | Crear un nuevo usuario |
+
+---
+
+### Invoices - Commands
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
 | POST | /api/v1/invoices | Crear una nueva factura |
 | POST | /api/v1/invoices/{invoiceId}/send | Enviar una factura |
+
 
 <img width="1902" height="937" alt="image" src="https://github.com/user-attachments/assets/4dac2d3c-b0a4-45ef-9807-c8032f3af13d" />
 
