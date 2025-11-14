@@ -2408,6 +2408,19 @@ Landing Page Para hacer el deployment de la landing page se utilizó Github Page
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
 
+##### Report-WorkStation
+<img width="804" height="940" alt="image" src="https://github.com/user-attachments/assets/ab20ae2b-5b85-4116-ab1a-f9fd352a4e0a" />
+
+##### Landing-Page
+<img width="802" height="525" alt="image" src="https://github.com/user-attachments/assets/80e5e93e-6320-4d74-8910-517fbff47494" />
+
+##### BackEnd
+<img width="800" height="735" alt="image" src="https://github.com/user-attachments/assets/be25013a-135b-4585-93cf-5eedeaa80c8f" />
+
+##### Front-End-WorkStation
+<img width="804" height="523" alt="image" src="https://github.com/user-attachments/assets/2c06a056-3b34-40bf-9959-ac2eebf9d515" />
+
+
 #### 5.3. Validation Interviews
 
 Como parte del proceso de validación del sistema WorkStation, se realizaron entrevistas semiestructuradas con distintos tipos de usuarios para evaluar la utilidad, usabilidad y aceptación de la plataforma en contextos reales. Estas entrevistas permitieron recopilar información cualitativa sobre la experiencia de uso desde la perspectiva de los usuarios, así como la satisfacción y apreciación de las funcionalidades y características de la aplicación.
