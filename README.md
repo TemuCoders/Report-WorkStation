@@ -221,20 +221,6 @@ Desarrollo de Aplicaciones Open Source<br>
       - [5.2.3.4. Development Evidence for Sprint Review](#5234-development-evidence-for-sprint-review)
       - [5.2.3.5. Execution Evidence for Sprint Review](#5235-execution-evidence-for-sprint-review)
       - [5.2.3.6. Services Documentation Evidence for Sprint Review.](#5236-services-documentation-evidence-for-sprint-review)
-    - [Bookings](#bookings)
-    - [Services](#services)
-    - [Payments - Queries](#payments---queries)
-    - [Spaces](#spaces)
-    - [Payment Methods - Queries](#payment-methods---queries)
-    - [Owners](#owners)
-    - [Reviews - Commands](#reviews---commands)
-    - [Reviews - Queries](#reviews---queries)
-    - [Payment Methods - Commands](#payment-methods---commands)
-    - [Payments - Commands](#payments---commands)
-    - [Invoices - Queries](#invoices---queries)
-    - [Freelancers](#freelancers-1)
-    - [Users](#users)
-    - [Invoices - Commands](#invoices---commands)
       - [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
         - [Actividades Realizadas](#actividades-realizadas-2)
         - [Evidencias Visuales](#evidencias-visuales-2)
@@ -2468,6 +2454,16 @@ Para la parte de Backend se logra ver la correcta implementación de todos nuest
 
 Para la parte de Frontend se mejoro mucho el diseño de la pagina principal, y se logra ver la correcta navegación para los usuarios.
 
+**Buscador:**
+<p align="center">
+  <img src="imgs/Busqueda de Espacios.png"/>
+</p>
+
+Ademas se realizo el video de presentación sobre el proyecto:
+
+[![WorkStation](https://img.youtube.com/vi/5BCJwLL9gJU/0.jpg)](https://www.youtube.com/watch?v=5BCJwLL9gJU "WorkStation")
+
+https://youtu.be/5BCJwLL9gJU
 
 #### 5.2.3.6. Services Documentation Evidence for Sprint Review.
 
@@ -2758,6 +2754,11 @@ Para garantizar una experiencia de usuario en toda la plataforma WorkStation —
 WorkStation ya tiene una base técnica impecable (backend sólido, landing profesional) y un frontend en excelente camino. Brilla en velocidad, diseño y funcionalidad clave**. Las oportunidades reales están en humanizar la interacción (mensajes cercanos, feedback vivo), anticiparse al usuario (filtros inteligentes, atajos) y dar control total (cancelaciones seguras, modos duales). Con estos ajustes, no solo será usable: será la plataforma que todos recomienden.
 
 ### 5.4. Video About-the-Product
+En el video de presentación de WorkStation, se puede ver el diseño de la plataforma, la funcionalidad y la experiencia de usuario. En la parte de la presentación, se puede ver el desarrollo de la plataforma, el trabajo realizado en el equipo y las decisiones tomadas para llevar a cabo el proyecto.
+
+[![WorkStation](https://img.youtube.com/vi/5BCJwLL9gJU/0.jpg)](https://www.youtube.com/watch?v=5BCJwLL9gJU "WorkStation")
+
+https://youtu.be/5BCJwLL9gJU
 
 ---
 ### Conclusiones
