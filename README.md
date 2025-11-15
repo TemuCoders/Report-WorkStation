@@ -2714,6 +2714,9 @@ Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u2023
 
 Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113432_upc_edu_pe/IQB5rhXCkovOQq-rMft7VYk_ATb-oXBWcYF6WURlN9fxB-w?e=9pcw3T&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
+<img width="1360" height="597" alt="image" src="imgs/torres_gabriel.png" />
+
+Enlace de la entrevista: https://youtu.be/qzf8e6TuojI
 
 **Segmento 2 - Freelancers**
 
