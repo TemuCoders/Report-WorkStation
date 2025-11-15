@@ -624,22 +624,6 @@ Enlace del video de la entrevista:https://upcedupe-my.sharepoint.com/:v:/g/perso
 
 Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EeL9eXkRxqJCm57X7HqQ1doBe2BQ7qy3Bc249YAmjYvEMA?e=AChHuQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-
-<img width="1360" height="597" alt="image" src="https://github.com/user-attachments/assets/7b022d35-c5f2-44dd-bdbc-8394c3154ddb" />
-
-**Entrevistado:** Henrry Aiquipa 
-**Edad:** 30 años  
-**Ocupación:** Dueño de un local  
-**Ubicación:** Lima - Los Olivos 
-**Medio:** Zoom  
-**Entrevistador:** Ivan La Madrid
-
-🎬 **Inicio del video:** 0:01  
-⏱️ **Duración:** 4 minutos 
-
-Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113432_upc_edu_pe/IQB5rhXCkovOQq-rMft7VYk_ATb-oXBWcYF6WURlN9fxB-w?e=9pcw3T&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
-
 **Segmento 2 - Freelancers**
 
 ![Img propietario2](imgs/Entrevista-Miguel.png)
@@ -2725,6 +2709,10 @@ Enlace del video de la entrevista:https://upcedupe-my.sharepoint.com/:v:/g/perso
 [![Demo en stream](imgs/en2.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EeL9eXkRxqJCm57X7HqQ1doBe2BQ7qy3Bc249YAmjYvEMA?e=AChHuQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EeL9eXkRxqJCm57X7HqQ1doBe2BQ7qy3Bc249YAmjYvEMA?e=AChHuQ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+<img width="1360" height="597" alt="image" src="https://github.com/user-attachments/assets/7b022d35-c5f2-44dd-bdbc-8394c3154ddb" />
+
+Enlace de la entrevista: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202113432_upc_edu_pe/IQB5rhXCkovOQq-rMft7VYk_ATb-oXBWcYF6WURlN9fxB-w?e=9pcw3T&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 **Segmento 2 - Freelancers**
