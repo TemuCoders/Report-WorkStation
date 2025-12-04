@@ -2144,7 +2144,7 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
 
 En esta sección se registra el avance del producto y las acciones colaborativas realizadas por el equipo para el Sprint 3.
 
-#### 5.2.2.1. Sprint Planning 3
+#### 5.2.3.1. Sprint Planning 3
 En esta sección se resumen los puntos clave del Sprint Planning, incluyendo los objetivos, entregables y tareas asignadas para el sprint. A continuación, se presenta un cuadro con los detalles acordados.
 
 | Sprint \# | Sprint 3 |
@@ -2161,14 +2161,13 @@ En esta sección se resumen los puntos clave del Sprint Planning, incluyendo los
 | Sum of Story Points | La suma de Story Points atendidos es de 60. |
 
 
-#### 5.2.2.2. Aspect Leaders and Collaborators
+#### 5.2.3.2. Aspect Leaders and Collaborators
 Durante este sprint, nuestro objetivo fue definir nuestros puntos base para realizar una solucion acertada a lo que el usuario necesite. La investigacion, entrevistas y datos recolectados ayudaron a que se pueda generar una vision mas clara del objetivo en el grupo. Por ello aqui se presentan los roles que cada uno de los participantes tuvo a lo largo de este sprint.
 
 | Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 (L/C) |
 | ----- | ----- | ----- |
 | Quijada Magro Jeremy Alexander | jhonson2021 | L |
 | Ivan La Madrid Lozano | IvanLaMadrid | C |
-| Arturo Saravia Huaricancha | thunder053 | C |
 | Arturo Saravia Huaricancha | thunder053 | C |
 
 
@@ -2667,6 +2666,359 @@ https://temucoders.github.io/Landing-Page/
 
 **URL del repositorio del Frontend:**
   https://github.com/TemuCoders/Front-End-WorkStation
+
+### 5.2.3. Sprint 4
+
+En esta sección se registra el avance del producto y las acciones colaborativas realizadas por el equipo para el Sprint 4.
+
+#### 5.2.4.1. Sprint Planning 4
+En esta sección se resumen los puntos clave del Sprint Planning, incluyendo los objetivos, entregables y tareas asignadas para el sprint. A continuación, se presenta un cuadro con los detalles acordados.
+
+| Sprint \# | Sprint 4 |
+| ----- | ----- |
+| Date | 2025-11-10 |
+| Time | 9:00 PM |
+| Location | Virtual \- Meet |
+| Prepared By | Jeremy Quijada |
+| Attendees (to planning meeting) | Jeremy Quijada, Franco Gabriel Huang Liu, Arturo Axel Saravia Huaricancha y Ivan Jeanpierre La Madrid Lozano |
+| Sprint 4 \- 1 Review Summary |Se ha realizado las mejoras indicadas en el informe, incluyendo la implementación de la aplicación Front End conectada con el Back End, la validación de la arquitectura y la mejora de la comunicación entre los integrantes. |
+| Sprint 4 \- 1 Retrospective Summary | Se alcanzó el progreso esperado durante el sprint 4: se completo las tareas esperadas además, el equipo mejoró significativamente en comunicación y trabajo colaborativo, lo que permitió alcanzar la finalización en el desarrollo de la aplicación. |
+| Sprint 4 Goal | En este sprint, nos enfocamos en completar la union de nuestro Front End con el Back End en cada uno de los Bounded Contexts, asegurando una integración perfecta entre ambos. Durante esta fase, desarrollamos diversos módulos con operaciones que permiten gestionar distintos recursos del sistema. |
+| Sprint 4 Velocity | Nuestro equipo puede aceptar hasta -- Story Points.|
+| Sum of Story Points | La suma de Story Points atendidos es de --. |
+
+
+#### 5.2.4.2. Aspect Leaders and Collaborators
+Durante este sprint, nuestro objetivo fue finalizar la aplicacion tanto en el Front End como en el Back End, asegurando una integración perfecta entre ambos. La investigacion, entrevistas y datos recolectados ayudaron a que se pueda generar una vision mas clara del objetivo en el grupo. Por ello aqui se presentan los roles que cada uno de los participantes tuvo a lo largo de este sprint.
+
+| Team Member (Last Name, First Name) | GitHub Username | Aspect Name 1 (L/C) |
+| ----- | ----- | ----- |
+| Quijada Magro Jeremy Alexander | jhonson2021 | L |
+| Ivan La Madrid Lozano | IvanLaMadrid | C |
+| Arturo Saravia Huaricancha | thunder053 | C |
+
+#### 5.2.4.3. Sprint Backlog 4
+Esta sección ofrece un resumen del objetivo central del sprint, resaltando las metas propuestas y las funcionalidades que se planean desarrollar. Seguidamente, se incluye una captura del tablero del sprint en la herramienta de gestión elegida, Trello, junto con su enlace público. También se presenta una tabla con las User Stories asignadas al sprint, los Work-items o tareas derivadas, y otras actividades adicionales requeridas para alcanzar los objetivos generales del sprint.
+
+![sprint4](imgs/sprint4.png)
+
+Este es nuestro link de invitación a nuestro Trello: https://trello.com/invite/b/68e843cd9788f0fca4edea0b/ATTId5605175984866352bf64ed5b6587a7419E26545/workstate
+
+#### 5.2.4.4. Development Evidence for Sprint Review
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: Landing Page, Web Applications (Frontend) y Web Services (Backend).
+La sección inicia con una introducción que resume los principales avances en la implementación.
+
+Durante este Sprint se lograron avances importantes en los diferentes componentes del sistema:
+
+-  **Web Services (Backend)**: Se implementaron y desplegaron los servicios principales en Azure, con integración a base de datos PostgreSQL. Se agregaron funcionalidades como usuarios, notificaciones, residentes y configuración de la infraestructura para despliegue automático.
+- **Web Applications (Frontend)**: Se avanzó en la implementación de funcionalidades de la interfaz de usuario, incluyendo recomendaciones, cambio de idioma y ajustes en la estructura del proyecto.
+- **Landing Page:** Se desarrollaron y ajustaron secciones informativas, se implementó un conmutador de idiomas y se realizaron mejoras en la navegación y estilo.
+
+A continuación se detallan los commits relevantes asociados a cada uno de los repositorios:
+
+**Web Services (Backend):** - https://github.com/TemuCoders/BackEnd
+
+| Repository          | Branch | Commit                  | IDCommit | MessageCommit                                  | Message Body | Commited on (Date) |
+
+
+**Web Applications (Frontend):** - https://github.com/TemuCoders/Front-End-WorkStation
+
+| Repository                        | Branch | Commit                  | IDCommit | MessageCommit                                                                 | Message Body | Commited on (Date) |
+
+#### 5.2.4.5. Execution Evidence for Sprint Review
+
+**URL del repositorio de la Landing Page:**
+https://temucoders.github.io/Landing-Page/
+
+Se mejoro todo el tema de la landing page, mejorando la usabilidad y la experiencia del usuario, y mejorando la presentación de los servicios y productos.
+
+**Presentation de la Landing Page:**
+<p align="center">
+  <img src="imgs/LandingDash.png"/>
+</p>
+
+**About Landing Page:**
+<p align="center">
+  <img src="imgs/About-Landingg.png"/>
+</p>
+
+**Our Services:**
+<p align="center">
+  <img src="imgs/OurServices.png"/>
+</p>
+
+**Services:**
+<p align="center">
+  <img src="imgs/Services.png"/>
+</p>
+
+**Videos:**
+<p align="center">
+  <img src="imgs/Videos.png"/>
+</p>
+
+**Our Team:**
+<p align="center">
+  <img src="imgs/OurTeam.png"/>
+</p>
+
+
+**URL del repositorio del Backend:**
+  https://github.com/TemuCoders/BackEnd
+
+Para la parte de Backend se logra ver la correcta implementación de todos nuestros endpoints.
+
+**Booking Management:**
+<p align="center">
+  <img src="imgs/swagger1.png"/>
+</p>
+
+<p align="center">
+  <img src="imgs/swagger2.png"/>
+</p>
+
+**Spaces Management:**
+<p align="center">
+  <img src="imgs/swagger3.png"/>
+</p>
+
+**Payment Management:**
+<p align="center">
+  <img src="imgs/swagger4.png"/>
+</p>
+
+**User Management:**
+<p align="center">
+  <img src="imgs/swagger5.png"/>
+</p>
+
+**Schemas:**
+<p align="center">
+  <img src="imgs/swagger6.png"/>
+</p>
+
+**URL del repositorio del Frontend:**
+  https://github.com/TemuCoders/Front-End-WorkStation
+
+Para la parte de Frontend se mantiene el diseño de la pagina principal, y se logra ver la correcta navegación para los usuarios durante cada etapa de la página con la comunicación funcional entre ambas.
+
+**Perfil:**
+<p align="center">
+  <img src="imgs/Perfil- Front.png"/>
+</p>
+
+**Buscador:**
+<p align="center">
+  <img src="imgs/Busqueda de Espacios.png"/>
+</p>
+
+**Dashboard:**
+<p align="center">
+  <img src="imgs/Dashboard - Front.png"/>
+</p>
+
+**Pagos y Transferencias:**
+<p align="center">
+  <img src="imgs/Payment - Front.png"/>
+</p>
+
+
+**Reseñas:**
+<p align="center">
+  <img src="imgs/Reseñas - Front.png"/>
+</p>
+
+
+
+Ademas se realizo el video de presentación sobre el proyecto:
+
+[![WorkStation](https://img.youtube.com/vi/5BCJwLL9gJU/0.jpg)](https://www.youtube.com/watch?v=5BCJwLL9gJU "WorkStation")
+
+https://youtu.be/5BCJwLL9gJU
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+### Bookings
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| PUT | /api/v1/bookings/{bookingCode}/change | Cambiar el estado de una reserva |
+| GET | /api/v1/bookings | Obtener todas las reservas |
+| POST | /api/v1/bookings | Crear una nueva reserva |
+| GET | /api/v1/bookings/{bookingCode} | Obtener una reserva por su código |
+
+---
+
+### Services
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| GET | /api/v1/services/{serviceId} | Obtener un servicio por su ID |
+| PUT | /api/v1/services/{serviceId} | Actualizar un servicio |
+| DELETE | /api/v1/services/{serviceId} | Eliminar un servicio por su ID |
+| GET | /api/v1/services | Obtener todos los servicios |
+| POST | /api/v1/services | Crear un nuevo servicio |
+| GET | /api/v1/services/space/{spaceId} | Obtener servicios por ID de espacio |
+
+---
+
+### Payments - Queries
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| GET | /api/v1/payments/{paymentId} | Obtener un pago por su ID |
+| GET | /api/v1/invoices/{invoiceId}/payments | Obtener todos los pagos de una factura |
+
+---
+
+### Spaces
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| GET | /api/v1/spaces/{spaceId} | Obtener un espacio por su ID |
+| PUT | /api/v1/spaces/{spaceId} | Actualizar un espacio existente |
+| DELETE | /api/v1/spaces/{spaceId} | Eliminar un espacio por su ID |
+| GET | /api/v1/spaces | Obtener todos los espacios |
+| POST | /api/v1/spaces | Crear un nuevo espacio |
+| GET | /api/v1/spaces/owner/{ownerId} | Obtener espacios por ID de propietario |
+
+---
+
+### Payment Methods - Queries
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| GET | /api/v1/payment-methods | Obtener métodos de pago de un usuario |
+
+---
+
+### Owners
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| GET | /api/v1/owners/{ownerId} | Obtener un propietario por su ID |
+| PUT | /api/v1/owners/{ownerId} | Actualizar un propietario |
+| DELETE | /api/v1/owners/{ownerId} | Eliminar un propietario por su ID |
+| GET | /api/v1/owners | Obtener todos los propietarios |
+| POST | /api/v1/owners | Crear un nuevo propietario |
+
+---
+
+### Reviews - Commands
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| PUT | /api/v1/reviews/{reviewId} | Actualizar una reseña existente |
+| DELETE | /api/v1/reviews/{reviewId} | Eliminar una reseña (borrado lógico) |
+| POST | /api/v1/reviews | Crear una nueva reseña |
+
+---
+
+### Reviews - Queries
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| GET | /api/v1/reviews/{reviewId} | Obtener una reseña por su ID |
+| GET | /api/v1/users/{userId}/reviews | Obtener todas las reseñas de un usuario |
+| GET | /api/v1/spaces/{spaceId}/reviews | Obtener todas las reseñas de un espacio (paginado) |
+| GET | /api/v1/spaces/{spaceId}/reviews/summary | Obtener el resumen de reseñas de un espacio |
+
+---
+
+### Payment Methods - Commands
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| POST | /api/v1/payment-methods | Añadir un método de pago |
+| DELETE | /api/v1/payment-methods/{paymentMethodId} | Deshabilitar un método de pago |
+
+---
+
+### Payments - Commands
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| POST | /api/v1/payments | Crear un nuevo pago |
+| POST | /api/v1/payments/{paymentId}/refund | Reembolsar un pago |
+
+---
+
+### Invoices - Queries
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| GET | /api/v1/invoices/{invoiceId} | Obtener una factura por su ID |
+| GET | /api/v1/bookings/{bookingId}/invoice | Obtener la factura asociada a una reserva |
+
+---
+
+### Freelancers
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| GET | /api/v1/freelancers/{freelancerId} | Obtener un freelancer por su ID |
+| PUT | /api/v1/freelancers/{freelancerId} | Actualizar un freelancer |
+| DELETE | /api/v1/freelancers/{freelancerId} | Eliminar un freelancer por su ID |
+| GET | /api/v1/freelancers | Obtener todos los freelancers |
+| POST | /api/v1/freelancers | Crear un nuevo freelancer |
+| PATCH | /api/v1/freelancers/{freelancerId}/user-type | Actualizar el tipo de usuario de un freelancer |
+| GET | /api/v1/freelancers/{freelancerId}/preferences | Obtener las preferencias de un freelancer |
+
+---
+
+### Users
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| GET | /api/v1/users/{userId} | Obtener un usuario por su ID |
+| PUT | /api/v1/users/{userId} | Actualizar un usuario |
+| DELETE | /api/v1/users/{userId} | Eliminar un usuario por su ID |
+| GET | /api/v1/users | Obtener todos los usuarios |
+| POST | /api/v1/users | Crear un nuevo usuario |
+
+---
+
+### Invoices - Commands
+
+| Método | Endpoint | Descripción |
+| --- | --- | --- |
+| POST | /api/v1/invoices | Crear una nueva factura |
+| POST | /api/v1/invoices/{invoiceId}/send | Enviar una factura |
+
+
+<img width="1902" height="937" alt="image" src="https://github.com/user-attachments/assets/4dac2d3c-b0a4-45ef-9807-c8032f3af13d" />
+
+#### 5.2.3.8. Team Collaboration Insights during Sprint
+A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
+
+##### Report-WorkStation
+<img width="804" height="500" alt="image" src="" />
+<img width="892" height="500" alt="image" src="" />
+
+**URL del repositorio del informe:**  
+    [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
+
+##### Landing-Page
+<img width="802" height="500" alt="image" src="" />
+<img width="897" height="500" alt="image" src="" />
+
+**URL del repositorio de la Landing Page:**
+https://temucoders.github.io/Landing-Page/
+
+##### BackEnd
+<img width="800" height="500" alt="image" src="" />
+<img width="891" height="500" alt="image" src="" />
+
+**URL del repositorio del Backend:**
+  https://github.com/TemuCoders/BackEnd
+
+##### Front-End-WorkStation
+<img width="804" height="500" alt="image" src="" />
+<img width="892" height="500" alt="image" src="" />
+
+**URL del repositorio del Frontend:**
+  https://github.com/TemuCoders/Front-End-WorkStation
+
 
 #### 5.3. Validation Interviews
 
