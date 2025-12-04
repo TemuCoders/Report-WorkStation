@@ -2992,8 +2992,8 @@ https://youtu.be/5BCJwLL9gJU
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
 
 ##### Report-WorkStation
-<img width="804" height="500" alt="image" src="report-pulse.png" />
-<img width="892" height="500" alt="image" src="report-network.png" />
+<img width="804" height="500" alt="image" src="imgs/report-pulse.png" />
+<img width="892" height="500" alt="image" src="imgs/report-network.png" />
 
 **URL del repositorio del informe:**  
     [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
