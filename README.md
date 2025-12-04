@@ -2999,22 +2999,22 @@ A continuación se muestra evidencia de la coolaboración del equipo mediante in
     [https://github.com/TemuCoders/Report-WorkStation](https://github.com/TemuCoders/Report-WorkStation)
 
 ##### Landing-Page
-<img width="802" height="500" alt="image" src="" />
-<img width="897" height="500" alt="image" src="" />
+<img width="802" height="500" alt="image" src="imgs/landing-pulse.png" />
+<img width="897" height="500" alt="image" src="imgs/landing-network.png" />
 
 **URL del repositorio de la Landing Page:**
 https://temucoders.github.io/Landing-Page/
 
 ##### BackEnd
-<img width="800" height="500" alt="image" src="" />
-<img width="891" height="500" alt="image" src="" />
+<img width="800" height="500" alt="image" src="imgs/back-pulse.png" />
+<img width="891" height="500" alt="image" src="imgs/back-network.png" />
 
 **URL del repositorio del Backend:**
   https://github.com/TemuCoders/BackEnd
 
 ##### Front-End-WorkStation
-<img width="804" height="500" alt="image" src="" />
-<img width="892" height="500" alt="image" src="" />
+<img width="804" height="500" alt="image" src="imgs/front-network.png" />
+<img width="892" height="500" alt="image" src="imgs/front-network.png" />
 
 **URL del repositorio del Frontend:**
   https://github.com/TemuCoders/Front-End-WorkStation
