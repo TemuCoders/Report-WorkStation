@@ -69,14 +69,6 @@ Desarrollo de Aplicaciones Open Source<br>
     - [Descripción de la Problemática](#descripción-de-la-problemática)
     - [1.2.2 Lean UX Process](#122-lean-ux-process)
       - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [Dominio del Problema](#dominio-del-problema)
-        - [Alcance del problema](#alcance-del-problema)
-        - [Segmentos de cliente (actores involucrados)](#segmentos-de-cliente-actores-involucrados)
-        - [Puntos de dolor](#puntos-de-dolor)
-        - [Causas raíz (hipótesis del problema)](#causas-raíz-hipótesis-del-problema)
-        - [Brecha detectada](#brecha-detectada)
-        - [Impactos y riesgos del problema](#impactos-y-riesgos-del-problema)
-        - [Indicadores (baseline a observar)](#indicadores-baseline-a-observar)
       - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
       - [1.2.2.3. Lean UX Problem Hypothesis Statements](#1223-lean-ux-problem-hypothesis-statements)
       - [1.2.2.4. Lean UX Problem Canvas](#1224-lean-ux-problem-canvas)
@@ -110,7 +102,6 @@ Desarrollo de Aplicaciones Open Source<br>
   - [2.3. Needfinding](#23-needfinding)
     - [2.3.1. User Personas](#231-user-personas)
     - [2.3.2. User Task Matrix (AS-IS)](#232-user-task-matrix-as-is)
-      - [**Leyenda — Escalas**](#leyenda--escalas)
       - [a) Trabajador independiente / Freelancer (AS-IS)](#a-trabajador-independiente--freelancer-as-is)
       - [b) Propietario de inmueble / Host (AS-IS)](#b-propietario-de-inmueble--host-as-is)
     - [2.3.3. User Journey Mapping](#233-user-journey-mapping)
@@ -234,7 +225,8 @@ Desarrollo de Aplicaciones Open Source<br>
       - [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
       - [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
       - [5.2.4.6. Services Documentation Evidence for Sprint Review.](#5246-services-documentation-evidence-for-sprint-review)
-      - [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint-1)
+      - [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+      - [5.2.4.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint-1)
         - [Report-WorkStation](#report-workstation-1)
         - [Landing-Page](#landing-page-2)
         - [BackEnd](#backend-1)
@@ -289,6 +281,15 @@ En este segundo trabajo práctico, continuamos con el desarrollo y perfeccionami
 
 A continuación, se presentan los avances y reportes obtenidos durante este proceso, donde se puede observar el impacto de las tareas realizadas y cómo cada una contribuyó al resultado final.
 
+<img width="804" height="500" alt="image" src="imgs/report-pulse.png" />
+
+---
+
+## TF
+
+Durante el desarrollo del Trabajo del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC.
+
+<img width="804" height="500" alt="image" src="imgs/report-pulse.png" />
 
 ---
 ## Student Outcome
@@ -300,8 +301,9 @@ En el siguiente cuadro se describen las acciones realizadas y conclusiones del e
 
 | Criterio específico | Acciones realizadas | Conclusiones |
 |---------------------|---------------------|--------------|
-| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  **TP**: **Quijada Magro Jeremy**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  **Huang Liu Franco**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **La Madrid Lozano Ivan**:Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Saravia Huaricancha Arturo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **TB2**: **Quijada Magro Jeremy**: Lideró la defensa del avance técnico ante docentes, respondiendo preguntas con claridad.  **Huang Liu Franco**: Presentó las decisiones de diseño y justificó sus elecciones con base en la experiencia de usuario **La Madrid Lozano Ivan**:Expuso el flujo de funcionalidades del frontend con claridad para todos los participantes. **Saravia Huaricancha Arturo**: Detalló aspectos técnicos de la arquitectura de frontend. | **TB1**: Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC.**TP**: Durante el desarrollo del Trabajo Parcial del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC. **TB2**: El equipo reforzó la claridad y efectividad de su comunicación oral, evidenciando mayor dominio técnico y capacidad de síntesis al presentar avances. Se observó un lenguaje más preciso y enfocado en los objetivos del proyecto, lo que facilitó la toma de decisiones y la integración de componentes desarrollados.|
-| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  **TP**: **Quijada Magro Jeremy**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  **Huang Liu Franco**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **La Madrid Lozano Ivan**:Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Saravia Huaricancha Arturo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **TB2**: **Quijada Magro Jeremy**: Lideró la defensa del avance técnico ante docentes, respondiendo preguntas con claridad.  **Huang Liu Franco**: Presentó las decisiones de diseño y justificó sus elecciones con base en la experiencia de usuario **La Madrid Lozano Ivan**:Expuso el flujo de funcionalidades del frontend con claridad para todos los participantes. **Saravia Huaricancha Arturo**: Detalló aspectos técnicos de la arquitectura de frontend. | **TB1:** Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC. **TP**: Durante el desarrollo del Trabajo Parcial del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC. **TB2**: El equipo reforzó la claridad y efectividad de su comunicación oral, evidenciando mayor dominio técnico y capacidad de síntesis al presentar avances. Se observó un lenguaje más preciso y enfocado en los objetivos del proyecto, lo que facilitó la toma de decisiones y la integración de componentes desarrollados.|
+| **1. Comunica oralmente con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  **TP**: **Quijada Magro Jeremy**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  **Huang Liu Franco**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **La Madrid Lozano Ivan**:Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Saravia Huaricancha Arturo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **TB2**: **Quijada Magro Jeremy**: Lideró la defensa del avance técnico ante docentes, respondiendo preguntas con claridad.  **Huang Liu Franco**: Presentó las decisiones de diseño y justificó sus elecciones con base en la experiencia de usuario **La Madrid Lozano Ivan**:Expuso el flujo de funcionalidades del frontend con claridad para todos los participantes. **Saravia Huaricancha Arturo**: Detalló aspectos técnicos de la arquitectura de frontend. **TF**: **Quijada Magro Jeremy**: Comunicó el impacto de las funcionalidades desarrolladas, adecuando su explicación tanto para miembros técnicos como no técnicos del jurado.  **Huang Liu Franco**: Expuso de forma efectiva las decisiones de diseño tomadas en el frontend, contextualizando su relevancia para usuarios finales **La Madrid Lozano Ivan**:Explicó los flujos de datos implementados y la arquitectura del sistema, adaptando su discurso según la audiencia. **Saravia Huaricancha Arturo**:  Dirigió la presentación del avance final del proyecto, respondiendo preguntas técnicas y organizativas de manera clara frente a evaluadores.| **TB1**: Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC.**TP**: Durante el desarrollo del Trabajo Parcial del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC. **TB2**: El equipo reforzó la claridad y efectividad de su comunicación oral, evidenciando mayor dominio técnico y capacidad de síntesis al presentar avances. Se observó un lenguaje más preciso y enfocado en los objetivos del proyecto, lo que facilitó la toma de decisiones y la integración de componentes desarrollados. **TF:** El equipo consolidó sus habilidades de comunicación oral, logrando transmitir efectivamente los aspectos técnicos, funcionales y organizativos del proyecto frente a distintas audiencias. Se evidenció seguridad, dominio del tema y capacidad de adaptar el lenguaje según el perfil del interlocutor. Esto reflejó un alto nivel de preparación y cohesión grupal.|
+| **2. Comunica por escrito con efectividad a diferentes rangos de audiencia** | **TB1**: **Quijada Magro Jeremy**: Desarollo los apartados del capitulo IV centrandose en los style guidelynes y los diagramas de componentes.  **Huang Liu Franco**: Desarollo los apartados del capitulo IV centrandose en los wireframes. **La Madrid Lozano Ivan**: Desarrollo los apartados de la Introduccion, la Solution Profile, Segmentos Objetivos, Needfinding y Analisis de Competidores. **Saravia Huaricancha Arturo**: Desarrollo los apartados del capitulo III centrandose en el Product Backlog.  **TP**: **Quijada Magro Jeremy**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2.  **Huang Liu Franco**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **La Madrid Lozano Ivan**:Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **Saravia Huaricancha Arturo**: Realizó mejoras con respecto a la TB1 y creó y desplegó su frontend al igual que su jsonserver y colaboró en el sprint 2. **TB2**: **Quijada Magro Jeremy**: Lideró la defensa del avance técnico ante docentes, respondiendo preguntas con claridad.  **Huang Liu Franco**: Presentó las decisiones de diseño y justificó sus elecciones con base en la experiencia de usuario **La Madrid Lozano Ivan**:Expuso el flujo de funcionalidades del frontend con claridad para todos los participantes. **Saravia Huaricancha Arturo**: Detalló aspectos técnicos de la arquitectura de frontend. **TF**: **Quijada Magro Jeremy**: Comunicó el impacto de las funcionalidades desarrolladas, adecuando su explicación tanto para miembros técnicos como no técnicos del jurado.  **Huang Liu Franco**: Expuso de forma efectiva las decisiones de diseño tomadas en el frontend, contextualizando su relevancia para usuarios finales **La Madrid Lozano Ivan**:Explicó los flujos de datos implementados y la arquitectura del sistema, adaptando su discurso según la audiencia. **Saravia Huaricancha Arturo**:  Dirigió la presentación del avance final del proyecto, respondiendo preguntas técnicas y organizativas de manera clara frente a evaluadores.| **TB1:** Durante el desarrollo de los capítulos I al V del proyecto WorkStation, el equipo demostró una comunicación efectiva con distintos públicos al realizar entrevistas a usuarios, documentar hallazgos clave, redactar requisitos y diseñar soluciones técnicas claras. Se elaboraron mapas de empatía, wireframes, diagramas de arquitectura y evidencias de implementación que facilitaron la comprensión entre stakeholders técnicos y no técnicos, cumpliendo así con el Student Outcome 3 del criterio ABET EAC. **TP**: Durante el desarrollo del Trabajo Parcial del proyecto WorkStation, el equipo consolidó sus habilidades técnicas y colaborativas al refactorizar entregables previos, implementar mejoras sustanciales en el frontend, y desplegar servicios funcionales con json-server. Se evidenció una evolución en la gestión del Sprint 2 mediante tableros colaborativos, commits documentados y una planificación más precisa. Estas acciones fortalecieron la comunicación entre miembros del equipo y permitieron una integración efectiva entre diseño, desarrollo y documentación, reafirmando el cumplimiento del Student Outcome 3 del criterio ABET EAC. **TB2**: El equipo reforzó la claridad y efectividad de su comunicación oral, evidenciando mayor dominio técnico y capacidad de síntesis al presentar avances. Se observó un lenguaje más preciso y enfocado en los objetivos del proyecto, lo que facilitó la toma de decisiones y la integración de componentes desarrollados. **TF:** El equipo consolidó sus habilidades de comunicación oral, logrando transmitir efectivamente los aspectos técnicos, funcionales y organizativos del proyecto frente a distintas audiencias. Se evidenció seguridad, dominio del tema y capacidad de adaptar el lenguaje según el perfil del interlocutor. Esto reflejó un alto nivel de preparación y cohesión grupal.|
+
 
 
 ## Capítulo I: Introducción
@@ -2764,8 +2766,8 @@ En esta sección se resumen los puntos clave del Sprint Planning, incluyendo los
 | Sprint 4 \- 1 Review Summary |Se ha realizado las mejoras indicadas en el informe, incluyendo la implementación de la aplicación Front End conectada con el Back End, la validación de la arquitectura y la mejora de la comunicación entre los integrantes. |
 | Sprint 4 \- 1 Retrospective Summary | Se alcanzó el progreso esperado durante el sprint 4: se completo las tareas esperadas además, el equipo mejoró significativamente en comunicación y trabajo colaborativo, lo que permitió alcanzar la finalización en el desarrollo de la aplicación. |
 | Sprint 4 Goal | En este sprint, nos enfocamos en completar la union de nuestro Front End con el Back End en cada uno de los Bounded Contexts, asegurando una integración perfecta entre ambos. Durante esta fase, desarrollamos diversos módulos con operaciones que permiten gestionar distintos recursos del sistema. |
-| Sprint 4 Velocity | Nuestro equipo puede aceptar hasta -- Story Points.|
-| Sum of Story Points | La suma de Story Points atendidos es de --. |
+| Sprint 4 Velocity | Nuestro equipo puede aceptar hasta 78 Story Points.|
+| Sum of Story Points | La suma de Story Points atendidos es de 70. |
 
 
 #### 5.2.4.2. Aspect Leaders and Collaborators
@@ -2825,12 +2827,149 @@ A continuación se detallan los commits relevantes asociados a cada uno de los r
 
 **Web Services (Backend):** - https://github.com/TemuCoders/BackEnd
 
-| Repository          | Branch | Commit                  | IDCommit | MessageCommit                                  | Message Body | Commited on (Date) |
+| Repository   | Branch                | Commit                                                                                      | IDCommit   | MessageCommit                                                                               | Message Body   | Commited on (Date)             |
+|:-------------|:----------------------|:--------------------------------------------------------------------------------------------|:-----------|:--------------------------------------------------------------------------------------------|:---------------|:-------------------------------|
+| BackEnd:     | main                  | authentication added                                                                        | e12da10    | authentication added                                                                        | N/A            | Thu Dec 4 22:58:38 2025 -0500  |
+| BackEnd:     | N/A                   | fix: ruc                                                                                    | c051bdd    | fix: ruc                                                                                    | N/A            | Thu Dec 4 19:50:27 2025 -0500  |
+| BackEnd:     | N/A                   | fix: endpoints                                                                              | 127f3e8    | fix: endpoints                                                                              | N/A            | Thu Dec 4 15:28:54 2025 -0500  |
+| BackEnd:     | feat/token-management | save                                                                                        | 859baf2    | save                                                                                        | N/A            | Thu Dec 4 13:46:10 2025 -0500  |
+| BackEnd:     | N/A                   | feat: user managment                                                                        | fa43358    | feat: user managment                                                                        | N/A            | Thu Dec 4 12:19:59 2025 -0500  |
+| BackEnd:     | N/A                   | fix: usermanagment                                                                          | 869c638    | fix: usermanagment                                                                          | N/A            | Thu Dec 4 10:03:56 2025 -0500  |
+| BackEnd:     | N/A                   | On feat-user-managment: !!GitHub_Desktop<feat-user-managment>                               | e680395    | On feat-user-managment: !!GitHub_Desktop<feat-user-managment>                               | N/A            | Thu Dec 4 09:59:15 2025 -0500  |
+| BackEnd:     | N/A                   | index on feat-user-managment: 5d8de1f feat: create connection to owner and freelancer       | 03d83fa    | index on feat-user-managment: 5d8de1f feat: create connection to owner and freelancer       | N/A            | Thu Dec 4 09:59:15 2025 -0500  |
+| BackEnd:     | N/A                   | feat: create connection to owner and freelancer                                             | 5d8de1f    | feat: create connection to owner and freelancer                                             | N/A            | Thu Dec 4 04:46:50 2025 -0500  |
+| BackEnd:     | N/A                   | feat: create connection to owner and freelancer                                             | ff6e2a7    | feat: create connection to owner and freelancer                                             | N/A            | Thu Dec 4 04:46:23 2025 -0500  |
+| BackEnd:     | N/A                   | fix: properties                                                                             | 0063d59    | fix: properties                                                                             | N/A            | Thu Dec 4 00:50:02 2025 -0500  |
+| BackEnd:     | N/A                   | fix: link                                                                                   | 4384004    | fix: link                                                                                   | N/A            | Thu Dec 4 00:36:58 2025 -0500  |
+| BackEnd:     | N/A                   | feat: add iam(no ready)                                                                     | de934cd    | feat: add iam(no ready)                                                                     | N/A            | Wed Dec 3 22:34:22 2025 -0500  |
+| BackEnd:     | N/A                   | Update application.properties                                                               | 783661c    | Update application.properties                                                               | N/A            | Tue Dec 2 21:32:43 2025 -0500  |
+| BackEnd:     | N/A                   | Update ExternalFreelancerService.java                                                       | e6cf37b    | Update ExternalFreelancerService.java                                                       | N/A            | Tue Dec 2 19:22:35 2025 -0500  |
+| BackEnd:     | N/A                   | fix: properties                                                                             | a38b6ee    | fix: properties                                                                             | N/A            | Tue Dec 2 15:34:05 2025 -0500  |
+| BackEnd:     | N/A                   | feat: deploy                                                                                | 2125c2d    | feat: deploy                                                                                | N/A            | Tue Dec 2 15:31:20 2025 -0500  |
+| BackEnd:     | N/A                   | Merge pull request #12 from TemuCoders/feat-user-managment                                  | 0d1b478    | Merge pull request #12 from TemuCoders/feat-user-managment                                  | N/A            | Tue Dec 2 15:10:31 2025 -0500  |
+| BackEnd:     | N/A                   | fix: facade                                                                                 | f99daab    | fix: facade                                                                                 | N/A            | Tue Dec 2 15:09:42 2025 -0500  |
+| BackEnd:     | N/A                   | fix: List of images                                                                         | 21a77f9    | fix: List of images                                                                         | N/A            | Tue Dec 2 15:02:42 2025 -0500  |
+| BackEnd:     | N/A                   | fix: spaces                                                                                 | 2ec8ac0    | fix: spaces                                                                                 | N/A            | Tue Dec 2 14:51:40 2025 -0500  |
+| BackEnd:     | N/A                   | feat: add ALC and refactor of user, owner and freelancer                                    | 966f8a5    | feat: add ALC and refactor of user, owner and freelancer                                    | N/A            | Thu Nov 27 04:31:58 2025 -0500 |
+| BackEnd:     | N/A                   | Merge pull request #11 from TemuCoders/feat/booking-management                              | bcc0601    | Merge pull request #11 from TemuCoders/feat/booking-management                              | N/A            | Tue Nov 25 14:27:21 2025 -0500 |
+| BackEnd:     | N/A                   | feat(bookingManagement): Added ACL for booking management                                   | 3693c15    | feat(bookingManagement): Added ACL for booking management                                   | N/A            | Tue Nov 25 13:04:10 2025 -0500 |
+| BackEnd:     | N/A                   | fix: properties                                                                             | 9989e7a    | fix: properties                                                                             | N/A            | Fri Nov 14 07:04:26 2025 -0500 |
+| BackEnd:     | N/A                   | fix: query                                                                                  | 2c5318c    | fix: query                                                                                  | N/A            | Fri Nov 14 07:03:51 2025 -0500 |
+| BackEnd:     | N/A                   | fix: commends                                                                               | 7db1959    | fix: commends                                                                               | N/A            | Thu Nov 13 22:29:24 2025 -0500 |
+| BackEnd:     | N/A                   | Set server address to 0.0.0.0                                                               | 6516dd8    | Set server address to 0.0.0.0                                                               | N/A            | Thu Nov 13 21:03:16 2025 -0500 |
+| BackEnd:     | N/A                   | Upgrade Java version to 21 in pom.xml                                                       | 4b44c97    | Upgrade Java version to 21 in pom.xml                                                       | N/A            | Thu Nov 13 20:25:42 2025 -0500 |
+| BackEnd:     | N/A                   | Update Java version to 17 in pom.xml                                                        | a0e6c4f    | Update Java version to 17 in pom.xml                                                        | N/A            | Thu Nov 13 20:14:45 2025 -0500 |
+| BackEnd:     | N/A                   | Downgrade Java version to 24 in pom.xml                                                     | a1f482f    | Downgrade Java version to 24 in pom.xml                                                     | N/A            | Thu Nov 13 20:10:07 2025 -0500 |
+| BackEnd:     | feat/reviews          | Merge branch 'feat/reviews' of https://github.com/TemuCoders/BackEnd into feat/reviews      | 2d68d00    | Merge branch 'feat/reviews' of https://github.com/TemuCoders/BackEnd into feat/reviews      | N/A            | Thu Nov 13 20:06:25 2025 -0500 |
+| BackEnd:     | N/A                   | pom modified                                                                                | bcada73    | pom modified                                                                                | N/A            | Thu Nov 13 20:05:39 2025 -0500 |
+| BackEnd:     | N/A                   | Merge pull request #10 from TemuCoders/feat/reviews                                         | 44b103f    | Merge pull request #10 from TemuCoders/feat/reviews                                         | N/A            | Thu Nov 13 19:52:01 2025 -0500 |
+| BackEnd:     | N/A                   | Merge branch 'main' into feat/reviews                                                       | 20db536    | Merge branch 'main' into feat/reviews                                                       | N/A            | Thu Nov 13 19:51:50 2025 -0500 |
+| BackEnd:     | N/A                   | database modified for production                                                            | 2e2a5f6    | database modified for production                                                            | N/A            | Thu Nov 13 19:50:16 2025 -0500 |
+| BackEnd:     | N/A                   | fix: deploy                                                                                 | f18f2be    | fix: deploy                                                                                 | N/A            | Wed Nov 12 18:05:27 2025 -0500 |
+| BackEnd:     | N/A                   | fix:deploy                                                                                  | 18bdc2f    | fix:deploy                                                                                  | N/A            | Wed Nov 12 17:58:15 2025 -0500 |
+| BackEnd:     | N/A                   | Merge pull request #9 from TemuCoders/feat/reviews                                          | b8763eb    | Merge pull request #9 from TemuCoders/feat/reviews                                          | N/A            | Tue Nov 11 22:40:26 2025 -0500 |
+| BackEnd:     | N/A                   | paymentsManagement finished :D                                                              | 6fb4c53    | paymentsManagement finished :D                                                              | N/A            | Tue Nov 11 22:39:32 2025 -0500 |
+| BackEnd:     | N/A                   | Reviews finished :D                                                                         | 1319b14    | Reviews finished :D                                                                         | N/A            | Tue Nov 11 19:05:02 2025 -0500 |
+| BackEnd:     | N/A                   | Merge pull request #8 from TemuCoders/feat/booking-management                               | 6cc7eea    | Merge pull request #8 from TemuCoders/feat/booking-management                               | N/A            | Tue Nov 11 17:40:35 2025 -0500 |
+| BackEnd:     | N/A                   | feat(bookingManagement)                                                                     | b4ba0e7    | feat(bookingManagement)                                                                     | N/A            | Tue Nov 11 17:38:25 2025 -0500 |
+| BackEnd:     | N/A                   | Merge pull request #7 from TemuCoders/feat-user-managment                                   | aa9299d    | Merge pull request #7 from TemuCoders/feat-user-managment                                   | N/A            | Mon Nov 10 16:02:56 2025 -0500 |
+| BackEnd:     | N/A                   | feat: change the schema mini to small, delete booking in owner and freelancer               | 9481eed    | feat: change the schema mini to small, delete booking in owner and freelancer               | N/A            | Sun Nov 9 16:21:12 2025 -0500  |
+| BackEnd:     | N/A                   | Merge pull request #6 from TemuCoders/feat-spaces-managment                                 | 32434fc    | Merge pull request #6 from TemuCoders/feat-spaces-managment                                 | N/A            | Sat Nov 8 17:49:08 2025 -0500  |
+| BackEnd:     | N/A                   | feat: services managment                                                                    | 1f8da01    | feat: services managment                                                                    | N/A            | Sat Nov 8 17:48:25 2025 -0500  |
+| BackEnd:     | N/A                   | test                                                                                        | 8cea6b6    | test                                                                                        | N/A            | Sat Nov 8 15:03:22 2025 -0500  |
+| BackEnd:     | N/A                   | porsiaca                                                                                    | 1a1c311    | porsiaca                                                                                    | N/A            | Sat Nov 8 15:01:43 2025 -0500  |
+| BackEnd:     | N/A                   | Merge pull request #5 from TemuCoders/feat-spaces-managment                                 | 96f5efb    | Merge pull request #5 from TemuCoders/feat-spaces-managment                                 | N/A            | Sat Nov 8 14:54:57 2025 -0500  |
+| BackEnd:     | N/A                   | feat: swagger v2                                                                            | 3d71729    | feat: swagger v2                                                                            | N/A            | Sat Nov 8 14:52:56 2025 -0500  |
+| BackEnd:     | N/A                   | Merge pull request #4 from TemuCoders/feat-spaces-managment                                 | 1338e0a    | Merge pull request #4 from TemuCoders/feat-spaces-managment                                 | N/A            | Thu Nov 6 21:39:58 2025 -0500  |
+| BackEnd:     | N/A                   | feat: Controllers                                                                           | c3508c4    | feat: Controllers                                                                           | N/A            | Thu Nov 6 21:38:42 2025 -0500  |
+| BackEnd:     | N/A                   | Merge pull request #3 from TemuCoders/feat-user-managment                                   | a718a37    | Merge pull request #3 from TemuCoders/feat-user-managment                                   | N/A            | Thu Nov 6 19:27:28 2025 -0500  |
+| BackEnd:     | N/A                   | feat: queries                                                                               | d075c93    | feat: queries                                                                               | N/A            | Thu Nov 6 19:26:20 2025 -0500  |
+| BackEnd:     | N/A                   | Merge pull request #2 from TemuCoders/feat-user-managment                                   | cf18f0e    | Merge pull request #2 from TemuCoders/feat-user-managment                                   | N/A            | Thu Nov 6 19:25:04 2025 -0500  |
+| BackEnd:     | N/A                   | feat: owner and freelancer controllers                                                      | b6c3788    | feat: owner and freelancer controllers                                                      | N/A            | Thu Nov 6 03:19:01 2025 -0500  |
+| BackEnd:     | N/A                   | feat: creating value objects y aggregates                                                   | 5fdb2cc    | feat: creating value objects y aggregates                                                   | N/A            | Sun Nov 2 21:47:56 2025 -0500  |
+| BackEnd:     | N/A                   | Merge pull request #1 from TemuCoders/feat-user-managment                                   | 29327e5    | Merge pull request #1 from TemuCoders/feat-user-managment                                   | N/A            | Sat Nov 1 19:34:25 2025 -0500  |
+| BackEnd:     | N/A                   | feat: add owner and freelancer comand, queries, services and interfaces                     | 9f3e189    | feat: add owner and freelancer comand, queries, services and interfaces                     | N/A            | Fri Oct 31 00:21:57 2025 -0500 |
+| BackEnd:     | N/A                   | feat: add User interfaces, services, model, repositories, controllers, internals and facade | 329a520    | feat: add User interfaces, services, model, repositories, controllers, internals and facade | N/A            | Thu Oct 30 00:45:36 2025 -0500 |
+| BackEnd:     | N/A                   | feat: add bounded context userManagment properties booking ( los 2 ultimo solo de mientras) | fcfbe46    | feat: add bounded context userManagment properties booking ( los 2 ultimo solo de mientras) | N/A            | Wed Oct 29 01:29:49 2025 -0500 |
+| BackEnd:     | N/A                   | fix: Readme                                                                                 | d60361e    | fix: Readme                                                                                 | N/A            | Mon Oct 27 18:10:31 2025 -0500 |
+| BackEnd:     | N/A                   | feat: creating database                                                                     | d5f02d8    | feat: creating database                                                                     | N/A            | Mon Oct 27 18:08:15 2025 -0500 |
+| BackEnd:     | N/A                   | Initial commit                                                                              | 2af8024    | Initial commit                                                                              | N/A            | Tue Oct 7 15:43:18 2025 -0500  |
 
 
 **Web Applications (Frontend):** - https://github.com/TemuCoders/Front-End-WorkStation
 
-| Repository                        | Branch | Commit                  | IDCommit | MessageCommit                                                                 | Message Body | Commited on (Date) |
+| Repository   | Branch             | Commit                                                             | IDCommit   | MessageCommit                                                      | Message Body   | Commited on (Date)             |
+|:-------------|:-------------------|:-------------------------------------------------------------------|:-----------|:-------------------------------------------------------------------|:---------------|:-------------------------------|
+| FrontEnd:    | main               | fix: routes                                                        | e30061f    | fix: routes                                                        | N/A            | Thu Dec 4 20:17:01 2025 -0500  |
+| FrontEnd:    | N/A                | fix: deploy                                                        | 8493c48    | fix: deploy                                                        | N/A            | Thu Dec 4 20:13:43 2025 -0500  |
+| FrontEnd:    | N/A                | fix: ruc                                                           | 073fa42    | fix: ruc                                                           | N/A            | Thu Dec 4 19:49:59 2025 -0500  |
+| FrontEnd:    | N/A                | fix: css                                                           | 43708af    | fix: css                                                           | N/A            | Thu Dec 4 19:07:46 2025 -0500  |
+| FrontEnd:    | N/A                | feat: WorkSpaces                                                   | 97482e2    | feat: WorkSpaces                                                   | N/A            | Thu Dec 4 18:32:09 2025 -0500  |
+| FrontEnd:    | N/A                | feat:user-managment                                                | 4d4b19d    | feat:user-managment                                                | N/A            | Thu Dec 4 16:59:43 2025 -0500  |
+| FrontEnd:    | N/A                | fix: booking                                                       | 503165e    | fix: booking                                                       | N/A            | Thu Dec 4 15:25:06 2025 -0500  |
+| FrontEnd:    | N/A                | Merge pull request #10 from TemuCoders/feat/reservas/back          | 0636201    | Merge pull request #10 from TemuCoders/feat/reservas/back          | N/A            | Thu Dec 4 00:12:00 2025 -0500  |
+| FrontEnd:    | N/A                | fix: endpoints                                                     | 7510ca0    | fix: endpoints                                                     | N/A            | Thu Dec 4 00:10:25 2025 -0500  |
+| FrontEnd:    | N/A                | feat(booking): added backend conection                             | 78dc7b4    | feat(booking): added backend conection                             | N/A            | Wed Dec 3 23:35:12 2025 -0500  |
+| FrontEnd:    | N/A                | Merge pull request #9 from TemuCoders/main                         | 8eb9a35    | Merge pull request #9 from TemuCoders/main                         | N/A            | Wed Dec 3 22:44:44 2025 -0500  |
+| FrontEnd:    | N/A                | feat: profile                                                      | 9c1006a    | feat: profile                                                      | N/A            | Wed Dec 3 22:40:32 2025 -0500  |
+| FrontEnd:    | N/A                | Merge pull request #8 from TemuCoders/feat/workspaces/back         | a760901    | Merge pull request #8 from TemuCoders/feat/workspaces/back         | N/A            | Wed Dec 3 14:36:37 2025 -0500  |
+| FrontEnd:    | feat/profile/back  | Merge pull request #7 from TemuCoders/feat/workspaces/back         | f1ed270    | Merge pull request #7 from TemuCoders/feat/workspaces/back         | N/A            | Wed Dec 3 14:36:09 2025 -0500  |
+| FrontEnd:    | feat/payments/back | Merge pull request #6 from TemuCoders/feat/workspaces/back         | 6f0110c    | Merge pull request #6 from TemuCoders/feat/workspaces/back         | N/A            | Wed Dec 3 14:34:28 2025 -0500  |
+| FrontEnd:    | N/A                | Merge pull request #5 from TemuCoders/feat/workspaces/back         | 0205ae0    | Merge pull request #5 from TemuCoders/feat/workspaces/back         | N/A            | Wed Dec 3 14:33:56 2025 -0500  |
+| FrontEnd:    | N/A                | feat: create space                                                 | aba8748    | feat: create space                                                 | N/A            | Wed Dec 3 14:32:34 2025 -0500  |
+| FrontEnd:    | N/A                | fix: i18n                                                          | b92c678    | fix: i18n                                                          | N/A            | Wed Dec 3 14:09:44 2025 -0500  |
+| FrontEnd:    | N/A                | delete: home                                                       | 20e553b    | delete: home                                                       | N/A            | Wed Dec 3 09:48:11 2025 -0500  |
+| FrontEnd:    | N/A                | feat: filter-component                                             | 93f0b3b    | feat: filter-component                                             | N/A            | Wed Dec 3 09:45:10 2025 -0500  |
+| FrontEnd:    | N/A                | fix: delete                                                        | 26c08ac    | fix: delete                                                        | N/A            | Wed Dec 3 09:22:00 2025 -0500  |
+| FrontEnd:    | N/A                | delete: responses                                                  | 19a4a8b    | delete: responses                                                  | N/A            | Wed Dec 3 09:20:48 2025 -0500  |
+| FrontEnd:    | N/A                | feat: conection database workspaces                                | 466fa52    | feat: conection database workspaces                                | N/A            | Tue Dec 2 21:50:56 2025 -0500  |
+| FrontEnd:    | N/A                | fix: link                                                          | f7041f7    | fix: link                                                          | N/A            | Tue Dec 2 21:04:13 2025 -0500  |
+| FrontEnd:    | N/A                | fix: sidebar                                                       | 400376b    | fix: sidebar                                                       | N/A            | Tue Dec 2 20:54:38 2025 -0500  |
+| FrontEnd:    | N/A                | Merge pull request #4 from TemuCoders/feat/booking                 | 3683be3    | Merge pull request #4 from TemuCoders/feat/booking                 | N/A            | Tue Dec 2 20:20:19 2025 -0500  |
+| FrontEnd:    | N/A                | feat(booking): Added booking list                                  | f78b80f    | feat(booking): Added booking list                                  | N/A            | Tue Dec 2 20:19:01 2025 -0500  |
+| FrontEnd:    | N/A                | On feat/booking: !!GitHub_Desktop<feat/booking>                    | 00d963a    | On feat/booking: !!GitHub_Desktop<feat/booking>                    | N/A            | Tue Dec 2 11:50:22 2025 -0500  |
+| FrontEnd:    | N/A                | index on feat/booking: 8bde0fb feat(booking): added booking method | a7374d3    | index on feat/booking: 8bde0fb feat(booking): added booking method | N/A            | Tue Dec 2 11:50:22 2025 -0500  |
+| FrontEnd:    | N/A                | Merge pull request #3 from TemuCoders/feat/booking                 | 498a4cd    | Merge pull request #3 from TemuCoders/feat/booking                 | N/A            | Mon Dec 1 08:08:33 2025 -0500  |
+| FrontEnd:    | N/A                | feat(booking): added booking method                                | 8bde0fb    | feat(booking): added booking method                                | N/A            | Mon Dec 1 01:17:32 2025 -0500  |
+| FrontEnd:    | N/A                | fix: desing                                                        | 5c393dc    | fix: desing                                                        | N/A            | Sun Nov 30 17:15:10 2025 -0500 |
+| FrontEnd:    | N/A                | fix: sidebar                                                       | fe2e1fd    | fix: sidebar                                                       | N/A            | Sun Nov 30 17:05:42 2025 -0500 |
+| FrontEnd:    | N/A                | fix: routes                                                        | 85384e8    | fix: routes                                                        | N/A            | Sun Nov 30 16:35:31 2025 -0500 |
+| FrontEnd:    | N/A                | feat: register and login                                           | 7039e0d    | feat: register and login                                           | N/A            | Sun Nov 30 16:08:10 2025 -0500 |
+| FrontEnd:    | N/A                | feat: add login and register                                       | c8e598f    | feat: add login and register                                       | N/A            | Sun Nov 30 00:08:17 2025 -0500 |
+| FrontEnd:    | N/A                | feat: detail-space                                                 | 1f9a4b1    | feat: detail-space                                                 | N/A            | Fri Nov 28 18:30:51 2025 -0500 |
+| FrontEnd:    | N/A                | fix: db.json                                                       | 56e0be5    | fix: db.json                                                       | N/A            | Fri Nov 28 17:48:08 2025 -0500 |
+| FrontEnd:    | N/A                | fix: response                                                      | 2aaec7c    | fix: response                                                      | N/A            | Fri Nov 28 17:41:35 2025 -0500 |
+| FrontEnd:    | N/A                | feat: edit-user                                                    | f6ea8b6    | feat: edit-user                                                    | N/A            | Fri Nov 28 11:23:17 2025 -0500 |
+| FrontEnd:    | N/A                | fix: perfil                                                        | e4b75c4    | fix: perfil                                                        | N/A            | Fri Nov 28 11:02:16 2025 -0500 |
+| FrontEnd:    | N/A                | feat: new design in profile and edit profile                       | 774129b    | feat: new design in profile and edit profile                       | N/A            | Fri Nov 28 01:43:42 2025 -0500 |
+| FrontEnd:    | N/A                | fix: create                                                        | cde0a6c    | fix: create                                                        | N/A            | Fri Nov 14 15:33:13 2025 -0500 |
+| FrontEnd:    | N/A                | fix: Routes and SideBar                                            | 91a4588    | fix: Routes and SideBar                                            | N/A            | Fri Nov 14 15:03:44 2025 -0500 |
+| FrontEnd:    | N/A                | feat: fix routes                                                   | a406d2f    | feat: fix routes                                                   | N/A            | Fri Nov 14 14:06:01 2025 -0500 |
+| FrontEnd:    | N/A                | feat: add new user                                                 | e2606f8    | feat: add new user                                                 | N/A            | Fri Nov 14 10:06:11 2025 -0500 |
+| FrontEnd:    | N/A                | feat: add new user                                                 | 49e3f99    | feat: add new user                                                 | N/A            | Fri Nov 14 03:57:35 2025 -0500 |
+| FrontEnd:    | N/A                | reviews and payment added                                          | 0ae2fbf    | reviews and payment added                                          | N/A            | Wed Nov 12 23:06:29 2025 -0500 |
+| FrontEnd:    | N/A                | feat: main page                                                    | 07dbd69    | feat: main page                                                    | N/A            | Mon Nov 10 17:13:25 2025 -0500 |
+| FrontEnd:    | N/A                | Feat: WorkSpaces View                                              | e6bb3e5    | Feat: WorkSpaces View                                              | N/A            | Tue Oct 28 20:40:26 2025 -0500 |
+
+**Landing Page:** - https://temucoders.github.io/Landing-Page/
+
+| Repository             | Branch | Commit                          | IDCommit | MessageCommit                                                                 | Message Body | Commited on (Date) |
+|------------------------|--------|---------------------------------|----------|-------------------------------------------------------------------------------|--------------|--------------------|
+| TemuCoders-LandingPage | main   | Jeremy Alexander Quijada Magro  | 975e3aa  | Create README.md for Landing-Page project                                     |              | 2025-11-13         |
+| TemuCoders-LandingPage | main   | Jeremy Alexander Quijada Magro  | 1aa6196  | Merge pull request #2 from TemuCoders/v1.0                                    |              | 2025-11-13         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 814c18d  | feat: videos                                                                  |              | 2025-11-13         |
+| TemuCoders-LandingPage | main   | Jeremy Alexander Quijada Magro  | 2c54ab9  | Merge pull request #1 from TemuCoders/v1.0                                    |              | 2025-11-12         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | cb3d2ee  | feat: Our Team, Servicios                                                     |              | 2025-11-12         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 2898919  | Feat: How it works and contact us                                             |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 78c6708  | On v1.0: !!GitHub_Desktop<v1.0>                                               |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 50c5741  | index on v1.0: 8c12f06 feat(7377): recontruscción del sistema de traducción e implementación del logo de la imagen |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | Thunder                         | e33caaa  | feat(7377): optimización del html y js del proyecto                           |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | Thunder                         | 8c12f06  | feat(7377): recontruscción del sistema de traducción e implementación del logo de la imagen |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | b3980c8  | fix: v1                                                                       |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 50347d9  | feat: java and css                                                            |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | 447b6a9  | feat: creating html and css                                                   |              | 2025-09-18         |
+| TemuCoders-LandingPage | main   | jhonson2021                     | d03b1b5  | Initial commit                                                                |              | 2025-09-18         |
+
 
 #### 5.2.4.5. Execution Evidence for Sprint Review
 
@@ -2875,6 +3014,11 @@ Se mejoro todo el tema de la landing page, mejorando la usabilidad y la experien
 
 Para la parte de Backend se logra ver la correcta implementación de todos nuestros endpoints.
 
+**Authorization:**
+<p align="center">
+  <img src="imgs/swagger7.png"/>
+</p>
+
 **Booking Management:**
 <p align="center">
   <img src="imgs/swagger1.png"/>
@@ -2909,32 +3053,40 @@ Para la parte de Backend se logra ver la correcta implementación de todos nuest
 
 Para la parte de Frontend se mantiene el diseño de la pagina principal, y se logra ver la correcta navegación para los usuarios durante cada etapa de la página con la comunicación funcional entre ambas.
 
+**Login:**
+<p align="center">
+  <img src="imgs/login.png"/>
+</p>
+
+**Home:**
+<p align="center">
+  <img src="imgs/home.png"/>
+</p>
+
 **Perfil:**
 <p align="center">
-  <img src="imgs/Perfil- Front.png"/>
+  <img src="imgs/edit_profile.png"/>
 </p>
 
 **Buscador:**
 <p align="center">
-  <img src="imgs/Busqueda de Espacios.png"/>
+  <img src="imgs/workspaces.png"/>
 </p>
 
-**Dashboard:**
+**Detalle de espacio:**
 <p align="center">
-  <img src="imgs/Dashboard - Front.png"/>
+  <img src="imgs/workspace_detail.png"/>
 </p>
 
-**Pagos y Transferencias:**
+**Reserva:**
 <p align="center">
-  <img src="imgs/Payment - Front.png"/>
+  <img src="imgs/create_booking.png"/>
 </p>
 
-
-**Reseñas:**
+**Mis espacios:**
 <p align="center">
-  <img src="imgs/Reseñas - Front.png"/>
+  <img src="imgs/my_spaces.png"/>
 </p>
-
 
 
 Ademas se realizo el video de presentación sobre el proyecto:
@@ -3094,6 +3246,26 @@ https://youtu.be/5BCJwLL9gJU
 
 
 <img width="1902" height="937" alt="image" src="https://github.com/user-attachments/assets/4dac2d3c-b0a4-45ef-9807-c8032f3af13d" />
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review
+
+En este Sprint, se completó con éxito el despliegue de la aplicación web de Workstation en producción, utilizando Render como plataforma de hosting para el frontend. Se implementó un flujo de CI/CD automatizado que garantiza despliegues rápidos y confiables.
+
+Configuración de Despliegue
+Frontend (Angular)
+
+Plataforma: Render (Static Site)
+Build Command: ng build & firebase deploy
+Publish Directory: dist
+                             
+Variables de entorno: 
+                             
+<img alt="image" src="imgs/render%20(1).png" />
+
+<img alt="image" src="imgs/render%20(2).png" />
+
+<img alt="image" src="imgs/render%20(3).png" />
+
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
