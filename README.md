@@ -3347,10 +3347,9 @@ Enlace de la entrevista: https://youtu.be/qzf8e6TuojI
 
 **Link de la entrevista:** https://youtu.be/orP-oTP9Nzc
 
-[![Demo en stream](imgs/en1.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EcZwK3uJNLBBu4dhWzNRIj4BEVNuC39nTnqBl2JJrdevFA?e=6FLXLY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+[![Demo en stream](imgs/en4.png)](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQBoX1jaZ1DzR5WkX4hEM_8PAcqgg2vcV8JRvi5A1_cW8xw?e=9711sf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-Enlace del video de la entrevista:https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/EcZwK3uJNLBBu4dhWzNRIj4BEVNuC39nTnqBl2JJrdevFA?e=6FLXLY&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
+Enlace del video de la entrevista:https://upcedupe-my.sharepoint.com/:v:/g/personal/u202312447_upc_edu_pe/IQBoX1jaZ1DzR5WkX4hEM_8PAcqgg2vcV8JRvi5A1_cW8xw?e=9711sf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 #### 5.3.3. Evaluaciones según heurísticas
 Para garantizar una experiencia de usuario en toda la plataforma WorkStation —tanto en la landing page como en la aplicación frontend completa—, se realizó una evaluación heurística exhaustiva basada en las 10 heurísticas de usabilidad de Jakob Nielsen. A continuación, los hallazgos y recomendaciones creativas y realistas para pulir la experiencia final.
