@@ -3247,11 +3247,11 @@ Publish Directory: dist
                              
 Variables de entorno: 
                              
-<img alt="image" src="imgs/render%20(4).png" />
+<img alt="image" src="imgs/render%20(1).png" />
 
-<img alt="image" src="imgs/render%20(5).png" />
+<img alt="image" src="imgs/render%20(2).png" />
 
-<img alt="image" src="imgs/render%20(6).png" />
+<img alt="image" src="imgs/render%20(3).png" />
 
 
 #### 5.2.3.8. Team Collaboration Insights during Sprint
