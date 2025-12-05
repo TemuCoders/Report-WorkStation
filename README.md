@@ -3236,6 +3236,24 @@ https://youtu.be/5BCJwLL9gJU
 
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review
 
+En este Sprint, se completó con éxito el despliegue de la aplicación web de Workstation en producción, utilizando Render como plataforma de hosting para el frontend. Se implementó un flujo de CI/CD automatizado que garantiza despliegues rápidos y confiables.
+
+Configuración de Despliegue
+Frontend (Angular)
+
+Plataforma: Render (Static Site)
+Build Command: ng build & firebase deploy
+Publish Directory: dist
+                             
+Variables de entorno: 
+                             
+<img alt="image" src="imgs/render%20(4).png" />
+
+<img alt="image" src="imgs/render%20(5).png" />
+
+<img alt="image" src="imgs/render%20(6).png" />
+
+
 #### 5.2.3.8. Team Collaboration Insights during Sprint
 A continuación se muestra evidencia de la coolaboración del equipo mediante insights de GitHub.
 
