@@ -3014,6 +3014,11 @@ Se mejoro todo el tema de la landing page, mejorando la usabilidad y la experien
 
 Para la parte de Backend se logra ver la correcta implementación de todos nuestros endpoints.
 
+**Authorization:**
+<p align="center">
+  <img src="imgs/swagger7.png"/>
+</p>
+
 **Booking Management:**
 <p align="center">
   <img src="imgs/swagger1.png"/>
@@ -3048,32 +3053,40 @@ Para la parte de Backend se logra ver la correcta implementación de todos nuest
 
 Para la parte de Frontend se mantiene el diseño de la pagina principal, y se logra ver la correcta navegación para los usuarios durante cada etapa de la página con la comunicación funcional entre ambas.
 
+**Login:**
+<p align="center">
+  <img src="imgs/login.png"/>
+</p>
+
+**Home:**
+<p align="center">
+  <img src="imgs/home.png"/>
+</p>
+
 **Perfil:**
 <p align="center">
-  <img src="imgs/Perfil- Front.png"/>
+  <img src="imgs/edit_profile.png"/>
 </p>
 
 **Buscador:**
 <p align="center">
-  <img src="imgs/Busqueda de Espacios.png"/>
+  <img src="imgs/workspaces.png"/>
 </p>
 
-**Dashboard:**
+**Detalle de espacio:**
 <p align="center">
-  <img src="imgs/Dashboard - Front.png"/>
+  <img src="imgs/workspace_detail.png"/>
 </p>
 
-**Pagos y Transferencias:**
+**Reserva:**
 <p align="center">
-  <img src="imgs/Payment - Front.png"/>
+  <img src="imgs/create_booking.png"/>
 </p>
 
-
-**Reseñas:**
+**Mis espacios:**
 <p align="center">
-  <img src="imgs/Reseñas - Front.png"/>
+  <img src="imgs/my_spaces.png"/>
 </p>
-
 
 
 Ademas se realizo el video de presentación sobre el proyecto:
